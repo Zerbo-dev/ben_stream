@@ -1,0 +1,37 @@
+{
+  "name": "ReLIFE",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/relife.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4769995",
+          "https://video.sibnet.ru/shell.php?videoid=4769999",
+          "https://video.sibnet.ru/shell.php?videoid=4770003",
+          "https://video.sibnet.ru/shell.php?videoid=4770008",
+          "https://video.sibnet.ru/shell.php?videoid=4770018",
+          "https://video.sibnet.ru/shell.php?videoid=4770021",
+          "https://video.sibnet.ru/shell.php?videoid=4770025",
+          "https://video.sibnet.ru/shell.php?videoid=4770027",
+          "https://video.sibnet.ru/shell.php?videoid=4770032",
+          "https://video.sibnet.ru/shell.php?videoid=4770035",
+          "https://video.sibnet.ru/shell.php?videoid=4770038",
+          "https://video.sibnet.ru/shell.php?videoid=4770042",
+          "https://video.sibnet.ru/shell.php?videoid=4770044"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4770047",
+        "https://video.sibnet.ru/shell.php?videoid=4770050",
+        "https://video.sibnet.ru/shell.php?videoid=4770053",
+        "https://video.sibnet.ru/shell.php?videoid=4770058"
+      ]
+    }
+  }
+}

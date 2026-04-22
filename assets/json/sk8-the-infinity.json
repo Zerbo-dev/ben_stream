@@ -1,0 +1,50 @@
+{
+  "name": "SK8 the Infinity",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sk8-the-infinity.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5079436",
+          "https://video.sibnet.ru/shell.php?videoid=5079438",
+          "https://video.sibnet.ru/shell.php?videoid=5079441",
+          "https://video.sibnet.ru/shell.php?videoid=5079444",
+          "https://video.sibnet.ru/shell.php?videoid=5079446",
+          "https://video.sibnet.ru/shell.php?videoid=5079447",
+          "https://video.sibnet.ru/shell.php?videoid=5079449",
+          "https://video.sibnet.ru/shell.php?videoid=5079451",
+          "https://video.sibnet.ru/shell.php?videoid=5079452",
+          "https://video.sibnet.ru/shell.php?videoid=5079454",
+          "https://video.sibnet.ru/shell.php?videoid=5079455",
+          "https://video.sibnet.ru/shell.php?videoid=5079457"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5897911"
+      ]
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4205524",
+          "https://video.sibnet.ru/shell.php?videoid=4211252",
+          "https://video.sibnet.ru/shell.php?videoid=4215453",
+          "https://video.sibnet.ru/shell.php?videoid=4221525",
+          "https://video.sibnet.ru/shell.php?videoid=4226707",
+          "https://video.sibnet.ru/shell.php?videoid=4232817",
+          "https://video.sibnet.ru/shell.php?videoid=4241371",
+          "https://video.sibnet.ru/shell.php?videoid=4247939",
+          "https://video.sibnet.ru/shell.php?videoid=4254399",
+          "https://video.sibnet.ru/shell.php?videoid=4265577",
+          "https://video.sibnet.ru/shell.php?videoid=4276295",
+          "https://video.sibnet.ru/shell.php?videoid=4286069"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5854511"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Souvenirs de Marnie",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/souvenirs-de-marnie.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5055358"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366095"
+      ],
+      "oav": []
+    }
+  }
+}

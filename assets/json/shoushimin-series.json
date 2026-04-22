@@ -1,0 +1,43 @@
+{
+  "name": "Shoushimin Series",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shoushimin-series.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5588307",
+          "https://video.sibnet.ru/shell.php?videoid=5595432",
+          "https://video.sibnet.ru/shell.php?videoid=5602927",
+          "https://video.sibnet.ru/shell.php?videoid=5619894",
+          "https://video.sibnet.ru/shell.php?videoid=5630976",
+          "https://video.sibnet.ru/shell.php?videoid=5640894",
+          "https://video.sibnet.ru/shell.php?videoid=5650863",
+          "https://video.sibnet.ru/shell.php?videoid=5658487",
+          "https://video.sibnet.ru/shell.php?videoid=5667134",
+          "https://video.sibnet.ru/shell.php?videoid=5676708"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5869113",
+          "https://video.sibnet.ru/shell.php?videoid=5877084",
+          "https://video.sibnet.ru/shell.php?videoid=5885285",
+          "https://video.sibnet.ru/shell.php?videoid=5893228",
+          "https://video.sibnet.ru/shell.php?videoid=5900366",
+          "https://video.sibnet.ru/shell.php?videoid=5907784",
+          "https://video.sibnet.ru/shell.php?videoid=5914314",
+          "https://video.sibnet.ru/shell.php?videoid=5920932",
+          "https://video.sibnet.ru/shell.php?videoid=5926373",
+          "https://video.sibnet.ru/shell.php?videoid=5931369",
+          "https://video.sibnet.ru/shell.php?videoid=5936724",
+          "https://video.sibnet.ru/shell.php?videoid=5942502"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

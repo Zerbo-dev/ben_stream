@@ -1,0 +1,49 @@
+{
+  "name": "The Squid Girl",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-squid-girl.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4956765",
+          "https://video.sibnet.ru/shell.php?videoid=4956769",
+          "https://video.sibnet.ru/shell.php?videoid=4956771",
+          "https://video.sibnet.ru/shell.php?videoid=4956774",
+          "https://video.sibnet.ru/shell.php?videoid=4956775",
+          "https://video.sibnet.ru/shell.php?videoid=4956777",
+          "https://video.sibnet.ru/shell.php?videoid=4956780",
+          "https://video.sibnet.ru/shell.php?videoid=4956781",
+          "https://video.sibnet.ru/shell.php?videoid=4956784",
+          "https://video.sibnet.ru/shell.php?videoid=4956785",
+          "https://video.sibnet.ru/shell.php?videoid=4956788",
+          "https://video.sibnet.ru/shell.php?videoid=4956791"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4956766",
+          "https://video.sibnet.ru/shell.php?videoid=4956770",
+          "https://video.sibnet.ru/shell.php?videoid=4956772",
+          "https://video.sibnet.ru/shell.php?videoid=4956773",
+          "https://video.sibnet.ru/shell.php?videoid=4956776",
+          "https://video.sibnet.ru/shell.php?videoid=4956779",
+          "https://video.sibnet.ru/shell.php?videoid=4956782",
+          "https://video.sibnet.ru/shell.php?videoid=4956783",
+          "https://video.sibnet.ru/shell.php?videoid=4956786",
+          "https://video.sibnet.ru/shell.php?videoid=4956790",
+          "https://video.sibnet.ru/shell.php?videoid=4956792",
+          "https://video.sibnet.ru/shell.php?videoid=4956794"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4956863",
+        "https://video.sibnet.ru/shell.php?videoid=4956866",
+        "https://video.sibnet.ru/shell.php?videoid=4956869"
+      ]
+    }
+  }
+}

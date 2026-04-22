@@ -1,0 +1,26 @@
+{
+  "name": "Lance Dur",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/lance-dur.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5093253",
+          "https://video.sibnet.ru/shell.php?videoid=5093254",
+          "https://video.sibnet.ru/shell.php?videoid=5093255",
+          "https://video.sibnet.ru/shell.php?videoid=5093256",
+          "https://video.sibnet.ru/shell.php?videoid=5093257",
+          "https://video.sibnet.ru/shell.php?videoid=5097252",
+          "https://video.sibnet.ru/shell.php?videoid=5103398"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Excel Saga",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/excel-saga.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4856831",
+          "https://video.sibnet.ru/shell.php?videoid=4856834",
+          "https://video.sibnet.ru/shell.php?videoid=4856835",
+          "https://video.sibnet.ru/shell.php?videoid=4856836",
+          "https://video.sibnet.ru/shell.php?videoid=4856838",
+          "https://video.sibnet.ru/shell.php?videoid=4856841",
+          "https://video.sibnet.ru/shell.php?videoid=4856842",
+          "https://video.sibnet.ru/shell.php?videoid=4856845",
+          "https://video.sibnet.ru/shell.php?videoid=4856847",
+          "https://video.sibnet.ru/shell.php?videoid=4856848",
+          "https://video.sibnet.ru/shell.php?videoid=4856849",
+          "https://video.sibnet.ru/shell.php?videoid=4856852",
+          "https://video.sibnet.ru/shell.php?videoid=4856854",
+          "https://video.sibnet.ru/shell.php?videoid=4856855",
+          "https://video.sibnet.ru/shell.php?videoid=4856859",
+          "https://video.sibnet.ru/shell.php?videoid=4856861",
+          "https://video.sibnet.ru/shell.php?videoid=4856863",
+          "https://video.sibnet.ru/shell.php?videoid=4856864",
+          "https://video.sibnet.ru/shell.php?videoid=4856866",
+          "https://video.sibnet.ru/shell.php?videoid=4856867",
+          "https://video.sibnet.ru/shell.php?videoid=4856869",
+          "https://video.sibnet.ru/shell.php?videoid=4856870",
+          "https://video.sibnet.ru/shell.php?videoid=4856871",
+          "https://video.sibnet.ru/shell.php?videoid=4856875",
+          "https://video.sibnet.ru/shell.php?videoid=4856878"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

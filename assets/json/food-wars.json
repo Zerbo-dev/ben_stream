@@ -1,0 +1,82 @@
+{
+  "name": "Food Wars",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/food-wars.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5037835",
+          "https://video.sibnet.ru/shell.php?videoid=5037839",
+          "https://video.sibnet.ru/shell.php?videoid=5037842",
+          "https://video.sibnet.ru/shell.php?videoid=5037844",
+          "https://video.sibnet.ru/shell.php?videoid=5037847",
+          "https://video.sibnet.ru/shell.php?videoid=5037849",
+          "https://video.sibnet.ru/shell.php?videoid=5037852",
+          "https://video.sibnet.ru/shell.php?videoid=5037856",
+          "https://video.sibnet.ru/shell.php?videoid=5037859",
+          "https://video.sibnet.ru/shell.php?videoid=5037862",
+          "https://video.sibnet.ru/shell.php?videoid=5037864",
+          "https://video.sibnet.ru/shell.php?videoid=5037866",
+          "https://video.sibnet.ru/shell.php?videoid=5037868",
+          "https://video.sibnet.ru/shell.php?videoid=5037870",
+          "https://video.sibnet.ru/shell.php?videoid=5037871",
+          "https://video.sibnet.ru/shell.php?videoid=5037872",
+          "https://video.sibnet.ru/shell.php?videoid=5037873",
+          "https://video.sibnet.ru/shell.php?videoid=5037874",
+          "https://video.sibnet.ru/shell.php?videoid=5037875",
+          "https://video.sibnet.ru/shell.php?videoid=5037876",
+          "https://video.sibnet.ru/shell.php?videoid=5037877",
+          "https://video.sibnet.ru/shell.php?videoid=5037879",
+          "https://video.sibnet.ru/shell.php?videoid=5037880"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5046445",
+          "https://video.sibnet.ru/shell.php?videoid=5046447",
+          "https://video.sibnet.ru/shell.php?videoid=5046452",
+          "https://video.sibnet.ru/shell.php?videoid=5046455",
+          "https://video.sibnet.ru/shell.php?videoid=5046457",
+          "https://video.sibnet.ru/shell.php?videoid=5046459",
+          "https://video.sibnet.ru/shell.php?videoid=5046464",
+          "https://video.sibnet.ru/shell.php?videoid=5046466",
+          "https://video.sibnet.ru/shell.php?videoid=5046472",
+          "https://video.sibnet.ru/shell.php?videoid=5046475",
+          "https://video.sibnet.ru/shell.php?videoid=5046483",
+          "https://video.sibnet.ru/shell.php?videoid=5046487"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5043120",
+          "https://video.sibnet.ru/shell.php?videoid=5043122",
+          "https://video.sibnet.ru/shell.php?videoid=5043123",
+          "https://video.sibnet.ru/shell.php?videoid=5043125",
+          "https://video.sibnet.ru/shell.php?videoid=5043129",
+          "https://video.sibnet.ru/shell.php?videoid=5043131",
+          "https://video.sibnet.ru/shell.php?videoid=5043132",
+          "https://video.sibnet.ru/shell.php?videoid=5043134",
+          "https://video.sibnet.ru/shell.php?videoid=5043136",
+          "https://video.sibnet.ru/shell.php?videoid=5043137",
+          "https://video.sibnet.ru/shell.php?videoid=5043139",
+          "https://video.sibnet.ru/shell.php?videoid=5043142",
+          "https://video.sibnet.ru/shell.php?videoid=5043144",
+          "https://video.sibnet.ru/shell.php?videoid=5043146",
+          "https://video.sibnet.ru/shell.php?videoid=5043149",
+          "https://video.sibnet.ru/shell.php?videoid=5043151",
+          "https://video.sibnet.ru/shell.php?videoid=5043155",
+          "https://video.sibnet.ru/shell.php?videoid=5043157",
+          "https://video.sibnet.ru/shell.php?videoid=5043158",
+          "https://video.sibnet.ru/shell.php?videoid=5043161",
+          "https://video.sibnet.ru/shell.php?videoid=5043163",
+          "https://video.sibnet.ru/shell.php?videoid=5043165",
+          "https://video.sibnet.ru/shell.php?videoid=5043170",
+          "https://video.sibnet.ru/shell.php?videoid=5043172"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Shironeko Project",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shironeko-project.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5831043",
+          "https://video.sibnet.ru/shell.php?videoid=5831045",
+          "https://video.sibnet.ru/shell.php?videoid=5831046",
+          "https://video.sibnet.ru/shell.php?videoid=5831047",
+          "https://video.sibnet.ru/shell.php?videoid=5831048",
+          "https://video.sibnet.ru/shell.php?videoid=5831049",
+          "https://video.sibnet.ru/shell.php?videoid=5831050",
+          "https://video.sibnet.ru/shell.php?videoid=5831051",
+          "https://video.sibnet.ru/shell.php?videoid=5831052",
+          "https://video.sibnet.ru/shell.php?videoid=5831054",
+          "https://video.sibnet.ru/shell.php?videoid=5831055",
+          "https://video.sibnet.ru/shell.php?videoid=5831056"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

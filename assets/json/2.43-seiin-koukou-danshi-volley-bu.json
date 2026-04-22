@@ -1,0 +1,31 @@
+{
+  "name": "2.43 Seiin Koukou Danshi Volley-bu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/2.43-seiin-koukou-danshi-volley-bu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4206093",
+          "https://video.sibnet.ru/shell.php?videoid=4209756",
+          "https://video.sibnet.ru/shell.php?videoid=4214096",
+          "https://video.sibnet.ru/shell.php?videoid=4218679",
+          "https://video.sibnet.ru/shell.php?videoid=4225134",
+          "https://video.sibnet.ru/shell.php?videoid=4231477",
+          "https://video.sibnet.ru/shell.php?videoid=4235917",
+          "https://video.sibnet.ru/shell.php?videoid=4245730",
+          "https://video.sibnet.ru/shell.php?videoid=4252589",
+          "https://video.sibnet.ru/shell.php?videoid=4259036",
+          "https://video.sibnet.ru/shell.php?videoid=4263920",
+          "https://video.sibnet.ru/shell.php?videoid=4271641"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

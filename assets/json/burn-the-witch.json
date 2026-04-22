@@ -1,0 +1,24 @@
+{
+  "name": "Burn the Witch",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/burn-the-witch.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4099399",
+          "https://video.sibnet.ru/shell.php?videoid=4099400",
+          "https://video.sibnet.ru/shell.php?videoid=4099610"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5380759"
+      ]
+    }
+  }
+}

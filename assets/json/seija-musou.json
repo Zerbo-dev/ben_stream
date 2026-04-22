@@ -1,0 +1,46 @@
+{
+  "name": "Seija Musou",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/seija-musou.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5419657",
+          "https://video.sibnet.ru/shell.php?videoid=5425467",
+          "https://video.sibnet.ru/shell.php?videoid=5432203",
+          "https://video.sibnet.ru/shell.php?videoid=5440555",
+          "https://video.sibnet.ru/shell.php?videoid=5450078",
+          "https://video.sibnet.ru/shell.php?videoid=5458213",
+          "https://video.sibnet.ru/shell.php?videoid=5467265",
+          "https://video.sibnet.ru/shell.php?videoid=5475684",
+          "https://video.sibnet.ru/shell.php?videoid=5485726",
+          "https://video.sibnet.ru/shell.php?videoid=5492795",
+          "https://video.sibnet.ru/shell.php?videoid=5501654",
+          "https://video.sibnet.ru/shell.php?videoid=5509300"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5190530",
+          "https://video.sibnet.ru/shell.php?videoid=5196998",
+          "https://video.sibnet.ru/shell.php?videoid=5203214",
+          "https://video.sibnet.ru/shell.php?videoid=5209415",
+          "https://video.sibnet.ru/shell.php?videoid=5217486",
+          "https://video.sibnet.ru/shell.php?videoid=5223213",
+          "https://video.sibnet.ru/shell.php?videoid=5233801",
+          "https://video.sibnet.ru/shell.php?videoid=5233831",
+          "https://video.sibnet.ru/shell.php?videoid=5238884",
+          "https://video.sibnet.ru/shell.php?videoid=5246803",
+          "https://video.sibnet.ru/shell.php?videoid=5253091",
+          "https://video.sibnet.ru/shell.php?videoid=5258130"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

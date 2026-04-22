@@ -1,0 +1,20 @@
+{
+  "name": "7 Jours",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/7-jours.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4724384"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4724389"
+      ],
+      "oav": []
+    }
+  }
+}

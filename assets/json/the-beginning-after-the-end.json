@@ -1,0 +1,46 @@
+{
+  "name": "The Beginning After the End",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-beginning-after-the-end.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5889630",
+          "https://video.sibnet.ru/shell.php?videoid=5897668",
+          "https://video.sibnet.ru/shell.php?videoid=5904932",
+          "https://video.sibnet.ru/shell.php?videoid=5911902",
+          "https://video.sibnet.ru/shell.php?videoid=5918641",
+          "https://video.sibnet.ru/shell.php?videoid=5924436",
+          "https://video.sibnet.ru/shell.php?videoid=5929637",
+          "https://video.sibnet.ru/shell.php?videoid=5934729",
+          "https://video.sibnet.ru/shell.php?videoid=5939955",
+          "https://video.sibnet.ru/shell.php?videoid=5946603",
+          "https://video.sibnet.ru/shell.php?videoid=5952162",
+          "https://video.sibnet.ru/shell.php?videoid=5959379"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5866451",
+          "https://video.sibnet.ru/shell.php?videoid=5873399",
+          "https://video.sibnet.ru/shell.php?videoid=5881404",
+          "https://video.sibnet.ru/shell.php?videoid=5889518",
+          "https://video.sibnet.ru/shell.php?videoid=5897287",
+          "https://video.sibnet.ru/shell.php?videoid=5904670",
+          "https://video.sibnet.ru/shell.php?videoid=5911337",
+          "https://video.sibnet.ru/shell.php?videoid=5917926",
+          "https://video.sibnet.ru/shell.php?videoid=5923839",
+          "https://video.sibnet.ru/shell.php?videoid=5929166",
+          "https://video.sibnet.ru/shell.php?videoid=5934430",
+          "https://video.sibnet.ru/shell.php?videoid=5939714"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

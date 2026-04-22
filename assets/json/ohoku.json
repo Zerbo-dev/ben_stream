@@ -1,0 +1,42 @@
+{
+  "name": "Ohoku",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ohoku.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5187161",
+          "https://video.sibnet.ru/shell.php?videoid=5187164",
+          "https://video.sibnet.ru/shell.php?videoid=5187165",
+          "https://video.sibnet.ru/shell.php?videoid=5187166",
+          "https://video.sibnet.ru/shell.php?videoid=5187168",
+          "https://video.sibnet.ru/shell.php?videoid=5187169",
+          "https://video.sibnet.ru/shell.php?videoid=5187170",
+          "https://video.sibnet.ru/shell.php?videoid=5187172",
+          "https://video.sibnet.ru/shell.php?videoid=5187175",
+          "https://video.sibnet.ru/shell.php?videoid=5187176"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5187130",
+          "https://video.sibnet.ru/shell.php?videoid=5187134",
+          "https://video.sibnet.ru/shell.php?videoid=5187136",
+          "https://video.sibnet.ru/shell.php?videoid=5187137",
+          "https://video.sibnet.ru/shell.php?videoid=5187139",
+          "https://video.sibnet.ru/shell.php?videoid=5187140",
+          "https://video.sibnet.ru/shell.php?videoid=5187143",
+          "https://video.sibnet.ru/shell.php?videoid=5187144",
+          "https://video.sibnet.ru/shell.php?videoid=5187145",
+          "https://video.sibnet.ru/shell.php?videoid=5187148"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

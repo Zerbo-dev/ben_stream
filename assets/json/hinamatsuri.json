@@ -1,0 +1,31 @@
+{
+  "name": "Hinamatsuri",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hinamatsuri.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4947040",
+          "https://video.sibnet.ru/shell.php?videoid=4947049",
+          "https://video.sibnet.ru/shell.php?videoid=4947051",
+          "https://video.sibnet.ru/shell.php?videoid=4947052",
+          "https://video.sibnet.ru/shell.php?videoid=4947056",
+          "https://video.sibnet.ru/shell.php?videoid=4947059",
+          "https://video.sibnet.ru/shell.php?videoid=4947061",
+          "https://video.sibnet.ru/shell.php?videoid=4947069",
+          "https://video.sibnet.ru/shell.php?videoid=4947077",
+          "https://video.sibnet.ru/shell.php?videoid=4947084",
+          "https://video.sibnet.ru/shell.php?videoid=4947090",
+          "https://video.sibnet.ru/shell.php?videoid=4947094"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

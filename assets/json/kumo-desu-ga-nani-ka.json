@@ -1,0 +1,70 @@
+{
+  "name": "Kumo Desu ga, Nani ka",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kumo-desu-ga-nani-ka.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4239910",
+          "https://video.sibnet.ru/shell.php?videoid=4246892",
+          "https://video.sibnet.ru/shell.php?videoid=4254181",
+          "https://video.sibnet.ru/shell.php?videoid=4260000",
+          "https://video.sibnet.ru/shell.php?videoid=4264748",
+          "https://video.sibnet.ru/shell.php?videoid=4273815",
+          "https://video.sibnet.ru/shell.php?videoid=4286663",
+          "https://video.sibnet.ru/shell.php?videoid=4290618",
+          "https://video.sibnet.ru/shell.php?videoid=4295341",
+          "https://video.sibnet.ru/shell.php?videoid=4300659",
+          "https://video.sibnet.ru/shell.php?videoid=4306089",
+          "https://video.sibnet.ru/shell.php?videoid=4310426",
+          "https://video.sibnet.ru/shell.php?videoid=4319380",
+          "https://video.sibnet.ru/shell.php?videoid=4323535",
+          "https://video.sibnet.ru/shell.php?videoid=4327499",
+          "https://video.sibnet.ru/shell.php?videoid=4332442",
+          "https://video.sibnet.ru/shell.php?videoid=4336437",
+          "https://video.sibnet.ru/shell.php?videoid=4339774",
+          "https://video.sibnet.ru/shell.php?videoid=4345524",
+          "https://video.sibnet.ru/shell.php?videoid=4351555",
+          "https://video.sibnet.ru/shell.php?videoid=4360082",
+          "https://video.sibnet.ru/shell.php?videoid=4366635",
+          "https://video.sibnet.ru/shell.php?videoid=4374492",
+          "https://video.sibnet.ru/shell.php?videoid=4385888"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4204211",
+          "https://video.sibnet.ru/shell.php?videoid=4210213",
+          "https://video.sibnet.ru/shell.php?videoid=4214793",
+          "https://video.sibnet.ru/shell.php?videoid=4219627",
+          "https://video.sibnet.ru/shell.php?videoid=4225880",
+          "https://video.sibnet.ru/shell.php?videoid=4231478",
+          "https://video.sibnet.ru/shell.php?videoid=4239654",
+          "https://video.sibnet.ru/shell.php?videoid=4246434",
+          "https://video.sibnet.ru/shell.php?videoid=4253354",
+          "https://video.sibnet.ru/shell.php?videoid=4259383",
+          "https://video.sibnet.ru/shell.php?videoid=4264380",
+          "https://video.sibnet.ru/shell.php?videoid=4273658",
+          "https://video.sibnet.ru/shell.php?videoid=4289761",
+          "https://video.sibnet.ru/shell.php?videoid=4294803",
+          "https://video.sibnet.ru/shell.php?videoid=4300269",
+          "https://video.sibnet.ru/shell.php?videoid=4305780",
+          "https://video.sibnet.ru/shell.php?videoid=4310178",
+          "https://video.sibnet.ru/shell.php?videoid=4315314",
+          "https://video.sibnet.ru/shell.php?videoid=4319150",
+          "https://video.sibnet.ru/shell.php?videoid=4323229",
+          "https://video.sibnet.ru/shell.php?videoid=4327366",
+          "https://video.sibnet.ru/shell.php?videoid=4332264",
+          "https://video.sibnet.ru/shell.php?videoid=4336147",
+          "https://video.sibnet.ru/shell.php?videoid=4345029"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

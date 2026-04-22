@@ -1,0 +1,46 @@
+{
+  "name": "Grimgar",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/grimgar.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4714578",
+          "https://video.sibnet.ru/shell.php?videoid=4714582",
+          "https://video.sibnet.ru/shell.php?videoid=4714585",
+          "https://video.sibnet.ru/shell.php?videoid=4714589",
+          "https://video.sibnet.ru/shell.php?videoid=4714594",
+          "https://video.sibnet.ru/shell.php?videoid=4714598",
+          "https://video.sibnet.ru/shell.php?videoid=4714602",
+          "https://video.sibnet.ru/shell.php?videoid=4714603",
+          "https://video.sibnet.ru/shell.php?videoid=4714605",
+          "https://video.sibnet.ru/shell.php?videoid=4714606",
+          "https://video.sibnet.ru/shell.php?videoid=4714607",
+          "https://video.sibnet.ru/shell.php?videoid=4714608"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4714534",
+          "https://video.sibnet.ru/shell.php?videoid=4714535",
+          "https://video.sibnet.ru/shell.php?videoid=4714537",
+          "https://video.sibnet.ru/shell.php?videoid=4714539",
+          "https://video.sibnet.ru/shell.php?videoid=4714540",
+          "https://video.sibnet.ru/shell.php?videoid=4714543",
+          "https://video.sibnet.ru/shell.php?videoid=4714544",
+          "https://video.sibnet.ru/shell.php?videoid=4714545",
+          "https://video.sibnet.ru/shell.php?videoid=4714547",
+          "https://video.sibnet.ru/shell.php?videoid=4714549",
+          "https://video.sibnet.ru/shell.php?videoid=4714550",
+          "https://video.sibnet.ru/shell.php?videoid=4714552"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

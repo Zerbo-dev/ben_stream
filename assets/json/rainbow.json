@@ -1,0 +1,45 @@
+{
+  "name": "Rainbow",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/rainbow.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4770921",
+          "https://video.sibnet.ru/shell.php?videoid=4770930",
+          "https://video.sibnet.ru/shell.php?videoid=4770932",
+          "https://video.sibnet.ru/shell.php?videoid=4770936",
+          "https://video.sibnet.ru/shell.php?videoid=4770941",
+          "https://video.sibnet.ru/shell.php?videoid=4770943",
+          "https://video.sibnet.ru/shell.php?videoid=4770956",
+          "https://video.sibnet.ru/shell.php?videoid=4770965",
+          "https://video.sibnet.ru/shell.php?videoid=4770971",
+          "https://video.sibnet.ru/shell.php?videoid=4770975",
+          "https://video.sibnet.ru/shell.php?videoid=4770983",
+          "https://video.sibnet.ru/shell.php?videoid=4770990",
+          "https://video.sibnet.ru/shell.php?videoid=4770995",
+          "https://video.sibnet.ru/shell.php?videoid=4771003",
+          "https://video.sibnet.ru/shell.php?videoid=4771008",
+          "https://video.sibnet.ru/shell.php?videoid=4771014",
+          "https://video.sibnet.ru/shell.php?videoid=4771019",
+          "https://video.sibnet.ru/shell.php?videoid=4771025",
+          "https://video.sibnet.ru/shell.php?videoid=4771031",
+          "https://video.sibnet.ru/shell.php?videoid=4771040",
+          "https://video.sibnet.ru/shell.php?videoid=4771045",
+          "https://video.sibnet.ru/shell.php?videoid=4771049",
+          "https://video.sibnet.ru/shell.php?videoid=4771056",
+          "https://video.sibnet.ru/shell.php?videoid=4771062",
+          "https://video.sibnet.ru/shell.php?videoid=4771066",
+          "https://video.sibnet.ru/shell.php?videoid=4771068"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

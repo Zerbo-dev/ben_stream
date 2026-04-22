@@ -1,0 +1,31 @@
+{
+  "name": "Akebi-chan no Sailor Fuku",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/akebi-chan-no-sailor-fuku.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4942143",
+          "https://video.sibnet.ru/shell.php?videoid=4942147",
+          "https://video.sibnet.ru/shell.php?videoid=4942150",
+          "https://video.sibnet.ru/shell.php?videoid=4942153",
+          "https://video.sibnet.ru/shell.php?videoid=4942157",
+          "https://video.sibnet.ru/shell.php?videoid=4942159",
+          "https://video.sibnet.ru/shell.php?videoid=4942163",
+          "https://video.sibnet.ru/shell.php?videoid=4942165",
+          "https://video.sibnet.ru/shell.php?videoid=4942169",
+          "https://video.sibnet.ru/shell.php?videoid=4942173",
+          "https://video.sibnet.ru/shell.php?videoid=4942177",
+          "https://video.sibnet.ru/shell.php?videoid=4942181"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

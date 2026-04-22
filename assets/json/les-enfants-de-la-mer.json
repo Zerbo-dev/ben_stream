@@ -1,0 +1,20 @@
+{
+  "name": "Les Enfants de la Mer",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/les-enfants-de-la-mer.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5168686"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5168703"
+      ],
+      "oav": []
+    }
+  }
+}

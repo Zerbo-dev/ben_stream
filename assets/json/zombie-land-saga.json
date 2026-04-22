@@ -1,0 +1,45 @@
+{
+  "name": "Zombie Land Saga",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/zombie-land-saga.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4756806",
+          "https://video.sibnet.ru/shell.php?videoid=4756808",
+          "https://video.sibnet.ru/shell.php?videoid=4756811",
+          "https://video.sibnet.ru/shell.php?videoid=4756812",
+          "https://video.sibnet.ru/shell.php?videoid=4756814",
+          "https://video.sibnet.ru/shell.php?videoid=4756816",
+          "https://video.sibnet.ru/shell.php?videoid=4756819",
+          "https://video.sibnet.ru/shell.php?videoid=4756821",
+          "https://video.sibnet.ru/shell.php?videoid=4756822",
+          "https://video.sibnet.ru/shell.php?videoid=4756824",
+          "https://video.sibnet.ru/shell.php?videoid=4756826",
+          "https://video.sibnet.ru/shell.php?videoid=4756829"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4756899",
+          "https://video.sibnet.ru/shell.php?videoid=4756902",
+          "https://video.sibnet.ru/shell.php?videoid=4756905",
+          "https://video.sibnet.ru/shell.php?videoid=4756908",
+          "https://video.sibnet.ru/shell.php?videoid=4756910",
+          "https://video.sibnet.ru/shell.php?videoid=4756911",
+          "https://video.sibnet.ru/shell.php?videoid=4756912",
+          "https://video.sibnet.ru/shell.php?videoid=4756915",
+          "https://video.sibnet.ru/shell.php?videoid=4756916",
+          "https://video.sibnet.ru/shell.php?videoid=4756918",
+          "https://video.sibnet.ru/shell.php?videoid=4756919",
+          "https://video.sibnet.ru/shell.php?videoid=4756920"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

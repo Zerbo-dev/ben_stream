@@ -1,0 +1,31 @@
+{
+  "name": "Oshi ga Budoukan Itte Kuretara Shinu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/oshi-ga-budoukan-itte-kuretara-shinu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4930220",
+          "https://video.sibnet.ru/shell.php?videoid=4930226",
+          "https://video.sibnet.ru/shell.php?videoid=4930230",
+          "https://video.sibnet.ru/shell.php?videoid=4930233",
+          "https://video.sibnet.ru/shell.php?videoid=4930239",
+          "https://video.sibnet.ru/shell.php?videoid=4930241",
+          "https://video.sibnet.ru/shell.php?videoid=4930244",
+          "https://video.sibnet.ru/shell.php?videoid=4930248",
+          "https://video.sibnet.ru/shell.php?videoid=4930253",
+          "https://video.sibnet.ru/shell.php?videoid=4930256",
+          "https://video.sibnet.ru/shell.php?videoid=4930258",
+          "https://video.sibnet.ru/shell.php?videoid=4930262"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

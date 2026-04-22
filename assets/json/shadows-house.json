@@ -1,0 +1,46 @@
+{
+  "name": "Shadows House",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shadows-house.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4291287",
+          "https://video.sibnet.ru/shell.php?videoid=4295951",
+          "https://video.sibnet.ru/shell.php?videoid=4301495",
+          "https://video.sibnet.ru/shell.php?videoid=4306707",
+          "https://video.sibnet.ru/shell.php?videoid=4310972",
+          "https://video.sibnet.ru/shell.php?videoid=4316230",
+          "https://video.sibnet.ru/shell.php?videoid=4320093",
+          "https://video.sibnet.ru/shell.php?videoid=4324152",
+          "https://video.sibnet.ru/shell.php?videoid=4328594",
+          "https://video.sibnet.ru/shell.php?videoid=4333058",
+          "https://video.sibnet.ru/shell.php?videoid=4337015",
+          "https://video.sibnet.ru/shell.php?videoid=4340166",
+          "https://video.sibnet.ru/shell.php?videoid=4345371"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4783320",
+          "https://video.sibnet.ru/shell.php?videoid=4796396",
+          "https://video.sibnet.ru/shell.php?videoid=4798173",
+          "https://video.sibnet.ru/shell.php?videoid=4805505",
+          "https://video.sibnet.ru/shell.php?videoid=4815157",
+          "https://video.sibnet.ru/shell.php?videoid=4823421",
+          "https://video.sibnet.ru/shell.php?videoid=4835841",
+          "https://video.sibnet.ru/shell.php?videoid=4846141",
+          "https://video.sibnet.ru/shell.php?videoid=4855161",
+          "https://video.sibnet.ru/shell.php?videoid=4864212",
+          "https://video.sibnet.ru/shell.php?videoid=4873186",
+          "https://video.sibnet.ru/shell.php?videoid=4881414"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

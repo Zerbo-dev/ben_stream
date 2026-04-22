@@ -1,0 +1,29 @@
+{
+  "name": "Sora no Aosa wo Shiru Hito yo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sora-no-aosa-wo-shiru-hito-yo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

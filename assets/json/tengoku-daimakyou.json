@@ -1,0 +1,44 @@
+{
+  "name": "Tengoku Daimakyou",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tengoku-daimakyou.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5863516",
+          "https://video.sibnet.ru/shell.php?videoid=5863517",
+          "https://video.sibnet.ru/shell.php?videoid=5863518",
+          "https://video.sibnet.ru/shell.php?videoid=5863519",
+          "https://video.sibnet.ru/shell.php?videoid=5863520",
+          "https://video.sibnet.ru/shell.php?videoid=5863521",
+          "https://video.sibnet.ru/shell.php?videoid=5863522",
+          "https://video.sibnet.ru/shell.php?videoid=5863523",
+          "https://video.sibnet.ru/shell.php?videoid=5863524",
+          "https://video.sibnet.ru/shell.php?videoid=5863525",
+          "https://video.sibnet.ru/shell.php?videoid=5863526",
+          "https://video.sibnet.ru/shell.php?videoid=5863527",
+          "https://video.sibnet.ru/shell.php?videoid=5863528"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5093524",
+          "https://video.sibnet.ru/shell.php?videoid=5099752",
+          "https://video.sibnet.ru/shell.php?videoid=5106420",
+          "https://video.sibnet.ru/shell.php?videoid=5113742",
+          "https://video.sibnet.ru/shell.php?videoid=5121158",
+          "https://video.sibnet.ru/shell.php?videoid=5128021",
+          "https://video.sibnet.ru/shell.php?videoid=5136681",
+          "https://video.sibnet.ru/shell.php?videoid=5146853",
+          "https://video.sibnet.ru/shell.php?videoid=5160908"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

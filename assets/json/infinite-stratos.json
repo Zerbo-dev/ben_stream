@@ -1,0 +1,47 @@
+{
+  "name": "Infinite Stratos",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/infinite-stratos.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5308934",
+          "https://video.sibnet.ru/shell.php?videoid=5308937",
+          "https://video.sibnet.ru/shell.php?videoid=5308938",
+          "https://video.sibnet.ru/shell.php?videoid=5308939",
+          "https://video.sibnet.ru/shell.php?videoid=5308942",
+          "https://video.sibnet.ru/shell.php?videoid=5308945",
+          "https://video.sibnet.ru/shell.php?videoid=5308947",
+          "https://video.sibnet.ru/shell.php?videoid=5308949",
+          "https://video.sibnet.ru/shell.php?videoid=5308950",
+          "https://video.sibnet.ru/shell.php?videoid=5308951",
+          "https://video.sibnet.ru/shell.php?videoid=5308952",
+          "https://video.sibnet.ru/shell.php?videoid=5308954",
+          "https://video.sibnet.ru/shell.php?videoid=5308955"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5308958",
+          "https://video.sibnet.ru/shell.php?videoid=5308959",
+          "https://video.sibnet.ru/shell.php?videoid=5308961",
+          "https://video.sibnet.ru/shell.php?videoid=5308962",
+          "https://video.sibnet.ru/shell.php?videoid=5308964",
+          "https://video.sibnet.ru/shell.php?videoid=5308966",
+          "https://video.sibnet.ru/shell.php?videoid=5308970",
+          "https://video.sibnet.ru/shell.php?videoid=5308972",
+          "https://video.sibnet.ru/shell.php?videoid=5308974",
+          "https://video.sibnet.ru/shell.php?videoid=5308976",
+          "https://video.sibnet.ru/shell.php?videoid=5308978",
+          "https://video.sibnet.ru/shell.php?videoid=5308980",
+          "https://video.sibnet.ru/shell.php?videoid=5308981"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

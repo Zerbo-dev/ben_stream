@@ -1,0 +1,32 @@
+{
+  "name": "Tada Never Falls in Love",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tada-never-falls-in-love.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4959852",
+          "https://video.sibnet.ru/shell.php?videoid=4959854",
+          "https://video.sibnet.ru/shell.php?videoid=4959857",
+          "https://video.sibnet.ru/shell.php?videoid=4959861",
+          "https://video.sibnet.ru/shell.php?videoid=4959862",
+          "https://video.sibnet.ru/shell.php?videoid=4959863",
+          "https://video.sibnet.ru/shell.php?videoid=4959866",
+          "https://video.sibnet.ru/shell.php?videoid=4959875",
+          "https://video.sibnet.ru/shell.php?videoid=4959877",
+          "https://video.sibnet.ru/shell.php?videoid=4959878",
+          "https://video.sibnet.ru/shell.php?videoid=4959880",
+          "https://video.sibnet.ru/shell.php?videoid=4959882",
+          "https://video.sibnet.ru/shell.php?videoid=4959883"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

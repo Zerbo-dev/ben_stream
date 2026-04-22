@@ -1,0 +1,31 @@
+{
+  "name": "Tsuredure Children",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tsuredure-children.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4878067",
+          "https://video.sibnet.ru/shell.php?videoid=4878069",
+          "https://video.sibnet.ru/shell.php?videoid=4878070",
+          "https://video.sibnet.ru/shell.php?videoid=4878071",
+          "https://video.sibnet.ru/shell.php?videoid=4878072",
+          "https://video.sibnet.ru/shell.php?videoid=4878073",
+          "https://video.sibnet.ru/shell.php?videoid=4878074",
+          "https://video.sibnet.ru/shell.php?videoid=4878075",
+          "https://video.sibnet.ru/shell.php?videoid=4878077",
+          "https://video.sibnet.ru/shell.php?videoid=4878078",
+          "https://video.sibnet.ru/shell.php?videoid=4878079",
+          "https://video.sibnet.ru/shell.php?videoid=4878080"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Kimi no Koe wo Todoketai",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kimi-no-koe-wo-todoketai.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4813102\t"
+      ],
+      "oav": []
+    }
+  }
+}

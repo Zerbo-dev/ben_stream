@@ -1,0 +1,62 @@
+{
+  "name": "Kekkai Sensen",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kekkai-sensen.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5327340",
+          "https://video.sibnet.ru/shell.php?videoid=5327341",
+          "https://video.sibnet.ru/shell.php?videoid=5327343",
+          "https://video.sibnet.ru/shell.php?videoid=5327344",
+          "https://video.sibnet.ru/shell.php?videoid=5327345",
+          "https://video.sibnet.ru/shell.php?videoid=5327346",
+          "https://video.sibnet.ru/shell.php?videoid=5327347",
+          "https://video.sibnet.ru/shell.php?videoid=5327350",
+          "https://video.sibnet.ru/shell.php?videoid=5327351",
+          "https://video.sibnet.ru/shell.php?videoid=5327353",
+          "https://video.sibnet.ru/shell.php?videoid=5327354",
+          "https://video.sibnet.ru/shell.php?videoid=5327357",
+          "https://video.sibnet.ru/shell.php?videoid=5327359"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4765392",
+          "https://video.sibnet.ru/shell.php?videoid=4765399",
+          "https://video.sibnet.ru/shell.php?videoid=4765404",
+          "https://video.sibnet.ru/shell.php?videoid=4765411",
+          "https://video.sibnet.ru/shell.php?videoid=4765416",
+          "https://video.sibnet.ru/shell.php?videoid=4765422",
+          "https://video.sibnet.ru/shell.php?videoid=4765428",
+          "https://video.sibnet.ru/shell.php?videoid=4765433",
+          "https://video.sibnet.ru/shell.php?videoid=4765436",
+          "https://video.sibnet.ru/shell.php?videoid=4765445",
+          "https://video.sibnet.ru/shell.php?videoid=4765444",
+          "https://video.sibnet.ru/shell.php?videoid=4765449",
+          "https://video.sibnet.ru/shell.php?videoid=4765528"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4765451",
+          "https://video.sibnet.ru/shell.php?videoid=4765454",
+          "https://video.sibnet.ru/shell.php?videoid=4765455",
+          "https://video.sibnet.ru/shell.php?videoid=4765457",
+          "https://video.sibnet.ru/shell.php?videoid=4765459",
+          "https://video.sibnet.ru/shell.php?videoid=4765463",
+          "https://video.sibnet.ru/shell.php?videoid=4765467",
+          "https://video.sibnet.ru/shell.php?videoid=4765477",
+          "https://video.sibnet.ru/shell.php?videoid=4765484",
+          "https://video.sibnet.ru/shell.php?videoid=4765489",
+          "https://video.sibnet.ru/shell.php?videoid=4765495",
+          "https://video.sibnet.ru/shell.php?videoid=4765496"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

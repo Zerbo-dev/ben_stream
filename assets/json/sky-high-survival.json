@@ -1,0 +1,46 @@
+{
+  "name": "Sky-High Survival",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sky-high-survival.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4777996",
+          "https://video.sibnet.ru/shell.php?videoid=4778004",
+          "https://video.sibnet.ru/shell.php?videoid=4778005",
+          "https://video.sibnet.ru/shell.php?videoid=4778006",
+          "https://video.sibnet.ru/shell.php?videoid=4778007",
+          "https://video.sibnet.ru/shell.php?videoid=4778009",
+          "https://video.sibnet.ru/shell.php?videoid=4778011",
+          "https://video.sibnet.ru/shell.php?videoid=4778013",
+          "https://video.sibnet.ru/shell.php?videoid=4778015",
+          "https://video.sibnet.ru/shell.php?videoid=4778016",
+          "https://video.sibnet.ru/shell.php?videoid=4778017",
+          "https://video.sibnet.ru/shell.php?videoid=4778024"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4246904",
+          "https://video.sibnet.ru/shell.php?videoid=4246905",
+          "https://video.sibnet.ru/shell.php?videoid=4246906",
+          "https://video.sibnet.ru/shell.php?videoid=4246907",
+          "https://video.sibnet.ru/shell.php?videoid=4246908",
+          "https://video.sibnet.ru/shell.php?videoid=4246909",
+          "https://video.sibnet.ru/shell.php?videoid=4246910",
+          "https://video.sibnet.ru/shell.php?videoid=4246911",
+          "https://video.sibnet.ru/shell.php?videoid=4246913",
+          "https://video.sibnet.ru/shell.php?videoid=4246915",
+          "https://video.sibnet.ru/shell.php?videoid=4246916",
+          "https://video.sibnet.ru/shell.php?videoid=4246917"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

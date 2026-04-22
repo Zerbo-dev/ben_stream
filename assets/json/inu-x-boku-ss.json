@@ -1,0 +1,20 @@
+{
+  "name": "Inu X Boku SS",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/inu-x-boku-ss.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5308990"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

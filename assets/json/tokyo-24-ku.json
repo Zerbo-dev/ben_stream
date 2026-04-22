@@ -1,0 +1,49 @@
+{
+  "name": "Tokyo 24-ku",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tokyo-24-ku.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4668428",
+          "https://video.sibnet.ru/shell.php?videoid=4668429",
+          "https://video.sibnet.ru/shell.php?videoid=4668430",
+          "https://video.sibnet.ru/shell.php?videoid=4668432",
+          "https://video.sibnet.ru/shell.php?videoid=4668433",
+          "https://video.sibnet.ru/shell.php?videoid=4668434",
+          "https://video.sibnet.ru/shell.php?videoid=4668435",
+          "https://video.sibnet.ru/shell.php?videoid=4668436",
+          "https://video.sibnet.ru/shell.php?videoid=4668437",
+          "https://video.sibnet.ru/shell.php?videoid=4668439",
+          "https://video.sibnet.ru/shell.php?videoid=4671752",
+          "https://video.sibnet.ru/shell.php?videoid=4671321",
+          "https://video.sibnet.ru/shell.php?videoid=4679605"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4668423",
+          "https://video.sibnet.ru/shell.php?videoid=4668425",
+          "https://video.sibnet.ru/shell.php?videoid=4574061",
+          "https://video.sibnet.ru/shell.php?videoid=4581791",
+          "https://video.sibnet.ru/shell.php?videoid=4589084",
+          "https://video.sibnet.ru/shell.php?videoid=4594885",
+          "https://video.sibnet.ru/shell.php?videoid=4601354",
+          "https://video.sibnet.ru/shell.php?videoid=4614464",
+          "https://video.sibnet.ru/shell.php?videoid=4623325",
+          "https://video.sibnet.ru/shell.php?videoid=4629843",
+          "https://video.sibnet.ru/shell.php?videoid=4668426",
+          "https://video.sibnet.ru/shell.php?videoid=4645974",
+          "https://video.sibnet.ru/shell.php?videoid=4652364",
+          "https://video.sibnet.ru/shell.php?videoid=4660989"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

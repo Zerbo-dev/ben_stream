@@ -1,0 +1,46 @@
+{
+  "name": "Maou 2099",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/maou-2099.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5739624",
+          "https://video.sibnet.ru/shell.php?videoid=5746951",
+          "https://video.sibnet.ru/shell.php?videoid=5753715",
+          "https://video.sibnet.ru/shell.php?videoid=5761070",
+          "https://video.sibnet.ru/shell.php?videoid=5765922",
+          "https://video.sibnet.ru/shell.php?videoid=5770042",
+          "https://video.sibnet.ru/shell.php?videoid=5774692",
+          "https://video.sibnet.ru/shell.php?videoid=5780635",
+          "https://video.sibnet.ru/shell.php?videoid=5785668",
+          "https://video.sibnet.ru/shell.php?videoid=5791081",
+          "https://video.sibnet.ru/shell.php?videoid=5796576",
+          "https://video.sibnet.ru/shell.php?videoid=5802290"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5713142",
+          "https://video.sibnet.ru/shell.php?videoid=5722033",
+          "https://video.sibnet.ru/shell.php?videoid=5730758",
+          "https://video.sibnet.ru/shell.php?videoid=5739285",
+          "https://video.sibnet.ru/shell.php?videoid=5746451",
+          "https://video.sibnet.ru/shell.php?videoid=5753389",
+          "https://video.sibnet.ru/shell.php?videoid=5760859",
+          "https://video.sibnet.ru/shell.php?videoid=5765582",
+          "https://video.sibnet.ru/shell.php?videoid=5769595",
+          "https://video.sibnet.ru/shell.php?videoid=5774033",
+          "https://video.sibnet.ru/shell.php?videoid=5780238",
+          "https://video.sibnet.ru/shell.php?videoid=5785450"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

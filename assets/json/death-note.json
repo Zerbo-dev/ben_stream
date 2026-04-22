@@ -1,0 +1,59 @@
+{
+  "name": "Death Note",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/death-note.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4745137"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4670053",
+          "https://video.sibnet.ru/shell.php?videoid=4670054",
+          "https://video.sibnet.ru/shell.php?videoid=4670056",
+          "https://video.sibnet.ru/shell.php?videoid=4670057",
+          "https://video.sibnet.ru/shell.php?videoid=4670061",
+          "https://video.sibnet.ru/shell.php?videoid=4670063",
+          "https://video.sibnet.ru/shell.php?videoid=4670067",
+          "https://video.sibnet.ru/shell.php?videoid=4670071",
+          "https://video.sibnet.ru/shell.php?videoid=4670075",
+          "https://video.sibnet.ru/shell.php?videoid=4670078",
+          "https://video.sibnet.ru/shell.php?videoid=4670085",
+          "https://video.sibnet.ru/shell.php?videoid=4670094",
+          "https://video.sibnet.ru/shell.php?videoid=4670100",
+          "https://video.sibnet.ru/shell.php?videoid=4670104",
+          "https://video.sibnet.ru/shell.php?videoid=4670109",
+          "https://video.sibnet.ru/shell.php?videoid=4670114",
+          "https://video.sibnet.ru/shell.php?videoid=4670117",
+          "https://video.sibnet.ru/shell.php?videoid=4670119",
+          "https://video.sibnet.ru/shell.php?videoid=4670121",
+          "https://video.sibnet.ru/shell.php?videoid=4670123",
+          "https://video.sibnet.ru/shell.php?videoid=4670125",
+          "https://video.sibnet.ru/shell.php?videoid=4670127",
+          "https://video.sibnet.ru/shell.php?videoid=4670129",
+          "https://video.sibnet.ru/shell.php?videoid=4670131",
+          "https://video.sibnet.ru/shell.php?videoid=4670133",
+          "https://video.sibnet.ru/shell.php?videoid=4670136",
+          "https://video.sibnet.ru/shell.php?videoid=4670138",
+          "https://video.sibnet.ru/shell.php?videoid=4670143",
+          "https://video.sibnet.ru/shell.php?videoid=4670146",
+          "https://video.sibnet.ru/shell.php?videoid=4670151",
+          "https://video.sibnet.ru/shell.php?videoid=4670160",
+          "https://video.sibnet.ru/shell.php?videoid=4670165",
+          "https://video.sibnet.ru/shell.php?videoid=4670170",
+          "https://video.sibnet.ru/shell.php?videoid=4670173",
+          "https://video.sibnet.ru/shell.php?videoid=4670175",
+          "https://video.sibnet.ru/shell.php?videoid=4670178"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

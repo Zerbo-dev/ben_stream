@@ -1,0 +1,49 @@
+{
+  "name": "Ao Haru Ride",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ao-haru-ride.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5011521",
+          "https://video.sibnet.ru/shell.php?videoid=5011522",
+          "https://video.sibnet.ru/shell.php?videoid=4830909",
+          "https://video.sibnet.ru/shell.php?videoid=4830910",
+          "https://video.sibnet.ru/shell.php?videoid=4830911",
+          "https://video.sibnet.ru/shell.php?videoid=4830912",
+          "https://video.sibnet.ru/shell.php?videoid=4830914",
+          "https://video.sibnet.ru/shell.php?videoid=4830915",
+          "https://video.sibnet.ru/shell.php?videoid=4830916",
+          "https://video.sibnet.ru/shell.php?videoid=4830917",
+          "https://video.sibnet.ru/shell.php?videoid=4830918",
+          "https://video.sibnet.ru/shell.php?videoid=5011520"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4720517",
+          "https://video.sibnet.ru/shell.php?videoid=4720520",
+          "https://video.sibnet.ru/shell.php?videoid=4720525",
+          "https://video.sibnet.ru/shell.php?videoid=4720532",
+          "https://video.sibnet.ru/shell.php?videoid=4720535",
+          "https://video.sibnet.ru/shell.php?videoid=4720543",
+          "https://video.sibnet.ru/shell.php?videoid=4720545",
+          "https://video.sibnet.ru/shell.php?videoid=4720547",
+          "https://video.sibnet.ru/shell.php?videoid=4720550",
+          "https://video.sibnet.ru/shell.php?videoid=4720555",
+          "https://video.sibnet.ru/shell.php?videoid=4720557",
+          "https://video.sibnet.ru/shell.php?videoid=4720560"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4720562",
+        "https://video.sibnet.ru/shell.php?videoid=4680173"
+      ]
+    }
+  }
+}

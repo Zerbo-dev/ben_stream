@@ -1,0 +1,80 @@
+{
+  "name": "Valkyrie apocalypse",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/valkyrie-apocalypse.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5468275",
+          "https://video.sibnet.ru/shell.php?videoid=5468277",
+          "https://video.sibnet.ru/shell.php?videoid=5468278",
+          "https://video.sibnet.ru/shell.php?videoid=5468279",
+          "https://video.sibnet.ru/shell.php?videoid=5468280",
+          "https://video.sibnet.ru/shell.php?videoid=5468281",
+          "https://video.sibnet.ru/shell.php?videoid=5468282",
+          "https://video.sibnet.ru/shell.php?videoid=5468283",
+          "https://video.sibnet.ru/shell.php?videoid=5468284",
+          "https://video.sibnet.ru/shell.php?videoid=5468285",
+          "https://video.sibnet.ru/shell.php?videoid=5468286",
+          "https://video.sibnet.ru/shell.php?videoid=5468287"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5468288",
+          "https://video.sibnet.ru/shell.php?videoid=5468289",
+          "https://video.sibnet.ru/shell.php?videoid=5468290",
+          "https://video.sibnet.ru/shell.php?videoid=5468291",
+          "https://video.sibnet.ru/shell.php?videoid=5468292",
+          "https://video.sibnet.ru/shell.php?videoid=5468293",
+          "https://video.sibnet.ru/shell.php?videoid=5468294",
+          "https://video.sibnet.ru/shell.php?videoid=5468295",
+          "https://video.sibnet.ru/shell.php?videoid=5468296",
+          "https://video.sibnet.ru/shell.php?videoid=5468297",
+          "https://video.sibnet.ru/shell.php?videoid=5468298",
+          "https://video.sibnet.ru/shell.php?videoid=5468299",
+          "https://video.sibnet.ru/shell.php?videoid=5468300",
+          "https://video.sibnet.ru/shell.php?videoid=5468301",
+          "https://video.sibnet.ru/shell.php?videoid=5468302"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5468247",
+          "https://video.sibnet.ru/shell.php?videoid=5468248",
+          "https://video.sibnet.ru/shell.php?videoid=5468249",
+          "https://video.sibnet.ru/shell.php?videoid=5468250",
+          "https://video.sibnet.ru/shell.php?videoid=5468251",
+          "https://video.sibnet.ru/shell.php?videoid=5468252",
+          "https://video.sibnet.ru/shell.php?videoid=5468253",
+          "https://video.sibnet.ru/shell.php?videoid=5468254",
+          "https://video.sibnet.ru/shell.php?videoid=5468255",
+          "https://video.sibnet.ru/shell.php?videoid=5468256",
+          "https://video.sibnet.ru/shell.php?videoid=5468257",
+          "https://video.sibnet.ru/shell.php?videoid=5468258"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5468259",
+          "https://video.sibnet.ru/shell.php?videoid=5468260",
+          "https://video.sibnet.ru/shell.php?videoid=5468261",
+          "https://video.sibnet.ru/shell.php?videoid=5468262",
+          "https://video.sibnet.ru/shell.php?videoid=5468263",
+          "https://video.sibnet.ru/shell.php?videoid=5468264",
+          "https://video.sibnet.ru/shell.php?videoid=5468265",
+          "https://video.sibnet.ru/shell.php?videoid=5468266",
+          "https://video.sibnet.ru/shell.php?videoid=5468267",
+          "https://video.sibnet.ru/shell.php?videoid=5468268",
+          "https://video.sibnet.ru/shell.php?videoid=5468269",
+          "https://video.sibnet.ru/shell.php?videoid=5468270",
+          "https://video.sibnet.ru/shell.php?videoid=5468271",
+          "https://video.sibnet.ru/shell.php?videoid=5468272",
+          "https://video.sibnet.ru/shell.php?videoid=5468273"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Servamp",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/servamp.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4857176",
+          "https://video.sibnet.ru/shell.php?videoid=4857180",
+          "https://video.sibnet.ru/shell.php?videoid=4857184",
+          "https://video.sibnet.ru/shell.php?videoid=4857190",
+          "https://video.sibnet.ru/shell.php?videoid=4857193",
+          "https://video.sibnet.ru/shell.php?videoid=4857195",
+          "https://video.sibnet.ru/shell.php?videoid=4857198",
+          "https://video.sibnet.ru/shell.php?videoid=4857202",
+          "https://video.sibnet.ru/shell.php?videoid=4857206",
+          "https://video.sibnet.ru/shell.php?videoid=4857209",
+          "https://video.sibnet.ru/shell.php?videoid=4857212",
+          "https://video.sibnet.ru/shell.php?videoid=4857216"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4857220\t"
+      ],
+      "oav": []
+    }
+  }
+}

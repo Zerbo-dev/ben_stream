@@ -1,0 +1,46 @@
+{
+  "name": "The Hidden Dungeon",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-hidden-dungeon.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4685958",
+          "https://video.sibnet.ru/shell.php?videoid=4685959",
+          "https://video.sibnet.ru/shell.php?videoid=4685960",
+          "https://video.sibnet.ru/shell.php?videoid=4685961",
+          "https://video.sibnet.ru/shell.php?videoid=4685962",
+          "https://video.sibnet.ru/shell.php?videoid=4685963",
+          "https://video.sibnet.ru/shell.php?videoid=4685965",
+          "https://video.sibnet.ru/shell.php?videoid=4685967",
+          "https://video.sibnet.ru/shell.php?videoid=4685970",
+          "https://video.sibnet.ru/shell.php?videoid=4685971",
+          "https://video.sibnet.ru/shell.php?videoid=4685972",
+          "https://video.sibnet.ru/shell.php?videoid=4685974"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4685927",
+          "https://video.sibnet.ru/shell.php?videoid=4685930",
+          "https://video.sibnet.ru/shell.php?videoid=4685931",
+          "https://video.sibnet.ru/shell.php?videoid=4685933",
+          "https://video.sibnet.ru/shell.php?videoid=4685934",
+          "https://video.sibnet.ru/shell.php?videoid=4685936",
+          "https://video.sibnet.ru/shell.php?videoid=4685938",
+          "https://video.sibnet.ru/shell.php?videoid=4685939",
+          "https://video.sibnet.ru/shell.php?videoid=4685940",
+          "https://video.sibnet.ru/shell.php?videoid=4685942",
+          "https://video.sibnet.ru/shell.php?videoid=4685944",
+          "https://video.sibnet.ru/shell.php?videoid=4685947"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

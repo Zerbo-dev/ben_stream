@@ -1,0 +1,31 @@
+{
+  "name": "Mou Ippon!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mou-ippon.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5005660",
+          "https://video.sibnet.ru/shell.php?videoid=5010616",
+          "https://video.sibnet.ru/shell.php?videoid=5017501",
+          "https://video.sibnet.ru/shell.php?videoid=5025864",
+          "https://video.sibnet.ru/shell.php?videoid=5032737",
+          "https://video.sibnet.ru/shell.php?videoid=5040945",
+          "https://video.sibnet.ru/shell.php?videoid=5050631",
+          "https://video.sibnet.ru/shell.php?videoid=5059679",
+          "https://video.sibnet.ru/shell.php?videoid=5068245",
+          "https://video.sibnet.ru/shell.php?videoid=5074180",
+          "https://video.sibnet.ru/shell.php?videoid=5080494",
+          "https://video.sibnet.ru/shell.php?videoid=5094364"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

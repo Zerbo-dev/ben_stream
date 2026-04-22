@@ -1,0 +1,67 @@
+{
+  "name": "Super Dragon Ball Heroes",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/super-dragon-ball-heroes.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4760857",
+          "https://video.sibnet.ru/shell.php?videoid=4760858",
+          "https://video.sibnet.ru/shell.php?videoid=4760859",
+          "https://video.sibnet.ru/shell.php?videoid=4760860",
+          "https://video.sibnet.ru/shell.php?videoid=4760861",
+          "https://video.sibnet.ru/shell.php?videoid=4760862"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4760863",
+          "https://video.sibnet.ru/shell.php?videoid=4760864",
+          "https://video.sibnet.ru/shell.php?videoid=4760865",
+          "https://video.sibnet.ru/shell.php?videoid=4760866",
+          "https://video.sibnet.ru/shell.php?videoid=4760867",
+          "https://video.sibnet.ru/shell.php?videoid=4760869",
+          "https://video.sibnet.ru/shell.php?videoid=4760923",
+          "https://video.sibnet.ru/shell.php?videoid=4760870",
+          "https://video.sibnet.ru/shell.php?videoid=4760871",
+          "https://video.sibnet.ru/shell.php?videoid=4760872",
+          "https://video.sibnet.ru/shell.php?videoid=4760873",
+          "https://video.sibnet.ru/shell.php?videoid=4760874",
+          "https://video.sibnet.ru/shell.php?videoid=4760875"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4760876",
+          "https://video.sibnet.ru/shell.php?videoid=4760877",
+          "https://video.sibnet.ru/shell.php?videoid=4760878",
+          "https://video.sibnet.ru/shell.php?videoid=4760880",
+          "https://video.sibnet.ru/shell.php?videoid=4760881",
+          "https://video.sibnet.ru/shell.php?videoid=4760882",
+          "https://video.sibnet.ru/shell.php?videoid=4760883",
+          "https://video.sibnet.ru/shell.php?videoid=4760924",
+          "https://video.sibnet.ru/shell.php?videoid=4760884",
+          "https://video.sibnet.ru/shell.php?videoid=4760886",
+          "https://video.sibnet.ru/shell.php?videoid=4760887"
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid=4760925",
+          "https://video.sibnet.ru/shell.php?videoid=4760926",
+          "https://video.sibnet.ru/shell.php?videoid=4760927",
+          "https://video.sibnet.ru/shell.php?videoid=4760928",
+          "https://video.sibnet.ru/shell.php?videoid=4760929",
+          "https://video.sibnet.ru/shell.php?videoid=4760930",
+          "https://video.sibnet.ru/shell.php?videoid=4760931",
+          "https://video.sibnet.ru/shell.php?videoid=4760933"
+        ],
+        "saison5": [
+          "https://video.sibnet.ru/shell.php?videoid=4760934",
+          "https://video.sibnet.ru/shell.php?videoid=4760935"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

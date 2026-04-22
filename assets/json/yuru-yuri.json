@@ -1,0 +1,59 @@
+{
+  "name": "Yuru Yuri",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/yuru-yuri.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5365925",
+          "https://video.sibnet.ru/shell.php?videoid=5365926",
+          "https://video.sibnet.ru/shell.php?videoid=5365927",
+          "https://video.sibnet.ru/shell.php?videoid=5365929",
+          "https://video.sibnet.ru/shell.php?videoid=5365931",
+          "https://video.sibnet.ru/shell.php?videoid=5365932",
+          "https://video.sibnet.ru/shell.php?videoid=5365933",
+          "https://video.sibnet.ru/shell.php?videoid=5365936",
+          "https://video.sibnet.ru/shell.php?videoid=5365937",
+          "https://video.sibnet.ru/shell.php?videoid=5365939",
+          "https://video.sibnet.ru/shell.php?videoid=5365941",
+          "https://video.sibnet.ru/shell.php?videoid=5365942"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5365948",
+          "https://video.sibnet.ru/shell.php?videoid=5365950",
+          "https://video.sibnet.ru/shell.php?videoid=5365952",
+          "https://video.sibnet.ru/shell.php?videoid=5365956",
+          "https://video.sibnet.ru/shell.php?videoid=5365957",
+          "https://video.sibnet.ru/shell.php?videoid=5365959",
+          "https://video.sibnet.ru/shell.php?videoid=5365961",
+          "https://video.sibnet.ru/shell.php?videoid=5365964",
+          "https://video.sibnet.ru/shell.php?videoid=5365965",
+          "https://video.sibnet.ru/shell.php?videoid=5365967",
+          "https://video.sibnet.ru/shell.php?videoid=5365968",
+          "https://video.sibnet.ru/shell.php?videoid=5365969"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5365973",
+          "https://video.sibnet.ru/shell.php?videoid=5365976",
+          "https://video.sibnet.ru/shell.php?videoid=5365977",
+          "https://video.sibnet.ru/shell.php?videoid=5365979",
+          "https://video.sibnet.ru/shell.php?videoid=5365981",
+          "https://video.sibnet.ru/shell.php?videoid=5365983",
+          "https://video.sibnet.ru/shell.php?videoid=5365984",
+          "https://video.sibnet.ru/shell.php?videoid=5365986",
+          "https://video.sibnet.ru/shell.php?videoid=5365989",
+          "https://video.sibnet.ru/shell.php?videoid=5365990",
+          "https://video.sibnet.ru/shell.php?videoid=5365992",
+          "https://video.sibnet.ru/shell.php?videoid=5365994"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

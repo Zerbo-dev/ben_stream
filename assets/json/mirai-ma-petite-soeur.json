@@ -1,0 +1,20 @@
+{
+  "name": "Miraï, ma petite soeur",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mirai-ma-petite-soeur.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4781471\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4781477\t"
+      ],
+      "oav": []
+    }
+  }
+}

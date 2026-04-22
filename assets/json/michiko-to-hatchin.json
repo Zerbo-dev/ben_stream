@@ -1,0 +1,41 @@
+{
+  "name": "Michiko to Hatchin",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/michiko-to-hatchin.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4753473",
+          "https://video.sibnet.ru/shell.php?videoid=4753475",
+          "https://video.sibnet.ru/shell.php?videoid=4753478",
+          "https://video.sibnet.ru/shell.php?videoid=4753481",
+          "https://video.sibnet.ru/shell.php?videoid=4753483",
+          "https://video.sibnet.ru/shell.php?videoid=4753484",
+          "https://video.sibnet.ru/shell.php?videoid=4753487",
+          "https://video.sibnet.ru/shell.php?videoid=4753488",
+          "https://video.sibnet.ru/shell.php?videoid=4753490",
+          "https://video.sibnet.ru/shell.php?videoid=4753493",
+          "https://video.sibnet.ru/shell.php?videoid=4753494",
+          "https://video.sibnet.ru/shell.php?videoid=4753497",
+          "https://video.sibnet.ru/shell.php?videoid=4753498",
+          "https://video.sibnet.ru/shell.php?videoid=4753500",
+          "https://video.sibnet.ru/shell.php?videoid=4753503",
+          "https://video.sibnet.ru/shell.php?videoid=4753504",
+          "https://video.sibnet.ru/shell.php?videoid=4753505",
+          "https://video.sibnet.ru/shell.php?videoid=4753507",
+          "https://video.sibnet.ru/shell.php?videoid=4753508",
+          "https://video.sibnet.ru/shell.php?videoid=4753511",
+          "https://video.sibnet.ru/shell.php?videoid=4753513",
+          "https://video.sibnet.ru/shell.php?videoid=4753514"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

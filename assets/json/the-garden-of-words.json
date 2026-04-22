@@ -1,0 +1,20 @@
+{
+  "name": "The Garden of Words",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-garden-of-words.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5336025"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5336122"
+      ],
+      "oav": []
+    }
+  }
+}

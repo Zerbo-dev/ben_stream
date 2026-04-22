@@ -1,0 +1,40 @@
+{
+  "name": "Douse, Koi Shite Shimaunda",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/douse-koi-shite-shimaunda.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5794198",
+          "https://video.sibnet.ru/shell.php?videoid=5799947",
+          "https://video.sibnet.ru/shell.php?videoid=5805174",
+          "https://video.sibnet.ru/shell.php?videoid=5809884",
+          "https://video.sibnet.ru/shell.php?videoid=5816824",
+          "https://video.sibnet.ru/shell.php?videoid=5823991",
+          "https://video.sibnet.ru/shell.php?videoid=5830234",
+          "https://video.sibnet.ru/shell.php?videoid=5837564",
+          "https://video.sibnet.ru/shell.php?videoid=5843661",
+          "https://video.sibnet.ru/shell.php?videoid=5849947",
+          "https://video.sibnet.ru/shell.php?videoid=5855723",
+          "https://video.sibnet.ru/shell.php?videoid=5862313"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

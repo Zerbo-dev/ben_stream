@@ -1,0 +1,20 @@
+{
+  "name": "Mon voisin Totoro",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mon-voisin-totoro.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4917204\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4740100"
+      ],
+      "oav": []
+    }
+  }
+}

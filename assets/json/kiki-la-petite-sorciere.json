@@ -1,0 +1,20 @@
+{
+  "name": "Kiki la petite sorcière",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kiki-la-petite-sorciere.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4935942\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5429415"
+      ],
+      "oav": []
+    }
+  }
+}

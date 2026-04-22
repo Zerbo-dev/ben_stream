@@ -1,0 +1,58 @@
+{
+  "name": "Rascal Does Not Dream of Bunny Girl Senpai",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/rascal-does-not-dream-of-bunny-girl-senpai.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4942467",
+          "https://video.sibnet.ru/shell.php?videoid=4942473",
+          "https://video.sibnet.ru/shell.php?videoid=4942475",
+          "https://video.sibnet.ru/shell.php?videoid=4942478",
+          "https://video.sibnet.ru/shell.php?videoid=4942479",
+          "https://video.sibnet.ru/shell.php?videoid=4942481",
+          "https://video.sibnet.ru/shell.php?videoid=4942483",
+          "https://video.sibnet.ru/shell.php?videoid=4942484",
+          "https://video.sibnet.ru/shell.php?videoid=4942486",
+          "https://video.sibnet.ru/shell.php?videoid=4942488",
+          "https://video.sibnet.ru/shell.php?videoid=4942491",
+          "https://video.sibnet.ru/shell.php?videoid=4942497",
+          "https://video.sibnet.ru/shell.php?videoid=4942501"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5290184"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3461401",
+          "https://video.sibnet.ru/shell.php?videoid=3470256",
+          "https://video.sibnet.ru/shell.php?videoid=3470258",
+          "https://video.sibnet.ru/shell.php?videoid=3474780",
+          "https://video.sibnet.ru/shell.php?videoid=3506096",
+          "https://video.sibnet.ru/shell.php?videoid=3483111",
+          "https://video.sibnet.ru/shell.php?videoid=3487112",
+          "https://video.sibnet.ru/shell.php?videoid=3491198",
+          "https://video.sibnet.ru/shell.php?videoid=3508233",
+          "https://video.sibnet.ru/shell.php?videoid=3499821",
+          "https://video.sibnet.ru/shell.php?videoid=3505007",
+          "https://video.sibnet.ru/shell.php?videoid=3509360",
+          "https://video.sibnet.ru/shell.php?videoid=3515349"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5953985",
+          "https://video.sibnet.ru/shell.php?videoid=5962004",
+          "https://video.sibnet.ru/shell.php?videoid=5968892"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5290185",
+        "https://video.sibnet.ru/shell.php?videoid=5405328"
+      ],
+      "oav": []
+    }
+  }
+}

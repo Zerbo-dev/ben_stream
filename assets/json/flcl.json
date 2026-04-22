@@ -1,0 +1,40 @@
+{
+  "name": "FLCL",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/flcl.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5546887",
+          "https://video.sibnet.ru/shell.php?videoid=5546889",
+          "https://video.sibnet.ru/shell.php?videoid=5546890",
+          "https://video.sibnet.ru/shell.php?videoid=5546892",
+          "https://video.sibnet.ru/shell.php?videoid=5546894",
+          "https://video.sibnet.ru/shell.php?videoid=5546896"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5546898",
+          "https://video.sibnet.ru/shell.php?videoid=5546901",
+          "https://video.sibnet.ru/shell.php?videoid=5546903",
+          "https://video.sibnet.ru/shell.php?videoid=5546905",
+          "https://video.sibnet.ru/shell.php?videoid=5546909"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5546881",
+          "https://video.sibnet.ru/shell.php?videoid=5546882",
+          "https://video.sibnet.ru/shell.php?videoid=5546883",
+          "https://video.sibnet.ru/shell.php?videoid=5546884",
+          "https://video.sibnet.ru/shell.php?videoid=5546885",
+          "https://video.sibnet.ru/shell.php?videoid=5546886"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

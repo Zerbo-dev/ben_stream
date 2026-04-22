@@ -1,0 +1,20 @@
+{
+  "name": "Liz et l'oiseau bleu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/liz-et-l-oiseau-bleu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5411287"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5411281"
+      ],
+      "oav": []
+    }
+  }
+}

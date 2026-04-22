@@ -1,0 +1,20 @@
+{
+  "name": "Jun, La Voix Du Coeur",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/jun-la-voix-du-coeur.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4686582"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4686584"
+      ],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Tsue To Tsurugi No Wistoria",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tsue-to-tsurugi-no-wistoria.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5613712",
+          "https://video.sibnet.ru/shell.php?videoid=5622753",
+          "https://video.sibnet.ru/shell.php?videoid=5633266",
+          "https://video.sibnet.ru/shell.php?videoid=5653118",
+          "https://video.sibnet.ru/shell.php?videoid=5661180",
+          "https://video.sibnet.ru/shell.php?videoid=5669286",
+          "https://video.sibnet.ru/shell.php?videoid=5678457",
+          "https://video.sibnet.ru/shell.php?videoid=5689929",
+          "https://video.sibnet.ru/shell.php?videoid=5696905",
+          "https://video.sibnet.ru/shell.php?videoid=5706309",
+          "https://video.sibnet.ru/shell.php?videoid=5716006",
+          "https://video.sibnet.ru/shell.php?videoid=5723723"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5588552",
+          "https://video.sibnet.ru/shell.php?videoid=5596308",
+          "https://video.sibnet.ru/shell.php?videoid=5603788",
+          "https://video.sibnet.ru/shell.php?videoid=5621139",
+          "https://video.sibnet.ru/shell.php?videoid=5631916",
+          "https://video.sibnet.ru/shell.php?videoid=5641771",
+          "https://video.sibnet.ru/shell.php?videoid=5651528",
+          "https://video.sibnet.ru/shell.php?videoid=5659229",
+          "https://video.sibnet.ru/shell.php?videoid=5668012",
+          "https://video.sibnet.ru/shell.php?videoid=5677371",
+          "https://video.sibnet.ru/shell.php?videoid=5687217",
+          "https://video.sibnet.ru/shell.php?videoid=5695215"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

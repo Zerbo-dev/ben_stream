@@ -1,0 +1,45 @@
+{
+  "name": "Tensei Kizoku, Kantei Skill de Nariagaru",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tensei-kizoku-kantei-skill-de-nariagaru.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5496968",
+          "https://video.sibnet.ru/shell.php?videoid=5504591",
+          "https://video.sibnet.ru/shell.php?videoid=5512002",
+          "https://video.sibnet.ru/shell.php?videoid=5518664",
+          "https://video.sibnet.ru/shell.php?videoid=5526385",
+          "https://video.sibnet.ru/shell.php?videoid=5533503",
+          "https://video.sibnet.ru/shell.php?videoid=5540099",
+          "https://video.sibnet.ru/shell.php?videoid=5546153",
+          "https://video.sibnet.ru/shell.php?videoid=5552345",
+          "https://video.sibnet.ru/shell.php?videoid=5557990",
+          "https://video.sibnet.ru/shell.php?videoid=5565028",
+          "https://video.sibnet.ru/shell.php?videoid=5573380"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5695760",
+          "https://video.sibnet.ru/shell.php?videoid=5704659",
+          "https://video.sibnet.ru/shell.php?videoid=5714409",
+          "https://video.sibnet.ru/shell.php?videoid=5723129",
+          "https://video.sibnet.ru/shell.php?videoid=5740266",
+          "https://video.sibnet.ru/shell.php?videoid=5747332",
+          "https://video.sibnet.ru/shell.php?videoid=5754164",
+          "https://video.sibnet.ru/shell.php?videoid=5761881",
+          "https://video.sibnet.ru/shell.php?videoid=5766127",
+          "https://video.sibnet.ru/shell.php?videoid=5770089",
+          "https://video.sibnet.ru/shell.php?videoid=5774792",
+          "https://video.sibnet.ru/shell.php?videoid=5780906"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

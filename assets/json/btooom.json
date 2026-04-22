@@ -1,0 +1,46 @@
+{
+  "name": "Btooom!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/btooom.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3236443",
+          "https://video.sibnet.ru/shell.php?videoid=3236446",
+          "https://video.sibnet.ru/shell.php?videoid=3236447",
+          "https://video.sibnet.ru/shell.php?videoid=3236448",
+          "https://video.sibnet.ru/shell.php?videoid=3236449",
+          "https://video.sibnet.ru/shell.php?videoid=3236451",
+          "https://video.sibnet.ru/shell.php?videoid=3236456",
+          "https://video.sibnet.ru/shell.php?videoid=3236458",
+          "https://video.sibnet.ru/shell.php?videoid=3236459",
+          "https://video.sibnet.ru/shell.php?videoid=3236460",
+          "https://video.sibnet.ru/shell.php?videoid=3236464",
+          "https://video.sibnet.ru/shell.php?videoid=3236467"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4738185",
+          "https://video.sibnet.ru/shell.php?videoid=4738186",
+          "https://video.sibnet.ru/shell.php?videoid=4738187",
+          "https://video.sibnet.ru/shell.php?videoid=4738188",
+          "https://video.sibnet.ru/shell.php?videoid=4738189",
+          "https://video.sibnet.ru/shell.php?videoid=4738190",
+          "https://video.sibnet.ru/shell.php?videoid=4738191",
+          "https://video.sibnet.ru/shell.php?videoid=4738192",
+          "https://video.sibnet.ru/shell.php?videoid=4738193",
+          "https://video.sibnet.ru/shell.php?videoid=4738194",
+          "https://video.sibnet.ru/shell.php?videoid=4738195",
+          "https://video.sibnet.ru/shell.php?videoid=4738196"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

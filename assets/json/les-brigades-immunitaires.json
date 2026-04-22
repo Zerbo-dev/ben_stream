@@ -1,0 +1,58 @@
+{
+  "name": "Les Brigades Immunitaires",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/les-brigades-immunitaires.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4754337",
+          "https://video.sibnet.ru/shell.php?videoid=4754339",
+          "https://video.sibnet.ru/shell.php?videoid=4754340",
+          "https://video.sibnet.ru/shell.php?videoid=4754341",
+          "https://video.sibnet.ru/shell.php?videoid=4754343",
+          "https://video.sibnet.ru/shell.php?videoid=5352648",
+          "https://video.sibnet.ru/shell.php?videoid=4754345",
+          "https://video.sibnet.ru/shell.php?videoid=4754349",
+          "https://video.sibnet.ru/shell.php?videoid=4754352",
+          "https://video.sibnet.ru/shell.php?videoid=4754354",
+          "https://video.sibnet.ru/shell.php?videoid=4754355",
+          "https://video.sibnet.ru/shell.php?videoid=4754356",
+          "https://video.sibnet.ru/shell.php?videoid=4754358"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4754359",
+          "https://video.sibnet.ru/shell.php?videoid=4754361",
+          "https://video.sibnet.ru/shell.php?videoid=4754363",
+          "https://video.sibnet.ru/shell.php?videoid=4754366",
+          "https://video.sibnet.ru/shell.php?videoid=4754367",
+          "https://video.sibnet.ru/shell.php?videoid=4754368",
+          "https://video.sibnet.ru/shell.php?videoid=4754369",
+          "https://video.sibnet.ru/shell.php?videoid=4754370",
+          "https://video.sibnet.ru/shell.php?videoid=4754372"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4754384",
+          "https://video.sibnet.ru/shell.php?videoid=4754386",
+          "https://video.sibnet.ru/shell.php?videoid=4754387",
+          "https://video.sibnet.ru/shell.php?videoid=4754388",
+          "https://video.sibnet.ru/shell.php?videoid=4754391",
+          "https://video.sibnet.ru/shell.php?videoid=4754395",
+          "https://video.sibnet.ru/shell.php?videoid=4754399",
+          "https://video.sibnet.ru/shell.php?videoid=4754400",
+          "https://video.sibnet.ru/shell.php?videoid=4754401",
+          "https://video.sibnet.ru/shell.php?videoid=4754402",
+          "https://video.sibnet.ru/shell.php?videoid=4754404",
+          "https://video.sibnet.ru/shell.php?videoid=4754406",
+          "https://video.sibnet.ru/shell.php?videoid=4754407"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Josée, le tigre et les poissons",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/josee-le-tigre-et-les-poissons.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5273345"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5273353"
+      ],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Paradise Kiss",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/paradise-kiss.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5946662",
+          "https://video.sibnet.ru/shell.php?videoid=5946663",
+          "https://video.sibnet.ru/shell.php?videoid=5946664",
+          "https://video.sibnet.ru/shell.php?videoid=5946665",
+          "https://video.sibnet.ru/shell.php?videoid=5946666",
+          "https://video.sibnet.ru/shell.php?videoid=5946667",
+          "https://video.sibnet.ru/shell.php?videoid=5946668",
+          "https://video.sibnet.ru/shell.php?videoid=5946670",
+          "https://video.sibnet.ru/shell.php?videoid=5946671",
+          "https://video.sibnet.ru/shell.php?videoid=5946672",
+          "https://video.sibnet.ru/shell.php?videoid=5946673",
+          "https://video.sibnet.ru/shell.php?videoid=5946674"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4841600",
+          "https://video.sibnet.ru/shell.php?videoid=4841608",
+          "https://video.sibnet.ru/shell.php?videoid=4841616",
+          "https://video.sibnet.ru/shell.php?videoid=4841621",
+          "https://video.sibnet.ru/shell.php?videoid=4841626",
+          "https://video.sibnet.ru/shell.php?videoid=4841630",
+          "https://video.sibnet.ru/shell.php?videoid=4841633",
+          "https://video.sibnet.ru/shell.php?videoid=4841638",
+          "https://video.sibnet.ru/shell.php?videoid=4841646",
+          "https://video.sibnet.ru/shell.php?videoid=4841651",
+          "https://video.sibnet.ru/shell.php?videoid=4841658",
+          "https://video.sibnet.ru/shell.php?videoid=4841663"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

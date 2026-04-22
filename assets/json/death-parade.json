@@ -1,0 +1,48 @@
+{
+  "name": "Death Parade",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/death-parade.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943191",
+          "https://video.sibnet.ru/shell.php?videoid=4943193",
+          "https://video.sibnet.ru/shell.php?videoid=4943196",
+          "https://video.sibnet.ru/shell.php?videoid=4943198",
+          "https://video.sibnet.ru/shell.php?videoid=4943201",
+          "https://video.sibnet.ru/shell.php?videoid=4943203",
+          "https://video.sibnet.ru/shell.php?videoid=4943207",
+          "https://video.sibnet.ru/shell.php?videoid=4943210",
+          "https://video.sibnet.ru/shell.php?videoid=4943212",
+          "https://video.sibnet.ru/shell.php?videoid=4943215",
+          "https://video.sibnet.ru/shell.php?videoid=4943216",
+          "https://video.sibnet.ru/shell.php?videoid=4943219"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943109",
+          "https://video.sibnet.ru/shell.php?videoid=4943114",
+          "https://video.sibnet.ru/shell.php?videoid=4943115",
+          "https://video.sibnet.ru/shell.php?videoid=4943117",
+          "https://video.sibnet.ru/shell.php?videoid=4943120",
+          "https://video.sibnet.ru/shell.php?videoid=4943125",
+          "https://video.sibnet.ru/shell.php?videoid=4943127",
+          "https://video.sibnet.ru/shell.php?videoid=4943128",
+          "https://video.sibnet.ru/shell.php?videoid=4943133",
+          "https://video.sibnet.ru/shell.php?videoid=4943135",
+          "https://video.sibnet.ru/shell.php?videoid=4943186",
+          "https://video.sibnet.ru/shell.php?videoid=4943189"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4989584"
+      ]
+    }
+  }
+}

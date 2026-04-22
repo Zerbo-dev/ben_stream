@@ -1,0 +1,43 @@
+{
+  "name": "To Be Hero",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/to-be-hero.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5732725",
+          "https://video.sibnet.ru/shell.php?videoid=5732729",
+          "https://video.sibnet.ru/shell.php?videoid=5732730",
+          "https://video.sibnet.ru/shell.php?videoid=5732731",
+          "https://video.sibnet.ru/shell.php?videoid=5732732",
+          "https://video.sibnet.ru/shell.php?videoid=5732733",
+          "https://video.sibnet.ru/shell.php?videoid=5732735",
+          "https://video.sibnet.ru/shell.php?videoid=5732736",
+          "https://video.sibnet.ru/shell.php?videoid=5732737",
+          "https://video.sibnet.ru/shell.php?videoid=5732739",
+          "https://video.sibnet.ru/shell.php?videoid=5732742",
+          "https://video.sibnet.ru/shell.php?videoid=5732743"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5856278",
+          "https://video.sibnet.ru/shell.php?videoid=5856284",
+          "https://video.sibnet.ru/shell.php?videoid=5856287",
+          "https://video.sibnet.ru/shell.php?videoid=5856291",
+          "https://video.sibnet.ru/shell.php?videoid=5856293",
+          "https://video.sibnet.ru/shell.php?videoid=5856294",
+          "https://video.sibnet.ru/shell.php?videoid=5856296"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5871522"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

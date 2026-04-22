@@ -1,0 +1,48 @@
+{
+  "name": "Hellsing",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hellsing.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5933139",
+          "https://video.sibnet.ru/shell.php?videoid=5933140",
+          "https://video.sibnet.ru/shell.php?videoid=5933142",
+          "https://video.sibnet.ru/shell.php?videoid=5933143",
+          "https://video.sibnet.ru/shell.php?videoid=5933144",
+          "https://video.sibnet.ru/shell.php?videoid=5933146",
+          "https://video.sibnet.ru/shell.php?videoid=5933147",
+          "https://video.sibnet.ru/shell.php?videoid=5933148",
+          "https://video.sibnet.ru/shell.php?videoid=5933149",
+          "https://video.sibnet.ru/shell.php?videoid=5933151",
+          "https://video.sibnet.ru/shell.php?videoid=5933152",
+          "https://video.sibnet.ru/shell.php?videoid=5933153",
+          "https://video.sibnet.ru/shell.php?videoid=5933155"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5933056",
+          "https://video.sibnet.ru/shell.php?videoid=5933340",
+          "https://video.sibnet.ru/shell.php?videoid=5933059",
+          "https://video.sibnet.ru/shell.php?videoid=5933062",
+          "https://video.sibnet.ru/shell.php?videoid=5933063",
+          "https://video.sibnet.ru/shell.php?videoid=5933066",
+          "https://video.sibnet.ru/shell.php?videoid=5933067",
+          "https://video.sibnet.ru/shell.php?videoid=5933068",
+          "https://video.sibnet.ru/shell.php?videoid=5933069",
+          "https://video.sibnet.ru/shell.php?videoid=5933072",
+          "https://video.sibnet.ru/shell.php?videoid=5933073",
+          "https://video.sibnet.ru/shell.php?videoid=5933075",
+          "https://video.sibnet.ru/shell.php?videoid=5933077"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

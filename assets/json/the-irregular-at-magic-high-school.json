@@ -1,0 +1,80 @@
+{
+  "name": "The Irregular at Magic High School",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-irregular-at-magic-high-school.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4960200",
+          "https://video.sibnet.ru/shell.php?videoid=4960202",
+          "https://video.sibnet.ru/shell.php?videoid=4960203",
+          "https://video.sibnet.ru/shell.php?videoid=4960205",
+          "https://video.sibnet.ru/shell.php?videoid=4960206",
+          "https://video.sibnet.ru/shell.php?videoid=4960207",
+          "https://video.sibnet.ru/shell.php?videoid=4960208",
+          "https://video.sibnet.ru/shell.php?videoid=4960209",
+          "https://video.sibnet.ru/shell.php?videoid=4960210",
+          "https://video.sibnet.ru/shell.php?videoid=4960211",
+          "https://video.sibnet.ru/shell.php?videoid=4960212",
+          "https://video.sibnet.ru/shell.php?videoid=4960213",
+          "https://video.sibnet.ru/shell.php?videoid=4960214",
+          "https://video.sibnet.ru/shell.php?videoid=4960215",
+          "https://video.sibnet.ru/shell.php?videoid=4960216",
+          "https://video.sibnet.ru/shell.php?videoid=4960217",
+          "https://video.sibnet.ru/shell.php?videoid=4960218",
+          "https://video.sibnet.ru/shell.php?videoid=4960220",
+          "https://video.sibnet.ru/shell.php?videoid=4960221",
+          "https://video.sibnet.ru/shell.php?videoid=4960222",
+          "https://video.sibnet.ru/shell.php?videoid=4960223",
+          "https://video.sibnet.ru/shell.php?videoid=4960224",
+          "https://video.sibnet.ru/shell.php?videoid=4960225",
+          "https://video.sibnet.ru/shell.php?videoid=4960226",
+          "https://video.sibnet.ru/shell.php?videoid=4960227",
+          "https://video.sibnet.ru/shell.php?videoid=4960228"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4960229",
+          "https://video.sibnet.ru/shell.php?videoid=4960230",
+          "https://video.sibnet.ru/shell.php?videoid=4960231",
+          "https://video.sibnet.ru/shell.php?videoid=4960232",
+          "https://video.sibnet.ru/shell.php?videoid=4960233",
+          "https://video.sibnet.ru/shell.php?videoid=4960240",
+          "https://video.sibnet.ru/shell.php?videoid=4960241",
+          "https://video.sibnet.ru/shell.php?videoid=4960242",
+          "https://video.sibnet.ru/shell.php?videoid=4960243",
+          "https://video.sibnet.ru/shell.php?videoid=4960244",
+          "https://video.sibnet.ru/shell.php?videoid=4960252",
+          "https://video.sibnet.ru/shell.php?videoid=4960254",
+          "https://video.sibnet.ru/shell.php?videoid=4960255"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4960199"
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid=5494209",
+          "https://video.sibnet.ru/shell.php?videoid=5502971",
+          "https://video.sibnet.ru/shell.php?videoid=5509855",
+          "https://video.sibnet.ru/shell.php?videoid=5516713",
+          "https://video.sibnet.ru/shell.php?videoid=5524010",
+          "https://video.sibnet.ru/shell.php?videoid=5531249",
+          "https://video.sibnet.ru/shell.php?videoid=5538045",
+          "https://video.sibnet.ru/shell.php?videoid=5544633",
+          "https://video.sibnet.ru/shell.php?videoid=5550576",
+          "https://video.sibnet.ru/shell.php?videoid=5556421",
+          "https://video.sibnet.ru/shell.php?videoid=5562921",
+          "https://video.sibnet.ru/shell.php?videoid=5570855",
+          "https://video.sibnet.ru/shell.php?videoid=5578674"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4960256"
+      ],
+      "oav": []
+    }
+  }
+}

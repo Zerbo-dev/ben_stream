@@ -1,0 +1,45 @@
+{
+  "name": "Demon Lord, Retry!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/demon-lord-retry.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801710",
+          "https://video.sibnet.ru/shell.php?videoid=4801713",
+          "https://video.sibnet.ru/shell.php?videoid=4801715",
+          "https://video.sibnet.ru/shell.php?videoid=4801717",
+          "https://video.sibnet.ru/shell.php?videoid=4801719",
+          "https://video.sibnet.ru/shell.php?videoid=4801720",
+          "https://video.sibnet.ru/shell.php?videoid=4801723",
+          "https://video.sibnet.ru/shell.php?videoid=4801725",
+          "https://video.sibnet.ru/shell.php?videoid=4801727",
+          "https://video.sibnet.ru/shell.php?videoid=4801730",
+          "https://video.sibnet.ru/shell.php?videoid=4801733",
+          "https://video.sibnet.ru/shell.php?videoid=4801735"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5694127",
+          "https://video.sibnet.ru/shell.php?videoid=5703092",
+          "https://video.sibnet.ru/shell.php?videoid=5713021",
+          "https://video.sibnet.ru/shell.php?videoid=5721894",
+          "https://video.sibnet.ru/shell.php?videoid=5730606",
+          "https://video.sibnet.ru/shell.php?videoid=5739186",
+          "https://video.sibnet.ru/shell.php?videoid=5746334",
+          "https://video.sibnet.ru/shell.php?videoid=5753313",
+          "https://video.sibnet.ru/shell.php?videoid=5760625",
+          "https://video.sibnet.ru/shell.php?videoid=5765517",
+          "https://video.sibnet.ru/shell.php?videoid=5769511",
+          "https://video.sibnet.ru/shell.php?videoid=5773872"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Boku wa Tomodachi ga Sukunai",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/boku-wa-tomodachi-ga-sukunai.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4677135",
+          "https://video.sibnet.ru/shell.php?videoid=4677137",
+          "https://video.sibnet.ru/shell.php?videoid=4677138",
+          "https://video.sibnet.ru/shell.php?videoid=4677142",
+          "https://video.sibnet.ru/shell.php?videoid=4677145",
+          "https://video.sibnet.ru/shell.php?videoid=4677147",
+          "https://video.sibnet.ru/shell.php?videoid=4677148",
+          "https://video.sibnet.ru/shell.php?videoid=4677152",
+          "https://video.sibnet.ru/shell.php?videoid=4677153",
+          "https://video.sibnet.ru/shell.php?videoid=4677154",
+          "https://video.sibnet.ru/shell.php?videoid=4677156",
+          "https://video.sibnet.ru/shell.php?videoid=4677159"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5012057",
+          "https://video.sibnet.ru/shell.php?videoid=5012058",
+          "https://video.sibnet.ru/shell.php?videoid=5012059",
+          "https://video.sibnet.ru/shell.php?videoid=5012061",
+          "https://video.sibnet.ru/shell.php?videoid=5012062",
+          "https://video.sibnet.ru/shell.php?videoid=5012063",
+          "https://video.sibnet.ru/shell.php?videoid=5012065",
+          "https://video.sibnet.ru/shell.php?videoid=5012066",
+          "https://video.sibnet.ru/shell.php?videoid=5012067",
+          "https://video.sibnet.ru/shell.php?videoid=5012068",
+          "https://video.sibnet.ru/shell.php?videoid=5012069",
+          "https://video.sibnet.ru/shell.php?videoid=5012070"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

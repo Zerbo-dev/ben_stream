@@ -1,0 +1,57 @@
+{
+  "name": "My Hero Academia: Vigilantes",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/my-hero-academia-vigilantes.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5871164",
+          "https://video.sibnet.ru/shell.php?videoid=5879053",
+          "https://video.sibnet.ru/shell.php?videoid=5887182",
+          "https://video.sibnet.ru/shell.php?videoid=5895450",
+          "https://video.sibnet.ru/shell.php?videoid=5902223",
+          "https://video.sibnet.ru/shell.php?videoid=5909546",
+          "https://video.sibnet.ru/shell.php?videoid=5916132",
+          "https://video.sibnet.ru/shell.php?videoid=5922199",
+          "https://video.sibnet.ru/shell.php?videoid=5927789",
+          "https://video.sibnet.ru/shell.php?videoid=5932804",
+          "https://video.sibnet.ru/shell.php?videoid=5938241",
+          "https://video.sibnet.ru/shell.php?videoid=5944128",
+          "https://video.sibnet.ru/shell.php?videoid=5949655"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5871118",
+          "https://video.sibnet.ru/shell.php?videoid=5878958",
+          "https://video.sibnet.ru/shell.php?videoid=5887155",
+          "https://video.sibnet.ru/shell.php?videoid=5895430",
+          "https://video.sibnet.ru/shell.php?videoid=5902191",
+          "https://video.sibnet.ru/shell.php?videoid=5909485",
+          "https://video.sibnet.ru/shell.php?videoid=5916059",
+          "https://video.sibnet.ru/shell.php?videoid=5922165",
+          "https://video.sibnet.ru/shell.php?videoid=5927774",
+          "https://video.sibnet.ru/shell.php?videoid=5932780",
+          "https://video.sibnet.ru/shell.php?videoid=5938214",
+          "https://video.sibnet.ru/shell.php?videoid=5944110",
+          "https://video.sibnet.ru/shell.php?videoid=5949621"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

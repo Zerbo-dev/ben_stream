@@ -1,0 +1,31 @@
+{
+  "name": "Brave 10",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/brave-10.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4935366",
+          "https://video.sibnet.ru/shell.php?videoid=4935369",
+          "https://video.sibnet.ru/shell.php?videoid=4935372",
+          "https://video.sibnet.ru/shell.php?videoid=4935373",
+          "https://video.sibnet.ru/shell.php?videoid=4935374",
+          "https://video.sibnet.ru/shell.php?videoid=4935377",
+          "https://video.sibnet.ru/shell.php?videoid=4935378",
+          "https://video.sibnet.ru/shell.php?videoid=4935379",
+          "https://video.sibnet.ru/shell.php?videoid=4935381",
+          "https://video.sibnet.ru/shell.php?videoid=4935382",
+          "https://video.sibnet.ru/shell.php?videoid=4935384",
+          "https://video.sibnet.ru/shell.php?videoid=4935386"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Scissor Seven",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/scissor-seven.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4738487",
+          "https://video.sibnet.ru/shell.php?videoid=4738488",
+          "https://video.sibnet.ru/shell.php?videoid=4738489",
+          "https://video.sibnet.ru/shell.php?videoid=4738491",
+          "https://video.sibnet.ru/shell.php?videoid=4738492",
+          "https://video.sibnet.ru/shell.php?videoid=4738494",
+          "https://video.sibnet.ru/shell.php?videoid=4738496",
+          "https://video.sibnet.ru/shell.php?videoid=4738497",
+          "https://video.sibnet.ru/shell.php?videoid=4738499",
+          "https://video.sibnet.ru/shell.php?videoid=4738500"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4738503",
+          "https://video.sibnet.ru/shell.php?videoid=4738504",
+          "https://video.sibnet.ru/shell.php?videoid=4738507",
+          "https://video.sibnet.ru/shell.php?videoid=4738508",
+          "https://video.sibnet.ru/shell.php?videoid=4738511",
+          "https://video.sibnet.ru/shell.php?videoid=4738512",
+          "https://video.sibnet.ru/shell.php?videoid=4738514",
+          "https://video.sibnet.ru/shell.php?videoid=4738517",
+          "https://video.sibnet.ru/shell.php?videoid=4738520",
+          "https://video.sibnet.ru/shell.php?videoid=4738521"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4738531",
+          "https://video.sibnet.ru/shell.php?videoid=4738546",
+          "https://video.sibnet.ru/shell.php?videoid=4738551",
+          "https://video.sibnet.ru/shell.php?videoid=4738553",
+          "https://video.sibnet.ru/shell.php?videoid=4738556",
+          "https://video.sibnet.ru/shell.php?videoid=4738557",
+          "https://video.sibnet.ru/shell.php?videoid=4738559",
+          "https://video.sibnet.ru/shell.php?videoid=4738564",
+          "https://video.sibnet.ru/shell.php?videoid=4738565",
+          "https://video.sibnet.ru/shell.php?videoid=4738568"
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid=5259426",
+          "https://video.sibnet.ru/shell.php?videoid=5259427",
+          "https://video.sibnet.ru/shell.php?videoid=5259428",
+          "https://video.sibnet.ru/shell.php?videoid=5259429",
+          "https://video.sibnet.ru/shell.php?videoid=5259430",
+          "https://video.sibnet.ru/shell.php?videoid=5259431",
+          "https://video.sibnet.ru/shell.php?videoid=5259432",
+          "https://video.sibnet.ru/shell.php?videoid=5259434",
+          "https://video.sibnet.ru/shell.php?videoid=5259436",
+          "https://video.sibnet.ru/shell.php?videoid=5259437"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Kiznaiver",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kiznaiver.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3523629",
+          "https://video.sibnet.ru/shell.php?videoid=3523633",
+          "https://video.sibnet.ru/shell.php?videoid=3523634",
+          "https://video.sibnet.ru/shell.php?videoid=3523635",
+          "https://video.sibnet.ru/shell.php?videoid=3523636",
+          "https://video.sibnet.ru/shell.php?videoid=3523640",
+          "https://video.sibnet.ru/shell.php?videoid=3523687",
+          "https://video.sibnet.ru/shell.php?videoid=3523688",
+          "https://video.sibnet.ru/shell.php?videoid=3523689",
+          "https://video.sibnet.ru/shell.php?videoid=3523690",
+          "https://video.sibnet.ru/shell.php?videoid=3523691",
+          "https://video.sibnet.ru/shell.php?videoid=3523704"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5623974",
+          "https://video.sibnet.ru/shell.php?videoid=5623975",
+          "https://video.sibnet.ru/shell.php?videoid=5623977",
+          "https://video.sibnet.ru/shell.php?videoid=5623981",
+          "https://video.sibnet.ru/shell.php?videoid=5623983",
+          "https://video.sibnet.ru/shell.php?videoid=5623984",
+          "https://video.sibnet.ru/shell.php?videoid=5623985",
+          "https://video.sibnet.ru/shell.php?videoid=5623988",
+          "https://video.sibnet.ru/shell.php?videoid=5623989",
+          "https://video.sibnet.ru/shell.php?videoid=5623990",
+          "https://video.sibnet.ru/shell.php?videoid=5623992",
+          "https://video.sibnet.ru/shell.php?videoid=5623993"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

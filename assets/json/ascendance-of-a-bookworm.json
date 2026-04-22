@@ -1,0 +1,62 @@
+{
+  "name": "Ascendance of a Bookworm",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ascendance-of-a-bookworm.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4930218",
+          "https://video.sibnet.ru/shell.php?videoid=4930222",
+          "https://video.sibnet.ru/shell.php?videoid=4930225",
+          "https://video.sibnet.ru/shell.php?videoid=4930228",
+          "https://video.sibnet.ru/shell.php?videoid=4930231",
+          "https://video.sibnet.ru/shell.php?videoid=4930236",
+          "https://video.sibnet.ru/shell.php?videoid=4930238",
+          "https://video.sibnet.ru/shell.php?videoid=4930240",
+          "https://video.sibnet.ru/shell.php?videoid=4930243",
+          "https://video.sibnet.ru/shell.php?videoid=4930246",
+          "https://video.sibnet.ru/shell.php?videoid=4930249",
+          "https://video.sibnet.ru/shell.php?videoid=4930251",
+          "https://video.sibnet.ru/shell.php?videoid=4930254",
+          "https://video.sibnet.ru/shell.php?videoid=4930261",
+          "https://video.sibnet.ru/shell.php?videoid=4930257",
+          "https://video.sibnet.ru/shell.php?videoid=4930259",
+          "https://video.sibnet.ru/shell.php?videoid=4930263",
+          "https://video.sibnet.ru/shell.php?videoid=4930264",
+          "https://video.sibnet.ru/shell.php?videoid=4930267",
+          "https://video.sibnet.ru/shell.php?videoid=4930269",
+          "https://video.sibnet.ru/shell.php?videoid=4930272",
+          "https://video.sibnet.ru/shell.php?videoid=4930273",
+          "https://video.sibnet.ru/shell.php?videoid=4930274",
+          "https://video.sibnet.ru/shell.php?videoid=4930275",
+          "https://video.sibnet.ru/shell.php?videoid=4930277",
+          "https://video.sibnet.ru/shell.php?videoid=4930278",
+          "https://video.sibnet.ru/shell.php?videoid=4930279",
+          "https://video.sibnet.ru/shell.php?videoid=4930280",
+          "https://video.sibnet.ru/shell.php?videoid=4930281",
+          "https://video.sibnet.ru/shell.php?videoid=4930285",
+          "https://video.sibnet.ru/shell.php?videoid=4930286",
+          "https://video.sibnet.ru/shell.php?videoid=4930287",
+          "https://video.sibnet.ru/shell.php?videoid=4930289",
+          "https://video.sibnet.ru/shell.php?videoid=4930290",
+          "https://video.sibnet.ru/shell.php?videoid=4930291",
+          "https://video.sibnet.ru/shell.php?videoid=4930293",
+          "https://video.sibnet.ru/shell.php?videoid=4930295",
+          "https://video.sibnet.ru/shell.php?videoid=4930298"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4930300",
+        "https://video.sibnet.ru/shell.php?videoid=4930301",
+        "https://video.sibnet.ru/shell.php?videoid=4930302",
+        "https://video.sibnet.ru/shell.php?videoid=4930304"
+      ]
+    }
+  }
+}

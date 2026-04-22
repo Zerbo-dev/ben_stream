@@ -1,0 +1,55 @@
+{
+  "name": "Karakuri Circus",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/karakuri-circus.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5321618",
+          "https://video.sibnet.ru/shell.php?videoid=5321619",
+          "https://video.sibnet.ru/shell.php?videoid=5321620",
+          "https://video.sibnet.ru/shell.php?videoid=5321621",
+          "https://video.sibnet.ru/shell.php?videoid=5321623",
+          "https://video.sibnet.ru/shell.php?videoid=5321625",
+          "https://video.sibnet.ru/shell.php?videoid=5321627",
+          "https://video.sibnet.ru/shell.php?videoid=5321628",
+          "https://video.sibnet.ru/shell.php?videoid=5321631",
+          "https://video.sibnet.ru/shell.php?videoid=5321632",
+          "https://video.sibnet.ru/shell.php?videoid=5321634",
+          "https://video.sibnet.ru/shell.php?videoid=5321635",
+          "https://video.sibnet.ru/shell.php?videoid=5321637",
+          "https://video.sibnet.ru/shell.php?videoid=5321638",
+          "https://video.sibnet.ru/shell.php?videoid=5321641",
+          "https://video.sibnet.ru/shell.php?videoid=5321643",
+          "https://video.sibnet.ru/shell.php?videoid=5321644",
+          "https://video.sibnet.ru/shell.php?videoid=5321647",
+          "https://video.sibnet.ru/shell.php?videoid=5321648",
+          "https://video.sibnet.ru/shell.php?videoid=5321649",
+          "https://video.sibnet.ru/shell.php?videoid=5321651",
+          "https://video.sibnet.ru/shell.php?videoid=5321653",
+          "https://video.sibnet.ru/shell.php?videoid=5321657",
+          "https://video.sibnet.ru/shell.php?videoid=5321659",
+          "https://video.sibnet.ru/shell.php?videoid=5321660",
+          "https://video.sibnet.ru/shell.php?videoid=5321662",
+          "https://video.sibnet.ru/shell.php?videoid=5321663",
+          "https://video.sibnet.ru/shell.php?videoid=5321666",
+          "https://video.sibnet.ru/shell.php?videoid=5321668",
+          "https://video.sibnet.ru/shell.php?videoid=5321669",
+          "https://video.sibnet.ru/shell.php?videoid=5321670",
+          "https://video.sibnet.ru/shell.php?videoid=5321672",
+          "https://video.sibnet.ru/shell.php?videoid=5321674",
+          "https://video.sibnet.ru/shell.php?videoid=5321676",
+          "https://video.sibnet.ru/shell.php?videoid=5321679",
+          "https://video.sibnet.ru/shell.php?videoid=5321680"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Corpse Party",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/corpse-party.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4942976",
+          "https://video.sibnet.ru/shell.php?videoid=4942978",
+          "https://video.sibnet.ru/shell.php?videoid=4942980",
+          "https://video.sibnet.ru/shell.php?videoid=4942981"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

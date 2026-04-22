@@ -1,0 +1,38 @@
+{
+  "name": "lookism",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/lookism.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4973008",
+          "https://video.sibnet.ru/shell.php?videoid=4973009",
+          "https://video.sibnet.ru/shell.php?videoid=4973011",
+          "https://video.sibnet.ru/shell.php?videoid=4973013",
+          "https://video.sibnet.ru/shell.php?videoid=4973015",
+          "https://video.sibnet.ru/shell.php?videoid=4973016",
+          "https://video.sibnet.ru/shell.php?videoid=4973018",
+          "https://video.sibnet.ru/shell.php?videoid=4973019"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4972957",
+          "https://video.sibnet.ru/shell.php?videoid=4972967",
+          "https://video.sibnet.ru/shell.php?videoid=4972970",
+          "https://video.sibnet.ru/shell.php?videoid=4972973",
+          "https://video.sibnet.ru/shell.php?videoid=4972974",
+          "https://video.sibnet.ru/shell.php?videoid=4972977",
+          "https://video.sibnet.ru/shell.php?videoid=4972980",
+          "https://video.sibnet.ru/shell.php?videoid=4972983"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

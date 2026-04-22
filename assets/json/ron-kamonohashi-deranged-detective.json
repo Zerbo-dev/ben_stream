@@ -1,0 +1,47 @@
+{
+  "name": "Ron Kamonohashi Deranged Detective",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ron-kamonohashi-deranged-detective.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5266004",
+          "https://video.sibnet.ru/shell.php?videoid=5274317",
+          "https://video.sibnet.ru/shell.php?videoid=5283500",
+          "https://video.sibnet.ru/shell.php?videoid=5293428",
+          "https://video.sibnet.ru/shell.php?videoid=5302653",
+          "https://video.sibnet.ru/shell.php?videoid=5310788",
+          "https://video.sibnet.ru/shell.php?videoid=5320211",
+          "https://video.sibnet.ru/shell.php?videoid=5330088",
+          "https://video.sibnet.ru/shell.php?videoid=5340475",
+          "https://video.sibnet.ru/shell.php?videoid=5350859",
+          "https://video.sibnet.ru/shell.php?videoid=5360502",
+          "https://video.sibnet.ru/shell.php?videoid=5369426",
+          "https://video.sibnet.ru/shell.php?videoid=5376923"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5706157",
+          "https://video.sibnet.ru/shell.php?videoid=5715742",
+          "https://video.sibnet.ru/shell.php?videoid=5724461",
+          "https://video.sibnet.ru/shell.php?videoid=5733035",
+          "https://video.sibnet.ru/shell.php?videoid=5741288",
+          "https://video.sibnet.ru/shell.php?videoid=5748499",
+          "https://video.sibnet.ru/shell.php?videoid=5754933",
+          "https://video.sibnet.ru/shell.php?videoid=5762441",
+          "https://video.sibnet.ru/shell.php?videoid=5766730",
+          "https://video.sibnet.ru/shell.php?videoid=5770734",
+          "https://video.sibnet.ru/shell.php?videoid=5775410",
+          "https://video.sibnet.ru/shell.php?videoid=5781688",
+          "https://video.sibnet.ru/shell.php?videoid=5787050"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

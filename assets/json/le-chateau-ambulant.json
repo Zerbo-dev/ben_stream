@@ -1,0 +1,20 @@
+{
+  "name": "Le Château ambulant",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-chateau-ambulant.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5290432\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5290436"
+      ],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Sweet Reincarnation",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sweet-reincarnation.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5187257",
+          "https://video.sibnet.ru/shell.php?videoid=5187321",
+          "https://video.sibnet.ru/shell.php?videoid=5194193",
+          "https://video.sibnet.ru/shell.php?videoid=5200600",
+          "https://video.sibnet.ru/shell.php?videoid=5206895",
+          "https://video.sibnet.ru/shell.php?videoid=5214066",
+          "https://video.sibnet.ru/shell.php?videoid=5221404",
+          "https://video.sibnet.ru/shell.php?videoid=5236326",
+          "https://video.sibnet.ru/shell.php?videoid=5250058"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

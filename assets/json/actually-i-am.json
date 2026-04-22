@@ -1,0 +1,32 @@
+{
+  "name": "Actually, I am",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/actually-i-am.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5090045",
+          "https://video.sibnet.ru/shell.php?videoid=5090048",
+          "https://video.sibnet.ru/shell.php?videoid=5090058",
+          "https://video.sibnet.ru/shell.php?videoid=5090062",
+          "https://video.sibnet.ru/shell.php?videoid=5090064",
+          "https://video.sibnet.ru/shell.php?videoid=5090071",
+          "https://video.sibnet.ru/shell.php?videoid=5090075",
+          "https://video.sibnet.ru/shell.php?videoid=5090083",
+          "https://video.sibnet.ru/shell.php?videoid=5090084",
+          "https://video.sibnet.ru/shell.php?videoid=5090086",
+          "https://video.sibnet.ru/shell.php?videoid=5090087",
+          "https://video.sibnet.ru/shell.php?videoid=5090088",
+          "https://video.sibnet.ru/shell.php?videoid=5090138"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

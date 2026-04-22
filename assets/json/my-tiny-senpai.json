@@ -1,0 +1,28 @@
+{
+  "name": "My Tiny Senpai",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/my-tiny-senpai.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5185541",
+          "https://video.sibnet.ru/shell.php?videoid=5192224",
+          "https://video.sibnet.ru/shell.php?videoid=5198987",
+          "https://video.sibnet.ru/shell.php?videoid=5211640",
+          "https://video.sibnet.ru/shell.php?videoid=5219786",
+          "https://video.sibnet.ru/shell.php?videoid=5240867",
+          "https://video.sibnet.ru/shell.php?videoid=5248379",
+          "https://video.sibnet.ru/shell.php?videoid=5254592",
+          "https://video.sibnet.ru/shell.php?videoid=5264726"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

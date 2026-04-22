@@ -1,0 +1,45 @@
+{
+  "name": "Bucket List of The Dead",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/bucket-list-of-the-dead.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5213054",
+          "https://video.sibnet.ru/shell.php?videoid=5220845",
+          "https://video.sibnet.ru/shell.php?videoid=5226762",
+          "https://video.sibnet.ru/shell.php?videoid=5231465",
+          "https://video.sibnet.ru/shell.php?videoid=5242608",
+          "https://video.sibnet.ru/shell.php?videoid=5255631",
+          "https://video.sibnet.ru/shell.php?videoid=5260629",
+          "https://video.sibnet.ru/shell.php?videoid=5273499",
+          "https://video.sibnet.ru/shell.php?videoid=5282465",
+          "https://video.sibnet.ru/shell.php?videoid=5416920",
+          "https://video.sibnet.ru/shell.php?videoid=5416931",
+          "https://video.sibnet.ru/shell.php?videoid=5416951"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5192703",
+          "https://video.sibnet.ru/shell.php?videoid=5199402",
+          "https://video.sibnet.ru/shell.php?videoid=5205522",
+          "https://video.sibnet.ru/shell.php?videoid=5213828",
+          "https://video.sibnet.ru/shell.php?videoid=5226756",
+          "https://video.sibnet.ru/shell.php?videoid=5243208",
+          "https://video.sibnet.ru/shell.php?videoid=5256157",
+          "https://video.sibnet.ru/shell.php?videoid=5261174",
+          "https://video.sibnet.ru/shell.php?videoid=5376913",
+          "https://video.sibnet.ru/shell.php?videoid=5376955",
+          "https://video.sibnet.ru/shell.php?videoid=5377216"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

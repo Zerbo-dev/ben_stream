@@ -1,0 +1,46 @@
+{
+  "name": "Blood Lad",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/blood-lad.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3089131",
+          "https://video.sibnet.ru/shell.php?videoid=3089135",
+          "https://video.sibnet.ru/shell.php?videoid=3089138",
+          "https://video.sibnet.ru/shell.php?videoid=3089141",
+          "https://video.sibnet.ru/shell.php?videoid=3089145",
+          "https://video.sibnet.ru/shell.php?videoid=3089150",
+          "https://video.sibnet.ru/shell.php?videoid=3089156",
+          "https://video.sibnet.ru/shell.php?videoid=3089162",
+          "https://video.sibnet.ru/shell.php?videoid=3089169",
+          "https://video.sibnet.ru/shell.php?videoid=3558242"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=3558278"
+      ]
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4705772",
+          "https://video.sibnet.ru/shell.php?videoid=4705774",
+          "https://video.sibnet.ru/shell.php?videoid=4705776",
+          "https://video.sibnet.ru/shell.php?videoid=4705779",
+          "https://video.sibnet.ru/shell.php?videoid=4705781",
+          "https://video.sibnet.ru/shell.php?videoid=4705785",
+          "https://video.sibnet.ru/shell.php?videoid=4705786",
+          "https://video.sibnet.ru/shell.php?videoid=4705788",
+          "https://video.sibnet.ru/shell.php?videoid=4705790",
+          "https://video.sibnet.ru/shell.php?videoid=4705792"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4705794"
+      ]
+    }
+  }
+}

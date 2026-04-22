@@ -1,0 +1,37 @@
+{
+  "name": "The Tatami Galaxy",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-tatami-galaxy.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4813367",
+          "https://video.sibnet.ru/shell.php?videoid=4813370",
+          "https://video.sibnet.ru/shell.php?videoid=4813373",
+          "https://video.sibnet.ru/shell.php?videoid=4813375",
+          "https://video.sibnet.ru/shell.php?videoid=4813376",
+          "https://video.sibnet.ru/shell.php?videoid=4813378",
+          "https://video.sibnet.ru/shell.php?videoid=4813379",
+          "https://video.sibnet.ru/shell.php?videoid=4813382",
+          "https://video.sibnet.ru/shell.php?videoid=4813383",
+          "https://video.sibnet.ru/shell.php?videoid=4813387",
+          "https://video.sibnet.ru/shell.php?videoid=4813389"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5280145",
+        "https://video.sibnet.ru/shell.php?videoid=5280146",
+        "https://video.sibnet.ru/shell.php?videoid=5280147",
+        "https://video.sibnet.ru/shell.php?videoid=5280148",
+        "https://video.sibnet.ru/shell.php?videoid=5280149",
+        "https://video.sibnet.ru/shell.php?videoid=5280150"
+      ]
+    }
+  }
+}

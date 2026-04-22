@@ -1,0 +1,42 @@
+{
+  "name": "Your Forma",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/your-forma.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5879109",
+          "https://video.sibnet.ru/shell.php?videoid=5866374",
+          "https://video.sibnet.ru/shell.php?videoid=5873216",
+          "https://video.sibnet.ru/shell.php?videoid=5881280",
+          "https://video.sibnet.ru/shell.php?videoid=5889378",
+          "https://video.sibnet.ru/shell.php?videoid=5897172",
+          "https://video.sibnet.ru/shell.php?videoid=5904600",
+          "https://video.sibnet.ru/shell.php?videoid=5911264",
+          "https://video.sibnet.ru/shell.php?videoid=5917854",
+          "https://video.sibnet.ru/shell.php?videoid=5923757",
+          "https://video.sibnet.ru/shell.php?videoid=5929120",
+          "https://video.sibnet.ru/shell.php?videoid=5934373",
+          "https://video.sibnet.ru/shell.php?videoid=5939643",
+          "https://video.sibnet.ru/shell.php?videoid=5946022"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

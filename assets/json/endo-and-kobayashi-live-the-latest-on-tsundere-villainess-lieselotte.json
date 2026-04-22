@@ -1,0 +1,28 @@
+{
+  "name": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5005672",
+          "https://video.sibnet.ru/shell.php?videoid=5008344",
+          "https://video.sibnet.ru/shell.php?videoid=5014888",
+          "https://video.sibnet.ru/shell.php?videoid=5023556",
+          "https://video.sibnet.ru/shell.php?videoid=5030544",
+          "https://video.sibnet.ru/shell.php?videoid=5038462",
+          "https://video.sibnet.ru/shell.php?videoid=5047556",
+          "https://video.sibnet.ru/shell.php?videoid=5057576",
+          "https://video.sibnet.ru/shell.php?videoid=5066328"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

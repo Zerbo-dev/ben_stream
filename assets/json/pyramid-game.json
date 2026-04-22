@@ -1,0 +1,37 @@
+{
+  "name": "Pyramid Game",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/pyramid-game.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5945007",
+          "https://video.sibnet.ru/shell.php?videoid=5945008",
+          "https://video.sibnet.ru/shell.php?videoid=5945009",
+          "https://video.sibnet.ru/shell.php?videoid=5945010",
+          "https://video.sibnet.ru/shell.php?videoid=5945011",
+          "https://video.sibnet.ru/shell.php?videoid=5948152",
+          "https://video.sibnet.ru/shell.php?videoid=5953944",
+          "https://video.sibnet.ru/shell.php?videoid=5961928",
+          "https://video.sibnet.ru/shell.php?videoid=5968837"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

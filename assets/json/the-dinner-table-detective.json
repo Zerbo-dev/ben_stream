@@ -1,0 +1,55 @@
+{
+  "name": "The Dinner Table Detective",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-dinner-table-detective.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5870447",
+          "https://video.sibnet.ru/shell.php?videoid=5876504",
+          "https://video.sibnet.ru/shell.php?videoid=5884494",
+          "https://video.sibnet.ru/shell.php?videoid=5892674",
+          "https://video.sibnet.ru/shell.php?videoid=5901136",
+          "https://video.sibnet.ru/shell.php?videoid=5909422",
+          "https://video.sibnet.ru/shell.php?videoid=5914118",
+          "https://video.sibnet.ru/shell.php?videoid=5921173",
+          "https://video.sibnet.ru/shell.php?videoid=5926041",
+          "https://video.sibnet.ru/shell.php?videoid=5931977",
+          "https://video.sibnet.ru/shell.php?videoid=5937173",
+          "https://video.sibnet.ru/shell.php?videoid=5944403"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5870451",
+          "https://video.sibnet.ru/shell.php?videoid=5876508",
+          "https://video.sibnet.ru/shell.php?videoid=5884492",
+          "https://video.sibnet.ru/shell.php?videoid=5892672",
+          "https://video.sibnet.ru/shell.php?videoid=5901116",
+          "https://video.sibnet.ru/shell.php?videoid=5909420",
+          "https://video.sibnet.ru/shell.php?videoid=5914113",
+          "https://video.sibnet.ru/shell.php?videoid=5921169",
+          "https://video.sibnet.ru/shell.php?videoid=5926046",
+          "https://video.sibnet.ru/shell.php?videoid=5931978",
+          "https://video.sibnet.ru/shell.php?videoid=5937174",
+          "https://video.sibnet.ru/shell.php?videoid=5944391"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Seitokai Yakuindomo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/seitokai-yakuindomo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5828826",
+          "https://video.sibnet.ru/shell.php?videoid=5828831",
+          "https://video.sibnet.ru/shell.php?videoid=5828835",
+          "https://video.sibnet.ru/shell.php?videoid=5828839",
+          "https://video.sibnet.ru/shell.php?videoid=5828842",
+          "https://video.sibnet.ru/shell.php?videoid=5828844",
+          "https://video.sibnet.ru/shell.php?videoid=5828848",
+          "https://video.sibnet.ru/shell.php?videoid=5828851",
+          "https://video.sibnet.ru/shell.php?videoid=5828854",
+          "https://video.sibnet.ru/shell.php?videoid=5828858",
+          "https://video.sibnet.ru/shell.php?videoid=5828859",
+          "https://video.sibnet.ru/shell.php?videoid=5828863",
+          "https://video.sibnet.ru/shell.php?videoid=5828867",
+          "https://video.sibnet.ru/shell.php?videoid=5828873",
+          "https://video.sibnet.ru/shell.php?videoid=5828877",
+          "https://video.sibnet.ru/shell.php?videoid=5828882",
+          "https://video.sibnet.ru/shell.php?videoid=5828884",
+          "https://video.sibnet.ru/shell.php?videoid=5828889",
+          "https://video.sibnet.ru/shell.php?videoid=5828893",
+          "https://video.sibnet.ru/shell.php?videoid=5828897",
+          "https://video.sibnet.ru/shell.php?videoid=5828901"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5828904",
+          "https://video.sibnet.ru/shell.php?videoid=5828909",
+          "https://video.sibnet.ru/shell.php?videoid=5828912",
+          "https://video.sibnet.ru/shell.php?videoid=5828919",
+          "https://video.sibnet.ru/shell.php?videoid=5828923",
+          "https://video.sibnet.ru/shell.php?videoid=5828927",
+          "https://video.sibnet.ru/shell.php?videoid=5828930",
+          "https://video.sibnet.ru/shell.php?videoid=5828932",
+          "https://video.sibnet.ru/shell.php?videoid=5828934",
+          "https://video.sibnet.ru/shell.php?videoid=5828938",
+          "https://video.sibnet.ru/shell.php?videoid=5828942",
+          "https://video.sibnet.ru/shell.php?videoid=5828945",
+          "https://video.sibnet.ru/shell.php?videoid=5828949",
+          "https://video.sibnet.ru/shell.php?videoid=5828950",
+          "https://video.sibnet.ru/shell.php?videoid=5828951",
+          "https://video.sibnet.ru/shell.php?videoid=5828953",
+          "https://video.sibnet.ru/shell.php?videoid=5828954"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

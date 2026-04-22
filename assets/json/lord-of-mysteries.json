@@ -1,0 +1,33 @@
+{
+  "name": "Lord of Mysteries",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/lord-of-mysteries.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5956567",
+          "https://video.sibnet.ru/shell.php?videoid=5956570",
+          "https://video.sibnet.ru/shell.php?videoid=5953735",
+          "https://video.sibnet.ru/shell.php?videoid=5961561",
+          "https://video.sibnet.ru/shell.php?videoid=5968628"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Sekai Saikou no Assassin",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sekai-saikou-no-assassin.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4671329",
+          "https://video.sibnet.ru/shell.php?videoid=4671333",
+          "https://video.sibnet.ru/shell.php?videoid=4671335",
+          "https://video.sibnet.ru/shell.php?videoid=4671338",
+          "https://video.sibnet.ru/shell.php?videoid=4671341",
+          "https://video.sibnet.ru/shell.php?videoid=4671343",
+          "https://video.sibnet.ru/shell.php?videoid=4671347",
+          "https://video.sibnet.ru/shell.php?videoid=4671350",
+          "https://video.sibnet.ru/shell.php?videoid=4671354",
+          "https://video.sibnet.ru/shell.php?videoid=4671356",
+          "https://video.sibnet.ru/shell.php?videoid=4671358",
+          "https://video.sibnet.ru/shell.php?videoid=4671362"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4671295",
+          "https://video.sibnet.ru/shell.php?videoid=4671297",
+          "https://video.sibnet.ru/shell.php?videoid=4671300",
+          "https://video.sibnet.ru/shell.php?videoid=4671301",
+          "https://video.sibnet.ru/shell.php?videoid=4671305",
+          "https://video.sibnet.ru/shell.php?videoid=4671307",
+          "https://video.sibnet.ru/shell.php?videoid=4671311",
+          "https://video.sibnet.ru/shell.php?videoid=4671313",
+          "https://video.sibnet.ru/shell.php?videoid=4671315",
+          "https://video.sibnet.ru/shell.php?videoid=4671319",
+          "https://video.sibnet.ru/shell.php?videoid=4671323",
+          "https://video.sibnet.ru/shell.php?videoid=4671325"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

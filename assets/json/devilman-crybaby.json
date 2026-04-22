@@ -1,0 +1,42 @@
+{
+  "name": "Devilman Crybaby",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/devilman-crybaby.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4798650",
+          "https://video.sibnet.ru/shell.php?videoid=4798652",
+          "https://video.sibnet.ru/shell.php?videoid=4798654",
+          "https://video.sibnet.ru/shell.php?videoid=4798656",
+          "https://video.sibnet.ru/shell.php?videoid=4798658",
+          "https://video.sibnet.ru/shell.php?videoid=4798659",
+          "https://video.sibnet.ru/shell.php?videoid=4798664",
+          "https://video.sibnet.ru/shell.php?videoid=4798666",
+          "https://video.sibnet.ru/shell.php?videoid=4798668",
+          "https://video.sibnet.ru/shell.php?videoid=4798670"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4720518",
+          "https://video.sibnet.ru/shell.php?videoid=4720528",
+          "https://video.sibnet.ru/shell.php?videoid=4720541",
+          "https://video.sibnet.ru/shell.php?videoid=4720546",
+          "https://video.sibnet.ru/shell.php?videoid=4720551",
+          "https://video.sibnet.ru/shell.php?videoid=4720556",
+          "https://video.sibnet.ru/shell.php?videoid=4720561",
+          "https://video.sibnet.ru/shell.php?videoid=4720564",
+          "https://video.sibnet.ru/shell.php?videoid=4720566",
+          "https://video.sibnet.ru/shell.php?videoid=4720569"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Mieruko-chan",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mieruko-chan.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4671254",
+          "https://video.sibnet.ru/shell.php?videoid=4671257",
+          "https://video.sibnet.ru/shell.php?videoid=4671260",
+          "https://video.sibnet.ru/shell.php?videoid=4671264",
+          "https://video.sibnet.ru/shell.php?videoid=4671266",
+          "https://video.sibnet.ru/shell.php?videoid=4671271",
+          "https://video.sibnet.ru/shell.php?videoid=4671273",
+          "https://video.sibnet.ru/shell.php?videoid=4671281",
+          "https://video.sibnet.ru/shell.php?videoid=4671283",
+          "https://video.sibnet.ru/shell.php?videoid=4671286",
+          "https://video.sibnet.ru/shell.php?videoid=4671291",
+          "https://video.sibnet.ru/shell.php?videoid=4671294"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Sakurasou no Pet na Kanojo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sakurasou-no-pet-na-kanojo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5153872",
+          "https://video.sibnet.ru/shell.php?videoid=5154681",
+          "https://video.sibnet.ru/shell.php?videoid=5154682",
+          "https://video.sibnet.ru/shell.php?videoid=5154684",
+          "https://video.sibnet.ru/shell.php?videoid=5154686",
+          "https://video.sibnet.ru/shell.php?videoid=5154687",
+          "https://video.sibnet.ru/shell.php?videoid=5154688",
+          "https://video.sibnet.ru/shell.php?videoid=5154689",
+          "https://video.sibnet.ru/shell.php?videoid=5154690",
+          "https://video.sibnet.ru/shell.php?videoid=5154691",
+          "https://video.sibnet.ru/shell.php?videoid=5154692",
+          "https://video.sibnet.ru/shell.php?videoid=5154694",
+          "https://video.sibnet.ru/shell.php?videoid=5154695",
+          "https://video.sibnet.ru/shell.php?videoid=5154696",
+          "https://video.sibnet.ru/shell.php?videoid=5154697",
+          "https://video.sibnet.ru/shell.php?videoid=5154698",
+          "https://video.sibnet.ru/shell.php?videoid=5154699",
+          "https://video.sibnet.ru/shell.php?videoid=5154700",
+          "https://video.sibnet.ru/shell.php?videoid=5154703",
+          "https://video.sibnet.ru/shell.php?videoid=5154705",
+          "https://video.sibnet.ru/shell.php?videoid=5154707",
+          "https://video.sibnet.ru/shell.php?videoid=5154708",
+          "https://video.sibnet.ru/shell.php?videoid=5154709",
+          "https://video.sibnet.ru/shell.php?videoid=5154710"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Cross Ange",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cross-ange.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4734189",
+          "https://video.sibnet.ru/shell.php?videoid=4734194",
+          "https://video.sibnet.ru/shell.php?videoid=4734197",
+          "https://video.sibnet.ru/shell.php?videoid=4734202",
+          "https://video.sibnet.ru/shell.php?videoid=4734207",
+          "https://video.sibnet.ru/shell.php?videoid=4734211",
+          "https://video.sibnet.ru/shell.php?videoid=4734214",
+          "https://video.sibnet.ru/shell.php?videoid=4734217",
+          "https://video.sibnet.ru/shell.php?videoid=4734219",
+          "https://video.sibnet.ru/shell.php?videoid=4734222",
+          "https://video.sibnet.ru/shell.php?videoid=4734224",
+          "https://video.sibnet.ru/shell.php?videoid=4734228",
+          "https://video.sibnet.ru/shell.php?videoid=4734230",
+          "https://video.sibnet.ru/shell.php?videoid=4734234",
+          "https://video.sibnet.ru/shell.php?videoid=4734238",
+          "https://video.sibnet.ru/shell.php?videoid=4734240",
+          "https://video.sibnet.ru/shell.php?videoid=4734242",
+          "https://video.sibnet.ru/shell.php?videoid=4734245",
+          "https://video.sibnet.ru/shell.php?videoid=4734246",
+          "https://video.sibnet.ru/shell.php?videoid=4734255",
+          "https://video.sibnet.ru/shell.php?videoid=4734248",
+          "https://video.sibnet.ru/shell.php?videoid=4734250",
+          "https://video.sibnet.ru/shell.php?videoid=4734251",
+          "https://video.sibnet.ru/shell.php?videoid=4734252",
+          "https://video.sibnet.ru/shell.php?videoid=4734253"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Schwarzesmarken",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/schwarzesmarken.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5091751",
+          "https://video.sibnet.ru/shell.php?videoid=5091755",
+          "https://video.sibnet.ru/shell.php?videoid=5091757",
+          "https://video.sibnet.ru/shell.php?videoid=5091760",
+          "https://video.sibnet.ru/shell.php?videoid=5091762",
+          "https://video.sibnet.ru/shell.php?videoid=5091765",
+          "https://video.sibnet.ru/shell.php?videoid=5091769",
+          "https://video.sibnet.ru/shell.php?videoid=5097218",
+          "https://video.sibnet.ru/shell.php?videoid=5091779",
+          "https://video.sibnet.ru/shell.php?videoid=5091782",
+          "https://video.sibnet.ru/shell.php?videoid=5091785",
+          "https://video.sibnet.ru/shell.php?videoid=5091788"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5091723",
+          "https://video.sibnet.ru/shell.php?videoid=5091724",
+          "https://video.sibnet.ru/shell.php?videoid=5091725",
+          "https://video.sibnet.ru/shell.php?videoid=5091727",
+          "https://video.sibnet.ru/shell.php?videoid=5091728",
+          "https://video.sibnet.ru/shell.php?videoid=5091729",
+          "https://video.sibnet.ru/shell.php?videoid=5091730",
+          "https://video.sibnet.ru/shell.php?videoid=5091731",
+          "https://video.sibnet.ru/shell.php?videoid=5091732",
+          "https://video.sibnet.ru/shell.php?videoid=5091733",
+          "https://video.sibnet.ru/shell.php?videoid=5091734",
+          "https://video.sibnet.ru/shell.php?videoid=5091735"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

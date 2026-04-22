@@ -1,0 +1,46 @@
+{
+  "name": "Akashic Records",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/akashic-records.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3704051",
+          "https://video.sibnet.ru/shell.php?videoid=3704052",
+          "https://video.sibnet.ru/shell.php?videoid=3704053",
+          "https://video.sibnet.ru/shell.php?videoid=3704054",
+          "https://video.sibnet.ru/shell.php?videoid=3704055",
+          "https://video.sibnet.ru/shell.php?videoid=3704056",
+          "https://video.sibnet.ru/shell.php?videoid=3704057",
+          "https://video.sibnet.ru/shell.php?videoid=3704058",
+          "https://video.sibnet.ru/shell.php?videoid=3704059",
+          "https://video.sibnet.ru/shell.php?videoid=3704060",
+          "https://video.sibnet.ru/shell.php?videoid=3704061",
+          "https://video.sibnet.ru/shell.php?videoid=3704062"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4693033",
+          "https://video.sibnet.ru/shell.php?videoid=4693036",
+          "https://video.sibnet.ru/shell.php?videoid=4693040",
+          "https://video.sibnet.ru/shell.php?videoid=4693046",
+          "https://video.sibnet.ru/shell.php?videoid=4693048",
+          "https://video.sibnet.ru/shell.php?videoid=4693051",
+          "https://video.sibnet.ru/shell.php?videoid=4693053",
+          "https://video.sibnet.ru/shell.php?videoid=4693056",
+          "https://video.sibnet.ru/shell.php?videoid=4693058",
+          "https://video.sibnet.ru/shell.php?videoid=4693061",
+          "https://video.sibnet.ru/shell.php?videoid=4693063",
+          "https://video.sibnet.ru/shell.php?videoid=4693065"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

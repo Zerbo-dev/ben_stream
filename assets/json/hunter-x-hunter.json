@@ -1,0 +1,19 @@
+{
+  "name": "Hunter x Hunter",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hunter-x-hunter.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5264805",
+        "https://video.sibnet.ru/shell.php?videoid=5264807"
+      ],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Chibi Revengers",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/chibi-revengers.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4726047",
+          "https://video.sibnet.ru/shell.php?videoid=4726046",
+          "https://video.sibnet.ru/shell.php?videoid=4726045",
+          "https://video.sibnet.ru/shell.php?videoid=4726043",
+          "https://video.sibnet.ru/shell.php?videoid=4726042",
+          "https://video.sibnet.ru/shell.php?videoid=4726041",
+          "https://video.sibnet.ru/shell.php?videoid=4726040",
+          "https://video.sibnet.ru/shell.php?videoid=4726039",
+          "https://video.sibnet.ru/shell.php?videoid=4726038",
+          "https://video.sibnet.ru/shell.php?videoid=4726037",
+          "https://video.sibnet.ru/shell.php?videoid=4726036"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Le vent se lève",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-vent-se-leve.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4960847"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4754505"
+      ],
+      "oav": []
+    }
+  }
+}

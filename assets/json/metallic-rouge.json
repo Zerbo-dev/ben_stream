@@ -1,0 +1,48 @@
+{
+  "name": "Metallic Rouge",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/metallic-rouge.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5394448",
+          "https://video.sibnet.ru/shell.php?videoid=5403195",
+          "https://video.sibnet.ru/shell.php?videoid=5411417",
+          "https://video.sibnet.ru/shell.php?videoid=5419102",
+          "https://video.sibnet.ru/shell.php?videoid=5425395",
+          "https://video.sibnet.ru/shell.php?videoid=5432146",
+          "https://video.sibnet.ru/shell.php?videoid=5440461",
+          "https://video.sibnet.ru/shell.php?videoid=5449970",
+          "https://video.sibnet.ru/shell.php?videoid=5458139",
+          "https://video.sibnet.ru/shell.php?videoid=5467167",
+          "https://video.sibnet.ru/shell.php?videoid=5492367",
+          "https://video.sibnet.ru/shell.php?videoid=5500577",
+          "https://video.sibnet.ru/shell.php?videoid=5508203"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5394440",
+          "https://video.sibnet.ru/shell.php?videoid=5403201",
+          "https://video.sibnet.ru/shell.php?videoid=5411403",
+          "https://video.sibnet.ru/shell.php?videoid=5419097",
+          "https://video.sibnet.ru/shell.php?videoid=5425378",
+          "https://video.sibnet.ru/shell.php?videoid=5432141",
+          "https://video.sibnet.ru/shell.php?videoid=5440416",
+          "https://video.sibnet.ru/shell.php?videoid=5449956",
+          "https://video.sibnet.ru/shell.php?videoid=5458117",
+          "https://video.sibnet.ru/shell.php?videoid=5467168",
+          "https://video.sibnet.ru/shell.php?videoid=5475305",
+          "https://video.sibnet.ru/shell.php?videoid=5484415",
+          "https://video.sibnet.ru/shell.php?videoid=5492337"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

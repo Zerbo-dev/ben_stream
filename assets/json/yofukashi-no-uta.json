@@ -1,0 +1,54 @@
+{
+  "name": "Yofukashi no Uta",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/yofukashi-no-uta.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5095543",
+          "https://video.sibnet.ru/shell.php?videoid=5095544",
+          "https://video.sibnet.ru/shell.php?videoid=5096001",
+          "https://video.sibnet.ru/shell.php?videoid=5095551",
+          "https://video.sibnet.ru/shell.php?videoid=5095553",
+          "https://video.sibnet.ru/shell.php?videoid=5095554",
+          "https://video.sibnet.ru/shell.php?videoid=5095556",
+          "https://video.sibnet.ru/shell.php?videoid=5095557",
+          "https://video.sibnet.ru/shell.php?videoid=5095558",
+          "https://video.sibnet.ru/shell.php?videoid=5096002",
+          "https://video.sibnet.ru/shell.php?videoid=5095560",
+          "https://video.sibnet.ru/shell.php?videoid=5095561",
+          "https://video.sibnet.ru/shell.php?videoid=5095563"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4780746",
+          "https://video.sibnet.ru/shell.php?videoid=4796421",
+          "https://video.sibnet.ru/shell.php?videoid=4797919",
+          "https://video.sibnet.ru/shell.php?videoid=4804317",
+          "https://video.sibnet.ru/shell.php?videoid=4813949",
+          "https://video.sibnet.ru/shell.php?videoid=4822093",
+          "https://video.sibnet.ru/shell.php?videoid=4834820",
+          "https://video.sibnet.ru/shell.php?videoid=4845588",
+          "https://video.sibnet.ru/shell.php?videoid=4853785",
+          "https://video.sibnet.ru/shell.php?videoid=4863210",
+          "https://video.sibnet.ru/shell.php?videoid=4872347",
+          "https://video.sibnet.ru/shell.php?videoid=4880445",
+          "https://video.sibnet.ru/shell.php?videoid=4890711"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5953126",
+          "https://video.sibnet.ru/shell.php?videoid=5960806",
+          "https://video.sibnet.ru/shell.php?videoid=5967710",
+          "https://video.sibnet.ru/shell.php?videoid=5974336"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

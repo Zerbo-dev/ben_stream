@@ -1,0 +1,31 @@
+{
+  "name": "The World is Still Beautiful",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-world-is-still-beautiful.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5092152",
+          "https://video.sibnet.ru/shell.php?videoid=5092153",
+          "https://video.sibnet.ru/shell.php?videoid=5092154",
+          "https://video.sibnet.ru/shell.php?videoid=5092162",
+          "https://video.sibnet.ru/shell.php?videoid=5092163",
+          "https://video.sibnet.ru/shell.php?videoid=5092164",
+          "https://video.sibnet.ru/shell.php?videoid=5092165",
+          "https://video.sibnet.ru/shell.php?videoid=5092166",
+          "https://video.sibnet.ru/shell.php?videoid=5092168",
+          "https://video.sibnet.ru/shell.php?videoid=5092169",
+          "https://video.sibnet.ru/shell.php?videoid=5092170",
+          "https://video.sibnet.ru/shell.php?videoid=5092171"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

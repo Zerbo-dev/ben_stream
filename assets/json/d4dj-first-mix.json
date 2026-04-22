@@ -1,0 +1,46 @@
+{
+  "name": "D4DJ : First Mix",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/d4dj-first-mix.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4942987",
+          "https://video.sibnet.ru/shell.php?videoid=4942988",
+          "https://video.sibnet.ru/shell.php?videoid=4942990",
+          "https://video.sibnet.ru/shell.php?videoid=4942991",
+          "https://video.sibnet.ru/shell.php?videoid=4942992",
+          "https://video.sibnet.ru/shell.php?videoid=4942994",
+          "https://video.sibnet.ru/shell.php?videoid=4942995",
+          "https://video.sibnet.ru/shell.php?videoid=4942996",
+          "https://video.sibnet.ru/shell.php?videoid=4942998",
+          "https://video.sibnet.ru/shell.php?videoid=4943000",
+          "https://video.sibnet.ru/shell.php?videoid=4943002",
+          "https://video.sibnet.ru/shell.php?videoid=4943004",
+          "https://video.sibnet.ru/shell.php?videoid=4943005"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5004657",
+          "https://video.sibnet.ru/shell.php?videoid=5010606",
+          "https://video.sibnet.ru/shell.php?videoid=5017486",
+          "https://video.sibnet.ru/shell.php?videoid=5025857",
+          "https://video.sibnet.ru/shell.php?videoid=5032712",
+          "https://video.sibnet.ru/shell.php?videoid=5040925",
+          "https://video.sibnet.ru/shell.php?videoid=5050618",
+          "https://video.sibnet.ru/shell.php?videoid=5059674",
+          "https://video.sibnet.ru/shell.php?videoid=5068243",
+          "https://video.sibnet.ru/shell.php?videoid=5074141",
+          "https://video.sibnet.ru/shell.php?videoid=5080486",
+          "https://video.sibnet.ru/shell.php?videoid=5088018"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

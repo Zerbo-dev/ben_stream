@@ -1,0 +1,30 @@
+{
+  "name": "My Clueless First Friend",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/my-clueless-first-friend.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5094190",
+          "https://video.sibnet.ru/shell.php?videoid=5101011",
+          "https://video.sibnet.ru/shell.php?videoid=5107480",
+          "https://video.sibnet.ru/shell.php?videoid=5122001",
+          "https://video.sibnet.ru/shell.php?videoid=5128821",
+          "https://video.sibnet.ru/shell.php?videoid=5138963",
+          "https://video.sibnet.ru/shell.php?videoid=5147934",
+          "https://video.sibnet.ru/shell.php?videoid=5154871",
+          "https://video.sibnet.ru/shell.php?videoid=5168247",
+          "https://video.sibnet.ru/shell.php?videoid=5175482",
+          "https://video.sibnet.ru/shell.php?videoid=5180831"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

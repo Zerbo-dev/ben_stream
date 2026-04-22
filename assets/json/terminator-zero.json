@@ -1,0 +1,38 @@
+{
+  "name": "Terminator Zero",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/terminator-zero.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5669476",
+          "https://video.sibnet.ru/shell.php?videoid=5669511",
+          "https://video.sibnet.ru/shell.php?videoid=5669532",
+          "https://video.sibnet.ru/shell.php?videoid=5669542",
+          "https://video.sibnet.ru/shell.php?videoid=5669554",
+          "https://video.sibnet.ru/shell.php?videoid=5669570",
+          "https://video.sibnet.ru/shell.php?videoid=5669582",
+          "https://video.sibnet.ru/shell.php?videoid=5669593"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5669312",
+          "https://video.sibnet.ru/shell.php?videoid=5669316",
+          "https://video.sibnet.ru/shell.php?videoid=5669321",
+          "https://video.sibnet.ru/shell.php?videoid=5669325",
+          "https://video.sibnet.ru/shell.php?videoid=5669337",
+          "https://video.sibnet.ru/shell.php?videoid=5669341",
+          "https://video.sibnet.ru/shell.php?videoid=5669346",
+          "https://video.sibnet.ru/shell.php?videoid=5669352"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

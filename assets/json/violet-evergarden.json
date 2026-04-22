@@ -1,0 +1,60 @@
+{
+  "name": "Violet Evergarden",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/violet-evergarden.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3204927",
+          "https://video.sibnet.ru/shell.php?videoid=3290777",
+          "https://video.sibnet.ru/shell.php?videoid=3290778",
+          "https://video.sibnet.ru/shell.php?videoid=3290779",
+          "https://video.sibnet.ru/shell.php?videoid=3290781",
+          "https://video.sibnet.ru/shell.php?videoid=3290782",
+          "https://video.sibnet.ru/shell.php?videoid=3290783",
+          "https://video.sibnet.ru/shell.php?videoid=3290784",
+          "https://video.sibnet.ru/shell.php?videoid=3290785",
+          "https://video.sibnet.ru/shell.php?videoid=3290786",
+          "https://video.sibnet.ru/shell.php?videoid=3290788",
+          "https://video.sibnet.ru/shell.php?videoid=3290789",
+          "https://video.sibnet.ru/shell.php?videoid=5929237"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4995466",
+        "https://video.sibnet.ru/shell.php?videoid=3891357",
+        "https://video.sibnet.ru/shell.php?videoid=4933488"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4954449"
+      ]
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4691517",
+          "https://video.sibnet.ru/shell.php?videoid=5056494",
+          "https://video.sibnet.ru/shell.php?videoid=4691540",
+          "https://video.sibnet.ru/shell.php?videoid=4691551",
+          "https://video.sibnet.ru/shell.php?videoid=4691564",
+          "https://video.sibnet.ru/shell.php?videoid=4691580",
+          "https://video.sibnet.ru/shell.php?videoid=4691595",
+          "https://video.sibnet.ru/shell.php?videoid=4691609",
+          "https://video.sibnet.ru/shell.php?videoid=4691622",
+          "https://video.sibnet.ru/shell.php?videoid=4691638",
+          "https://video.sibnet.ru/shell.php?videoid=4691653",
+          "https://video.sibnet.ru/shell.php?videoid=4691667",
+          "https://video.sibnet.ru/shell.php?videoid=4691678"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4995491",
+        "https://video.sibnet.ru/shell.php?videoid=5349915",
+        "https://video.sibnet.ru/shell.php?videoid=4933490"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4691695"
+      ]
+    }
+  }
+}

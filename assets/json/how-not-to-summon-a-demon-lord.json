@@ -1,0 +1,43 @@
+{
+  "name": "How Not To Summon A Demon Lord",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/how-not-to-summon-a-demon-lord.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3418518",
+          "https://video.sibnet.ru/shell.php?videoid=3418519",
+          "https://video.sibnet.ru/shell.php?videoid=3418520",
+          "https://video.sibnet.ru/shell.php?videoid=3418522",
+          "https://video.sibnet.ru/shell.php?videoid=3418525",
+          "https://video.sibnet.ru/shell.php?videoid=3418526",
+          "https://video.sibnet.ru/shell.php?videoid=3418528",
+          "https://video.sibnet.ru/shell.php?videoid=3775247",
+          "https://video.sibnet.ru/shell.php?videoid=3459635",
+          "https://video.sibnet.ru/shell.php?videoid=3459636",
+          "https://video.sibnet.ru/shell.php?videoid=3459637",
+          "https://video.sibnet.ru/shell.php?videoid=3459639"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5069597",
+          "https://video.sibnet.ru/shell.php?videoid=5069599",
+          "https://video.sibnet.ru/shell.php?videoid=5069601",
+          "https://video.sibnet.ru/shell.php?videoid=5069602",
+          "https://video.sibnet.ru/shell.php?videoid=5069604",
+          "https://video.sibnet.ru/shell.php?videoid=5069605",
+          "https://video.sibnet.ru/shell.php?videoid=5069607",
+          "https://video.sibnet.ru/shell.php?videoid=5069609",
+          "https://video.sibnet.ru/shell.php?videoid=5069610",
+          "https://video.sibnet.ru/shell.php?videoid=5069612"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Shinigami Bocchan to Kuro Maid",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shinigami-bocchan-to-kuro-maid.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4346205",
+          "https://video.sibnet.ru/shell.php?videoid=4383648",
+          "https://video.sibnet.ru/shell.php?videoid=4383643",
+          "https://video.sibnet.ru/shell.php?videoid=4368787",
+          "https://video.sibnet.ru/shell.php?videoid=4383646",
+          "https://video.sibnet.ru/shell.php?videoid=4383639",
+          "https://video.sibnet.ru/shell.php?videoid=4388318",
+          "https://video.sibnet.ru/shell.php?videoid=4394181",
+          "https://video.sibnet.ru/shell.php?videoid=4400214",
+          "https://video.sibnet.ru/shell.php?videoid=4408438",
+          "https://video.sibnet.ru/shell.php?videoid=4414542",
+          "https://video.sibnet.ru/shell.php?videoid=4421396"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5193202",
+          "https://video.sibnet.ru/shell.php?videoid=5199480",
+          "https://video.sibnet.ru/shell.php?videoid=5205853",
+          "https://video.sibnet.ru/shell.php?videoid=5212582",
+          "https://video.sibnet.ru/shell.php?videoid=5220483",
+          "https://video.sibnet.ru/shell.php?videoid=5242114",
+          "https://video.sibnet.ru/shell.php?videoid=5249242",
+          "https://video.sibnet.ru/shell.php?videoid=5255317"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5496868",
+          "https://video.sibnet.ru/shell.php?videoid=5504518",
+          "https://video.sibnet.ru/shell.php?videoid=5511962",
+          "https://video.sibnet.ru/shell.php?videoid=5518632",
+          "https://video.sibnet.ru/shell.php?videoid=5526247",
+          "https://video.sibnet.ru/shell.php?videoid=5533351",
+          "https://video.sibnet.ru/shell.php?videoid=5540042",
+          "https://video.sibnet.ru/shell.php?videoid=5546054",
+          "https://video.sibnet.ru/shell.php?videoid=5552278",
+          "https://video.sibnet.ru/shell.php?videoid=5557861",
+          "https://video.sibnet.ru/shell.php?videoid=5564916",
+          "https://video.sibnet.ru/shell.php?videoid=5573232"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

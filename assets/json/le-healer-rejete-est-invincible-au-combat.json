@@ -1,0 +1,31 @@
+{
+  "name": "Le healer rejeté est invincible au combat !",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-healer-rejete-est-invincible-au-combat.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5703412",
+          "https://video.sibnet.ru/shell.php?videoid=5713256",
+          "https://video.sibnet.ru/shell.php?videoid=5722186",
+          "https://video.sibnet.ru/shell.php?videoid=5730955",
+          "https://video.sibnet.ru/shell.php?videoid=5739432",
+          "https://video.sibnet.ru/shell.php?videoid=5746512",
+          "https://video.sibnet.ru/shell.php?videoid=5753489",
+          "https://video.sibnet.ru/shell.php?videoid=5760927",
+          "https://video.sibnet.ru/shell.php?videoid=5765626",
+          "https://video.sibnet.ru/shell.php?videoid=5769642",
+          "https://video.sibnet.ru/shell.php?videoid=5774117",
+          "https://video.sibnet.ru/shell.php?videoid=5780331"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

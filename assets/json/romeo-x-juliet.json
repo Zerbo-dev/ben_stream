@@ -1,0 +1,70 @@
+{
+  "name": "Romeo x Juliet",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/romeo-x-juliet.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5241537",
+          "https://video.sibnet.ru/shell.php?videoid=5241538",
+          "https://video.sibnet.ru/shell.php?videoid=5241539",
+          "https://video.sibnet.ru/shell.php?videoid=5241541",
+          "https://video.sibnet.ru/shell.php?videoid=5241542",
+          "https://video.sibnet.ru/shell.php?videoid=5241543",
+          "https://video.sibnet.ru/shell.php?videoid=5241545",
+          "https://video.sibnet.ru/shell.php?videoid=5241547",
+          "https://video.sibnet.ru/shell.php?videoid=5241549",
+          "https://video.sibnet.ru/shell.php?videoid=5241551",
+          "https://video.sibnet.ru/shell.php?videoid=5241555",
+          "https://video.sibnet.ru/shell.php?videoid=5241556",
+          "https://video.sibnet.ru/shell.php?videoid=5241557",
+          "https://video.sibnet.ru/shell.php?videoid=5241559",
+          "https://video.sibnet.ru/shell.php?videoid=5241561",
+          "https://video.sibnet.ru/shell.php?videoid=5241562",
+          "https://video.sibnet.ru/shell.php?videoid=5241563",
+          "https://video.sibnet.ru/shell.php?videoid=5241564",
+          "https://video.sibnet.ru/shell.php?videoid=5241566",
+          "https://video.sibnet.ru/shell.php?videoid=5241567",
+          "https://video.sibnet.ru/shell.php?videoid=5241568",
+          "https://video.sibnet.ru/shell.php?videoid=5241570",
+          "https://video.sibnet.ru/shell.php?videoid=5241571",
+          "https://video.sibnet.ru/shell.php?videoid=5241572"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5241575",
+          "https://video.sibnet.ru/shell.php?videoid=5241577",
+          "https://video.sibnet.ru/shell.php?videoid=5241578",
+          "https://video.sibnet.ru/shell.php?videoid=5241579",
+          "https://video.sibnet.ru/shell.php?videoid=5241580",
+          "https://video.sibnet.ru/shell.php?videoid=5241581",
+          "https://video.sibnet.ru/shell.php?videoid=5241582",
+          "https://video.sibnet.ru/shell.php?videoid=5241583",
+          "https://video.sibnet.ru/shell.php?videoid=5241584",
+          "https://video.sibnet.ru/shell.php?videoid=5241585",
+          "https://video.sibnet.ru/shell.php?videoid=5241587",
+          "https://video.sibnet.ru/shell.php?videoid=5241589",
+          "https://video.sibnet.ru/shell.php?videoid=5241590",
+          "https://video.sibnet.ru/shell.php?videoid=5241591",
+          "https://video.sibnet.ru/shell.php?videoid=5241592",
+          "https://video.sibnet.ru/shell.php?videoid=5241593",
+          "https://video.sibnet.ru/shell.php?videoid=5241594",
+          "https://video.sibnet.ru/shell.php?videoid=5241595",
+          "https://video.sibnet.ru/shell.php?videoid=5241597",
+          "https://video.sibnet.ru/shell.php?videoid=5241599",
+          "https://video.sibnet.ru/shell.php?videoid=5241600",
+          "https://video.sibnet.ru/shell.php?videoid=5241602",
+          "https://video.sibnet.ru/shell.php?videoid=5241603",
+          "https://video.sibnet.ru/shell.php?videoid=5241605"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

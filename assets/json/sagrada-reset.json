@@ -1,0 +1,43 @@
+{
+  "name": "Sagrada Reset",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sagrada-reset.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4734439",
+          "https://video.sibnet.ru/shell.php?videoid=4734441",
+          "https://video.sibnet.ru/shell.php?videoid=4734443",
+          "https://video.sibnet.ru/shell.php?videoid=4734444",
+          "https://video.sibnet.ru/shell.php?videoid=4734446",
+          "https://video.sibnet.ru/shell.php?videoid=4734448",
+          "https://video.sibnet.ru/shell.php?videoid=4734449",
+          "https://video.sibnet.ru/shell.php?videoid=4734451",
+          "https://video.sibnet.ru/shell.php?videoid=4734453",
+          "https://video.sibnet.ru/shell.php?videoid=4734454",
+          "https://video.sibnet.ru/shell.php?videoid=4734456",
+          "https://video.sibnet.ru/shell.php?videoid=4734457",
+          "https://video.sibnet.ru/shell.php?videoid=4734459",
+          "https://video.sibnet.ru/shell.php?videoid=4734460",
+          "https://video.sibnet.ru/shell.php?videoid=4734462",
+          "https://video.sibnet.ru/shell.php?videoid=4734463",
+          "https://video.sibnet.ru/shell.php?videoid=4734464",
+          "https://video.sibnet.ru/shell.php?videoid=4734465",
+          "https://video.sibnet.ru/shell.php?videoid=4734467",
+          "https://video.sibnet.ru/shell.php?videoid=4734468",
+          "https://video.sibnet.ru/shell.php?videoid=4734469",
+          "https://video.sibnet.ru/shell.php?videoid=4734470",
+          "https://video.sibnet.ru/shell.php?videoid=4734471",
+          "https://video.sibnet.ru/shell.php?videoid=4734472"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

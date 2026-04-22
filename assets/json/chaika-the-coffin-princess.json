@@ -1,0 +1,43 @@
+{
+  "name": "Chaika the Coffin Princess",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/chaika-the-coffin-princess.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5089944",
+          "https://video.sibnet.ru/shell.php?videoid=5089954",
+          "https://video.sibnet.ru/shell.php?videoid=5089956",
+          "https://video.sibnet.ru/shell.php?videoid=5089957",
+          "https://video.sibnet.ru/shell.php?videoid=5089958",
+          "https://video.sibnet.ru/shell.php?videoid=5089959",
+          "https://video.sibnet.ru/shell.php?videoid=5089960",
+          "https://video.sibnet.ru/shell.php?videoid=5089963",
+          "https://video.sibnet.ru/shell.php?videoid=5089970",
+          "https://video.sibnet.ru/shell.php?videoid=5089971",
+          "https://video.sibnet.ru/shell.php?videoid=5089972",
+          "https://video.sibnet.ru/shell.php?videoid=5089973"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5090026",
+          "https://video.sibnet.ru/shell.php?videoid=5090032",
+          "https://video.sibnet.ru/shell.php?videoid=5090033",
+          "https://video.sibnet.ru/shell.php?videoid=5090072",
+          "https://video.sibnet.ru/shell.php?videoid=5090044",
+          "https://video.sibnet.ru/shell.php?videoid=5090046",
+          "https://video.sibnet.ru/shell.php?videoid=5090047",
+          "https://video.sibnet.ru/shell.php?videoid=5090054",
+          "https://video.sibnet.ru/shell.php?videoid=5090059",
+          "https://video.sibnet.ru/shell.php?videoid=5090060"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

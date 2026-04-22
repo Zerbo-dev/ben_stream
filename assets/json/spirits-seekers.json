@@ -1,0 +1,40 @@
+{
+  "name": "Spirits Seekers",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/spirits-seekers.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5005661",
+          "https://video.sibnet.ru/shell.php?videoid=5011431",
+          "https://video.sibnet.ru/shell.php?videoid=5018645",
+          "https://video.sibnet.ru/shell.php?videoid=5026558",
+          "https://video.sibnet.ru/shell.php?videoid=5033500",
+          "https://video.sibnet.ru/shell.php?videoid=5042270",
+          "https://video.sibnet.ru/shell.php?videoid=5052535",
+          "https://video.sibnet.ru/shell.php?videoid=5060865",
+          "https://video.sibnet.ru/shell.php?videoid=5069170",
+          "https://video.sibnet.ru/shell.php?videoid=5075090",
+          "https://video.sibnet.ru/shell.php?videoid=5081401",
+          "https://video.sibnet.ru/shell.php?videoid=5088941"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5187189",
+          "https://video.sibnet.ru/shell.php?videoid=5194122",
+          "https://video.sibnet.ru/shell.php?videoid=5200542",
+          "https://video.sibnet.ru/shell.php?videoid=5206814",
+          "https://video.sibnet.ru/shell.php?videoid=5213914",
+          "https://video.sibnet.ru/shell.php?videoid=5221356",
+          "https://video.sibnet.ru/shell.php?videoid=5250015"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

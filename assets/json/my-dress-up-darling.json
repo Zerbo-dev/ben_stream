@@ -1,0 +1,51 @@
+{
+  "name": "My Dress-Up Darling",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/my-dress-up-darling.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5154250",
+          "https://video.sibnet.ru/shell.php?videoid=5161071",
+          "https://video.sibnet.ru/shell.php?videoid=5167362",
+          "https://video.sibnet.ru/shell.php?videoid=5174870",
+          "https://video.sibnet.ru/shell.php?videoid=5180435",
+          "https://video.sibnet.ru/shell.php?videoid=5185531",
+          "https://video.sibnet.ru/shell.php?videoid=5192235",
+          "https://video.sibnet.ru/shell.php?videoid=5198973",
+          "https://video.sibnet.ru/shell.php?videoid=5205077",
+          "https://video.sibnet.ru/shell.php?videoid=5211665",
+          "https://video.sibnet.ru/shell.php?videoid=5219782",
+          "https://video.sibnet.ru/shell.php?videoid=5226783"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4668108",
+          "https://video.sibnet.ru/shell.php?videoid=4668113",
+          "https://video.sibnet.ru/shell.php?videoid=4668117",
+          "https://video.sibnet.ru/shell.php?videoid=4668122",
+          "https://video.sibnet.ru/shell.php?videoid=4668127",
+          "https://video.sibnet.ru/shell.php?videoid=4668132",
+          "https://video.sibnet.ru/shell.php?videoid=4668134",
+          "https://video.sibnet.ru/shell.php?videoid=4668137",
+          "https://video.sibnet.ru/shell.php?videoid=4668140",
+          "https://video.sibnet.ru/shell.php?videoid=4668142",
+          "https://video.sibnet.ru/shell.php?videoid=4668155",
+          "https://video.sibnet.ru/shell.php?videoid=4668145"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5953996",
+          "https://video.sibnet.ru/shell.php?videoid=5962013",
+          "https://video.sibnet.ru/shell.php?videoid=5968922"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Ame to Kimi to",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ame-to-kimi-to.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5954083",
+          "https://video.sibnet.ru/shell.php?videoid=5962068",
+          "https://video.sibnet.ru/shell.php?videoid=5969057"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

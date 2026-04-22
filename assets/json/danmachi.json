@@ -1,0 +1,56 @@
+{
+  "name": "DanMachi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/danmachi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4834555",
+          "https://video.sibnet.ru/shell.php?videoid=4834559",
+          "https://video.sibnet.ru/shell.php?videoid=4834560",
+          "https://video.sibnet.ru/shell.php?videoid=4834561"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4955875",
+          "https://video.sibnet.ru/shell.php?videoid=4955876",
+          "https://video.sibnet.ru/shell.php?videoid=4955877",
+          "https://video.sibnet.ru/shell.php?videoid=4955878",
+          "https://video.sibnet.ru/shell.php?videoid=4955879",
+          "https://video.sibnet.ru/shell.php?videoid=4955880",
+          "https://video.sibnet.ru/shell.php?videoid=4955881",
+          "https://video.sibnet.ru/shell.php?videoid=4955883",
+          "https://video.sibnet.ru/shell.php?videoid=4955884",
+          "https://video.sibnet.ru/shell.php?videoid=4955885",
+          "https://video.sibnet.ru/shell.php?videoid=4955887",
+          "https://video.sibnet.ru/shell.php?videoid=4955889",
+          "https://video.sibnet.ru/shell.php?videoid=4955892"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5715557",
+          "https://video.sibnet.ru/shell.php?videoid=5715558",
+          "https://video.sibnet.ru/shell.php?videoid=5715559",
+          "https://video.sibnet.ru/shell.php?videoid=5715560",
+          "https://video.sibnet.ru/shell.php?videoid=5715561",
+          "https://video.sibnet.ru/shell.php?videoid=5715562",
+          "https://video.sibnet.ru/shell.php?videoid=5715563",
+          "https://video.sibnet.ru/shell.php?videoid=5715564",
+          "https://video.sibnet.ru/shell.php?videoid=5715565",
+          "https://video.sibnet.ru/shell.php?videoid=5715566",
+          "https://video.sibnet.ru/shell.php?videoid=5715567",
+          "https://video.sibnet.ru/shell.php?videoid=5715568"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5017550"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4704791"
+      ],
+      "oav": []
+    }
+  }
+}

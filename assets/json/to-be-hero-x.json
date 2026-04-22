@@ -1,0 +1,63 @@
+{
+  "name": "To Be Hero X",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/to-be-hero-x.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5869621",
+          "https://video.sibnet.ru/shell.php?videoid=5877520",
+          "https://video.sibnet.ru/shell.php?videoid=5885636",
+          "https://video.sibnet.ru/shell.php?videoid=5893636",
+          "https://video.sibnet.ru/shell.php?videoid=5900764",
+          "https://video.sibnet.ru/shell.php?videoid=5908179",
+          "https://video.sibnet.ru/shell.php?videoid=5914588",
+          "https://video.sibnet.ru/shell.php?videoid=5921167",
+          "https://video.sibnet.ru/shell.php?videoid=5926856",
+          "https://video.sibnet.ru/shell.php?videoid=5931666",
+          "https://video.sibnet.ru/shell.php?videoid=5937152",
+          "https://video.sibnet.ru/shell.php?videoid=5942980",
+          "https://video.sibnet.ru/shell.php?videoid=5948717",
+          "https://video.sibnet.ru/shell.php?videoid=5954995",
+          "https://video.sibnet.ru/shell.php?videoid=5962863",
+          "https://video.sibnet.ru/shell.php?videoid=5969850"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5877511",
+          "https://video.sibnet.ru/shell.php?videoid=5877507",
+          "https://video.sibnet.ru/shell.php?videoid=5885527",
+          "https://video.sibnet.ru/shell.php?videoid=5893603",
+          "https://video.sibnet.ru/shell.php?videoid=5900763",
+          "https://video.sibnet.ru/shell.php?videoid=5908151",
+          "https://video.sibnet.ru/shell.php?videoid=5914568",
+          "https://video.sibnet.ru/shell.php?videoid=5921163",
+          "https://video.sibnet.ru/shell.php?videoid=5926854",
+          "https://video.sibnet.ru/shell.php?videoid=5931645",
+          "https://video.sibnet.ru/shell.php?videoid=5937135",
+          "https://video.sibnet.ru/shell.php?videoid=5942975",
+          "https://video.sibnet.ru/shell.php?videoid=5948713",
+          "https://video.sibnet.ru/shell.php?videoid=5954958",
+          "https://video.sibnet.ru/shell.php?videoid=5962854",
+          "https://video.sibnet.ru/shell.php?videoid=5969823"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

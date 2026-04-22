@@ -1,0 +1,54 @@
+{
+  "name": "Baka to Test to Shoukanjuu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/baka-to-test-to-shoukanjuu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5258774",
+          "https://video.sibnet.ru/shell.php?videoid=5258776",
+          "https://video.sibnet.ru/shell.php?videoid=5258777",
+          "https://video.sibnet.ru/shell.php?videoid=5258780",
+          "https://video.sibnet.ru/shell.php?videoid=5258781",
+          "https://video.sibnet.ru/shell.php?videoid=5258784",
+          "https://video.sibnet.ru/shell.php?videoid=5258785",
+          "https://video.sibnet.ru/shell.php?videoid=5258786",
+          "https://video.sibnet.ru/shell.php?videoid=5258787",
+          "https://video.sibnet.ru/shell.php?videoid=5258789",
+          "https://video.sibnet.ru/shell.php?videoid=5258791",
+          "https://video.sibnet.ru/shell.php?videoid=5258793",
+          "https://video.sibnet.ru/shell.php?videoid=5258794"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5258801",
+          "https://video.sibnet.ru/shell.php?videoid=5258807",
+          "https://video.sibnet.ru/shell.php?videoid=5258810",
+          "https://video.sibnet.ru/shell.php?videoid=5258813",
+          "https://video.sibnet.ru/shell.php?videoid=5258815",
+          "https://video.sibnet.ru/shell.php?videoid=5258816",
+          "https://video.sibnet.ru/shell.php?videoid=5258817",
+          "https://video.sibnet.ru/shell.php?videoid=5258819",
+          "https://video.sibnet.ru/shell.php?videoid=5258820",
+          "https://video.sibnet.ru/shell.php?videoid=5258822",
+          "https://video.sibnet.ru/shell.php?videoid=5258824",
+          "https://video.sibnet.ru/shell.php?videoid=5258825",
+          "https://video.sibnet.ru/shell.php?videoid=5258827"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5258931",
+        "https://video.sibnet.ru/shell.php?videoid=5258932",
+        "https://video.sibnet.ru/shell.php?videoid=5258933",
+        "https://video.sibnet.ru/shell.php?videoid=5258934",
+        "https://video.sibnet.ru/shell.php?videoid=5258935",
+        "https://video.sibnet.ru/shell.php?videoid=5258936"
+      ]
+    }
+  }
+}

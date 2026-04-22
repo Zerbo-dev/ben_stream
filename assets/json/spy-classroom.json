@@ -1,0 +1,40 @@
+{
+  "name": "Spy Classroom",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/spy-classroom.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4998957",
+          "https://video.sibnet.ru/shell.php?videoid=5007405",
+          "https://video.sibnet.ru/shell.php?videoid=5013739",
+          "https://video.sibnet.ru/shell.php?videoid=5022644",
+          "https://video.sibnet.ru/shell.php?videoid=5029362",
+          "https://video.sibnet.ru/shell.php?videoid=5036835",
+          "https://video.sibnet.ru/shell.php?videoid=5045946"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5196890",
+          "https://video.sibnet.ru/shell.php?videoid=5203170",
+          "https://video.sibnet.ru/shell.php?videoid=5209314",
+          "https://video.sibnet.ru/shell.php?videoid=5217446",
+          "https://video.sibnet.ru/shell.php?videoid=5223153",
+          "https://video.sibnet.ru/shell.php?videoid=5229677",
+          "https://video.sibnet.ru/shell.php?videoid=5237188",
+          "https://video.sibnet.ru/shell.php?videoid=5238835",
+          "https://video.sibnet.ru/shell.php?videoid=5246699",
+          "https://video.sibnet.ru/shell.php?videoid=5252932",
+          "https://video.sibnet.ru/shell.php?videoid=5258027",
+          "https://video.sibnet.ru/shell.php?videoid=5263307"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

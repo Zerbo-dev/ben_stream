@@ -1,0 +1,77 @@
+{
+  "name": "La Légende de Korra",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/la-legende-de-korra.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5505167",
+          "https://video.sibnet.ru/shell.php?videoid=5505168",
+          "https://video.sibnet.ru/shell.php?videoid=5505169",
+          "https://video.sibnet.ru/shell.php?videoid=5505170",
+          "https://video.sibnet.ru/shell.php?videoid=5505171",
+          "https://video.sibnet.ru/shell.php?videoid=5505172",
+          "https://video.sibnet.ru/shell.php?videoid=5505173",
+          "https://video.sibnet.ru/shell.php?videoid=5505174",
+          "https://video.sibnet.ru/shell.php?videoid=5505175",
+          "https://video.sibnet.ru/shell.php?videoid=5505176",
+          "https://video.sibnet.ru/shell.php?videoid=5505177",
+          "https://video.sibnet.ru/shell.php?videoid=5505180"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5505181",
+          "https://video.sibnet.ru/shell.php?videoid=5505183",
+          "https://video.sibnet.ru/shell.php?videoid=5505184",
+          "https://video.sibnet.ru/shell.php?videoid=5505186",
+          "https://video.sibnet.ru/shell.php?videoid=5505187",
+          "https://video.sibnet.ru/shell.php?videoid=5505189",
+          "https://video.sibnet.ru/shell.php?videoid=5505190",
+          "https://video.sibnet.ru/shell.php?videoid=5505191",
+          "https://video.sibnet.ru/shell.php?videoid=5505194",
+          "https://video.sibnet.ru/shell.php?videoid=5505195",
+          "https://video.sibnet.ru/shell.php?videoid=5505196",
+          "https://video.sibnet.ru/shell.php?videoid=5505197",
+          "https://video.sibnet.ru/shell.php?videoid=5505199",
+          "https://video.sibnet.ru/shell.php?videoid=5505200"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5505201",
+          "https://video.sibnet.ru/shell.php?videoid=5505202",
+          "https://video.sibnet.ru/shell.php?videoid=5505204",
+          "https://video.sibnet.ru/shell.php?videoid=5505205",
+          "https://video.sibnet.ru/shell.php?videoid=5505207",
+          "https://video.sibnet.ru/shell.php?videoid=5505210",
+          "https://video.sibnet.ru/shell.php?videoid=5505211",
+          "https://video.sibnet.ru/shell.php?videoid=5505212",
+          "https://video.sibnet.ru/shell.php?videoid=5505213",
+          "https://video.sibnet.ru/shell.php?videoid=5505214",
+          "https://video.sibnet.ru/shell.php?videoid=5505215",
+          "https://video.sibnet.ru/shell.php?videoid=5505216",
+          "https://video.sibnet.ru/shell.php?videoid=5505217"
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid=5505218",
+          "https://video.sibnet.ru/shell.php?videoid=5505220",
+          "https://video.sibnet.ru/shell.php?videoid=5505221",
+          "https://video.sibnet.ru/shell.php?videoid=5505222",
+          "https://video.sibnet.ru/shell.php?videoid=5505223",
+          "https://video.sibnet.ru/shell.php?videoid=5505225",
+          "https://video.sibnet.ru/shell.php?videoid=5505226",
+          "https://video.sibnet.ru/shell.php?videoid=5505227",
+          "https://video.sibnet.ru/shell.php?videoid=5505229",
+          "https://video.sibnet.ru/shell.php?videoid=5505232",
+          "https://video.sibnet.ru/shell.php?videoid=5505233",
+          "https://video.sibnet.ru/shell.php?videoid=5505236",
+          "https://video.sibnet.ru/shell.php?videoid=5505238"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

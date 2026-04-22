@@ -1,0 +1,20 @@
+{
+  "name": "Je peux entendre l'océan",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/je-peux-entendre-l-ocean.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5055319"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366057"
+      ],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Voices of a distant Star",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/voices-of-a-distant-star.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4835129\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4835131\t"
+      ],
+      "oav": []
+    }
+  }
+}

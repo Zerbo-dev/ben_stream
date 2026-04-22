@@ -1,0 +1,20 @@
+{
+  "name": "Si tu tends l'oreille",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/si-tu-tends-l-oreille.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5184986"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366088"
+      ],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "The Quintessential Quintuplets",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-quintessential-quintuplets.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5119913"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5246795",
+        "https://video.sibnet.ru/shell.php?videoid=5249407"
+      ]
+    }
+  }
+}

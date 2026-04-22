@@ -1,0 +1,46 @@
+{
+  "name": "Blue Period",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/blue-period.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4727257",
+          "https://video.sibnet.ru/shell.php?videoid=4727258",
+          "https://video.sibnet.ru/shell.php?videoid=4727259",
+          "https://video.sibnet.ru/shell.php?videoid=4727260",
+          "https://video.sibnet.ru/shell.php?videoid=4727261",
+          "https://video.sibnet.ru/shell.php?videoid=4727262",
+          "https://video.sibnet.ru/shell.php?videoid=4727265",
+          "https://video.sibnet.ru/shell.php?videoid=4727266",
+          "https://video.sibnet.ru/shell.php?videoid=4727268",
+          "https://video.sibnet.ru/shell.php?videoid=4727269",
+          "https://video.sibnet.ru/shell.php?videoid=4727270",
+          "https://video.sibnet.ru/shell.php?videoid=4727271"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4444243",
+          "https://video.sibnet.ru/shell.php?videoid=4448338",
+          "https://video.sibnet.ru/shell.php?videoid=4455897",
+          "https://video.sibnet.ru/shell.php?videoid=4467310",
+          "https://video.sibnet.ru/shell.php?videoid=4493586",
+          "https://video.sibnet.ru/shell.php?videoid=4496405",
+          "https://video.sibnet.ru/shell.php?videoid=4533334",
+          "https://video.sibnet.ru/shell.php?videoid=4532495",
+          "https://video.sibnet.ru/shell.php?videoid=4539394",
+          "https://video.sibnet.ru/shell.php?videoid=4547912",
+          "https://video.sibnet.ru/shell.php?videoid=4556920",
+          "https://video.sibnet.ru/shell.php?videoid=4670994"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

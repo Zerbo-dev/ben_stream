@@ -1,0 +1,20 @@
+{
+  "name": "Sing a Bit of Harmony",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sing-a-bit-of-harmony.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5185126"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5185133"
+      ],
+      "oav": []
+    }
+  }
+}

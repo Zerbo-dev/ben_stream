@@ -1,0 +1,45 @@
+{
+  "name": "Build Divide",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/build-divide.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4444238",
+          "https://video.sibnet.ru/shell.php?videoid=4452903",
+          "https://video.sibnet.ru/shell.php?videoid=4461417",
+          "https://video.sibnet.ru/shell.php?videoid=4475968",
+          "https://video.sibnet.ru/shell.php?videoid=4485528",
+          "https://video.sibnet.ru/shell.php?videoid=4496176",
+          "https://video.sibnet.ru/shell.php?videoid=4509286",
+          "https://video.sibnet.ru/shell.php?videoid=4519191",
+          "https://video.sibnet.ru/shell.php?videoid=4530957",
+          "https://video.sibnet.ru/shell.php?videoid=4539817",
+          "https://video.sibnet.ru/shell.php?videoid=4547942",
+          "https://video.sibnet.ru/shell.php?videoid=4556918"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5102387",
+          "https://video.sibnet.ru/shell.php?videoid=4665995",
+          "https://video.sibnet.ru/shell.php?videoid=4675146",
+          "https://video.sibnet.ru/shell.php?videoid=4682262",
+          "https://video.sibnet.ru/shell.php?videoid=4696006",
+          "https://video.sibnet.ru/shell.php?videoid=4712610",
+          "https://video.sibnet.ru/shell.php?videoid=4721976",
+          "https://video.sibnet.ru/shell.php?videoid=4731139",
+          "https://video.sibnet.ru/shell.php?videoid=4739285",
+          "https://video.sibnet.ru/shell.php?videoid=4747908",
+          "https://video.sibnet.ru/shell.php?videoid=4756082",
+          "https://video.sibnet.ru/shell.php?videoid=4766126"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "One Room, Hi Atari Futsuu, Tenshi Tsuki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/one-room-hi-atari-futsuu-tenshi-tsuki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5502890",
+          "https://video.sibnet.ru/shell.php?videoid=5502893",
+          "https://video.sibnet.ru/shell.php?videoid=5503579",
+          "https://video.sibnet.ru/shell.php?videoid=5510851",
+          "https://video.sibnet.ru/shell.php?videoid=5518037",
+          "https://video.sibnet.ru/shell.php?videoid=5524814",
+          "https://video.sibnet.ru/shell.php?videoid=5532433",
+          "https://video.sibnet.ru/shell.php?videoid=5538850",
+          "https://video.sibnet.ru/shell.php?videoid=5545144",
+          "https://video.sibnet.ru/shell.php?videoid=5551553",
+          "https://video.sibnet.ru/shell.php?videoid=5556960",
+          "https://video.sibnet.ru/shell.php?videoid=5563900"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

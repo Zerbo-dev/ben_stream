@@ -1,0 +1,46 @@
+{
+  "name": "Hiiro no Kakera",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hiiro-no-kakera.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5455676",
+          "https://video.sibnet.ru/shell.php?videoid=5455678",
+          "https://video.sibnet.ru/shell.php?videoid=5455679",
+          "https://video.sibnet.ru/shell.php?videoid=5455680",
+          "https://video.sibnet.ru/shell.php?videoid=5455683",
+          "https://video.sibnet.ru/shell.php?videoid=5455684",
+          "https://video.sibnet.ru/shell.php?videoid=5455687",
+          "https://video.sibnet.ru/shell.php?videoid=5455688",
+          "https://video.sibnet.ru/shell.php?videoid=5455689",
+          "https://video.sibnet.ru/shell.php?videoid=5455691",
+          "https://video.sibnet.ru/shell.php?videoid=5455694",
+          "https://video.sibnet.ru/shell.php?videoid=5455696"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5455702",
+          "https://video.sibnet.ru/shell.php?videoid=5455704",
+          "https://video.sibnet.ru/shell.php?videoid=5455707",
+          "https://video.sibnet.ru/shell.php?videoid=5455709",
+          "https://video.sibnet.ru/shell.php?videoid=5455711",
+          "https://video.sibnet.ru/shell.php?videoid=5455713",
+          "https://video.sibnet.ru/shell.php?videoid=5455716",
+          "https://video.sibnet.ru/shell.php?videoid=5455720",
+          "https://video.sibnet.ru/shell.php?videoid=5455724",
+          "https://video.sibnet.ru/shell.php?videoid=5455727",
+          "https://video.sibnet.ru/shell.php?videoid=5455729",
+          "https://video.sibnet.ru/shell.php?videoid=5455733",
+          "https://video.sibnet.ru/shell.php?videoid=5455738"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

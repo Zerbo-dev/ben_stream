@@ -1,0 +1,33 @@
+{
+  "name": "Bokura wa Minna Kawaisou",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/bokura-wa-minna-kawaisou.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4942423",
+          "https://video.sibnet.ru/shell.php?videoid=4942426",
+          "https://video.sibnet.ru/shell.php?videoid=4942432",
+          "https://video.sibnet.ru/shell.php?videoid=4942433",
+          "https://video.sibnet.ru/shell.php?videoid=4942434",
+          "https://video.sibnet.ru/shell.php?videoid=4942435",
+          "https://video.sibnet.ru/shell.php?videoid=4942438",
+          "https://video.sibnet.ru/shell.php?videoid=4942440",
+          "https://video.sibnet.ru/shell.php?videoid=4942443",
+          "https://video.sibnet.ru/shell.php?videoid=4942447",
+          "https://video.sibnet.ru/shell.php?videoid=4942451",
+          "https://video.sibnet.ru/shell.php?videoid=4942455"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4942457"
+      ]
+    }
+  }
+}

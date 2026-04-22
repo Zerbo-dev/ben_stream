@@ -1,0 +1,40 @@
+{
+  "name": "Akuyaku Reijou Tensei Ojisan",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/akuyaku-reijou-tensei-ojisan.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5794110",
+          "https://video.sibnet.ru/shell.php?videoid=5799748",
+          "https://video.sibnet.ru/shell.php?videoid=5805103",
+          "https://video.sibnet.ru/shell.php?videoid=5809769",
+          "https://video.sibnet.ru/shell.php?videoid=5816649",
+          "https://video.sibnet.ru/shell.php?videoid=5823816",
+          "https://video.sibnet.ru/shell.php?videoid=5830133",
+          "https://video.sibnet.ru/shell.php?videoid=5837474",
+          "https://video.sibnet.ru/shell.php?videoid=5843523",
+          "https://video.sibnet.ru/shell.php?videoid=5849896",
+          "https://video.sibnet.ru/shell.php?videoid=5855652",
+          "https://video.sibnet.ru/shell.php?videoid=5862209"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

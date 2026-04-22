@@ -1,0 +1,48 @@
+{
+  "name": "Tomo-chan Is a Girl!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tomo-chan-is-a-girl.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5022004",
+          "https://video.sibnet.ru/shell.php?videoid=5028555",
+          "https://video.sibnet.ru/shell.php?videoid=5036068",
+          "https://video.sibnet.ru/shell.php?videoid=5045121",
+          "https://video.sibnet.ru/shell.php?videoid=5055726",
+          "https://video.sibnet.ru/shell.php?videoid=5063859",
+          "https://video.sibnet.ru/shell.php?videoid=5070826",
+          "https://video.sibnet.ru/shell.php?videoid=5077025",
+          "https://video.sibnet.ru/shell.php?videoid=5084314",
+          "https://video.sibnet.ru/shell.php?videoid=5091082",
+          "https://video.sibnet.ru/shell.php?videoid=5097645",
+          "https://video.sibnet.ru/shell.php?videoid=5103488",
+          "https://video.sibnet.ru/shell.php?videoid=5110645"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4998353",
+          "https://video.sibnet.ru/shell.php?videoid=5006730",
+          "https://video.sibnet.ru/shell.php?videoid=5013058",
+          "https://video.sibnet.ru/shell.php?videoid=5021807",
+          "https://video.sibnet.ru/shell.php?videoid=5028331",
+          "https://video.sibnet.ru/shell.php?videoid=5035869",
+          "https://video.sibnet.ru/shell.php?videoid=5044912",
+          "https://video.sibnet.ru/shell.php?videoid=5055599",
+          "https://video.sibnet.ru/shell.php?videoid=5063590",
+          "https://video.sibnet.ru/shell.php?videoid=5070528",
+          "https://video.sibnet.ru/shell.php?videoid=5076920",
+          "https://video.sibnet.ru/shell.php?videoid=5083916",
+          "https://video.sibnet.ru/shell.php?videoid=5090958"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

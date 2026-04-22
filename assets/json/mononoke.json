@@ -1,0 +1,31 @@
+{
+  "name": "Mononoke",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mononoke.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5306617",
+          "https://video.sibnet.ru/shell.php?videoid=5306619",
+          "https://video.sibnet.ru/shell.php?videoid=5306622",
+          "https://video.sibnet.ru/shell.php?videoid=5306625",
+          "https://video.sibnet.ru/shell.php?videoid=5306628",
+          "https://video.sibnet.ru/shell.php?videoid=5306631",
+          "https://video.sibnet.ru/shell.php?videoid=5306634",
+          "https://video.sibnet.ru/shell.php?videoid=5306636",
+          "https://video.sibnet.ru/shell.php?videoid=5306642",
+          "https://video.sibnet.ru/shell.php?videoid=5306643",
+          "https://video.sibnet.ru/shell.php?videoid=5306644",
+          "https://video.sibnet.ru/shell.php?videoid=5306647"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

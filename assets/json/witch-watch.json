@@ -1,0 +1,44 @@
+{
+  "name": "Witch Watch",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/witch-watch.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5869718",
+          "https://video.sibnet.ru/shell.php?videoid=5877542",
+          "https://video.sibnet.ru/shell.php?videoid=5885709",
+          "https://video.sibnet.ru/shell.php?videoid=5893785",
+          "https://video.sibnet.ru/shell.php?videoid=5900776",
+          "https://video.sibnet.ru/shell.php?videoid=5908288",
+          "https://video.sibnet.ru/shell.php?videoid=5914828",
+          "https://video.sibnet.ru/shell.php?videoid=5921267",
+          "https://video.sibnet.ru/shell.php?videoid=5926877",
+          "https://video.sibnet.ru/shell.php?videoid=5931903",
+          "https://video.sibnet.ru/shell.php?videoid=5937201",
+          "https://video.sibnet.ru/shell.php?videoid=5943039",
+          "https://video.sibnet.ru/shell.php?videoid=5948735",
+          "https://video.sibnet.ru/shell.php?videoid=5955028",
+          "https://video.sibnet.ru/shell.php?videoid=5962878",
+          "https://video.sibnet.ru/shell.php?videoid=5969829"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

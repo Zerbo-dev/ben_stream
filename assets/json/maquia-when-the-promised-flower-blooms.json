@@ -1,0 +1,20 @@
+{
+  "name": "Maquia: When the Promised Flower Blooms",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/maquia-when-the-promised-flower-blooms.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=3638745"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=3602684"
+      ],
+      "oav": []
+    }
+  }
+}

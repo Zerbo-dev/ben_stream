@@ -1,0 +1,57 @@
+{
+  "name": "Shingeki no Bahamut",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shingeki-no-bahamut.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4956892",
+          "https://video.sibnet.ru/shell.php?videoid=4956894",
+          "https://video.sibnet.ru/shell.php?videoid=4956896",
+          "https://video.sibnet.ru/shell.php?videoid=4956898",
+          "https://video.sibnet.ru/shell.php?videoid=4956899",
+          "https://video.sibnet.ru/shell.php?videoid=4956902",
+          "https://video.sibnet.ru/shell.php?videoid=4956904",
+          "https://video.sibnet.ru/shell.php?videoid=4956906",
+          "https://video.sibnet.ru/shell.php?videoid=4956910",
+          "https://video.sibnet.ru/shell.php?videoid=4956914",
+          "https://video.sibnet.ru/shell.php?videoid=4956916",
+          "https://video.sibnet.ru/shell.php?videoid=4956918"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4956889",
+          "https://video.sibnet.ru/shell.php?videoid=4956890",
+          "https://video.sibnet.ru/shell.php?videoid=4956891",
+          "https://video.sibnet.ru/shell.php?videoid=4956893",
+          "https://video.sibnet.ru/shell.php?videoid=4956895",
+          "https://video.sibnet.ru/shell.php?videoid=4956897",
+          "https://video.sibnet.ru/shell.php?videoid=4956900",
+          "https://video.sibnet.ru/shell.php?videoid=4956903",
+          "https://video.sibnet.ru/shell.php?videoid=4956933",
+          "https://video.sibnet.ru/shell.php?videoid=4956907",
+          "https://video.sibnet.ru/shell.php?videoid=4956911",
+          "https://video.sibnet.ru/shell.php?videoid=4956915",
+          "https://video.sibnet.ru/shell.php?videoid=4956917",
+          "https://video.sibnet.ru/shell.php?videoid=4956919",
+          "https://video.sibnet.ru/shell.php?videoid=4956920",
+          "https://video.sibnet.ru/shell.php?videoid=4956922",
+          "https://video.sibnet.ru/shell.php?videoid=4956924",
+          "https://video.sibnet.ru/shell.php?videoid=4956925",
+          "https://video.sibnet.ru/shell.php?videoid=4956926",
+          "https://video.sibnet.ru/shell.php?videoid=4956927",
+          "https://video.sibnet.ru/shell.php?videoid=4956928",
+          "https://video.sibnet.ru/shell.php?videoid=4956930",
+          "https://video.sibnet.ru/shell.php?videoid=4956931",
+          "https://video.sibnet.ru/shell.php?videoid=4956932"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

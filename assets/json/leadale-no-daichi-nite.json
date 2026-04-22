@@ -1,0 +1,46 @@
+{
+  "name": "Leadale no Daichi Nite",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/leadale-no-daichi-nite.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4607626",
+          "https://video.sibnet.ru/shell.php?videoid=4614593",
+          "https://video.sibnet.ru/shell.php?videoid=4623372",
+          "https://video.sibnet.ru/shell.php?videoid=4629947",
+          "https://video.sibnet.ru/shell.php?videoid=4638123",
+          "https://video.sibnet.ru/shell.php?videoid=4646056",
+          "https://video.sibnet.ru/shell.php?videoid=4652376",
+          "https://video.sibnet.ru/shell.php?videoid=4663024",
+          "https://video.sibnet.ru/shell.php?videoid=4671498",
+          "https://video.sibnet.ru/shell.php?videoid=4679717",
+          "https://video.sibnet.ru/shell.php?videoid=4690744",
+          "https://video.sibnet.ru/shell.php?videoid=4702251"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4668306",
+          "https://video.sibnet.ru/shell.php?videoid=4668310",
+          "https://video.sibnet.ru/shell.php?videoid=4668314",
+          "https://video.sibnet.ru/shell.php?videoid=4668317",
+          "https://video.sibnet.ru/shell.php?videoid=4668323",
+          "https://video.sibnet.ru/shell.php?videoid=4668325",
+          "https://video.sibnet.ru/shell.php?videoid=4668328",
+          "https://video.sibnet.ru/shell.php?videoid=4668333",
+          "https://video.sibnet.ru/shell.php?videoid=4668338",
+          "https://video.sibnet.ru/shell.php?videoid=4668340",
+          "https://video.sibnet.ru/shell.php?videoid=4668345",
+          "https://video.sibnet.ru/shell.php?videoid=4668348"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

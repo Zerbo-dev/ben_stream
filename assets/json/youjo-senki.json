@@ -1,0 +1,49 @@
+{
+  "name": "Youjo Senki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/youjo-senki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5002869",
+          "https://video.sibnet.ru/shell.php?videoid=5002870",
+          "https://video.sibnet.ru/shell.php?videoid=5002871",
+          "https://video.sibnet.ru/shell.php?videoid=5002873",
+          "https://video.sibnet.ru/shell.php?videoid=5002874",
+          "https://video.sibnet.ru/shell.php?videoid=5002875",
+          "https://video.sibnet.ru/shell.php?videoid=5002876",
+          "https://video.sibnet.ru/shell.php?videoid=5002878",
+          "https://video.sibnet.ru/shell.php?videoid=5002879",
+          "https://video.sibnet.ru/shell.php?videoid=5002880",
+          "https://video.sibnet.ru/shell.php?videoid=5002881",
+          "https://video.sibnet.ru/shell.php?videoid=5002883"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4692676",
+          "https://video.sibnet.ru/shell.php?videoid=4692680",
+          "https://video.sibnet.ru/shell.php?videoid=4692686",
+          "https://video.sibnet.ru/shell.php?videoid=4692693",
+          "https://video.sibnet.ru/shell.php?videoid=4692697",
+          "https://video.sibnet.ru/shell.php?videoid=4692705",
+          "https://video.sibnet.ru/shell.php?videoid=4692717",
+          "https://video.sibnet.ru/shell.php?videoid=4692721",
+          "https://video.sibnet.ru/shell.php?videoid=4692727",
+          "https://video.sibnet.ru/shell.php?videoid=4692736",
+          "https://video.sibnet.ru/shell.php?videoid=4692747"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5191970"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5192343"
+      ]
+    }
+  }
+}

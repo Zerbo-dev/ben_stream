@@ -1,0 +1,40 @@
+{
+  "name": "Ballpark de Tsukamaete!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ballpark-de-tsukamaete.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5865646",
+          "https://video.sibnet.ru/shell.php?videoid=5872048",
+          "https://video.sibnet.ru/shell.php?videoid=5880133",
+          "https://video.sibnet.ru/shell.php?videoid=5888419",
+          "https://video.sibnet.ru/shell.php?videoid=5896302",
+          "https://video.sibnet.ru/shell.php?videoid=5903408",
+          "https://video.sibnet.ru/shell.php?videoid=5910452",
+          "https://video.sibnet.ru/shell.php?videoid=5916928",
+          "https://video.sibnet.ru/shell.php?videoid=5923141",
+          "https://video.sibnet.ru/shell.php?videoid=5928430",
+          "https://video.sibnet.ru/shell.php?videoid=5933540",
+          "https://video.sibnet.ru/shell.php?videoid=5938910"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

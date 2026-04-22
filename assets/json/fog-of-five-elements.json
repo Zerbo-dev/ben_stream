@@ -1,0 +1,22 @@
+{
+  "name": "Fog of Five Elements",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/fog-of-five-elements.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5306581",
+          "https://video.sibnet.ru/shell.php?videoid=5306584",
+          "https://video.sibnet.ru/shell.php?videoid=5306588"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Amaama to Inazuma",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/amaama-to-inazuma.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4811849",
+          "https://video.sibnet.ru/shell.php?videoid=4811850",
+          "https://video.sibnet.ru/shell.php?videoid=4811851",
+          "https://video.sibnet.ru/shell.php?videoid=4811852",
+          "https://video.sibnet.ru/shell.php?videoid=4811853",
+          "https://video.sibnet.ru/shell.php?videoid=4811854",
+          "https://video.sibnet.ru/shell.php?videoid=4811855",
+          "https://video.sibnet.ru/shell.php?videoid=4811856",
+          "https://video.sibnet.ru/shell.php?videoid=4811857",
+          "https://video.sibnet.ru/shell.php?videoid=4811858",
+          "https://video.sibnet.ru/shell.php?videoid=4811860",
+          "https://video.sibnet.ru/shell.php?videoid=4811861"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

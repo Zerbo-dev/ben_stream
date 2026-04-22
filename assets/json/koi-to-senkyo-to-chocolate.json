@@ -1,0 +1,32 @@
+{
+  "name": "Koi to Senkyo to Chocolate",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/koi-to-senkyo-to-chocolate.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801787",
+          "https://video.sibnet.ru/shell.php?videoid=4801791",
+          "https://video.sibnet.ru/shell.php?videoid=4801793",
+          "https://video.sibnet.ru/shell.php?videoid=4801796",
+          "https://video.sibnet.ru/shell.php?videoid=4801799",
+          "https://video.sibnet.ru/shell.php?videoid=4801800",
+          "https://video.sibnet.ru/shell.php?videoid=4801802",
+          "https://video.sibnet.ru/shell.php?videoid=4801803",
+          "https://video.sibnet.ru/shell.php?videoid=4801806",
+          "https://video.sibnet.ru/shell.php?videoid=4801807",
+          "https://video.sibnet.ru/shell.php?videoid=4801809",
+          "https://video.sibnet.ru/shell.php?videoid=4801811",
+          "https://video.sibnet.ru/shell.php?videoid=4801813"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

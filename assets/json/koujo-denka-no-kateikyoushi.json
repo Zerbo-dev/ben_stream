@@ -1,0 +1,32 @@
+{
+  "name": "Koujo Denka no Kateikyoushi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/koujo-denka-no-kateikyoushi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5948235",
+          "https://video.sibnet.ru/shell.php?videoid=5954009",
+          "https://video.sibnet.ru/shell.php?videoid=5962031",
+          "https://video.sibnet.ru/shell.php?videoid=5968964"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

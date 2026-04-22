@@ -1,0 +1,45 @@
+{
+  "name": "My Next Life As A Villainess",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/my-next-life-as-a-villainess.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3892703",
+          "https://video.sibnet.ru/shell.php?videoid=3902463",
+          "https://video.sibnet.ru/shell.php?videoid=3911748",
+          "https://video.sibnet.ru/shell.php?videoid=3921680",
+          "https://video.sibnet.ru/shell.php?videoid=3932378",
+          "https://video.sibnet.ru/shell.php?videoid=3942549",
+          "https://video.sibnet.ru/shell.php?videoid=3951655",
+          "https://video.sibnet.ru/shell.php?videoid=3959821",
+          "https://video.sibnet.ru/shell.php?videoid=3967741",
+          "https://video.sibnet.ru/shell.php?videoid=3975173",
+          "https://video.sibnet.ru/shell.php?videoid=3981613",
+          "https://video.sibnet.ru/shell.php?videoid=3987979"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4344601",
+          "https://video.sibnet.ru/shell.php?videoid=4351358",
+          "https://video.sibnet.ru/shell.php?videoid=4359967",
+          "https://video.sibnet.ru/shell.php?videoid=4366372",
+          "https://video.sibnet.ru/shell.php?videoid=4374372",
+          "https://video.sibnet.ru/shell.php?videoid=4379810",
+          "https://video.sibnet.ru/shell.php?videoid=4385804",
+          "https://video.sibnet.ru/shell.php?videoid=4392578",
+          "https://video.sibnet.ru/shell.php?videoid=4399004",
+          "https://video.sibnet.ru/shell.php?videoid=4406028",
+          "https://video.sibnet.ru/shell.php?videoid=4413051",
+          "https://video.sibnet.ru/shell.php?videoid=4418941"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Youth Literature",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/youth-literature.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5309062"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5309072",
+          "https://video.sibnet.ru/shell.php?videoid=5309073"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5309067",
+          "https://video.sibnet.ru/shell.php?videoid=5309068"
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid=5309065",
+          "https://video.sibnet.ru/shell.php?videoid=5309061"
+        ],
+        "saison5": [
+          "https://video.sibnet.ru/shell.php?videoid=5309069",
+          "https://video.sibnet.ru/shell.php?videoid=5309071"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5308995"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5309005",
+          "https://video.sibnet.ru/shell.php?videoid=5309007"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5309000",
+          "https://video.sibnet.ru/shell.php?videoid=5309001"
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid=5308998",
+          "https://video.sibnet.ru/shell.php?videoid=5308933"
+        ],
+        "saison5": [
+          "https://video.sibnet.ru/shell.php?videoid5309002",
+          "https://video.sibnet.ru/shell.php?videoid5309003"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

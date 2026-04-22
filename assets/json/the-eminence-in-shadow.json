@@ -1,0 +1,72 @@
+{
+  "name": "The Eminence in Shadow",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-eminence-in-shadow.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5108425",
+          "https://video.sibnet.ru/shell.php?videoid=5108428",
+          "https://video.sibnet.ru/shell.php?videoid=5108429",
+          "https://video.sibnet.ru/shell.php?videoid=5108431",
+          "https://video.sibnet.ru/shell.php?videoid=5108432",
+          "https://video.sibnet.ru/shell.php?videoid=5108433",
+          "https://video.sibnet.ru/shell.php?videoid=5108434",
+          "https://video.sibnet.ru/shell.php?videoid=5108435",
+          "https://video.sibnet.ru/shell.php?videoid=5108436",
+          "https://video.sibnet.ru/shell.php?videoid=5108437",
+          "https://video.sibnet.ru/shell.php?videoid=5108439",
+          "https://video.sibnet.ru/shell.php?videoid=5108440",
+          "https://video.sibnet.ru/shell.php?videoid=5108441",
+          "https://video.sibnet.ru/shell.php?videoid=5244573",
+          "https://video.sibnet.ru/shell.php?videoid=5244574",
+          "https://video.sibnet.ru/shell.php?videoid=5244575",
+          "https://video.sibnet.ru/shell.php?videoid=5244576",
+          "https://video.sibnet.ru/shell.php?videoid=5244579",
+          "https://video.sibnet.ru/shell.php?videoid=5244580",
+          "https://video.sibnet.ru/shell.php?videoid=5244582"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5477535",
+          "https://video.sibnet.ru/shell.php?videoid=5477537",
+          "https://video.sibnet.ru/shell.php?videoid=5477539",
+          "https://video.sibnet.ru/shell.php?videoid=5477542",
+          "https://video.sibnet.ru/shell.php?videoid=5477543",
+          "https://video.sibnet.ru/shell.php?videoid=5477544",
+          "https://video.sibnet.ru/shell.php?videoid=5477547",
+          "https://video.sibnet.ru/shell.php?videoid=5477549",
+          "https://video.sibnet.ru/shell.php?videoid=5477552",
+          "https://video.sibnet.ru/shell.php?videoid=5477553",
+          "https://video.sibnet.ru/shell.php?videoid=5477555",
+          "https://video.sibnet.ru/shell.php?videoid=5477557"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5012800",
+          "https://video.sibnet.ru/shell.php?videoid=5028170"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5267999",
+          "https://video.sibnet.ru/shell.php?videoid=5276451",
+          "https://video.sibnet.ru/shell.php?videoid=5286684",
+          "https://video.sibnet.ru/shell.php?videoid=5296399",
+          "https://video.sibnet.ru/shell.php?videoid=5304768",
+          "https://video.sibnet.ru/shell.php?videoid=5313027",
+          "https://video.sibnet.ru/shell.php?videoid=5323023",
+          "https://video.sibnet.ru/shell.php?videoid=5333152",
+          "https://video.sibnet.ru/shell.php?videoid=5343964",
+          "https://video.sibnet.ru/shell.php?videoid=5353660",
+          "https://video.sibnet.ru/shell.php?videoid=5362915",
+          "https://video.sibnet.ru/shell.php?videoid=5371049"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

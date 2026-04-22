@@ -1,0 +1,48 @@
+{
+  "name": "The God Of High School",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-god-of-high-school.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5425316",
+          "https://video.sibnet.ru/shell.php?videoid=5431295",
+          "https://video.sibnet.ru/shell.php?videoid=5439209",
+          "https://video.sibnet.ru/shell.php?videoid=5448940",
+          "https://video.sibnet.ru/shell.php?videoid=5457606",
+          "https://video.sibnet.ru/shell.php?videoid=5465844",
+          "https://video.sibnet.ru/shell.php?videoid=5474232",
+          "https://video.sibnet.ru/shell.php?videoid=5484598",
+          "https://video.sibnet.ru/shell.php?videoid=5491302",
+          "https://video.sibnet.ru/shell.php?videoid=5499596",
+          "https://video.sibnet.ru/shell.php?videoid=5508208",
+          "https://video.sibnet.ru/shell.php?videoid=5513968",
+          "https://video.sibnet.ru/shell.php?videoid=5521866"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5467932",
+          "https://video.sibnet.ru/shell.php?videoid=5467933",
+          "https://video.sibnet.ru/shell.php?videoid=5467934",
+          "https://video.sibnet.ru/shell.php?videoid=5467935",
+          "https://video.sibnet.ru/shell.php?videoid=5467936",
+          "https://video.sibnet.ru/shell.php?videoid=5467937",
+          "https://video.sibnet.ru/shell.php?videoid=5467938",
+          "https://video.sibnet.ru/shell.php?videoid=5467939",
+          "https://video.sibnet.ru/shell.php?videoid=5467941",
+          "https://video.sibnet.ru/shell.php?videoid=5467942",
+          "https://video.sibnet.ru/shell.php?videoid=5467943",
+          "https://video.sibnet.ru/shell.php?videoid=5467944",
+          "https://video.sibnet.ru/shell.php?videoid=5467945"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Joukamachi no Dandelion",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/joukamachi-no-dandelion.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5916709",
+          "https://video.sibnet.ru/shell.php?videoid=5916710",
+          "https://video.sibnet.ru/shell.php?videoid=5916711",
+          "https://video.sibnet.ru/shell.php?videoid=5916713",
+          "https://video.sibnet.ru/shell.php?videoid=5916715",
+          "https://video.sibnet.ru/shell.php?videoid=5916716",
+          "https://video.sibnet.ru/shell.php?videoid=5916717",
+          "https://video.sibnet.ru/shell.php?videoid=5916719",
+          "https://video.sibnet.ru/shell.php?videoid=5916720",
+          "https://video.sibnet.ru/shell.php?videoid=5916721",
+          "https://video.sibnet.ru/shell.php?videoid=5916722",
+          "https://video.sibnet.ru/shell.php?videoid=5916723"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

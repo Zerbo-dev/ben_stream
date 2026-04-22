@@ -1,0 +1,38 @@
+{
+  "name": "Clevatess",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/clevatess.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5958471",
+          "https://video.sibnet.ru/shell.php?videoid=5965843",
+          "https://video.sibnet.ru/shell.php?videoid=5972599"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5951255",
+          "https://video.sibnet.ru/shell.php?videoid=5958454",
+          "https://video.sibnet.ru/shell.php?videoid=5965831",
+          "https://video.sibnet.ru/shell.php?videoid=5972482"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

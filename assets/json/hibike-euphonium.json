@@ -1,0 +1,66 @@
+{
+  "name": "Hibike! Euphonium",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hibike-euphonium.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4832347",
+          "https://video.sibnet.ru/shell.php?videoid=4832349",
+          "https://video.sibnet.ru/shell.php?videoid=4832351",
+          "https://video.sibnet.ru/shell.php?videoid=4832352",
+          "https://video.sibnet.ru/shell.php?videoid=4832355",
+          "https://video.sibnet.ru/shell.php?videoid=4832356",
+          "https://video.sibnet.ru/shell.php?videoid=4832359",
+          "https://video.sibnet.ru/shell.php?videoid=4832360",
+          "https://video.sibnet.ru/shell.php?videoid=4832361",
+          "https://video.sibnet.ru/shell.php?videoid=4832362",
+          "https://video.sibnet.ru/shell.php?videoid=4832363",
+          "https://video.sibnet.ru/shell.php?videoid=4832365",
+          "https://video.sibnet.ru/shell.php?videoid=4832367"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4832368",
+          "https://video.sibnet.ru/shell.php?videoid=4832372",
+          "https://video.sibnet.ru/shell.php?videoid=4832373",
+          "https://video.sibnet.ru/shell.php?videoid=4832374",
+          "https://video.sibnet.ru/shell.php?videoid=4832377",
+          "https://video.sibnet.ru/shell.php?videoid=4832378",
+          "https://video.sibnet.ru/shell.php?videoid=4832380",
+          "https://video.sibnet.ru/shell.php?videoid=4832383",
+          "https://video.sibnet.ru/shell.php?videoid=4832386",
+          "https://video.sibnet.ru/shell.php?videoid=4832387",
+          "https://video.sibnet.ru/shell.php?videoid=4832388",
+          "https://video.sibnet.ru/shell.php?videoid=4832389",
+          "https://video.sibnet.ru/shell.php?videoid=4832390"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5496619",
+          "https://video.sibnet.ru/shell.php?videoid=5504307",
+          "https://video.sibnet.ru/shell.php?videoid=5511782",
+          "https://video.sibnet.ru/shell.php?videoid=5518406",
+          "https://video.sibnet.ru/shell.php?videoid=5525856",
+          "https://video.sibnet.ru/shell.php?videoid=5533202",
+          "https://video.sibnet.ru/shell.php?videoid=5539842",
+          "https://video.sibnet.ru/shell.php?videoid=5545833",
+          "https://video.sibnet.ru/shell.php?videoid=5552139",
+          "https://video.sibnet.ru/shell.php?videoid=5557717",
+          "https://video.sibnet.ru/shell.php?videoid=5564772",
+          "https://video.sibnet.ru/shell.php?videoid=5572925",
+          "https://video.sibnet.ru/shell.php?videoid=5580807"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5002927"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5229706"
+      ]
+    }
+  }
+}

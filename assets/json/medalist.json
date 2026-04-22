@@ -1,0 +1,57 @@
+{
+  "name": "Medalist",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/medalist.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5877751",
+          "https://video.sibnet.ru/shell.php?videoid=5877755",
+          "https://video.sibnet.ru/shell.php?videoid=5877759",
+          "https://video.sibnet.ru/shell.php?videoid=5877763",
+          "https://video.sibnet.ru/shell.php?videoid=5877768",
+          "https://video.sibnet.ru/shell.php?videoid=5877773",
+          "https://video.sibnet.ru/shell.php?videoid=5877777",
+          "https://video.sibnet.ru/shell.php?videoid=5877782",
+          "https://video.sibnet.ru/shell.php?videoid=5877787",
+          "https://video.sibnet.ru/shell.php?videoid=5877792",
+          "https://video.sibnet.ru/shell.php?videoid=5877798",
+          "https://video.sibnet.ru/shell.php?videoid=5877801",
+          "https://video.sibnet.ru/shell.php?videoid=5877809"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5790519",
+          "https://video.sibnet.ru/shell.php?videoid=5795959",
+          "https://video.sibnet.ru/shell.php?videoid=5801401",
+          "https://video.sibnet.ru/shell.php?videoid=5806487",
+          "https://video.sibnet.ru/shell.php?videoid=5811824",
+          "https://video.sibnet.ru/shell.php?videoid=5819021",
+          "https://video.sibnet.ru/shell.php?videoid=5825871",
+          "https://video.sibnet.ru/shell.php?videoid=5832040",
+          "https://video.sibnet.ru/shell.php?videoid=5839085",
+          "https://video.sibnet.ru/shell.php?videoid=5845682",
+          "https://video.sibnet.ru/shell.php?videoid=5851362",
+          "https://video.sibnet.ru/shell.php?videoid=5857749",
+          "https://video.sibnet.ru/shell.php?videoid=5863693"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

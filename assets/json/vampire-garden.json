@@ -1,0 +1,32 @@
+{
+  "name": "Vampire Garden",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/vampire-garden.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4724374",
+          "https://video.sibnet.ru/shell.php?videoid=4724376",
+          "https://video.sibnet.ru/shell.php?videoid=4724378",
+          "https://video.sibnet.ru/shell.php?videoid=4724380",
+          "https://video.sibnet.ru/shell.php?videoid=4724382"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4724362",
+          "https://video.sibnet.ru/shell.php?videoid=4724364",
+          "https://video.sibnet.ru/shell.php?videoid=4724366",
+          "https://video.sibnet.ru/shell.php?videoid=4724368",
+          "https://video.sibnet.ru/shell.php?videoid=4724370"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mes voisins les Yamada",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mes-voisins-les-yamada.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5055333"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4754506"
+      ],
+      "oav": []
+    }
+  }
+}

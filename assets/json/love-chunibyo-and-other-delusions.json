@@ -1,0 +1,19 @@
+{
+  "name": "Love, Chunibyo & Other Delusions !",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/love-chunibyo-and-other-delusions.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4905330",
+        "https://video.sibnet.ru/shell.php?videoid=4906524"
+      ],
+      "oav": []
+    }
+  }
+}

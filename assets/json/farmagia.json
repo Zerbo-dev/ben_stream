@@ -1,0 +1,40 @@
+{
+  "name": "Farmagia",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/farmagia.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5798397",
+          "https://video.sibnet.ru/shell.php?videoid=5800527",
+          "https://video.sibnet.ru/shell.php?videoid=5805687",
+          "https://video.sibnet.ru/shell.php?videoid=5810764",
+          "https://video.sibnet.ru/shell.php?videoid=5817618",
+          "https://video.sibnet.ru/shell.php?videoid=5824804",
+          "https://video.sibnet.ru/shell.php?videoid=5831139",
+          "https://video.sibnet.ru/shell.php?videoid=5838095",
+          "https://video.sibnet.ru/shell.php?videoid=5844723",
+          "https://video.sibnet.ru/shell.php?videoid=5850589",
+          "https://video.sibnet.ru/shell.php?videoid=5856489",
+          "https://video.sibnet.ru/shell.php?videoid=5863006"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

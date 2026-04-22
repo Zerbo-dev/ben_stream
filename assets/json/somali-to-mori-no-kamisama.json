@@ -1,0 +1,31 @@
+{
+  "name": "Somali to Mori no Kamisama",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/somali-to-mori-no-kamisama.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4956268",
+          "https://video.sibnet.ru/shell.php?videoid=4956270",
+          "https://video.sibnet.ru/shell.php?videoid=4956272",
+          "https://video.sibnet.ru/shell.php?videoid=4956273",
+          "https://video.sibnet.ru/shell.php?videoid=4956275",
+          "https://video.sibnet.ru/shell.php?videoid=4956276",
+          "https://video.sibnet.ru/shell.php?videoid=4956279",
+          "https://video.sibnet.ru/shell.php?videoid=4956281",
+          "https://video.sibnet.ru/shell.php?videoid=4956282",
+          "https://video.sibnet.ru/shell.php?videoid=4956284",
+          "https://video.sibnet.ru/shell.php?videoid=4956285",
+          "https://video.sibnet.ru/shell.php?videoid=4956287"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

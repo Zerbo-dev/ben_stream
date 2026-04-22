@@ -1,0 +1,46 @@
+{
+  "name": "Dead Mount Death Play",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/dead-mount-death-play.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5123999",
+          "https://video.sibnet.ru/shell.php?videoid=5130575",
+          "https://video.sibnet.ru/shell.php?videoid=5141468",
+          "https://video.sibnet.ru/shell.php?videoid=5149580",
+          "https://video.sibnet.ru/shell.php?videoid=5156187",
+          "https://video.sibnet.ru/shell.php?videoid=5163380",
+          "https://video.sibnet.ru/shell.php?videoid=5170123",
+          "https://video.sibnet.ru/shell.php?videoid=5176654",
+          "https://video.sibnet.ru/shell.php?videoid=5182139",
+          "https://video.sibnet.ru/shell.php?videoid=5187490",
+          "https://video.sibnet.ru/shell.php?videoid=5194439",
+          "https://video.sibnet.ru/shell.php?videoid=5200877"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5101807",
+          "https://video.sibnet.ru/shell.php?videoid=5108467",
+          "https://video.sibnet.ru/shell.php?videoid=5116520",
+          "https://video.sibnet.ru/shell.php?videoid=5123185",
+          "https://video.sibnet.ru/shell.php?videoid=5129901",
+          "https://video.sibnet.ru/shell.php?videoid=5140937",
+          "https://video.sibnet.ru/shell.php?videoid=5149297",
+          "https://video.sibnet.ru/shell.php?videoid=5155841",
+          "https://video.sibnet.ru/shell.php?videoid=5163004",
+          "https://video.sibnet.ru/shell.php?videoid=5169638",
+          "https://video.sibnet.ru/shell.php?videoid=5176352",
+          "https://video.sibnet.ru/shell.php?videoid=5181659"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

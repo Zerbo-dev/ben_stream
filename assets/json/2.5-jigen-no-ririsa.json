@@ -1,0 +1,43 @@
+{
+  "name": "2.5-jigen no Ririsa",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/2.5-jigen-no-ririsa.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5586966",
+          "https://video.sibnet.ru/shell.php?videoid=5594490",
+          "https://video.sibnet.ru/shell.php?videoid=5601997",
+          "https://video.sibnet.ru/shell.php?videoid=5610088",
+          "https://video.sibnet.ru/shell.php?videoid=5618260",
+          "https://video.sibnet.ru/shell.php?videoid=5628478",
+          "https://video.sibnet.ru/shell.php?videoid=5638813",
+          "https://video.sibnet.ru/shell.php?videoid=5649690",
+          "https://video.sibnet.ru/shell.php?videoid=5657151",
+          "https://video.sibnet.ru/shell.php?videoid=5665654",
+          "https://video.sibnet.ru/shell.php?videoid=5674886",
+          "https://video.sibnet.ru/shell.php?videoid=5683836",
+          "https://video.sibnet.ru/shell.php?videoid=5692810",
+          "https://video.sibnet.ru/shell.php?videoid=5701876",
+          "https://video.sibnet.ru/shell.php?videoid=5711812",
+          "https://video.sibnet.ru/shell.php?videoid=5720266",
+          "https://video.sibnet.ru/shell.php?videoid=5729400",
+          "https://video.sibnet.ru/shell.php?videoid=5738281",
+          "https://video.sibnet.ru/shell.php?videoid=5745381",
+          "https://video.sibnet.ru/shell.php?videoid=5752233",
+          "https://video.sibnet.ru/shell.php?videoid=5759427",
+          "https://video.sibnet.ru/shell.php?videoid=5765007",
+          "https://video.sibnet.ru/shell.php?videoid=5769011",
+          "https://video.sibnet.ru/shell.php?videoid=5773069"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

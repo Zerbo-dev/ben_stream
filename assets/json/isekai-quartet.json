@@ -1,0 +1,45 @@
+{
+  "name": "Isekai Quartet",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/isekai-quartet.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5265212",
+          "https://video.sibnet.ru/shell.php?videoid=5265213",
+          "https://video.sibnet.ru/shell.php?videoid=5265214",
+          "https://video.sibnet.ru/shell.php?videoid=5265215",
+          "https://video.sibnet.ru/shell.php?videoid=5265216",
+          "https://video.sibnet.ru/shell.php?videoid=5265218",
+          "https://video.sibnet.ru/shell.php?videoid=5265219",
+          "https://video.sibnet.ru/shell.php?videoid=5265220",
+          "https://video.sibnet.ru/shell.php?videoid=5265222",
+          "https://video.sibnet.ru/shell.php?videoid=5265223",
+          "https://video.sibnet.ru/shell.php?videoid=5265228",
+          "https://video.sibnet.ru/shell.php?videoid=5265230"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4753414",
+          "https://video.sibnet.ru/shell.php?videoid=4753417",
+          "https://video.sibnet.ru/shell.php?videoid=4753418",
+          "https://video.sibnet.ru/shell.php?videoid=4753421",
+          "https://video.sibnet.ru/shell.php?videoid=4753422",
+          "https://video.sibnet.ru/shell.php?videoid=4753424",
+          "https://video.sibnet.ru/shell.php?videoid=4753426",
+          "https://video.sibnet.ru/shell.php?videoid=4753428",
+          "https://video.sibnet.ru/shell.php?videoid=4753430",
+          "https://video.sibnet.ru/shell.php?videoid=4753433",
+          "https://video.sibnet.ru/shell.php?videoid=4753434",
+          "https://video.sibnet.ru/shell.php?videoid=4753437"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

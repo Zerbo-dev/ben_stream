@@ -1,0 +1,20 @@
+{
+  "name": "Le Conte de la princesse Kaguya",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-conte-de-la-princesse-kaguya.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=3200557"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366066"
+      ],
+      "oav": []
+    }
+  }
+}

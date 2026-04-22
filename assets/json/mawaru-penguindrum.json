@@ -1,0 +1,43 @@
+{
+  "name": "Mawaru Penguindrum",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mawaru-penguindrum.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5051462",
+          "https://video.sibnet.ru/shell.php?videoid=5051463",
+          "https://video.sibnet.ru/shell.php?videoid=5051464",
+          "https://video.sibnet.ru/shell.php?videoid=5051465",
+          "https://video.sibnet.ru/shell.php?videoid=5051466",
+          "https://video.sibnet.ru/shell.php?videoid=5051468",
+          "https://video.sibnet.ru/shell.php?videoid=5051469",
+          "https://video.sibnet.ru/shell.php?videoid=5051470",
+          "https://video.sibnet.ru/shell.php?videoid=5051471",
+          "https://video.sibnet.ru/shell.php?videoid=5051472",
+          "https://video.sibnet.ru/shell.php?videoid=5051473",
+          "https://video.sibnet.ru/shell.php?videoid=5051474",
+          "https://video.sibnet.ru/shell.php?videoid=5051475",
+          "https://video.sibnet.ru/shell.php?videoid=5051476",
+          "https://video.sibnet.ru/shell.php?videoid=5051477",
+          "https://video.sibnet.ru/shell.php?videoid=5051480",
+          "https://video.sibnet.ru/shell.php?videoid=5051481",
+          "https://video.sibnet.ru/shell.php?videoid=5051482",
+          "https://video.sibnet.ru/shell.php?videoid=5051483",
+          "https://video.sibnet.ru/shell.php?videoid=5051484",
+          "https://video.sibnet.ru/shell.php?videoid=5051486",
+          "https://video.sibnet.ru/shell.php?videoid=5051488",
+          "https://video.sibnet.ru/shell.php?videoid=5051489",
+          "https://video.sibnet.ru/shell.php?videoid=5051490"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

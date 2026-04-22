@@ -1,0 +1,20 @@
+{
+  "name": "Héros Modestes",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/heros-modestes.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4753250\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4753261\t"
+      ],
+      "oav": []
+    }
+  }
+}

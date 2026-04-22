@@ -1,0 +1,46 @@
+{
+  "name": "Battle Game in 5 Seconds",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/battle-game-in-5-seconds.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4401789",
+          "https://video.sibnet.ru/shell.php?videoid=4409607",
+          "https://video.sibnet.ru/shell.php?videoid=4415829",
+          "https://video.sibnet.ru/shell.php?videoid=4429210",
+          "https://video.sibnet.ru/shell.php?videoid=4429212",
+          "https://video.sibnet.ru/shell.php?videoid=4438305",
+          "https://video.sibnet.ru/shell.php?videoid=4447929",
+          "https://video.sibnet.ru/shell.php?videoid=4455282",
+          "https://video.sibnet.ru/shell.php?videoid=4464986",
+          "https://video.sibnet.ru/shell.php?videoid=4484404",
+          "https://video.sibnet.ru/shell.php?videoid=4499766",
+          "https://video.sibnet.ru/shell.php?videoid=4499765"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4354479",
+          "https://video.sibnet.ru/shell.php?videoid=4362720",
+          "https://video.sibnet.ru/shell.php?videoid=4370504",
+          "https://video.sibnet.ru/shell.php?videoid=4376833",
+          "https://video.sibnet.ru/shell.php?videoid=4382374",
+          "https://video.sibnet.ru/shell.php?videoid=4389058",
+          "https://video.sibnet.ru/shell.php?videoid=4395194",
+          "https://video.sibnet.ru/shell.php?videoid=4401497",
+          "https://video.sibnet.ru/shell.php?videoid=4409529",
+          "https://video.sibnet.ru/shell.php?videoid=4415751",
+          "https://video.sibnet.ru/shell.php?videoid=4422429",
+          "https://video.sibnet.ru/shell.php?videoid=4429114"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

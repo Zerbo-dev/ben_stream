@@ -1,0 +1,44 @@
+{
+  "name": "Shiki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shiki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801923",
+          "https://video.sibnet.ru/shell.php?videoid=4801926",
+          "https://video.sibnet.ru/shell.php?videoid=4801928",
+          "https://video.sibnet.ru/shell.php?videoid=4801931",
+          "https://video.sibnet.ru/shell.php?videoid=4801932",
+          "https://video.sibnet.ru/shell.php?videoid=4801934",
+          "https://video.sibnet.ru/shell.php?videoid=4801936",
+          "https://video.sibnet.ru/shell.php?videoid=4801938",
+          "https://video.sibnet.ru/shell.php?videoid=4801940",
+          "https://video.sibnet.ru/shell.php?videoid=4801942",
+          "https://video.sibnet.ru/shell.php?videoid=4801945",
+          "https://video.sibnet.ru/shell.php?videoid=4801947",
+          "https://video.sibnet.ru/shell.php?videoid=4801948",
+          "https://video.sibnet.ru/shell.php?videoid=4801950",
+          "https://video.sibnet.ru/shell.php?videoid=4801951",
+          "https://video.sibnet.ru/shell.php?videoid=4801952",
+          "https://video.sibnet.ru/shell.php?videoid=4801954",
+          "https://video.sibnet.ru/shell.php?videoid=4801955",
+          "https://video.sibnet.ru/shell.php?videoid=4801957",
+          "https://video.sibnet.ru/shell.php?videoid=4801958",
+          "https://video.sibnet.ru/shell.php?videoid=4801959",
+          "https://video.sibnet.ru/shell.php?videoid=4801960"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4801961",
+        "https://video.sibnet.ru/shell.php?videoid=4801962"
+      ]
+    }
+  }
+}

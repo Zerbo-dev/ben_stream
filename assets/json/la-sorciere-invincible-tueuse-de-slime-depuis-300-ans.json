@@ -1,0 +1,63 @@
+{
+  "name": "La Sorcière invincible tueuse de Slime depuis 300 ans",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/la-sorciere-invincible-tueuse-de-slime-depuis-300-ans.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4387111"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5894615",
+          "https://video.sibnet.ru/shell.php?videoid=5900640",
+          "https://video.sibnet.ru/shell.php?videoid=5908170",
+          "https://video.sibnet.ru/shell.php?videoid=5914840",
+          "https://video.sibnet.ru/shell.php?videoid=5921292",
+          "https://video.sibnet.ru/shell.php?videoid=5926853",
+          "https://video.sibnet.ru/shell.php?videoid=5931509",
+          "https://video.sibnet.ru/shell.php?videoid=5937177",
+          "https://video.sibnet.ru/shell.php?videoid=5944921",
+          "https://video.sibnet.ru/shell.php?videoid=5948349",
+          "https://video.sibnet.ru/shell.php?videoid=5954399",
+          "https://video.sibnet.ru/shell.php?videoid=5963528"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4290765",
+          "https://video.sibnet.ru/shell.php?videoid=4295900",
+          "https://video.sibnet.ru/shell.php?videoid=4301340",
+          "https://video.sibnet.ru/shell.php?videoid=4306407",
+          "https://video.sibnet.ru/shell.php?videoid=4310784",
+          "https://video.sibnet.ru/shell.php?videoid=4315764",
+          "https://video.sibnet.ru/shell.php?videoid=4319661",
+          "https://video.sibnet.ru/shell.php?videoid=4323819",
+          "https://video.sibnet.ru/shell.php?videoid=4327701",
+          "https://video.sibnet.ru/shell.php?videoid=4332898",
+          "https://video.sibnet.ru/shell.php?videoid=4336759",
+          "https://video.sibnet.ru/shell.php?videoid=4339942"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5868814",
+          "https://video.sibnet.ru/shell.php?videoid=5876719",
+          "https://video.sibnet.ru/shell.php?videoid=5884750",
+          "https://video.sibnet.ru/shell.php?videoid=5892917",
+          "https://video.sibnet.ru/shell.php?videoid=5900004",
+          "https://video.sibnet.ru/shell.php?videoid=5907469",
+          "https://video.sibnet.ru/shell.php?videoid=5913977",
+          "https://video.sibnet.ru/shell.php?videoid=5920629",
+          "https://video.sibnet.ru/shell.php?videoid=5926109",
+          "https://video.sibnet.ru/shell.php?videoid=5931093",
+          "https://video.sibnet.ru/shell.php?videoid=5936544",
+          "https://video.sibnet.ru/shell.php?videoid=5942143"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

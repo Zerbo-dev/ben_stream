@@ -1,0 +1,42 @@
+{
+  "name": "Arknights",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/arknights.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4933550",
+          "https://video.sibnet.ru/shell.php?videoid=4941167",
+          "https://video.sibnet.ru/shell.php?videoid=4949216",
+          "https://video.sibnet.ru/shell.php?videoid=4956357",
+          "https://video.sibnet.ru/shell.php?videoid=4962901",
+          "https://video.sibnet.ru/shell.php?videoid=4968762",
+          "https://video.sibnet.ru/shell.php?videoid=4974018",
+          "https://video.sibnet.ru/shell.php?videoid=4981951"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5270513",
+          "https://video.sibnet.ru/shell.php?videoid=5279407",
+          "https://video.sibnet.ru/shell.php?videoid=5289157",
+          "https://video.sibnet.ru/shell.php?videoid=5299095",
+          "https://video.sibnet.ru/shell.php?videoid=5307234",
+          "https://video.sibnet.ru/shell.php?videoid=5315596",
+          "https://video.sibnet.ru/shell.php?videoid=5325757",
+          "https://video.sibnet.ru/shell.php?videoid=5335943"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5953093",
+          "https://video.sibnet.ru/shell.php?videoid=5960736",
+          "https://video.sibnet.ru/shell.php?videoid=5967652"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Birdie Wing",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/birdie-wing.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5036666",
+          "https://video.sibnet.ru/shell.php?videoid=5036670",
+          "https://video.sibnet.ru/shell.php?videoid=5036672",
+          "https://video.sibnet.ru/shell.php?videoid=5036676",
+          "https://video.sibnet.ru/shell.php?videoid=5036679",
+          "https://video.sibnet.ru/shell.php?videoid=5036680",
+          "https://video.sibnet.ru/shell.php?videoid=5036682",
+          "https://video.sibnet.ru/shell.php?videoid=5036683",
+          "https://video.sibnet.ru/shell.php?videoid=5036685",
+          "https://video.sibnet.ru/shell.php?videoid=5036688",
+          "https://video.sibnet.ru/shell.php?videoid=5036692",
+          "https://video.sibnet.ru/shell.php?videoid=5036693",
+          "https://video.sibnet.ru/shell.php?videoid=5036695"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5099218",
+          "https://video.sibnet.ru/shell.php?videoid=5105837",
+          "https://video.sibnet.ru/shell.php?videoid=5113597",
+          "https://video.sibnet.ru/shell.php?videoid=5120172",
+          "https://video.sibnet.ru/shell.php?videoid=5127458",
+          "https://video.sibnet.ru/shell.php?videoid=5135997",
+          "https://video.sibnet.ru/shell.php?videoid=5146168",
+          "https://video.sibnet.ru/shell.php?videoid=5153146",
+          "https://video.sibnet.ru/shell.php?videoid=5160111",
+          "https://video.sibnet.ru/shell.php?videoid=5166546",
+          "https://video.sibnet.ru/shell.php?videoid=5174299",
+          "https://video.sibnet.ru/shell.php?videoid=5180861"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

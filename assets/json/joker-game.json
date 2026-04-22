@@ -1,0 +1,46 @@
+{
+  "name": "Joker Game",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/joker-game.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3552765",
+          "https://video.sibnet.ru/shell.php?videoid=3552766",
+          "https://video.sibnet.ru/shell.php?videoid=3552767",
+          "https://video.sibnet.ru/shell.php?videoid=3552769",
+          "https://video.sibnet.ru/shell.php?videoid=3552770",
+          "https://video.sibnet.ru/shell.php?videoid=3552772",
+          "https://video.sibnet.ru/shell.php?videoid=3552774",
+          "https://video.sibnet.ru/shell.php?videoid=3552777",
+          "https://video.sibnet.ru/shell.php?videoid=3552785",
+          "https://video.sibnet.ru/shell.php?videoid=3552789",
+          "https://video.sibnet.ru/shell.php?videoid=3552793",
+          "https://video.sibnet.ru/shell.php?videoid=3552796"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4705830",
+          "https://video.sibnet.ru/shell.php?videoid=4705831",
+          "https://video.sibnet.ru/shell.php?videoid=4705832",
+          "https://video.sibnet.ru/shell.php?videoid=4705833",
+          "https://video.sibnet.ru/shell.php?videoid=4705836",
+          "https://video.sibnet.ru/shell.php?videoid=4705837",
+          "https://video.sibnet.ru/shell.php?videoid=4705839",
+          "https://video.sibnet.ru/shell.php?videoid=4705840",
+          "https://video.sibnet.ru/shell.php?videoid=4705841",
+          "https://video.sibnet.ru/shell.php?videoid=4705844",
+          "https://video.sibnet.ru/shell.php?videoid=4705846",
+          "https://video.sibnet.ru/shell.php?videoid=4705847"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

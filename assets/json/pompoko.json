@@ -1,0 +1,20 @@
+{
+  "name": "Pompoko",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/pompoko.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5055341"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366078"
+      ],
+      "oav": []
+    }
+  }
+}

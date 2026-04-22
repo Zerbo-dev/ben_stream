@@ -1,0 +1,82 @@
+{
+  "name": "The Heroic Legend of Arslan",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-heroic-legend-of-arslan.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5295178",
+          "https://video.sibnet.ru/shell.php?videoid=5295179",
+          "https://video.sibnet.ru/shell.php?videoid=5295180",
+          "https://video.sibnet.ru/shell.php?videoid=5295181",
+          "https://video.sibnet.ru/shell.php?videoid=5295183",
+          "https://video.sibnet.ru/shell.php?videoid=5295184",
+          "https://video.sibnet.ru/shell.php?videoid=5295186",
+          "https://video.sibnet.ru/shell.php?videoid=5295188",
+          "https://video.sibnet.ru/shell.php?videoid=5295191",
+          "https://video.sibnet.ru/shell.php?videoid=5295193",
+          "https://video.sibnet.ru/shell.php?videoid=5295195",
+          "https://video.sibnet.ru/shell.php?videoid=5295196",
+          "https://video.sibnet.ru/shell.php?videoid=5295197",
+          "https://video.sibnet.ru/shell.php?videoid=5295198",
+          "https://video.sibnet.ru/shell.php?videoid=5295199",
+          "https://video.sibnet.ru/shell.php?videoid=5295201",
+          "https://video.sibnet.ru/shell.php?videoid=5295202",
+          "https://video.sibnet.ru/shell.php?videoid=5295204",
+          "https://video.sibnet.ru/shell.php?videoid=5295205",
+          "https://video.sibnet.ru/shell.php?videoid=5295208",
+          "https://video.sibnet.ru/shell.php?videoid=5295210",
+          "https://video.sibnet.ru/shell.php?videoid=5295212",
+          "https://video.sibnet.ru/shell.php?videoid=5295214",
+          "https://video.sibnet.ru/shell.php?videoid=5295215",
+          "https://video.sibnet.ru/shell.php?videoid=5295218"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4721262",
+          "https://video.sibnet.ru/shell.php?videoid=4721263",
+          "https://video.sibnet.ru/shell.php?videoid=4721264",
+          "https://video.sibnet.ru/shell.php?videoid=4721267",
+          "https://video.sibnet.ru/shell.php?videoid=4721270",
+          "https://video.sibnet.ru/shell.php?videoid=4721272",
+          "https://video.sibnet.ru/shell.php?videoid=4721273",
+          "https://video.sibnet.ru/shell.php?videoid=4721276",
+          "https://video.sibnet.ru/shell.php?videoid=4721279",
+          "https://video.sibnet.ru/shell.php?videoid=4721283",
+          "https://video.sibnet.ru/shell.php?videoid=4721286",
+          "https://video.sibnet.ru/shell.php?videoid=4721288",
+          "https://video.sibnet.ru/shell.php?videoid=4721293",
+          "https://video.sibnet.ru/shell.php?videoid=4721297",
+          "https://video.sibnet.ru/shell.php?videoid=4721302",
+          "https://video.sibnet.ru/shell.php?videoid=4851324",
+          "https://video.sibnet.ru/shell.php?videoid=4721312",
+          "https://video.sibnet.ru/shell.php?videoid=4721315",
+          "https://video.sibnet.ru/shell.php?videoid=4721320",
+          "https://video.sibnet.ru/shell.php?videoid=4721323",
+          "https://video.sibnet.ru/shell.php?videoid=4992759",
+          "https://video.sibnet.ru/shell.php?videoid=4721329",
+          "https://video.sibnet.ru/shell.php?videoid=4721331",
+          "https://video.sibnet.ru/shell.php?videoid=4721337",
+          "https://video.sibnet.ru/shell.php?videoid=4721339"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4721341",
+          "https://video.sibnet.ru/shell.php?videoid=4721342",
+          "https://video.sibnet.ru/shell.php?videoid=4721343",
+          "https://video.sibnet.ru/shell.php?videoid=4721345",
+          "https://video.sibnet.ru/shell.php?videoid=4721347",
+          "https://video.sibnet.ru/shell.php?videoid=4721349",
+          "https://video.sibnet.ru/shell.php?videoid=4721352",
+          "https://video.sibnet.ru/shell.php?videoid=4721353"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

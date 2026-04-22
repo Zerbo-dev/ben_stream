@@ -1,0 +1,50 @@
+{
+  "name": "Toilet-Bound Hanako-kun",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/toilet-bound-hanako-kun.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5017611",
+          "https://video.sibnet.ru/shell.php?videoid=5017612",
+          "https://video.sibnet.ru/shell.php?videoid=5017615",
+          "https://video.sibnet.ru/shell.php?videoid=5017618",
+          "https://video.sibnet.ru/shell.php?videoid=5017620",
+          "https://video.sibnet.ru/shell.php?videoid=5017621",
+          "https://video.sibnet.ru/shell.php?videoid=5017622",
+          "https://video.sibnet.ru/shell.php?videoid=5017624",
+          "https://video.sibnet.ru/shell.php?videoid=5017625",
+          "https://video.sibnet.ru/shell.php?videoid=5017048",
+          "https://video.sibnet.ru/shell.php?videoid=5017051",
+          "https://video.sibnet.ru/shell.php?videoid=5017052"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5796728",
+          "https://video.sibnet.ru/shell.php?videoid=5801960",
+          "https://video.sibnet.ru/shell.php?videoid=5806928",
+          "https://video.sibnet.ru/shell.php?videoid=5812511",
+          "https://video.sibnet.ru/shell.php?videoid=5819501",
+          "https://video.sibnet.ru/shell.php?videoid=5826367",
+          "https://video.sibnet.ru/shell.php?videoid=5833595",
+          "https://video.sibnet.ru/shell.php?videoid=5839637",
+          "https://video.sibnet.ru/shell.php?videoid=5846200",
+          "https://video.sibnet.ru/shell.php?videoid=5851896",
+          "https://video.sibnet.ru/shell.php?videoid=5858284",
+          "https://video.sibnet.ru/shell.php?videoid=5864118"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5275614",
+        "https://video.sibnet.ru/shell.php?videoid=5285483",
+        "https://video.sibnet.ru/shell.php?videoid=5295174",
+        "https://video.sibnet.ru/shell.php?videoid=5303850"
+      ]
+    }
+  }
+}

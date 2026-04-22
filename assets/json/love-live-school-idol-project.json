@@ -1,0 +1,47 @@
+{
+  "name": "Love Live! School Idol Project",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/love-live-school-idol-project.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5253724",
+          "https://video.sibnet.ru/shell.php?videoid=5253725",
+          "https://video.sibnet.ru/shell.php?videoid=5253728",
+          "https://video.sibnet.ru/shell.php?videoid=5253729",
+          "https://video.sibnet.ru/shell.php?videoid=5253730",
+          "https://video.sibnet.ru/shell.php?videoid=5253731",
+          "https://video.sibnet.ru/shell.php?videoid=5253733",
+          "https://video.sibnet.ru/shell.php?videoid=5253735",
+          "https://video.sibnet.ru/shell.php?videoid=5253736",
+          "https://video.sibnet.ru/shell.php?videoid=5253737",
+          "https://video.sibnet.ru/shell.php?videoid=5253738",
+          "https://video.sibnet.ru/shell.php?videoid=5253741",
+          "https://video.sibnet.ru/shell.php?videoid=5253742"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5253762",
+          "https://video.sibnet.ru/shell.php?videoid=5253763",
+          "https://video.sibnet.ru/shell.php?videoid=5253765",
+          "https://video.sibnet.ru/shell.php?videoid=5253767",
+          "https://video.sibnet.ru/shell.php?videoid=5253768",
+          "https://video.sibnet.ru/shell.php?videoid=5253769",
+          "https://video.sibnet.ru/shell.php?videoid=5253771",
+          "https://video.sibnet.ru/shell.php?videoid=5253772",
+          "https://video.sibnet.ru/shell.php?videoid=5253773",
+          "https://video.sibnet.ru/shell.php?videoid=5253774",
+          "https://video.sibnet.ru/shell.php?videoid=5253779",
+          "https://video.sibnet.ru/shell.php?videoid=5253780",
+          "https://video.sibnet.ru/shell.php?videoid=5253781"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

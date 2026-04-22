@@ -1,0 +1,45 @@
+{
+  "name": "Lets Make a Mug Too",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/lets-make-a-mug-too.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4287340",
+          "https://video.sibnet.ru/shell.php?videoid=4292681",
+          "https://video.sibnet.ru/shell.php?videoid=4297716",
+          "https://video.sibnet.ru/shell.php?videoid=4303133",
+          "https://video.sibnet.ru/shell.php?videoid=4307793",
+          "https://video.sibnet.ru/shell.php?videoid=4312051",
+          "https://video.sibnet.ru/shell.php?videoid=4317234",
+          "https://video.sibnet.ru/shell.php?videoid=4321062",
+          "https://video.sibnet.ru/shell.php?videoid=4329937",
+          "https://video.sibnet.ru/shell.php?videoid=4329777",
+          "https://video.sibnet.ru/shell.php?videoid=4333998",
+          "https://video.sibnet.ru/shell.php?videoid=4338027"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4434411",
+          "https://video.sibnet.ru/shell.php?videoid=4443046",
+          "https://video.sibnet.ru/shell.php?videoid=4451845",
+          "https://video.sibnet.ru/shell.php?videoid=4460417",
+          "https://video.sibnet.ru/shell.php?videoid=4473270",
+          "https://video.sibnet.ru/shell.php?videoid=4484347",
+          "https://video.sibnet.ru/shell.php?videoid=4494966",
+          "https://video.sibnet.ru/shell.php?videoid=4507073",
+          "https://video.sibnet.ru/shell.php?videoid=4518037",
+          "https://video.sibnet.ru/shell.php?videoid=4538552",
+          "https://video.sibnet.ru/shell.php?videoid=4538540",
+          "https://video.sibnet.ru/shell.php?videoid=4546933"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Grisaia no Kajitsu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/grisaia-no-kajitsu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4944979",
+          "https://video.sibnet.ru/shell.php?videoid=4944985",
+          "https://video.sibnet.ru/shell.php?videoid=4944993",
+          "https://video.sibnet.ru/shell.php?videoid=4944996",
+          "https://video.sibnet.ru/shell.php?videoid=4945003",
+          "https://video.sibnet.ru/shell.php?videoid=4945012",
+          "https://video.sibnet.ru/shell.php?videoid=4945024",
+          "https://video.sibnet.ru/shell.php?videoid=4945037",
+          "https://video.sibnet.ru/shell.php?videoid=4945057",
+          "https://video.sibnet.ru/shell.php?videoid=4945061",
+          "https://video.sibnet.ru/shell.php?videoid=4945078",
+          "https://video.sibnet.ru/shell.php?videoid=4945085",
+          "https://video.sibnet.ru/shell.php?videoid=4945097"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4945104",
+          "https://video.sibnet.ru/shell.php?videoid=4945115",
+          "https://video.sibnet.ru/shell.php?videoid=4945122",
+          "https://video.sibnet.ru/shell.php?videoid=4945137",
+          "https://video.sibnet.ru/shell.php?videoid=4945143",
+          "https://video.sibnet.ru/shell.php?videoid=4945157",
+          "https://video.sibnet.ru/shell.php?videoid=4945172",
+          "https://video.sibnet.ru/shell.php?videoid=4945187",
+          "https://video.sibnet.ru/shell.php?videoid=4945193",
+          "https://video.sibnet.ru/shell.php?videoid=4945198"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5033508",
+          "https://video.sibnet.ru/shell.php?videoid=5033509",
+          "https://video.sibnet.ru/shell.php?videoid=5033510"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4945212"
+      ],
+      "oav": []
+    }
+  }
+}

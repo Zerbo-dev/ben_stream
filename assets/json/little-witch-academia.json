@@ -1,0 +1,80 @@
+{
+  "name": "Little Witch Academia",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/little-witch-academia.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4813134",
+          "https://video.sibnet.ru/shell.php?videoid=4813137",
+          "https://video.sibnet.ru/shell.php?videoid=4813140",
+          "https://video.sibnet.ru/shell.php?videoid=4813144",
+          "https://video.sibnet.ru/shell.php?videoid=4813145",
+          "https://video.sibnet.ru/shell.php?videoid=4813149",
+          "https://video.sibnet.ru/shell.php?videoid=4813151",
+          "https://video.sibnet.ru/shell.php?videoid=4813153",
+          "https://video.sibnet.ru/shell.php?videoid=4813157",
+          "https://video.sibnet.ru/shell.php?videoid=4813159",
+          "https://video.sibnet.ru/shell.php?videoid=4813160",
+          "https://video.sibnet.ru/shell.php?videoid=4813162",
+          "https://video.sibnet.ru/shell.php?videoid=4813165",
+          "https://video.sibnet.ru/shell.php?videoid=4813166",
+          "https://video.sibnet.ru/shell.php?videoid=4813167",
+          "https://video.sibnet.ru/shell.php?videoid=4813168",
+          "https://video.sibnet.ru/shell.php?videoid=4813170",
+          "https://video.sibnet.ru/shell.php?videoid=4813172",
+          "https://video.sibnet.ru/shell.php?videoid=4813175",
+          "https://video.sibnet.ru/shell.php?videoid=4813177",
+          "https://video.sibnet.ru/shell.php?videoid=4813180",
+          "https://video.sibnet.ru/shell.php?videoid=4813181",
+          "https://video.sibnet.ru/shell.php?videoid=4813183",
+          "https://video.sibnet.ru/shell.php?videoid=4813185",
+          "https://video.sibnet.ru/shell.php?videoid=4813190"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4813220\t"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4813132"
+      ]
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4813075",
+          "https://video.sibnet.ru/shell.php?videoid=4813079",
+          "https://video.sibnet.ru/shell.php?videoid=4813081",
+          "https://video.sibnet.ru/shell.php?videoid=4813086",
+          "https://video.sibnet.ru/shell.php?videoid=4813087",
+          "https://video.sibnet.ru/shell.php?videoid=4813089",
+          "https://video.sibnet.ru/shell.php?videoid=4813091",
+          "https://video.sibnet.ru/shell.php?videoid=4813092",
+          "https://video.sibnet.ru/shell.php?videoid=4813094",
+          "https://video.sibnet.ru/shell.php?videoid=4813095",
+          "https://video.sibnet.ru/shell.php?videoid=4813097",
+          "https://video.sibnet.ru/shell.php?videoid=4813098",
+          "https://video.sibnet.ru/shell.php?videoid=4813099",
+          "https://video.sibnet.ru/shell.php?videoid=4813100",
+          "https://video.sibnet.ru/shell.php?videoid=4813103",
+          "https://video.sibnet.ru/shell.php?videoid=4813104",
+          "https://video.sibnet.ru/shell.php?videoid=4813106",
+          "https://video.sibnet.ru/shell.php?videoid=4813109",
+          "https://video.sibnet.ru/shell.php?videoid=4813110",
+          "https://video.sibnet.ru/shell.php?videoid=4813111",
+          "https://video.sibnet.ru/shell.php?videoid=4813113",
+          "https://video.sibnet.ru/shell.php?videoid=4813115",
+          "https://video.sibnet.ru/shell.php?videoid=4813117",
+          "https://video.sibnet.ru/shell.php?videoid=4813120",
+          "https://video.sibnet.ru/shell.php?videoid=4813123"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4813126\t"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4813072"
+      ]
+    }
+  }
+}

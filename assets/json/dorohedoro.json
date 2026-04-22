@@ -1,0 +1,46 @@
+{
+  "name": "Dorohedoro",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/dorohedoro.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943721",
+          "https://video.sibnet.ru/shell.php?videoid=4943729",
+          "https://video.sibnet.ru/shell.php?videoid=4943734",
+          "https://video.sibnet.ru/shell.php?videoid=4943739",
+          "https://video.sibnet.ru/shell.php?videoid=4943743",
+          "https://video.sibnet.ru/shell.php?videoid=4943750",
+          "https://video.sibnet.ru/shell.php?videoid=4943760",
+          "https://video.sibnet.ru/shell.php?videoid=4943766",
+          "https://video.sibnet.ru/shell.php?videoid=4943770",
+          "https://video.sibnet.ru/shell.php?videoid=4943779",
+          "https://video.sibnet.ru/shell.php?videoid=4943786",
+          "https://video.sibnet.ru/shell.php?videoid=4943794"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943626",
+          "https://video.sibnet.ru/shell.php?videoid=4943637",
+          "https://video.sibnet.ru/shell.php?videoid=4943640",
+          "https://video.sibnet.ru/shell.php?videoid=4943647",
+          "https://video.sibnet.ru/shell.php?videoid=4943652",
+          "https://video.sibnet.ru/shell.php?videoid=4943659",
+          "https://video.sibnet.ru/shell.php?videoid=4943663",
+          "https://video.sibnet.ru/shell.php?videoid=4943670",
+          "https://video.sibnet.ru/shell.php?videoid=4943674",
+          "https://video.sibnet.ru/shell.php?videoid=4943685",
+          "https://video.sibnet.ru/shell.php?videoid=4943694",
+          "https://video.sibnet.ru/shell.php?videoid=4943706"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

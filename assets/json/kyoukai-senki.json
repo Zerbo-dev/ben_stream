@@ -1,0 +1,44 @@
+{
+  "name": "Kyoukai Senki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kyoukai-senki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4438180",
+          "https://video.sibnet.ru/shell.php?videoid=4447872",
+          "https://video.sibnet.ru/shell.php?videoid=4455227",
+          "https://video.sibnet.ru/shell.php?videoid=4464840",
+          "https://video.sibnet.ru/shell.php?videoid=4479521",
+          "https://video.sibnet.ru/shell.php?videoid=4489026",
+          "https://video.sibnet.ru/shell.php?videoid=4499641",
+          "https://video.sibnet.ru/shell.php?videoid=4513297",
+          "https://video.sibnet.ru/shell.php?videoid=4522824",
+          "https://video.sibnet.ru/shell.php?videoid=4532492",
+          "https://video.sibnet.ru/shell.php?videoid=4542172",
+          "https://video.sibnet.ru/shell.php?videoid=4559053",
+          "https://video.sibnet.ru/shell.php?videoid=4559019",
+          "https://video.sibnet.ru/shell.php?videoid=4668608",
+          "https://video.sibnet.ru/shell.php?videoid=4676978",
+          "https://video.sibnet.ru/shell.php?videoid=4686908",
+          "https://video.sibnet.ru/shell.php?videoid=4699913",
+          "https://video.sibnet.ru/shell.php?videoid=4706894",
+          "https://video.sibnet.ru/shell.php?videoid=4715019",
+          "https://video.sibnet.ru/shell.php?videoid=4725778",
+          "https://video.sibnet.ru/shell.php?videoid=4733816",
+          "https://video.sibnet.ru/shell.php?videoid=4741382",
+          "https://video.sibnet.ru/shell.php?videoid=4750689",
+          "https://video.sibnet.ru/shell.php?videoid=4758336",
+          "https://video.sibnet.ru/shell.php?videoid=4769642"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

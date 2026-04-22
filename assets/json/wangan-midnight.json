@@ -1,0 +1,45 @@
+{
+  "name": "Wangan Midnight",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/wangan-midnight.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4842360",
+          "https://video.sibnet.ru/shell.php?videoid=4842363",
+          "https://video.sibnet.ru/shell.php?videoid=4842366",
+          "https://video.sibnet.ru/shell.php?videoid=4842368",
+          "https://video.sibnet.ru/shell.php?videoid=4842370",
+          "https://video.sibnet.ru/shell.php?videoid=4842372",
+          "https://video.sibnet.ru/shell.php?videoid=4842375",
+          "https://video.sibnet.ru/shell.php?videoid=4842376",
+          "https://video.sibnet.ru/shell.php?videoid=4842377",
+          "https://video.sibnet.ru/shell.php?videoid=4842378",
+          "https://video.sibnet.ru/shell.php?videoid=4842379",
+          "https://video.sibnet.ru/shell.php?videoid=4842380",
+          "https://video.sibnet.ru/shell.php?videoid=4842381",
+          "https://video.sibnet.ru/shell.php?videoid=4842382",
+          "https://video.sibnet.ru/shell.php?videoid=4842384",
+          "https://video.sibnet.ru/shell.php?videoid=4842386",
+          "https://video.sibnet.ru/shell.php?videoid=4842387",
+          "https://video.sibnet.ru/shell.php?videoid=4842388",
+          "https://video.sibnet.ru/shell.php?videoid=4842389",
+          "https://video.sibnet.ru/shell.php?videoid=4842390",
+          "https://video.sibnet.ru/shell.php?videoid=4842391",
+          "https://video.sibnet.ru/shell.php?videoid=4842392",
+          "https://video.sibnet.ru/shell.php?videoid=4842394",
+          "https://video.sibnet.ru/shell.php?videoid=4842395",
+          "https://video.sibnet.ru/shell.php?videoid=4842397",
+          "https://video.sibnet.ru/shell.php?videoid=4842398"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

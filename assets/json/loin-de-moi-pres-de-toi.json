@@ -1,0 +1,20 @@
+{
+  "name": "Loin de moi, près de toi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/loin-de-moi-pres-de-toi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4018264"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=3990087"
+      ],
+      "oav": []
+    }
+  }
+}

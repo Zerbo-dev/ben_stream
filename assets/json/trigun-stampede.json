@@ -1,0 +1,50 @@
+{
+  "name": "Trigun Stampede",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/trigun-stampede.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5031774",
+          "https://video.sibnet.ru/shell.php?videoid=5039728",
+          "https://video.sibnet.ru/shell.php?videoid=5049343",
+          "https://video.sibnet.ru/shell.php?videoid=5058644",
+          "https://video.sibnet.ru/shell.php?videoid=5067370",
+          "https://video.sibnet.ru/shell.php?videoid=5073370",
+          "https://video.sibnet.ru/shell.php?videoid=5079675",
+          "https://video.sibnet.ru/shell.php?videoid=5087065",
+          "https://video.sibnet.ru/shell.php?videoid=5093756",
+          "https://video.sibnet.ru/shell.php?videoid=5100074",
+          "https://video.sibnet.ru/shell.php?videoid=5106829",
+          "https://video.sibnet.ru/shell.php?videoid=5114359"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093203"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5001465",
+          "https://video.sibnet.ru/shell.php?videoid=5009404",
+          "https://video.sibnet.ru/shell.php?videoid=5015589",
+          "https://video.sibnet.ru/shell.php?videoid=5024235",
+          "https://video.sibnet.ru/shell.php?videoid=5031483",
+          "https://video.sibnet.ru/shell.php?videoid=5039388",
+          "https://video.sibnet.ru/shell.php?videoid=5048962",
+          "https://video.sibnet.ru/shell.php?videoid=5058378",
+          "https://video.sibnet.ru/shell.php?videoid=5067068",
+          "https://video.sibnet.ru/shell.php?videoid=5072950",
+          "https://video.sibnet.ru/shell.php?videoid=5079468",
+          "https://video.sibnet.ru/shell.php?videoid=5086643"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5092314"
+      ],
+      "oav": []
+    }
+  }
+}

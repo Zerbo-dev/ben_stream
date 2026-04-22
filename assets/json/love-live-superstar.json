@@ -1,0 +1,59 @@
+{
+  "name": "Love Live! Superstar!!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/love-live-superstar.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5052421",
+          "https://video.sibnet.ru/shell.php?videoid=5052424",
+          "https://video.sibnet.ru/shell.php?videoid=5052436",
+          "https://video.sibnet.ru/shell.php?videoid=5052438",
+          "https://video.sibnet.ru/shell.php?videoid=5052440",
+          "https://video.sibnet.ru/shell.php?videoid=5052441",
+          "https://video.sibnet.ru/shell.php?videoid=5052443",
+          "https://video.sibnet.ru/shell.php?videoid=5052447",
+          "https://video.sibnet.ru/shell.php?videoid=5052448",
+          "https://video.sibnet.ru/shell.php?videoid=5052451",
+          "https://video.sibnet.ru/shell.php?videoid=5052452",
+          "https://video.sibnet.ru/shell.php?videoid=5052454"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5052482",
+          "https://video.sibnet.ru/shell.php?videoid=5052484",
+          "https://video.sibnet.ru/shell.php?videoid=5052520",
+          "https://video.sibnet.ru/shell.php?videoid=5052489",
+          "https://video.sibnet.ru/shell.php?videoid=5052492",
+          "https://video.sibnet.ru/shell.php?videoid=5052494",
+          "https://video.sibnet.ru/shell.php?videoid=5052498",
+          "https://video.sibnet.ru/shell.php?videoid=5052499",
+          "https://video.sibnet.ru/shell.php?videoid=5052502",
+          "https://video.sibnet.ru/shell.php?videoid=5052522",
+          "https://video.sibnet.ru/shell.php?videoid=5052507",
+          "https://video.sibnet.ru/shell.php?videoid=5052508"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5715685",
+          "https://video.sibnet.ru/shell.php?videoid=5739928",
+          "https://video.sibnet.ru/shell.php?videoid=5739930",
+          "https://video.sibnet.ru/shell.php?videoid=5739931",
+          "https://video.sibnet.ru/shell.php?videoid=5747334",
+          "https://video.sibnet.ru/shell.php?videoid=5754231",
+          "https://video.sibnet.ru/shell.php?videoid=5761651",
+          "https://video.sibnet.ru/shell.php?videoid=5766156",
+          "https://video.sibnet.ru/shell.php?videoid=5770060",
+          "https://video.sibnet.ru/shell.php?videoid=5775054",
+          "https://video.sibnet.ru/shell.php?videoid=5780735",
+          "https://video.sibnet.ru/shell.php?videoid=5786056"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

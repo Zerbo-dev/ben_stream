@@ -1,0 +1,78 @@
+{
+  "name": "Tales of Zestiria",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tales-of-zestiria.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4724257",
+          "https://video.sibnet.ru/shell.php?videoid=4724261",
+          "https://video.sibnet.ru/shell.php?videoid=4724264",
+          "https://video.sibnet.ru/shell.php?videoid=4724266",
+          "https://video.sibnet.ru/shell.php?videoid=4724269",
+          "https://video.sibnet.ru/shell.php?videoid=4724274",
+          "https://video.sibnet.ru/shell.php?videoid=4724277",
+          "https://video.sibnet.ru/shell.php?videoid=4724283",
+          "https://video.sibnet.ru/shell.php?videoid=4724286",
+          "https://video.sibnet.ru/shell.php?videoid=4724290",
+          "https://video.sibnet.ru/shell.php?videoid=4724295",
+          "https://video.sibnet.ru/shell.php?videoid=4724298",
+          "https://video.sibnet.ru/shell.php?videoid=4724304"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4724263",
+          "https://video.sibnet.ru/shell.php?videoid=4724265",
+          "https://video.sibnet.ru/shell.php?videoid=4724268",
+          "https://video.sibnet.ru/shell.php?videoid=4724270",
+          "https://video.sibnet.ru/shell.php?videoid=4724275",
+          "https://video.sibnet.ru/shell.php?videoid=4724279",
+          "https://video.sibnet.ru/shell.php?videoid=4724282",
+          "https://video.sibnet.ru/shell.php?videoid=4724285",
+          "https://video.sibnet.ru/shell.php?videoid=4724289",
+          "https://video.sibnet.ru/shell.php?videoid=4724293",
+          "https://video.sibnet.ru/shell.php?videoid=4724299",
+          "https://video.sibnet.ru/shell.php?videoid=4724305",
+          "https://video.sibnet.ru/shell.php?videoid=4724308"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4723504",
+          "https://video.sibnet.ru/shell.php?videoid=4723512",
+          "https://video.sibnet.ru/shell.php?videoid=4723518",
+          "https://video.sibnet.ru/shell.php?videoid=4723524",
+          "https://video.sibnet.ru/shell.php?videoid=4723529",
+          "https://video.sibnet.ru/shell.php?videoid=4723531",
+          "https://video.sibnet.ru/shell.php?videoid=4723534",
+          "https://video.sibnet.ru/shell.php?videoid=4723540",
+          "https://video.sibnet.ru/shell.php?videoid=4723543",
+          "https://video.sibnet.ru/shell.php?videoid=4723550",
+          "https://video.sibnet.ru/shell.php?videoid=4723557",
+          "https://video.sibnet.ru/shell.php?videoid=4723560",
+          "https://video.sibnet.ru/shell.php?videoid=4723565"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4723505",
+          "https://video.sibnet.ru/shell.php?videoid=4723508",
+          "https://video.sibnet.ru/shell.php?videoid=4723514",
+          "https://video.sibnet.ru/shell.php?videoid=4723523",
+          "https://video.sibnet.ru/shell.php?videoid=4723527",
+          "https://video.sibnet.ru/shell.php?videoid=4723530",
+          "https://video.sibnet.ru/shell.php?videoid=4723532",
+          "https://video.sibnet.ru/shell.php?videoid=4723537",
+          "https://video.sibnet.ru/shell.php?videoid=4723542",
+          "https://video.sibnet.ru/shell.php?videoid=4723547",
+          "https://video.sibnet.ru/shell.php?videoid=4723552",
+          "https://video.sibnet.ru/shell.php?videoid=4723556",
+          "https://video.sibnet.ru/shell.php?videoid=4723562"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

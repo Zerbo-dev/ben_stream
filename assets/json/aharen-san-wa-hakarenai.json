@@ -1,0 +1,45 @@
+{
+  "name": "Aharen-san wa Hakarenai",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/aharen-san-wa-hakarenai.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4665088",
+          "https://video.sibnet.ru/shell.php?videoid=4665089",
+          "https://video.sibnet.ru/shell.php?videoid=4674121",
+          "https://video.sibnet.ru/shell.php?videoid=4681483",
+          "https://video.sibnet.ru/shell.php?videoid=4694008",
+          "https://video.sibnet.ru/shell.php?videoid=4704570",
+          "https://video.sibnet.ru/shell.php?videoid=4711700",
+          "https://video.sibnet.ru/shell.php?videoid=4720895",
+          "https://video.sibnet.ru/shell.php?videoid=4730048",
+          "https://video.sibnet.ru/shell.php?videoid=4737807",
+          "https://video.sibnet.ru/shell.php?videoid=4746422",
+          "https://video.sibnet.ru/shell.php?videoid=4755103"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5870959",
+          "https://video.sibnet.ru/shell.php?videoid=5878851",
+          "https://video.sibnet.ru/shell.php?videoid=5887050",
+          "https://video.sibnet.ru/shell.php?videoid=5895278",
+          "https://video.sibnet.ru/shell.php?videoid=5902081",
+          "https://video.sibnet.ru/shell.php?videoid=5909439",
+          "https://video.sibnet.ru/shell.php?videoid=5915924",
+          "https://video.sibnet.ru/shell.php?videoid=5922088",
+          "https://video.sibnet.ru/shell.php?videoid=5927709",
+          "https://video.sibnet.ru/shell.php?videoid=5932717",
+          "https://video.sibnet.ru/shell.php?videoid=5938099",
+          "https://video.sibnet.ru/shell.php?videoid=5944007"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

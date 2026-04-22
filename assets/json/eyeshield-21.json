@@ -1,0 +1,20 @@
+{
+  "name": "Eyeshield 21",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/eyeshield-21.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5836267"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Viral hit",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/viral-hit.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5522440",
+          "https://video.sibnet.ru/shell.php?videoid=5529882",
+          "https://video.sibnet.ru/shell.php?videoid=5537361",
+          "https://video.sibnet.ru/shell.php?videoid=5543792",
+          "https://video.sibnet.ru/shell.php?videoid=5549811",
+          "https://video.sibnet.ru/shell.php?videoid=5555866",
+          "https://video.sibnet.ru/shell.php?videoid=5561496",
+          "https://video.sibnet.ru/shell.php?videoid=5570107",
+          "https://video.sibnet.ru/shell.php?videoid=5577663",
+          "https://video.sibnet.ru/shell.php?videoid=5584581",
+          "https://video.sibnet.ru/shell.php?videoid=5593366",
+          "https://video.sibnet.ru/shell.php?videoid=5600107"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5500609",
+          "https://video.sibnet.ru/shell.php?videoid=5508185",
+          "https://video.sibnet.ru/shell.php?videoid=5514583",
+          "https://video.sibnet.ru/shell.php?videoid=5522151",
+          "https://video.sibnet.ru/shell.php?videoid=5529756",
+          "https://video.sibnet.ru/shell.php?videoid=5536483",
+          "https://video.sibnet.ru/shell.php?videoid=5542901",
+          "https://video.sibnet.ru/shell.php?videoid=5549026",
+          "https://video.sibnet.ru/shell.php?videoid=5555175",
+          "https://video.sibnet.ru/shell.php?videoid=5561286",
+          "https://video.sibnet.ru/shell.php?videoid=5568944",
+          "https://video.sibnet.ru/shell.php?videoid=5576398"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

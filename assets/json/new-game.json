@@ -1,0 +1,45 @@
+{
+  "name": "New Game!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/new-game.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4831806",
+          "https://video.sibnet.ru/shell.php?videoid=4831808",
+          "https://video.sibnet.ru/shell.php?videoid=4831810",
+          "https://video.sibnet.ru/shell.php?videoid=4831812",
+          "https://video.sibnet.ru/shell.php?videoid=4831813",
+          "https://video.sibnet.ru/shell.php?videoid=4831814",
+          "https://video.sibnet.ru/shell.php?videoid=4831815",
+          "https://video.sibnet.ru/shell.php?videoid=4831817",
+          "https://video.sibnet.ru/shell.php?videoid=4831818",
+          "https://video.sibnet.ru/shell.php?videoid=4831819",
+          "https://video.sibnet.ru/shell.php?videoid=4831821",
+          "https://video.sibnet.ru/shell.php?videoid=4831822"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4831823",
+          "https://video.sibnet.ru/shell.php?videoid=4831825",
+          "https://video.sibnet.ru/shell.php?videoid=4831826",
+          "https://video.sibnet.ru/shell.php?videoid=4831827",
+          "https://video.sibnet.ru/shell.php?videoid=4831829",
+          "https://video.sibnet.ru/shell.php?videoid=4831830",
+          "https://video.sibnet.ru/shell.php?videoid=4831831",
+          "https://video.sibnet.ru/shell.php?videoid=4831832",
+          "https://video.sibnet.ru/shell.php?videoid=4831833",
+          "https://video.sibnet.ru/shell.php?videoid=4831835",
+          "https://video.sibnet.ru/shell.php?videoid=4831837",
+          "https://video.sibnet.ru/shell.php?videoid=4831839"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

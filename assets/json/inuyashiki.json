@@ -1,0 +1,29 @@
+{
+  "name": "Inuyashiki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/inuyashiki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4959647",
+          "https://video.sibnet.ru/shell.php?videoid=4959648",
+          "https://video.sibnet.ru/shell.php?videoid=4959649",
+          "https://video.sibnet.ru/shell.php?videoid=4959650",
+          "https://video.sibnet.ru/shell.php?videoid=4959651",
+          "https://video.sibnet.ru/shell.php?videoid=4959652",
+          "https://video.sibnet.ru/shell.php?videoid=4959653",
+          "https://video.sibnet.ru/shell.php?videoid=4959654",
+          "https://video.sibnet.ru/shell.php?videoid=4959655",
+          "https://video.sibnet.ru/shell.php?videoid=4959657"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

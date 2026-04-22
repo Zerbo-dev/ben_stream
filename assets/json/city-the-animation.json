@@ -1,0 +1,37 @@
+{
+  "name": "CITY THE ANIMATION",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/city-the-animation.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5956063",
+          "https://video.sibnet.ru/shell.php?videoid=5963172",
+          "https://video.sibnet.ru/shell.php?videoid=5970156"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5956064",
+          "https://video.sibnet.ru/shell.php?videoid=5963170",
+          "https://video.sibnet.ru/shell.php?videoid=5970152"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

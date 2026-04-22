@@ -1,0 +1,46 @@
+{
+  "name": "Baby Steps",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/baby-steps.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4737658"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4887868",
+          "https://video.sibnet.ru/shell.php?videoid=4887896",
+          "https://video.sibnet.ru/shell.php?videoid=4887914",
+          "https://video.sibnet.ru/shell.php?videoid=4887942",
+          "https://video.sibnet.ru/shell.php?videoid=4887964",
+          "https://video.sibnet.ru/shell.php?videoid=4887982",
+          "https://video.sibnet.ru/shell.php?videoid=4888003",
+          "https://video.sibnet.ru/shell.php?videoid=4888021",
+          "https://video.sibnet.ru/shell.php?videoid=4888056",
+          "https://video.sibnet.ru/shell.php?videoid=4888081",
+          "https://video.sibnet.ru/shell.php?videoid=4888112",
+          "https://video.sibnet.ru/shell.php?videoid=4888140",
+          "https://video.sibnet.ru/shell.php?videoid=4888169",
+          "https://video.sibnet.ru/shell.php?videoid=4888191",
+          "https://video.sibnet.ru/shell.php?videoid=4888214",
+          "https://video.sibnet.ru/shell.php?videoid=4888241",
+          "https://video.sibnet.ru/shell.php?videoid=4888266",
+          "https://video.sibnet.ru/shell.php?videoid=4888285",
+          "https://video.sibnet.ru/shell.php?videoid=4888307",
+          "https://video.sibnet.ru/shell.php?videoid=4888324",
+          "https://video.sibnet.ru/shell.php?videoid=4888342",
+          "https://video.sibnet.ru/shell.php?videoid=4888355",
+          "https://video.sibnet.ru/shell.php?videoid=4888376",
+          "https://video.sibnet.ru/shell.php?videoid=4888414"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

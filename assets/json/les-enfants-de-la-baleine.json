@@ -1,0 +1,46 @@
+{
+  "name": "Les Enfants de la Baleine",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/les-enfants-de-la-baleine.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5051945",
+          "https://video.sibnet.ru/shell.php?videoid=5051948",
+          "https://video.sibnet.ru/shell.php?videoid=5051949",
+          "https://video.sibnet.ru/shell.php?videoid=5051952",
+          "https://video.sibnet.ru/shell.php?videoid=5051953",
+          "https://video.sibnet.ru/shell.php?videoid=5051954",
+          "https://video.sibnet.ru/shell.php?videoid=5051955",
+          "https://video.sibnet.ru/shell.php?videoid=5051956",
+          "https://video.sibnet.ru/shell.php?videoid=5051957",
+          "https://video.sibnet.ru/shell.php?videoid=5051960",
+          "https://video.sibnet.ru/shell.php?videoid=5051962",
+          "https://video.sibnet.ru/shell.php?videoid=5051965"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5051446",
+          "https://video.sibnet.ru/shell.php?videoid=5051448",
+          "https://video.sibnet.ru/shell.php?videoid=5051449",
+          "https://video.sibnet.ru/shell.php?videoid=5051450",
+          "https://video.sibnet.ru/shell.php?videoid=5051452",
+          "https://video.sibnet.ru/shell.php?videoid=5051453",
+          "https://video.sibnet.ru/shell.php?videoid=5051454",
+          "https://video.sibnet.ru/shell.php?videoid=5051456",
+          "https://video.sibnet.ru/shell.php?videoid=5051457",
+          "https://video.sibnet.ru/shell.php?videoid=5051458",
+          "https://video.sibnet.ru/shell.php?videoid=5051460",
+          "https://video.sibnet.ru/shell.php?videoid=5051461"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

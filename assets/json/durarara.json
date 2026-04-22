@@ -1,0 +1,81 @@
+{
+  "name": "Durarara!!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/durarara.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3066566",
+          "https://video.sibnet.ru/shell.php?videoid=3066568",
+          "https://video.sibnet.ru/shell.php?videoid=3066572",
+          "https://video.sibnet.ru/shell.php?videoid=3066584",
+          "https://video.sibnet.ru/shell.php?videoid=3066596",
+          "https://video.sibnet.ru/shell.php?videoid=3066605",
+          "https://video.sibnet.ru/shell.php?videoid=3066611",
+          "https://video.sibnet.ru/shell.php?videoid=3066616",
+          "https://video.sibnet.ru/shell.php?videoid=3066622",
+          "https://video.sibnet.ru/shell.php?videoid=3066629",
+          "https://video.sibnet.ru/shell.php?videoid=3066633",
+          "https://video.sibnet.ru/shell.php?videoid=3066637",
+          "https://video.sibnet.ru/shell.php?videoid=3066668",
+          "https://video.sibnet.ru/shell.php?videoid=3066714",
+          "https://video.sibnet.ru/shell.php?videoid=3066722",
+          "https://video.sibnet.ru/shell.php?videoid=3066728",
+          "https://video.sibnet.ru/shell.php?videoid=3066732",
+          "https://video.sibnet.ru/shell.php?videoid=3066736",
+          "https://video.sibnet.ru/shell.php?videoid=3066743",
+          "https://video.sibnet.ru/shell.php?videoid=3066749",
+          "https://video.sibnet.ru/shell.php?videoid=3066750",
+          "https://video.sibnet.ru/shell.php?videoid=3066754",
+          "https://video.sibnet.ru/shell.php?videoid=3066757",
+          "https://video.sibnet.ru/shell.php?videoid=3066760"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=3066837",
+          "https://video.sibnet.ru/shell.php?videoid=3066839",
+          "https://video.sibnet.ru/shell.php?videoid=3066845",
+          "https://video.sibnet.ru/shell.php?videoid=3066848",
+          "https://video.sibnet.ru/shell.php?videoid=3066997",
+          "https://video.sibnet.ru/shell.php?videoid=3067033",
+          "https://video.sibnet.ru/shell.php?videoid=3067108",
+          "https://video.sibnet.ru/shell.php?videoid=3067142",
+          "https://video.sibnet.ru/shell.php?videoid=3067165",
+          "https://video.sibnet.ru/shell.php?videoid=3067187",
+          "https://video.sibnet.ru/shell.php?videoid=3067220",
+          "https://video.sibnet.ru/shell.php?videoid=3067295",
+          "https://video.sibnet.ru/shell.php?videoid=3066886",
+          "https://video.sibnet.ru/shell.php?videoid=3066979",
+          "https://video.sibnet.ru/shell.php?videoid=3067089",
+          "https://video.sibnet.ru/shell.php?videoid=3067249",
+          "https://video.sibnet.ru/shell.php?videoid=3067387",
+          "https://video.sibnet.ru/shell.php?videoid=3067489",
+          "https://video.sibnet.ru/shell.php?videoid=3067532",
+          "https://video.sibnet.ru/shell.php?videoid=3067542",
+          "https://video.sibnet.ru/shell.php?videoid=3067545",
+          "https://video.sibnet.ru/shell.php?videoid=3067548",
+          "https://video.sibnet.ru/shell.php?videoid=3067553",
+          "https://video.sibnet.ru/shell.php?videoid=3067556",
+          "https://video.sibnet.ru/shell.php?videoid=3067456",
+          "https://video.sibnet.ru/shell.php?videoid=3067463",
+          "https://video.sibnet.ru/shell.php?videoid=3067517",
+          "https://video.sibnet.ru/shell.php?videoid=3067530",
+          "https://video.sibnet.ru/shell.php?videoid=3067531",
+          "https://video.sibnet.ru/shell.php?videoid=3067534",
+          "https://video.sibnet.ru/shell.php?videoid=3067536",
+          "https://video.sibnet.ru/shell.php?videoid=3067538",
+          "https://video.sibnet.ru/shell.php?videoid=3067540",
+          "https://video.sibnet.ru/shell.php?videoid=3067541",
+          "https://video.sibnet.ru/shell.php?videoid=3067543",
+          "https://video.sibnet.ru/shell.php?videoid=3067544"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

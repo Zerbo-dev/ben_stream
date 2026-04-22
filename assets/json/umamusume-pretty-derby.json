@@ -1,0 +1,62 @@
+{
+  "name": "Umamusume Pretty Derby",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/umamusume-pretty-derby.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5184034",
+          "https://video.sibnet.ru/shell.php?videoid=5184035",
+          "https://video.sibnet.ru/shell.php?videoid=5184036",
+          "https://video.sibnet.ru/shell.php?videoid=5184037",
+          "https://video.sibnet.ru/shell.php?videoid=5184038",
+          "https://video.sibnet.ru/shell.php?videoid=5184039",
+          "https://video.sibnet.ru/shell.php?videoid=5184040",
+          "https://video.sibnet.ru/shell.php?videoid=5184041",
+          "https://video.sibnet.ru/shell.php?videoid=5184043",
+          "https://video.sibnet.ru/shell.php?videoid=5184044",
+          "https://video.sibnet.ru/shell.php?videoid=5184045",
+          "https://video.sibnet.ru/shell.php?videoid=5184046",
+          "https://video.sibnet.ru/shell.php?videoid=5184047"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5184183",
+          "https://video.sibnet.ru/shell.php?videoid=5184184",
+          "https://video.sibnet.ru/shell.php?videoid=5184186",
+          "https://video.sibnet.ru/shell.php?videoid=5184188",
+          "https://video.sibnet.ru/shell.php?videoid=5184189",
+          "https://video.sibnet.ru/shell.php?videoid=5184191",
+          "https://video.sibnet.ru/shell.php?videoid=5184192",
+          "https://video.sibnet.ru/shell.php?videoid=5184193",
+          "https://video.sibnet.ru/shell.php?videoid=5184194",
+          "https://video.sibnet.ru/shell.php?videoid=5184195",
+          "https://video.sibnet.ru/shell.php?videoid=5184196",
+          "https://video.sibnet.ru/shell.php?videoid=5184197",
+          "https://video.sibnet.ru/shell.php?videoid=5184198"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5270034",
+          "https://video.sibnet.ru/shell.php?videoid=5276523",
+          "https://video.sibnet.ru/shell.php?videoid=5286713",
+          "https://video.sibnet.ru/shell.php?videoid=5296566",
+          "https://video.sibnet.ru/shell.php?videoid=5304805",
+          "https://video.sibnet.ru/shell.php?videoid=5313058",
+          "https://video.sibnet.ru/shell.php?videoid=5323040",
+          "https://video.sibnet.ru/shell.php?videoid=5333157",
+          "https://video.sibnet.ru/shell.php?videoid=5344079",
+          "https://video.sibnet.ru/shell.php?videoid=5353676",
+          "https://video.sibnet.ru/shell.php?videoid=5362926",
+          "https://video.sibnet.ru/shell.php?videoid=5371182",
+          "https://video.sibnet.ru/shell.php?videoid=5379040"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

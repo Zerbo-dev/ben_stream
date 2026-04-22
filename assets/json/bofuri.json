@@ -1,0 +1,45 @@
+{
+  "name": "Bofuri",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/bofuri.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3798053",
+          "https://video.sibnet.ru/shell.php?videoid=3808742",
+          "https://video.sibnet.ru/shell.php?videoid=3815679",
+          "https://video.sibnet.ru/shell.php?videoid=3823246",
+          "https://video.sibnet.ru/shell.php?videoid=3832528",
+          "https://video.sibnet.ru/shell.php?videoid=3849043",
+          "https://video.sibnet.ru/shell.php?videoid=3854588",
+          "https://video.sibnet.ru/shell.php?videoid=3860600",
+          "https://video.sibnet.ru/shell.php?videoid=3867948",
+          "https://video.sibnet.ru/shell.php?videoid=3870761",
+          "https://video.sibnet.ru/shell.php?videoid=3877550",
+          "https://video.sibnet.ru/shell.php?videoid=3884548"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5006619",
+          "https://video.sibnet.ru/shell.php?videoid=5012959",
+          "https://video.sibnet.ru/shell.php?videoid=5021619",
+          "https://video.sibnet.ru/shell.php?videoid=5028230",
+          "https://video.sibnet.ru/shell.php?videoid=5035789",
+          "https://video.sibnet.ru/shell.php?videoid=5044806",
+          "https://video.sibnet.ru/shell.php?videoid=5070508",
+          "https://video.sibnet.ru/shell.php?videoid=5076883",
+          "https://video.sibnet.ru/shell.php?videoid=5083661",
+          "https://video.sibnet.ru/shell.php?videoid=5090907",
+          "https://video.sibnet.ru/shell.php?videoid=5103149",
+          "https://video.sibnet.ru/shell.php?videoid=5110484"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

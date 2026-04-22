@@ -1,0 +1,44 @@
+{
+  "name": "Hoshi no Samidare",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hoshi-no-samidare.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4782437",
+          "https://video.sibnet.ru/shell.php?videoid=4796392",
+          "https://video.sibnet.ru/shell.php?videoid=4798244",
+          "https://video.sibnet.ru/shell.php?videoid=4805705",
+          "https://video.sibnet.ru/shell.php?videoid=4815250",
+          "https://video.sibnet.ru/shell.php?videoid=4823734",
+          "https://video.sibnet.ru/shell.php?videoid=4835979",
+          "https://video.sibnet.ru/shell.php?videoid=4846279",
+          "https://video.sibnet.ru/shell.php?videoid=4855292",
+          "https://video.sibnet.ru/shell.php?videoid=4864357",
+          "https://video.sibnet.ru/shell.php?videoid=4873359",
+          "https://video.sibnet.ru/shell.php?videoid=4881604",
+          "https://video.sibnet.ru/shell.php?videoid=4899773",
+          "https://video.sibnet.ru/shell.php?videoid=4910172",
+          "https://video.sibnet.ru/shell.php?videoid=4918446",
+          "https://video.sibnet.ru/shell.php?videoid=4926269",
+          "https://video.sibnet.ru/shell.php?videoid=4933138",
+          "https://video.sibnet.ru/shell.php?videoid=4941345",
+          "https://video.sibnet.ru/shell.php?videoid=4949282",
+          "https://video.sibnet.ru/shell.php?videoid=4956426",
+          "https://video.sibnet.ru/shell.php?videoid=4963037",
+          "https://video.sibnet.ru/shell.php?videoid=4968808",
+          "https://video.sibnet.ru/shell.php?videoid=4974118",
+          "https://video.sibnet.ru/shell.php?videoid=4980359",
+          "https://video.sibnet.ru/shell.php?videoid=4988685"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

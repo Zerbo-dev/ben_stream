@@ -1,0 +1,43 @@
+{
+  "name": "Play It Cool, Guys",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/play-it-cool-guys.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4930922",
+          "https://video.sibnet.ru/shell.php?videoid=4930923",
+          "https://video.sibnet.ru/shell.php?videoid=4930924",
+          "https://video.sibnet.ru/shell.php?videoid=4936293",
+          "https://video.sibnet.ru/shell.php?videoid=4945598",
+          "https://video.sibnet.ru/shell.php?videoid=4952608",
+          "https://video.sibnet.ru/shell.php?videoid=4959421",
+          "https://video.sibnet.ru/shell.php?videoid=4965413",
+          "https://video.sibnet.ru/shell.php?videoid=4971302",
+          "https://video.sibnet.ru/shell.php?videoid=4977253",
+          "https://video.sibnet.ru/shell.php?videoid=4983747",
+          "https://video.sibnet.ru/shell.php?videoid=4990869",
+          "https://video.sibnet.ru/shell.php?videoid=5004565",
+          "https://video.sibnet.ru/shell.php?videoid=5011490",
+          "https://video.sibnet.ru/shell.php?videoid=5018681",
+          "https://video.sibnet.ru/shell.php?videoid=5026647",
+          "https://video.sibnet.ru/shell.php?videoid=5033555",
+          "https://video.sibnet.ru/shell.php?videoid=5042384",
+          "https://video.sibnet.ru/shell.php?videoid=5052605",
+          "https://video.sibnet.ru/shell.php?videoid=5060942",
+          "https://video.sibnet.ru/shell.php?videoid=5069232",
+          "https://video.sibnet.ru/shell.php?videoid=5075120",
+          "https://video.sibnet.ru/shell.php?videoid=5081433",
+          "https://video.sibnet.ru/shell.php?videoid=5089072"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

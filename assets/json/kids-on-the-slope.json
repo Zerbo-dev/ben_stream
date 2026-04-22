@@ -1,0 +1,46 @@
+{
+  "name": "Kids on the Slope",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kids-on-the-slope.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4983616",
+          "https://video.sibnet.ru/shell.php?videoid=4983618",
+          "https://video.sibnet.ru/shell.php?videoid=4983619",
+          "https://video.sibnet.ru/shell.php?videoid=4983622",
+          "https://video.sibnet.ru/shell.php?videoid=4983626",
+          "https://video.sibnet.ru/shell.php?videoid=4983630",
+          "https://video.sibnet.ru/shell.php?videoid=4983632",
+          "https://video.sibnet.ru/shell.php?videoid=4983633",
+          "https://video.sibnet.ru/shell.php?videoid=4983636",
+          "https://video.sibnet.ru/shell.php?videoid=4983637",
+          "https://video.sibnet.ru/shell.php?videoid=4983640",
+          "https://video.sibnet.ru/shell.php?videoid=4983643"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5623914",
+          "https://video.sibnet.ru/shell.php?videoid=5623915",
+          "https://video.sibnet.ru/shell.php?videoid=5623916",
+          "https://video.sibnet.ru/shell.php?videoid=5623917",
+          "https://video.sibnet.ru/shell.php?videoid=5623918",
+          "https://video.sibnet.ru/shell.php?videoid=5623919",
+          "https://video.sibnet.ru/shell.php?videoid=5623920",
+          "https://video.sibnet.ru/shell.php?videoid=5623922",
+          "https://video.sibnet.ru/shell.php?videoid=5623924",
+          "https://video.sibnet.ru/shell.php?videoid=5623926",
+          "https://video.sibnet.ru/shell.php?videoid=5623927",
+          "https://video.sibnet.ru/shell.php?videoid=5623928"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Baraou no Souretsu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/baraou-no-souretsu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4666872"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

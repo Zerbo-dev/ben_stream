@@ -1,0 +1,46 @@
+{
+  "name": "Re Monster",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/re-monster.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5490340",
+          "https://video.sibnet.ru/shell.php?videoid=5498219",
+          "https://video.sibnet.ru/shell.php?videoid=5506064",
+          "https://video.sibnet.ru/shell.php?videoid=5512854",
+          "https://video.sibnet.ru/shell.php?videoid=5520033",
+          "https://video.sibnet.ru/shell.php?videoid=5527595",
+          "https://video.sibnet.ru/shell.php?videoid=5534468",
+          "https://video.sibnet.ru/shell.php?videoid=5541065",
+          "https://video.sibnet.ru/shell.php?videoid=5547458",
+          "https://video.sibnet.ru/shell.php?videoid=5553368",
+          "https://video.sibnet.ru/shell.php?videoid=5559114",
+          "https://video.sibnet.ru/shell.php?videoid=5566317"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5490065",
+          "https://video.sibnet.ru/shell.php?videoid=5498065",
+          "https://video.sibnet.ru/shell.php?videoid=5506037",
+          "https://video.sibnet.ru/shell.php?videoid=5512815",
+          "https://video.sibnet.ru/shell.php?videoid=5519791",
+          "https://video.sibnet.ru/shell.php?videoid=5527554",
+          "https://video.sibnet.ru/shell.php?videoid=5534452",
+          "https://video.sibnet.ru/shell.php?videoid=5541043",
+          "https://video.sibnet.ru/shell.php?videoid=5547337",
+          "https://video.sibnet.ru/shell.php?videoid=5553247",
+          "https://video.sibnet.ru/shell.php?videoid=5559051",
+          "https://video.sibnet.ru/shell.php?videoid=5566201"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

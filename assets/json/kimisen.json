@@ -1,0 +1,45 @@
+{
+  "name": "KimiSen",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kimisen.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4978426",
+          "https://video.sibnet.ru/shell.php?videoid=4978428",
+          "https://video.sibnet.ru/shell.php?videoid=4978431",
+          "https://video.sibnet.ru/shell.php?videoid=4978432",
+          "https://video.sibnet.ru/shell.php?videoid=4978433",
+          "https://video.sibnet.ru/shell.php?videoid=4978434",
+          "https://video.sibnet.ru/shell.php?videoid=4978435",
+          "https://video.sibnet.ru/shell.php?videoid=4978436",
+          "https://video.sibnet.ru/shell.php?videoid=4978437",
+          "https://video.sibnet.ru/shell.php?videoid=4978439",
+          "https://video.sibnet.ru/shell.php?videoid=4978441",
+          "https://video.sibnet.ru/shell.php?videoid=4978443"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5883697",
+          "https://video.sibnet.ru/shell.php?videoid=5906524",
+          "https://video.sibnet.ru/shell.php?videoid=5905333",
+          "https://video.sibnet.ru/shell.php?videoid=5905337",
+          "https://video.sibnet.ru/shell.php?videoid=5905371",
+          "https://video.sibnet.ru/shell.php?videoid=5911963",
+          "https://video.sibnet.ru/shell.php?videoid=5918675",
+          "https://video.sibnet.ru/shell.php?videoid=5924324",
+          "https://video.sibnet.ru/shell.php?videoid=5929654",
+          "https://video.sibnet.ru/shell.php?videoid=5935012",
+          "https://video.sibnet.ru/shell.php?videoid=5940024",
+          "https://video.sibnet.ru/shell.php?videoid=5946697"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "True Beauty",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/true-beauty.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5656560",
+          "https://video.sibnet.ru/shell.php?videoid=5663940",
+          "https://video.sibnet.ru/shell.php?videoid=5673220",
+          "https://video.sibnet.ru/shell.php?videoid=5682527",
+          "https://video.sibnet.ru/shell.php?videoid=5692251",
+          "https://video.sibnet.ru/shell.php?videoid=5702391",
+          "https://video.sibnet.ru/shell.php?videoid=5710994",
+          "https://video.sibnet.ru/shell.php?videoid=5718948",
+          "https://video.sibnet.ru/shell.php?videoid=5728084",
+          "https://video.sibnet.ru/shell.php?videoid=5735815",
+          "https://video.sibnet.ru/shell.php?videoid=5744158",
+          "https://video.sibnet.ru/shell.php?videoid=5751207",
+          "https://video.sibnet.ru/shell.php?videoid=5758566"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5625691",
+          "https://video.sibnet.ru/shell.php?videoid=5636381",
+          "https://video.sibnet.ru/shell.php?videoid=5647446",
+          "https://video.sibnet.ru/shell.php?videoid=5654771",
+          "https://video.sibnet.ru/shell.php?videoid=5663236",
+          "https://video.sibnet.ru/shell.php?videoid=5672134",
+          "https://video.sibnet.ru/shell.php?videoid=5681435",
+          "https://video.sibnet.ru/shell.php?videoid=5691005",
+          "https://video.sibnet.ru/shell.php?videoid=5699494",
+          "https://video.sibnet.ru/shell.php?videoid=5709313",
+          "https://video.sibnet.ru/shell.php?videoid=5718205",
+          "https://video.sibnet.ru/shell.php?videoid=5727306",
+          "https://video.sibnet.ru/shell.php?videoid=5735405"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

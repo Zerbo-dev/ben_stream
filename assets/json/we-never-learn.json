@@ -1,0 +1,47 @@
+{
+  "name": "We Never Learn",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/we-never-learn.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4843505",
+          "https://video.sibnet.ru/shell.php?videoid=4843507",
+          "https://video.sibnet.ru/shell.php?videoid=4843510",
+          "https://video.sibnet.ru/shell.php?videoid=4843515",
+          "https://video.sibnet.ru/shell.php?videoid=4843520",
+          "https://video.sibnet.ru/shell.php?videoid=4843525",
+          "https://video.sibnet.ru/shell.php?videoid=4843529",
+          "https://video.sibnet.ru/shell.php?videoid=4843532",
+          "https://video.sibnet.ru/shell.php?videoid=4843537",
+          "https://video.sibnet.ru/shell.php?videoid=4843544",
+          "https://video.sibnet.ru/shell.php?videoid=4843548",
+          "https://video.sibnet.ru/shell.php?videoid=4843550",
+          "https://video.sibnet.ru/shell.php?videoid=4843554"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4843558",
+          "https://video.sibnet.ru/shell.php?videoid=4843563",
+          "https://video.sibnet.ru/shell.php?videoid=4843566",
+          "https://video.sibnet.ru/shell.php?videoid=4843571",
+          "https://video.sibnet.ru/shell.php?videoid=4843577",
+          "https://video.sibnet.ru/shell.php?videoid=4843579",
+          "https://video.sibnet.ru/shell.php?videoid=4843584",
+          "https://video.sibnet.ru/shell.php?videoid=4843588",
+          "https://video.sibnet.ru/shell.php?videoid=4843590",
+          "https://video.sibnet.ru/shell.php?videoid=4843593",
+          "https://video.sibnet.ru/shell.php?videoid=4843596",
+          "https://video.sibnet.ru/shell.php?videoid=4843599",
+          "https://video.sibnet.ru/shell.php?videoid=4843602"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

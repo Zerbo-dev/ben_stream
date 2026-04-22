@@ -1,0 +1,31 @@
+{
+  "name": "Dekin no Mogura",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/dekin-no-mogura.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5955215",
+          "https://video.sibnet.ru/shell.php?videoid=5963057",
+          "https://video.sibnet.ru/shell.php?videoid=5970103"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

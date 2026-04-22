@@ -1,0 +1,62 @@
+{
+  "name": "Rent a Girlfriend",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/rent-a-girlfriend.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4855764",
+          "https://video.sibnet.ru/shell.php?videoid=4855780",
+          "https://video.sibnet.ru/shell.php?videoid=4855781",
+          "https://video.sibnet.ru/shell.php?videoid=4864639",
+          "https://video.sibnet.ru/shell.php?videoid=4873903",
+          "https://video.sibnet.ru/shell.php?videoid=4881884",
+          "https://video.sibnet.ru/shell.php?videoid=4899939",
+          "https://video.sibnet.ru/shell.php?videoid=4910295",
+          "https://video.sibnet.ru/shell.php?videoid=4918648",
+          "https://video.sibnet.ru/shell.php?videoid=4926330",
+          "https://video.sibnet.ru/shell.php?videoid=4933247",
+          "https://video.sibnet.ru/shell.php?videoid=4941522"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4799781",
+          "https://video.sibnet.ru/shell.php?videoid=4805941",
+          "https://video.sibnet.ru/shell.php?videoid=4815431",
+          "https://video.sibnet.ru/shell.php?videoid=4824094",
+          "https://video.sibnet.ru/shell.php?videoid=4836151",
+          "https://video.sibnet.ru/shell.php?videoid=4846446",
+          "https://video.sibnet.ru/shell.php?videoid=4855451",
+          "https://video.sibnet.ru/shell.php?videoid=4864647",
+          "https://video.sibnet.ru/shell.php?videoid=4873892",
+          "https://video.sibnet.ru/shell.php?videoid=4881875",
+          "https://video.sibnet.ru/shell.php?videoid=4899946",
+          "https://video.sibnet.ru/shell.php?videoid=4910303"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5210573",
+          "https://video.sibnet.ru/shell.php?videoid=5218924",
+          "https://video.sibnet.ru/shell.php?videoid=5224141",
+          "https://video.sibnet.ru/shell.php?videoid=5229870",
+          "https://video.sibnet.ru/shell.php?videoid=5234450",
+          "https://video.sibnet.ru/shell.php?videoid=5240295",
+          "https://video.sibnet.ru/shell.php?videoid=5248146",
+          "https://video.sibnet.ru/shell.php?videoid=5259168",
+          "https://video.sibnet.ru/shell.php?videoid=5264193",
+          "https://video.sibnet.ru/shell.php?videoid=5270518",
+          "https://video.sibnet.ru/shell.php?videoid=5279873",
+          "https://video.sibnet.ru/shell.php?videoid=5289512"
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid=5972498"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

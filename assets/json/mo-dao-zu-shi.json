@@ -1,0 +1,58 @@
+{
+  "name": "Mo Dao Zu Shi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mo-dao-zu-shi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4785940",
+          "https://video.sibnet.ru/shell.php?videoid=4785958",
+          "https://video.sibnet.ru/shell.php?videoid=4785965",
+          "https://video.sibnet.ru/shell.php?videoid=4785968",
+          "https://video.sibnet.ru/shell.php?videoid=4785972",
+          "https://video.sibnet.ru/shell.php?videoid=4785977",
+          "https://video.sibnet.ru/shell.php?videoid=4785984",
+          "https://video.sibnet.ru/shell.php?videoid=4785986",
+          "https://video.sibnet.ru/shell.php?videoid=4785989",
+          "https://video.sibnet.ru/shell.php?videoid=4785990",
+          "https://video.sibnet.ru/shell.php?videoid=4785992",
+          "https://video.sibnet.ru/shell.php?videoid=4785996",
+          "https://video.sibnet.ru/shell.php?videoid=4785997",
+          "https://video.sibnet.ru/shell.php?videoid=4785999",
+          "https://video.sibnet.ru/shell.php?videoid=4786000"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4785961",
+          "https://video.sibnet.ru/shell.php?videoid=4785964",
+          "https://video.sibnet.ru/shell.php?videoid=4785966",
+          "https://video.sibnet.ru/shell.php?videoid=4785969",
+          "https://video.sibnet.ru/shell.php?videoid=4785971",
+          "https://video.sibnet.ru/shell.php?videoid=4785973",
+          "https://video.sibnet.ru/shell.php?videoid=4785975",
+          "https://video.sibnet.ru/shell.php?videoid=4785980"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4786020",
+          "https://video.sibnet.ru/shell.php?videoid=4786025",
+          "https://video.sibnet.ru/shell.php?videoid=4786029",
+          "https://video.sibnet.ru/shell.php?videoid=4786033",
+          "https://video.sibnet.ru/shell.php?videoid=4786037",
+          "https://video.sibnet.ru/shell.php?videoid=4786040",
+          "https://video.sibnet.ru/shell.php?videoid=4786044",
+          "https://video.sibnet.ru/shell.php?videoid=4786046",
+          "https://video.sibnet.ru/shell.php?videoid=4786051",
+          "https://video.sibnet.ru/shell.php?videoid=4786052",
+          "https://video.sibnet.ru/shell.php?videoid=4786054",
+          "https://video.sibnet.ru/shell.php?videoid=4786056"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

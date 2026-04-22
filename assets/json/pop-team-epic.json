@@ -1,0 +1,45 @@
+{
+  "name": "Pop Team Epic",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/pop-team-epic.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4907147",
+          "https://video.sibnet.ru/shell.php?videoid=4907151",
+          "https://video.sibnet.ru/shell.php?videoid=4907153",
+          "https://video.sibnet.ru/shell.php?videoid=4907154",
+          "https://video.sibnet.ru/shell.php?videoid=4907155",
+          "https://video.sibnet.ru/shell.php?videoid=4907157",
+          "https://video.sibnet.ru/shell.php?videoid=4907159",
+          "https://video.sibnet.ru/shell.php?videoid=4907160",
+          "https://video.sibnet.ru/shell.php?videoid=4907163",
+          "https://video.sibnet.ru/shell.php?videoid=4907165",
+          "https://video.sibnet.ru/shell.php?videoid=4907167",
+          "https://video.sibnet.ru/shell.php?videoid=4907169"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4907176",
+          "https://video.sibnet.ru/shell.php?videoid=4911453",
+          "https://video.sibnet.ru/shell.php?videoid=4919335",
+          "https://video.sibnet.ru/shell.php?videoid=4927066",
+          "https://video.sibnet.ru/shell.php?videoid=4934164",
+          "https://video.sibnet.ru/shell.php?videoid=4945471",
+          "https://video.sibnet.ru/shell.php?videoid=4950054",
+          "https://video.sibnet.ru/shell.php?videoid=4957261",
+          "https://video.sibnet.ru/shell.php?videoid=4963792",
+          "https://video.sibnet.ru/shell.php?videoid=4969472",
+          "https://video.sibnet.ru/shell.php?videoid=4975141",
+          "https://video.sibnet.ru/shell.php?videoid=4981312"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

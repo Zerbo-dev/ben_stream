@@ -1,0 +1,20 @@
+{
+  "name": "Summer Wars",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/summer-wars.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4835115\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4835117\t"
+      ],
+      "oav": []
+    }
+  }
+}

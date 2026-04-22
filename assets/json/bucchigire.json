@@ -1,0 +1,46 @@
+{
+  "name": "Bucchigire!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/bucchigire.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5299888",
+          "https://video.sibnet.ru/shell.php?videoid=5299892",
+          "https://video.sibnet.ru/shell.php?videoid=5299895",
+          "https://video.sibnet.ru/shell.php?videoid=5299897",
+          "https://video.sibnet.ru/shell.php?videoid=5299899",
+          "https://video.sibnet.ru/shell.php?videoid=5299902",
+          "https://video.sibnet.ru/shell.php?videoid=5299904",
+          "https://video.sibnet.ru/shell.php?videoid=5299906",
+          "https://video.sibnet.ru/shell.php?videoid=5299909",
+          "https://video.sibnet.ru/shell.php?videoid=5299912",
+          "https://video.sibnet.ru/shell.php?videoid=5299915",
+          "https://video.sibnet.ru/shell.php?videoid=5299917"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4784144",
+          "https://video.sibnet.ru/shell.php?videoid=4796383",
+          "https://video.sibnet.ru/shell.php?videoid=4797978",
+          "https://video.sibnet.ru/shell.php?videoid=4805291",
+          "https://video.sibnet.ru/shell.php?videoid=4815024",
+          "https://video.sibnet.ru/shell.php?videoid=4823167",
+          "https://video.sibnet.ru/shell.php?videoid=4835674",
+          "https://video.sibnet.ru/shell.php?videoid=4845929",
+          "https://video.sibnet.ru/shell.php?videoid=4854907",
+          "https://video.sibnet.ru/shell.php?videoid=4864110",
+          "https://video.sibnet.ru/shell.php?videoid=4873036",
+          "https://video.sibnet.ru/shell.php?videoid=4881166"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

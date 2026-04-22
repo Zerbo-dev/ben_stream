@@ -1,0 +1,20 @@
+{
+  "name": "Your Name",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/your-name.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=3202964"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5117447"
+      ],
+      "oav": []
+    }
+  }
+}

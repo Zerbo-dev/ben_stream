@@ -1,0 +1,43 @@
+{
+  "name": "Akame Ga Kill",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/akame-ga-kill.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4920303",
+          "https://video.sibnet.ru/shell.php?videoid=4920306",
+          "https://video.sibnet.ru/shell.php?videoid=4920311",
+          "https://video.sibnet.ru/shell.php?videoid=4920319",
+          "https://video.sibnet.ru/shell.php?videoid=4920321",
+          "https://video.sibnet.ru/shell.php?videoid=4920324",
+          "https://video.sibnet.ru/shell.php?videoid=4920325",
+          "https://video.sibnet.ru/shell.php?videoid=4920333",
+          "https://video.sibnet.ru/shell.php?videoid=4920341",
+          "https://video.sibnet.ru/shell.php?videoid=4920344",
+          "https://video.sibnet.ru/shell.php?videoid=4920346",
+          "https://video.sibnet.ru/shell.php?videoid=4920349",
+          "https://video.sibnet.ru/shell.php?videoid=4920353",
+          "https://video.sibnet.ru/shell.php?videoid=4920354",
+          "https://video.sibnet.ru/shell.php?videoid=4920355",
+          "https://video.sibnet.ru/shell.php?videoid=4920359",
+          "https://video.sibnet.ru/shell.php?videoid=4920362",
+          "https://video.sibnet.ru/shell.php?videoid=4920365",
+          "https://video.sibnet.ru/shell.php?videoid=4920367",
+          "https://video.sibnet.ru/shell.php?videoid=4919107",
+          "https://video.sibnet.ru/shell.php?videoid=4919113",
+          "https://video.sibnet.ru/shell.php?videoid=4919123",
+          "https://video.sibnet.ru/shell.php?videoid=4919135",
+          "https://video.sibnet.ru/shell.php?videoid=4919148"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

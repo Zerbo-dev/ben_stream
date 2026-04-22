@@ -1,0 +1,46 @@
+{
+  "name": "Junji Ito Maniac",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/junji-ito-maniac.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5013751",
+          "https://video.sibnet.ru/shell.php?videoid=5013752",
+          "https://video.sibnet.ru/shell.php?videoid=5013754",
+          "https://video.sibnet.ru/shell.php?videoid=5013755",
+          "https://video.sibnet.ru/shell.php?videoid=5013756",
+          "https://video.sibnet.ru/shell.php?videoid=5013757",
+          "https://video.sibnet.ru/shell.php?videoid=5013758",
+          "https://video.sibnet.ru/shell.php?videoid=5013760",
+          "https://video.sibnet.ru/shell.php?videoid=5013761",
+          "https://video.sibnet.ru/shell.php?videoid=5013762",
+          "https://video.sibnet.ru/shell.php?videoid=5013764",
+          "https://video.sibnet.ru/shell.php?videoid=5013766"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5013704",
+          "https://video.sibnet.ru/shell.php?videoid=5013707",
+          "https://video.sibnet.ru/shell.php?videoid=5013709",
+          "https://video.sibnet.ru/shell.php?videoid=5013711",
+          "https://video.sibnet.ru/shell.php?videoid=5013712",
+          "https://video.sibnet.ru/shell.php?videoid=5013713",
+          "https://video.sibnet.ru/shell.php?videoid=5013714",
+          "https://video.sibnet.ru/shell.php?videoid=5013717",
+          "https://video.sibnet.ru/shell.php?videoid=5013718",
+          "https://video.sibnet.ru/shell.php?videoid=5013721",
+          "https://video.sibnet.ru/shell.php?videoid=5013723",
+          "https://video.sibnet.ru/shell.php?videoid=5013724"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

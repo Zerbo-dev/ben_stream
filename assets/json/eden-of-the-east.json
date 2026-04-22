@@ -1,0 +1,46 @@
+{
+  "name": "Eden of The East",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/eden-of-the-east.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5946675",
+          "https://video.sibnet.ru/shell.php?videoid=5946677",
+          "https://video.sibnet.ru/shell.php?videoid=5946679",
+          "https://video.sibnet.ru/shell.php?videoid=5946681",
+          "https://video.sibnet.ru/shell.php?videoid=5946682",
+          "https://video.sibnet.ru/shell.php?videoid=5946683",
+          "https://video.sibnet.ru/shell.php?videoid=5946685",
+          "https://video.sibnet.ru/shell.php?videoid=5946687",
+          "https://video.sibnet.ru/shell.php?videoid=5946689",
+          "https://video.sibnet.ru/shell.php?videoid=5946690",
+          "https://video.sibnet.ru/shell.php?videoid=5946691"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943969",
+          "https://video.sibnet.ru/shell.php?videoid=4943970",
+          "https://video.sibnet.ru/shell.php?videoid=4943974",
+          "https://video.sibnet.ru/shell.php?videoid=4943976",
+          "https://video.sibnet.ru/shell.php?videoid=4943978",
+          "https://video.sibnet.ru/shell.php?videoid=4943982",
+          "https://video.sibnet.ru/shell.php?videoid=4943985",
+          "https://video.sibnet.ru/shell.php?videoid=4943987",
+          "https://video.sibnet.ru/shell.php?videoid=4943989",
+          "https://video.sibnet.ru/shell.php?videoid=4943990",
+          "https://video.sibnet.ru/shell.php?videoid=4943992"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4943997"
+      ],
+      "oav": []
+    }
+  }
+}

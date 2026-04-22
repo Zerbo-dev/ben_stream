@@ -1,0 +1,20 @@
+{
+  "name": "5 cm per second",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/5-cm-per-second.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5340642"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5288203"
+      ],
+      "oav": []
+    }
+  }
+}

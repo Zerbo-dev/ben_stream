@@ -1,0 +1,44 @@
+{
+  "name": "Kuma Kuma Kuma Bear",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kuma-kuma-kuma-bear.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801879",
+          "https://video.sibnet.ru/shell.php?videoid=4801881",
+          "https://video.sibnet.ru/shell.php?videoid=4801883",
+          "https://video.sibnet.ru/shell.php?videoid=4801884",
+          "https://video.sibnet.ru/shell.php?videoid=4801885",
+          "https://video.sibnet.ru/shell.php?videoid=4801886",
+          "https://video.sibnet.ru/shell.php?videoid=4801887",
+          "https://video.sibnet.ru/shell.php?videoid=4801897",
+          "https://video.sibnet.ru/shell.php?videoid=4801898",
+          "https://video.sibnet.ru/shell.php?videoid=4801900",
+          "https://video.sibnet.ru/shell.php?videoid=4801901"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5095065",
+          "https://video.sibnet.ru/shell.php?videoid=5101760",
+          "https://video.sibnet.ru/shell.php?videoid=5108417",
+          "https://video.sibnet.ru/shell.php?videoid=5116442",
+          "https://video.sibnet.ru/shell.php?videoid=5123103",
+          "https://video.sibnet.ru/shell.php?videoid=5129828",
+          "https://video.sibnet.ru/shell.php?videoid=5140876",
+          "https://video.sibnet.ru/shell.php?videoid=5149247",
+          "https://video.sibnet.ru/shell.php?videoid=5155759",
+          "https://video.sibnet.ru/shell.php?videoid=5163020",
+          "https://video.sibnet.ru/shell.php?videoid=5169544",
+          "https://video.sibnet.ru/shell.php?videoid=5176360"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

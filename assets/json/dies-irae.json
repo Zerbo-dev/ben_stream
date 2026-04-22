@@ -1,0 +1,42 @@
+{
+  "name": "Dies Irae",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/dies-irae.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5830994",
+          "https://video.sibnet.ru/shell.php?videoid=5830998",
+          "https://video.sibnet.ru/shell.php?videoid=5831001",
+          "https://video.sibnet.ru/shell.php?videoid=5831005",
+          "https://video.sibnet.ru/shell.php?videoid=5831009",
+          "https://video.sibnet.ru/shell.php?videoid=5831011",
+          "https://video.sibnet.ru/shell.php?videoid=5831014",
+          "https://video.sibnet.ru/shell.php?videoid=5831017",
+          "https://video.sibnet.ru/shell.php?videoid=5831018",
+          "https://video.sibnet.ru/shell.php?videoid=5831019",
+          "https://video.sibnet.ru/shell.php?videoid=5831020",
+          "https://video.sibnet.ru/shell.php?videoid=5831021",
+          "https://video.sibnet.ru/shell.php?videoid=5831024",
+          "https://video.sibnet.ru/shell.php?videoid=5831026"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

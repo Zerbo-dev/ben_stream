@@ -1,0 +1,20 @@
+{
+  "name": "Nausicaa de la Vallée du Vent",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/nausicaa-de-la-vallee-du-vent.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4958193"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4754445"
+      ],
+      "oav": []
+    }
+  }
+}

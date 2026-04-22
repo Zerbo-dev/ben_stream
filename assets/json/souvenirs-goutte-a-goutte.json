@@ -1,0 +1,20 @@
+{
+  "name": "Souvenirs goutte à goutte",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/souvenirs-goutte-a-goutte.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366093"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366094"
+      ],
+      "oav": []
+    }
+  }
+}

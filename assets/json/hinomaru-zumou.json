@@ -1,0 +1,43 @@
+{
+  "name": "Hinomaru Zumou",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hinomaru-zumou.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3462012",
+          "https://video.sibnet.ru/shell.php?videoid=3468334",
+          "https://video.sibnet.ru/shell.php?videoid=3475483",
+          "https://video.sibnet.ru/shell.php?videoid=3475485",
+          "https://video.sibnet.ru/shell.php?videoid=3479805",
+          "https://video.sibnet.ru/shell.php?videoid=3483946",
+          "https://video.sibnet.ru/shell.php?videoid=3488270",
+          "https://video.sibnet.ru/shell.php?videoid=3492527",
+          "https://video.sibnet.ru/shell.php?videoid=3496351",
+          "https://video.sibnet.ru/shell.php?videoid=3501166",
+          "https://video.sibnet.ru/shell.php?videoid=3506232",
+          "https://video.sibnet.ru/shell.php?videoid=3511213",
+          "https://video.sibnet.ru/shell.php?videoid=3525738",
+          "https://video.sibnet.ru/shell.php?videoid=3531536",
+          "https://video.sibnet.ru/shell.php?videoid=3536570",
+          "https://video.sibnet.ru/shell.php?videoid=3540944",
+          "https://video.sibnet.ru/shell.php?videoid=3545512",
+          "https://video.sibnet.ru/shell.php?videoid=3550121",
+          "https://video.sibnet.ru/shell.php?videoid=3555081",
+          "https://video.sibnet.ru/shell.php?videoid=3560366",
+          "https://video.sibnet.ru/shell.php?videoid=3565080",
+          "https://video.sibnet.ru/shell.php?videoid=3569965",
+          "https://video.sibnet.ru/shell.php?videoid=3575812",
+          "https://video.sibnet.ru/shell.php?videoid=3582053"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

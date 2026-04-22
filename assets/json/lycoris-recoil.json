@@ -1,0 +1,55 @@
+{
+  "name": "Lycoris Recoil",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/lycoris-recoil.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4799706",
+          "https://video.sibnet.ru/shell.php?videoid=4807516",
+          "https://video.sibnet.ru/shell.php?videoid=4816298",
+          "https://video.sibnet.ru/shell.php?videoid=4825273",
+          "https://video.sibnet.ru/shell.php?videoid=4837097",
+          "https://video.sibnet.ru/shell.php?videoid=4847860",
+          "https://video.sibnet.ru/shell.php?videoid=4856340",
+          "https://video.sibnet.ru/shell.php?videoid=4865556",
+          "https://video.sibnet.ru/shell.php?videoid=4875298",
+          "https://video.sibnet.ru/shell.php?videoid=4883235",
+          "https://video.sibnet.ru/shell.php?videoid=4901425",
+          "https://video.sibnet.ru/shell.php?videoid=4911650",
+          "https://video.sibnet.ru/shell.php?videoid=4919693"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4775620",
+          "https://video.sibnet.ru/shell.php?videoid=4783376",
+          "https://video.sibnet.ru/shell.php?videoid=4796376",
+          "https://video.sibnet.ru/shell.php?videoid=4799091",
+          "https://video.sibnet.ru/shell.php?videoid=4806564",
+          "https://video.sibnet.ru/shell.php?videoid=4815870",
+          "https://video.sibnet.ru/shell.php?videoid=4824876",
+          "https://video.sibnet.ru/shell.php?videoid=4836836",
+          "https://video.sibnet.ru/shell.php?videoid=4847588",
+          "https://video.sibnet.ru/shell.php?videoid=4856004",
+          "https://video.sibnet.ru/shell.php?videoid=4865319",
+          "https://video.sibnet.ru/shell.php?videoid=4874872",
+          "https://video.sibnet.ru/shell.php?videoid=4882844"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5881155",
+        "https://video.sibnet.ru/shell.php?videoid=5889315",
+        "https://video.sibnet.ru/shell.php?videoid=5896875",
+        "https://video.sibnet.ru/shell.php?videoid=5904380",
+        "https://video.sibnet.ru/shell.php?videoid=5911058",
+        "https://video.sibnet.ru/shell.php?videoid=5917766"
+      ]
+    }
+  }
+}

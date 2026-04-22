@@ -1,0 +1,20 @@
+{
+  "name": "Look Back",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/look-back.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5744219"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5744202"
+      ],
+      "oav": []
+    }
+  }
+}

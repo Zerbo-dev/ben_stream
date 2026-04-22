@@ -1,0 +1,20 @@
+{
+  "name": "Shika no Ou",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shika-no-ou.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093225"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093232"
+      ],
+      "oav": []
+    }
+  }
+}

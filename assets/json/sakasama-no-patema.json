@@ -1,0 +1,20 @@
+{
+  "name": "Sakasama no Patema",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sakasama-no-patema.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4741378"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4741383"
+      ],
+      "oav": []
+    }
+  }
+}

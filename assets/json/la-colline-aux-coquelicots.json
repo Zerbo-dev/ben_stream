@@ -1,0 +1,20 @@
+{
+  "name": "La Colline aux coquelicots",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/la-colline-aux-coquelicots.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4960825"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366060"
+      ],
+      "oav": []
+    }
+  }
+}

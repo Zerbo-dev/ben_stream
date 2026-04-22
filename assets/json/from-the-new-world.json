@@ -1,0 +1,44 @@
+{
+  "name": "From the New World",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/from-the-new-world.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4944034",
+          "https://video.sibnet.ru/shell.php?videoid=4944036",
+          "https://video.sibnet.ru/shell.php?videoid=4944037",
+          "https://video.sibnet.ru/shell.php?videoid=4944038",
+          "https://video.sibnet.ru/shell.php?videoid=4944039",
+          "https://video.sibnet.ru/shell.php?videoid=4944040",
+          "https://video.sibnet.ru/shell.php?videoid=4944042",
+          "https://video.sibnet.ru/shell.php?videoid=4944043",
+          "https://video.sibnet.ru/shell.php?videoid=4944045",
+          "https://video.sibnet.ru/shell.php?videoid=4944046",
+          "https://video.sibnet.ru/shell.php?videoid=4944047",
+          "https://video.sibnet.ru/shell.php?videoid=4944049",
+          "https://video.sibnet.ru/shell.php?videoid=4944050",
+          "https://video.sibnet.ru/shell.php?videoid=4944053",
+          "https://video.sibnet.ru/shell.php?videoid=4944055",
+          "https://video.sibnet.ru/shell.php?videoid=4944057",
+          "https://video.sibnet.ru/shell.php?videoid=4944058",
+          "https://video.sibnet.ru/shell.php?videoid=4944060",
+          "https://video.sibnet.ru/shell.php?videoid=4944061",
+          "https://video.sibnet.ru/shell.php?videoid=4944063",
+          "https://video.sibnet.ru/shell.php?videoid=4944064",
+          "https://video.sibnet.ru/shell.php?videoid=4944066",
+          "https://video.sibnet.ru/shell.php?videoid=4944067",
+          "https://video.sibnet.ru/shell.php?videoid=4944068",
+          "https://video.sibnet.ru/shell.php?videoid=4944070"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

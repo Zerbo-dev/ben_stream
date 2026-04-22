@@ -1,0 +1,20 @@
+{
+  "name": "Dragon Ball GT",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/dragon-ball-gt.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4924655\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4924653\t"
+      ],
+      "oav": []
+    }
+  }
+}

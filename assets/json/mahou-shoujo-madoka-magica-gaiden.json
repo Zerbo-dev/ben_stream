@@ -1,0 +1,48 @@
+{
+  "name": "Mahou Shoujo Madoka Magica Gaiden",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mahou-shoujo-madoka-magica-gaiden.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4843123",
+          "https://video.sibnet.ru/shell.php?videoid=4843124",
+          "https://video.sibnet.ru/shell.php?videoid=4843125",
+          "https://video.sibnet.ru/shell.php?videoid=4843127",
+          "https://video.sibnet.ru/shell.php?videoid=4843128",
+          "https://video.sibnet.ru/shell.php?videoid=4843129",
+          "https://video.sibnet.ru/shell.php?videoid=4843130",
+          "https://video.sibnet.ru/shell.php?videoid=4843132",
+          "https://video.sibnet.ru/shell.php?videoid=4843133",
+          "https://video.sibnet.ru/shell.php?videoid=4843134",
+          "https://video.sibnet.ru/shell.php?videoid=4843135",
+          "https://video.sibnet.ru/shell.php?videoid=4843136",
+          "https://video.sibnet.ru/shell.php?videoid=4843141"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4843145",
+          "https://video.sibnet.ru/shell.php?videoid=4843147",
+          "https://video.sibnet.ru/shell.php?videoid=4843150",
+          "https://video.sibnet.ru/shell.php?videoid=4843152",
+          "https://video.sibnet.ru/shell.php?videoid=4843154",
+          "https://video.sibnet.ru/shell.php?videoid=4843158",
+          "https://video.sibnet.ru/shell.php?videoid=4843160",
+          "https://video.sibnet.ru/shell.php?videoid=4843163"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4843165",
+          "https://video.sibnet.ru/shell.php?videoid=4843171",
+          "https://video.sibnet.ru/shell.php?videoid=4843175",
+          "https://video.sibnet.ru/shell.php?videoid=4843180"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

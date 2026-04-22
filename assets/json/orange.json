@@ -1,0 +1,50 @@
+{
+  "name": "Orange",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/orange.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5933998",
+          "https://video.sibnet.ru/shell.php?videoid=5934216",
+          "https://video.sibnet.ru/shell.php?videoid=5934002",
+          "https://video.sibnet.ru/shell.php?videoid=5934005",
+          "https://video.sibnet.ru/shell.php?videoid=5934006",
+          "https://video.sibnet.ru/shell.php?videoid=5934007",
+          "https://video.sibnet.ru/shell.php?videoid=5934008",
+          "https://video.sibnet.ru/shell.php?videoid=5934010",
+          "https://video.sibnet.ru/shell.php?videoid=5934011",
+          "https://video.sibnet.ru/shell.php?videoid=5934012",
+          "https://video.sibnet.ru/shell.php?videoid=5934013",
+          "https://video.sibnet.ru/shell.php?videoid=5934018",
+          "https://video.sibnet.ru/shell.php?videoid=5934019"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4712519",
+          "https://video.sibnet.ru/shell.php?videoid=4712523",
+          "https://video.sibnet.ru/shell.php?videoid=4712530",
+          "https://video.sibnet.ru/shell.php?videoid=4712536",
+          "https://video.sibnet.ru/shell.php?videoid=4712543",
+          "https://video.sibnet.ru/shell.php?videoid=4712557",
+          "https://video.sibnet.ru/shell.php?videoid=4712571",
+          "https://video.sibnet.ru/shell.php?videoid=4712580",
+          "https://video.sibnet.ru/shell.php?videoid=4712589",
+          "https://video.sibnet.ru/shell.php?videoid=4712598",
+          "https://video.sibnet.ru/shell.php?videoid=4712601",
+          "https://video.sibnet.ru/shell.php?videoid=4712605",
+          "https://video.sibnet.ru/shell.php?videoid=4712612"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5030157"
+      ],
+      "oav": []
+    }
+  }
+}

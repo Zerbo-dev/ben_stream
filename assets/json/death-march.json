@@ -1,0 +1,46 @@
+{
+  "name": "Death March",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/death-march.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4023368",
+          "https://video.sibnet.ru/shell.php?videoid=4023369",
+          "https://video.sibnet.ru/shell.php?videoid=4023370",
+          "https://video.sibnet.ru/shell.php?videoid=4023371",
+          "https://video.sibnet.ru/shell.php?videoid=4023372",
+          "https://video.sibnet.ru/shell.php?videoid=4023373",
+          "https://video.sibnet.ru/shell.php?videoid=4023374",
+          "https://video.sibnet.ru/shell.php?videoid=4023375",
+          "https://video.sibnet.ru/shell.php?videoid=4023378",
+          "https://video.sibnet.ru/shell.php?videoid=4023379",
+          "https://video.sibnet.ru/shell.php?videoid=4023380",
+          "https://video.sibnet.ru/shell.php?videoid=4023381"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3240844",
+          "https://video.sibnet.ru/shell.php?videoid=3286878",
+          "https://video.sibnet.ru/shell.php?videoid=3286879",
+          "https://video.sibnet.ru/shell.php?videoid=3286880",
+          "https://video.sibnet.ru/shell.php?videoid=3286881",
+          "https://video.sibnet.ru/shell.php?videoid=3286882",
+          "https://video.sibnet.ru/shell.php?videoid=3598658",
+          "https://video.sibnet.ru/shell.php?videoid=3286884",
+          "https://video.sibnet.ru/shell.php?videoid=3286886",
+          "https://video.sibnet.ru/shell.php?videoid=3286887",
+          "https://video.sibnet.ru/shell.php?videoid=3286888",
+          "https://video.sibnet.ru/shell.php?videoid=3286890"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

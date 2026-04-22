@@ -1,0 +1,31 @@
+{
+  "name": "Soul Eater Not!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/soul-eater-not.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4842287",
+          "https://video.sibnet.ru/shell.php?videoid=5232014",
+          "https://video.sibnet.ru/shell.php?videoid=4842292",
+          "https://video.sibnet.ru/shell.php?videoid=4842295",
+          "https://video.sibnet.ru/shell.php?videoid=4842297",
+          "https://video.sibnet.ru/shell.php?videoid=4842299",
+          "https://video.sibnet.ru/shell.php?videoid=4842302",
+          "https://video.sibnet.ru/shell.php?videoid=4842306",
+          "https://video.sibnet.ru/shell.php?videoid=4842307",
+          "https://video.sibnet.ru/shell.php?videoid=4842310",
+          "https://video.sibnet.ru/shell.php?videoid=4842314",
+          "https://video.sibnet.ru/shell.php?videoid=4842318"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

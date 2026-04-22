@@ -1,0 +1,20 @@
+{
+  "name": "Les Murs Vagabonds",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/les-murs-vagabonds.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4872798\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4872793\t"
+      ],
+      "oav": []
+    }
+  }
+}

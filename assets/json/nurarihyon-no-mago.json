@@ -1,0 +1,71 @@
+{
+  "name": "Nurarihyon no Mago",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/nurarihyon-no-mago.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4841373",
+          "https://video.sibnet.ru/shell.php?videoid=4841381",
+          "https://video.sibnet.ru/shell.php?videoid=4841389",
+          "https://video.sibnet.ru/shell.php?videoid=4841401",
+          "https://video.sibnet.ru/shell.php?videoid=4841411",
+          "https://video.sibnet.ru/shell.php?videoid=4841420",
+          "https://video.sibnet.ru/shell.php?videoid=4841422",
+          "https://video.sibnet.ru/shell.php?videoid=4841428",
+          "https://video.sibnet.ru/shell.php?videoid=4841434",
+          "https://video.sibnet.ru/shell.php?videoid=4841442",
+          "https://video.sibnet.ru/shell.php?videoid=4841453",
+          "https://video.sibnet.ru/shell.php?videoid=4841463",
+          "https://video.sibnet.ru/shell.php?videoid=4841474",
+          "https://video.sibnet.ru/shell.php?videoid=4841487",
+          "https://video.sibnet.ru/shell.php?videoid=4841498",
+          "https://video.sibnet.ru/shell.php?videoid=4841507",
+          "https://video.sibnet.ru/shell.php?videoid=4841515",
+          "https://video.sibnet.ru/shell.php?videoid=4841524",
+          "https://video.sibnet.ru/shell.php?videoid=4841531",
+          "https://video.sibnet.ru/shell.php?videoid=4841540",
+          "https://video.sibnet.ru/shell.php?videoid=4841547",
+          "https://video.sibnet.ru/shell.php?videoid=4841556",
+          "https://video.sibnet.ru/shell.php?videoid=4841565",
+          "https://video.sibnet.ru/shell.php?videoid=4841574"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4841281",
+          "https://video.sibnet.ru/shell.php?videoid=4841287",
+          "https://video.sibnet.ru/shell.php?videoid=4841292",
+          "https://video.sibnet.ru/shell.php?videoid=4841294",
+          "https://video.sibnet.ru/shell.php?videoid=4841301",
+          "https://video.sibnet.ru/shell.php?videoid=4841310",
+          "https://video.sibnet.ru/shell.php?videoid=4841318",
+          "https://video.sibnet.ru/shell.php?videoid=4841327",
+          "https://video.sibnet.ru/shell.php?videoid=4841331",
+          "https://video.sibnet.ru/shell.php?videoid=4841340",
+          "https://video.sibnet.ru/shell.php?videoid=4841347",
+          "https://video.sibnet.ru/shell.php?videoid=4841368",
+          "https://video.sibnet.ru/shell.php?videoid=4841358",
+          "https://video.sibnet.ru/shell.php?videoid=4841371",
+          "https://video.sibnet.ru/shell.php?videoid=4841378",
+          "https://video.sibnet.ru/shell.php?videoid=4841386",
+          "https://video.sibnet.ru/shell.php?videoid=4841394",
+          "https://video.sibnet.ru/shell.php?videoid=4841406",
+          "https://video.sibnet.ru/shell.php?videoid=4841416",
+          "https://video.sibnet.ru/shell.php?videoid=4841427",
+          "https://video.sibnet.ru/shell.php?videoid=4841435",
+          "https://video.sibnet.ru/shell.php?videoid=4841448",
+          "https://video.sibnet.ru/shell.php?videoid=4841460",
+          "https://video.sibnet.ru/shell.php?videoid=4841469",
+          "https://video.sibnet.ru/shell.php?videoid=4841506",
+          "https://video.sibnet.ru/shell.php?videoid=4841479"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

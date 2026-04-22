@@ -1,0 +1,70 @@
+{
+  "name": "Les Mémoires de Vanitas",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/les-memoires-de-vanitas.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4360008",
+          "https://video.sibnet.ru/shell.php?videoid=4367038",
+          "https://video.sibnet.ru/shell.php?videoid=4374450",
+          "https://video.sibnet.ru/shell.php?videoid=4379821",
+          "https://video.sibnet.ru/shell.php?videoid=4385893",
+          "https://video.sibnet.ru/shell.php?videoid=4392573",
+          "https://video.sibnet.ru/shell.php?videoid=4398989",
+          "https://video.sibnet.ru/shell.php?videoid=4406305",
+          "https://video.sibnet.ru/shell.php?videoid=4412909",
+          "https://video.sibnet.ru/shell.php?videoid=4418902",
+          "https://video.sibnet.ru/shell.php?videoid=4426375",
+          "https://video.sibnet.ru/shell.php?videoid=4434025",
+          "https://video.sibnet.ru/shell.php?videoid=4590680",
+          "https://video.sibnet.ru/shell.php?videoid=4602879",
+          "https://video.sibnet.ru/shell.php?videoid=4608612",
+          "https://video.sibnet.ru/shell.php?videoid=4608593",
+          "https://video.sibnet.ru/shell.php?videoid=4617215",
+          "https://video.sibnet.ru/shell.php?videoid=4625489",
+          "https://video.sibnet.ru/shell.php?videoid=4631804",
+          "https://video.sibnet.ru/shell.php?videoid=4640291",
+          "https://video.sibnet.ru/shell.php?videoid=4655164",
+          "https://video.sibnet.ru/shell.php?videoid=4655133",
+          "https://video.sibnet.ru/shell.php?videoid=4668427",
+          "https://video.sibnet.ru/shell.php?videoid=4674037"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4344617",
+          "https://video.sibnet.ru/shell.php?videoid=4351356",
+          "https://video.sibnet.ru/shell.php?videoid=4359862",
+          "https://video.sibnet.ru/shell.php?videoid=4366374",
+          "https://video.sibnet.ru/shell.php?videoid=4374376",
+          "https://video.sibnet.ru/shell.php?videoid=4379651",
+          "https://video.sibnet.ru/shell.php?videoid=4385802",
+          "https://video.sibnet.ru/shell.php?videoid=4392540",
+          "https://video.sibnet.ru/shell.php?videoid=4398966",
+          "https://video.sibnet.ru/shell.php?videoid=4405937",
+          "https://video.sibnet.ru/shell.php?videoid=4412906",
+          "https://video.sibnet.ru/shell.php?videoid=4418838",
+          "https://video.sibnet.ru/shell.php?videoid=5124173",
+          "https://video.sibnet.ru/shell.php?videoid=4583478",
+          "https://video.sibnet.ru/shell.php?videoid=4590578",
+          "https://video.sibnet.ru/shell.php?videoid=4596367",
+          "https://video.sibnet.ru/shell.php?videoid=4602844",
+          "https://video.sibnet.ru/shell.php?videoid=4608499",
+          "https://video.sibnet.ru/shell.php?videoid=4617170",
+          "https://video.sibnet.ru/shell.php?videoid=4625367",
+          "https://video.sibnet.ru/shell.php?videoid=4631511",
+          "https://video.sibnet.ru/shell.php?videoid=4640087",
+          "https://video.sibnet.ru/shell.php?videoid=4647866",
+          "https://video.sibnet.ru/shell.php?videoid=4655083"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

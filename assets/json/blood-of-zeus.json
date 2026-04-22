@@ -1,0 +1,58 @@
+{
+  "name": "Blood of Zeus",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/blood-of-zeus.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5546922",
+          "https://video.sibnet.ru/shell.php?videoid=5546924",
+          "https://video.sibnet.ru/shell.php?videoid=5546927",
+          "https://video.sibnet.ru/shell.php?videoid=5546929",
+          "https://video.sibnet.ru/shell.php?videoid=5546932",
+          "https://video.sibnet.ru/shell.php?videoid=5546934",
+          "https://video.sibnet.ru/shell.php?videoid=5546937",
+          "https://video.sibnet.ru/shell.php?videoid=5546940"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5546944",
+          "https://video.sibnet.ru/shell.php?videoid=5546947",
+          "https://video.sibnet.ru/shell.php?videoid=5546949",
+          "https://video.sibnet.ru/shell.php?videoid=5546952",
+          "https://video.sibnet.ru/shell.php?videoid=5546955",
+          "https://video.sibnet.ru/shell.php?videoid=5546959",
+          "https://video.sibnet.ru/shell.php?videoid=5546963",
+          "https://video.sibnet.ru/shell.php?videoid=5546967"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5547256",
+          "https://video.sibnet.ru/shell.php?videoid=5547258",
+          "https://video.sibnet.ru/shell.php?videoid=5547260",
+          "https://video.sibnet.ru/shell.php?videoid=5547262",
+          "https://video.sibnet.ru/shell.php?videoid=5547264",
+          "https://video.sibnet.ru/shell.php?videoid=5547266",
+          "https://video.sibnet.ru/shell.php?videoid=5547268",
+          "https://video.sibnet.ru/shell.php?videoid=5547270"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5677757",
+          "https://video.sibnet.ru/shell.php?videoid=5547274",
+          "https://video.sibnet.ru/shell.php?videoid=5547275",
+          "https://video.sibnet.ru/shell.php?videoid=5547277",
+          "https://video.sibnet.ru/shell.php?videoid=5547279",
+          "https://video.sibnet.ru/shell.php?videoid=5547281",
+          "https://video.sibnet.ru/shell.php?videoid=5547283",
+          "https://video.sibnet.ru/shell.php?videoid=5547284"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

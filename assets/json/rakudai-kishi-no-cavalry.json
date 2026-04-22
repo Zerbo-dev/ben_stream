@@ -1,0 +1,31 @@
+{
+  "name": "Rakudai Kishi no Cavalry",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/rakudai-kishi-no-cavalry.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4744599",
+          "https://video.sibnet.ru/shell.php?videoid=4744600",
+          "https://video.sibnet.ru/shell.php?videoid=4744601",
+          "https://video.sibnet.ru/shell.php?videoid=4744602",
+          "https://video.sibnet.ru/shell.php?videoid=4744603",
+          "https://video.sibnet.ru/shell.php?videoid=4744604",
+          "https://video.sibnet.ru/shell.php?videoid=4744605",
+          "https://video.sibnet.ru/shell.php?videoid=4744606",
+          "https://video.sibnet.ru/shell.php?videoid=4744607",
+          "https://video.sibnet.ru/shell.php?videoid=4744608",
+          "https://video.sibnet.ru/shell.php?videoid=4744609",
+          "https://video.sibnet.ru/shell.php?videoid=4744610"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

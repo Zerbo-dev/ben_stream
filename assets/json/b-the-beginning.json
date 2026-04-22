@@ -1,0 +1,39 @@
+{
+  "name": "B : The Beginning",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/b-the-beginning.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4719832",
+          "https://video.sibnet.ru/shell.php?videoid=4719835",
+          "https://video.sibnet.ru/shell.php?videoid=4719836",
+          "https://video.sibnet.ru/shell.php?videoid=4719839",
+          "https://video.sibnet.ru/shell.php?videoid=4719841",
+          "https://video.sibnet.ru/shell.php?videoid=4719843",
+          "https://video.sibnet.ru/shell.php?videoid=4719845",
+          "https://video.sibnet.ru/shell.php?videoid=4719846",
+          "https://video.sibnet.ru/shell.php?videoid=4719848",
+          "https://video.sibnet.ru/shell.php?videoid=4719849",
+          "https://video.sibnet.ru/shell.php?videoid=4719859",
+          "https://video.sibnet.ru/shell.php?videoid=4719862"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4719864",
+          "https://video.sibnet.ru/shell.php?videoid=4719867",
+          "https://video.sibnet.ru/shell.php?videoid=4719868",
+          "https://video.sibnet.ru/shell.php?videoid=4719870",
+          "https://video.sibnet.ru/shell.php?videoid=4719871",
+          "https://video.sibnet.ru/shell.php?videoid=4719874"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

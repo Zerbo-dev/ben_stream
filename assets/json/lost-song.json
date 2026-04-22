@@ -1,0 +1,46 @@
+{
+  "name": "Lost Song",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/lost-song.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4677286",
+          "https://video.sibnet.ru/shell.php?videoid=4677288",
+          "https://video.sibnet.ru/shell.php?videoid=4677292",
+          "https://video.sibnet.ru/shell.php?videoid=4677294",
+          "https://video.sibnet.ru/shell.php?videoid=4677296",
+          "https://video.sibnet.ru/shell.php?videoid=4677297",
+          "https://video.sibnet.ru/shell.php?videoid=4677301",
+          "https://video.sibnet.ru/shell.php?videoid=4677303",
+          "https://video.sibnet.ru/shell.php?videoid=4677304",
+          "https://video.sibnet.ru/shell.php?videoid=4677305",
+          "https://video.sibnet.ru/shell.php?videoid=4677307",
+          "https://video.sibnet.ru/shell.php?videoid=4677308"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4677248",
+          "https://video.sibnet.ru/shell.php?videoid=4677252",
+          "https://video.sibnet.ru/shell.php?videoid=4677256",
+          "https://video.sibnet.ru/shell.php?videoid=4677259",
+          "https://video.sibnet.ru/shell.php?videoid=4677262",
+          "https://video.sibnet.ru/shell.php?videoid=4677264",
+          "https://video.sibnet.ru/shell.php?videoid=4677266",
+          "https://video.sibnet.ru/shell.php?videoid=4677267",
+          "https://video.sibnet.ru/shell.php?videoid=4677269",
+          "https://video.sibnet.ru/shell.php?videoid=4677274",
+          "https://video.sibnet.ru/shell.php?videoid=4677279",
+          "https://video.sibnet.ru/shell.php?videoid=4677280"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

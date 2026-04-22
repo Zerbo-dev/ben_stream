@@ -1,0 +1,47 @@
+{
+  "name": "Saenai Heroine no Sodatekata",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/saenai-heroine-no-sodatekata.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4996659",
+          "https://video.sibnet.ru/shell.php?videoid=4996660",
+          "https://video.sibnet.ru/shell.php?videoid=4996661",
+          "https://video.sibnet.ru/shell.php?videoid=4996662",
+          "https://video.sibnet.ru/shell.php?videoid=4996663",
+          "https://video.sibnet.ru/shell.php?videoid=4996665",
+          "https://video.sibnet.ru/shell.php?videoid=4996666",
+          "https://video.sibnet.ru/shell.php?videoid=4996668",
+          "https://video.sibnet.ru/shell.php?videoid=4996670",
+          "https://video.sibnet.ru/shell.php?videoid=4996672",
+          "https://video.sibnet.ru/shell.php?videoid=4996673",
+          "https://video.sibnet.ru/shell.php?videoid=4996674"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4996675",
+          "https://video.sibnet.ru/shell.php?videoid=4996676",
+          "https://video.sibnet.ru/shell.php?videoid=4996678",
+          "https://video.sibnet.ru/shell.php?videoid=4996679",
+          "https://video.sibnet.ru/shell.php?videoid=4996680",
+          "https://video.sibnet.ru/shell.php?videoid=4996682",
+          "https://video.sibnet.ru/shell.php?videoid=4996683",
+          "https://video.sibnet.ru/shell.php?videoid=4996684",
+          "https://video.sibnet.ru/shell.php?videoid=4996686",
+          "https://video.sibnet.ru/shell.php?videoid=4996687",
+          "https://video.sibnet.ru/shell.php?videoid=4996689",
+          "https://video.sibnet.ru/shell.php?videoid=4996691"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5301254"
+      ],
+      "oav": []
+    }
+  }
+}

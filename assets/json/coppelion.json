@@ -1,0 +1,32 @@
+{
+  "name": "Coppelion",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/coppelion.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4816054",
+          "https://video.sibnet.ru/shell.php?videoid=4816057",
+          "https://video.sibnet.ru/shell.php?videoid=4816059",
+          "https://video.sibnet.ru/shell.php?videoid=4816062",
+          "https://video.sibnet.ru/shell.php?videoid=4816065",
+          "https://video.sibnet.ru/shell.php?videoid=4816066",
+          "https://video.sibnet.ru/shell.php?videoid=4816070",
+          "https://video.sibnet.ru/shell.php?videoid=4816073",
+          "https://video.sibnet.ru/shell.php?videoid=4816077",
+          "https://video.sibnet.ru/shell.php?videoid=4816078",
+          "https://video.sibnet.ru/shell.php?videoid=4816080",
+          "https://video.sibnet.ru/shell.php?videoid=4816083",
+          "https://video.sibnet.ru/shell.php?videoid=4816085"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

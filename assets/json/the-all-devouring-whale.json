@@ -1,0 +1,40 @@
+{
+  "name": "The All-Devouring Whale",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-all-devouring-whale.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5928277",
+          "https://video.sibnet.ru/shell.php?videoid=5928279",
+          "https://video.sibnet.ru/shell.php?videoid=5935592",
+          "https://video.sibnet.ru/shell.php?videoid=5935593",
+          "https://video.sibnet.ru/shell.php?videoid=5936447",
+          "https://video.sibnet.ru/shell.php?videoid=5936440",
+          "https://video.sibnet.ru/shell.php?videoid=5941862",
+          "https://video.sibnet.ru/shell.php?videoid=5941863",
+          "https://video.sibnet.ru/shell.php?videoid=5947872",
+          "https://video.sibnet.ru/shell.php?videoid=5953750",
+          "https://video.sibnet.ru/shell.php?videoid=5961591",
+          "https://video.sibnet.ru/shell.php?videoid=5968639"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

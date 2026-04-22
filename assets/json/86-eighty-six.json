@@ -1,0 +1,25 @@
+{
+  "name": "86 Eighty Six",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/86-eighty-six.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4722411"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4306689",
+          "https://video.sibnet.ru/shell.php?videoid=4713432"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Kamisama : Opération Divine",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kamisama-operation-divine.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5118296",
+          "https://video.sibnet.ru/shell.php?videoid=5125724",
+          "https://video.sibnet.ru/shell.php?videoid=5133692",
+          "https://video.sibnet.ru/shell.php?videoid=5143754",
+          "https://video.sibnet.ru/shell.php?videoid=5158724",
+          "https://video.sibnet.ru/shell.php?videoid=5158698",
+          "https://video.sibnet.ru/shell.php?videoid=5164851",
+          "https://video.sibnet.ru/shell.php?videoid=5178303",
+          "https://video.sibnet.ru/shell.php?videoid=5183217",
+          "https://video.sibnet.ru/shell.php?videoid=5189771",
+          "https://video.sibnet.ru/shell.php?videoid=5202452",
+          "https://video.sibnet.ru/shell.php?videoid=5208635"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5097295",
+          "https://video.sibnet.ru/shell.php?videoid=5103213",
+          "https://video.sibnet.ru/shell.php?videoid=5110493",
+          "https://video.sibnet.ru/shell.php?videoid=5133374",
+          "https://video.sibnet.ru/shell.php?videoid=5143475",
+          "https://video.sibnet.ru/shell.php?videoid=5158332",
+          "https://video.sibnet.ru/shell.php?videoid=5164679",
+          "https://video.sibnet.ru/shell.php?videoid=5171986",
+          "https://video.sibnet.ru/shell.php?videoid=5182997",
+          "https://video.sibnet.ru/shell.php?videoid=5189546"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

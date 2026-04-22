@@ -1,0 +1,18 @@
+{
+  "name": "Perfect Blue",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/perfect-blue.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4705638"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

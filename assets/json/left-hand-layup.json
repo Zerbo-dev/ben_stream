@@ -1,0 +1,37 @@
+{
+  "name": "Left Hand Layup!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/left-hand-layup.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5890965",
+          "https://video.sibnet.ru/shell.php?videoid=5890966",
+          "https://video.sibnet.ru/shell.php?videoid=5890973",
+          "https://video.sibnet.ru/shell.php?videoid=5890975",
+          "https://video.sibnet.ru/shell.php?videoid=5890977",
+          "https://video.sibnet.ru/shell.php?videoid=5890981",
+          "https://video.sibnet.ru/shell.php?videoid=5890986"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5890990",
+          "https://video.sibnet.ru/shell.php?videoid=5890995",
+          "https://video.sibnet.ru/shell.php?videoid=5890998",
+          "https://video.sibnet.ru/shell.php?videoid=5891002",
+          "https://video.sibnet.ru/shell.php?videoid=5891004",
+          "https://video.sibnet.ru/shell.php?videoid=5891008",
+          "https://video.sibnet.ru/shell.php?videoid=5891012",
+          "https://video.sibnet.ru/shell.php?videoid=5891016",
+          "https://video.sibnet.ru/shell.php?videoid=5891020"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

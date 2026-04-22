@@ -1,0 +1,48 @@
+{
+  "name": "Black Bullet",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/black-bullet.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3082439",
+          "https://video.sibnet.ru/shell.php?videoid=3082440",
+          "https://video.sibnet.ru/shell.php?videoid=3082441",
+          "https://video.sibnet.ru/shell.php?videoid=3082442",
+          "https://video.sibnet.ru/shell.php?videoid=3082443",
+          "https://video.sibnet.ru/shell.php?videoid=3082446",
+          "https://video.sibnet.ru/shell.php?videoid=3082447",
+          "https://video.sibnet.ru/shell.php?videoid=3082449",
+          "https://video.sibnet.ru/shell.php?videoid=3082450",
+          "https://video.sibnet.ru/shell.php?videoid=3082451",
+          "https://video.sibnet.ru/shell.php?videoid=3082453",
+          "https://video.sibnet.ru/shell.php?videoid=3082454",
+          "https://video.sibnet.ru/shell.php?videoid=3132116"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4742036",
+          "https://video.sibnet.ru/shell.php?videoid=4742039",
+          "https://video.sibnet.ru/shell.php?videoid=4742043",
+          "https://video.sibnet.ru/shell.php?videoid=4742047",
+          "https://video.sibnet.ru/shell.php?videoid=4742050",
+          "https://video.sibnet.ru/shell.php?videoid=4742053",
+          "https://video.sibnet.ru/shell.php?videoid=4742056",
+          "https://video.sibnet.ru/shell.php?videoid=4742058",
+          "https://video.sibnet.ru/shell.php?videoid=4742062",
+          "https://video.sibnet.ru/shell.php?videoid=4742064",
+          "https://video.sibnet.ru/shell.php?videoid=4742066",
+          "https://video.sibnet.ru/shell.php?videoid=4742068",
+          "https://video.sibnet.ru/shell.php?videoid=4742072"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

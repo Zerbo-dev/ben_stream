@@ -1,0 +1,42 @@
+{
+  "name": "Un-Go",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/un-go.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5052280",
+          "https://video.sibnet.ru/shell.php?videoid=5052282",
+          "https://video.sibnet.ru/shell.php?videoid=5052286",
+          "https://video.sibnet.ru/shell.php?videoid=5052288",
+          "https://video.sibnet.ru/shell.php?videoid=5052290",
+          "https://video.sibnet.ru/shell.php?videoid=5052292",
+          "https://video.sibnet.ru/shell.php?videoid=5052294",
+          "https://video.sibnet.ru/shell.php?videoid=5052295",
+          "https://video.sibnet.ru/shell.php?videoid=5052297",
+          "https://video.sibnet.ru/shell.php?videoid=5052298",
+          "https://video.sibnet.ru/shell.php?videoid=5052299"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5052419",
+        "https://video.sibnet.ru/shell.php?videoid=5052426",
+        "https://video.sibnet.ru/shell.php?videoid=5052427",
+        "https://video.sibnet.ru/shell.php?videoid=5052428",
+        "https://video.sibnet.ru/shell.php?videoid=5052429",
+        "https://video.sibnet.ru/shell.php?videoid=5052430",
+        "https://video.sibnet.ru/shell.php?videoid=5052431",
+        "https://video.sibnet.ru/shell.php?videoid=5052432",
+        "https://video.sibnet.ru/shell.php?videoid=5052433",
+        "https://video.sibnet.ru/shell.php?videoid=5052434",
+        "https://video.sibnet.ru/shell.php?videoid=5052435"
+      ]
+    }
+  }
+}

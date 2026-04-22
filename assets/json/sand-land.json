@@ -1,0 +1,48 @@
+{
+  "name": "Sand Land",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sand-land.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5525230",
+          "https://video.sibnet.ru/shell.php?videoid=5525234",
+          "https://video.sibnet.ru/shell.php?videoid=5525239",
+          "https://video.sibnet.ru/shell.php?videoid=5525243",
+          "https://video.sibnet.ru/shell.php?videoid=5525247",
+          "https://video.sibnet.ru/shell.php?videoid=5525252",
+          "https://video.sibnet.ru/shell.php?videoid=5525258",
+          "https://video.sibnet.ru/shell.php?videoid=5525261",
+          "https://video.sibnet.ru/shell.php?videoid=5525265",
+          "https://video.sibnet.ru/shell.php?videoid=5525268",
+          "https://video.sibnet.ru/shell.php?videoid=5525273",
+          "https://video.sibnet.ru/shell.php?videoid=5525274",
+          "https://video.sibnet.ru/shell.php?videoid=5525277"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5525450",
+          "https://video.sibnet.ru/shell.php?videoid=5525451",
+          "https://video.sibnet.ru/shell.php?videoid=5525453",
+          "https://video.sibnet.ru/shell.php?videoid=5525454",
+          "https://video.sibnet.ru/shell.php?videoid=5525455",
+          "https://video.sibnet.ru/shell.php?videoid=5525456",
+          "https://video.sibnet.ru/shell.php?videoid=5525457",
+          "https://video.sibnet.ru/shell.php?videoid=5525458",
+          "https://video.sibnet.ru/shell.php?videoid=5525459",
+          "https://video.sibnet.ru/shell.php?videoid=5525461",
+          "https://video.sibnet.ru/shell.php?videoid=5525462",
+          "https://video.sibnet.ru/shell.php?videoid=5525463",
+          "https://video.sibnet.ru/shell.php?videoid=5525464"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

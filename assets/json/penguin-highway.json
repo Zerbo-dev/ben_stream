@@ -1,0 +1,20 @@
+{
+  "name": "Penguin Highway",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/penguin-highway.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4878056\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4878059\t"
+      ],
+      "oav": []
+    }
+  }
+}

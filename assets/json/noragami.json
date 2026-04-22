@@ -1,0 +1,48 @@
+{
+  "name": "Noragami",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/noragami.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4750369",
+          "https://video.sibnet.ru/shell.php?videoid=4750373",
+          "https://video.sibnet.ru/shell.php?videoid=4750375",
+          "https://video.sibnet.ru/shell.php?videoid=4750379",
+          "https://video.sibnet.ru/shell.php?videoid=4750385",
+          "https://video.sibnet.ru/shell.php?videoid=4750388",
+          "https://video.sibnet.ru/shell.php?videoid=4750395",
+          "https://video.sibnet.ru/shell.php?videoid=4750398",
+          "https://video.sibnet.ru/shell.php?videoid=4750401",
+          "https://video.sibnet.ru/shell.php?videoid=4750406",
+          "https://video.sibnet.ru/shell.php?videoid=4750411",
+          "https://video.sibnet.ru/shell.php?videoid=4750412"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4750416",
+          "https://video.sibnet.ru/shell.php?videoid=4750420",
+          "https://video.sibnet.ru/shell.php?videoid=4750423",
+          "https://video.sibnet.ru/shell.php?videoid=4750424",
+          "https://video.sibnet.ru/shell.php?videoid=4750428",
+          "https://video.sibnet.ru/shell.php?videoid=4750372",
+          "https://video.sibnet.ru/shell.php?videoid=4750382",
+          "https://video.sibnet.ru/shell.php?videoid=4750386",
+          "https://video.sibnet.ru/shell.php?videoid=4750389",
+          "https://video.sibnet.ru/shell.php?videoid=4750391",
+          "https://video.sibnet.ru/shell.php?videoid=4750397",
+          "https://video.sibnet.ru/shell.php?videoid=4750400",
+          "https://video.sibnet.ru/shell.php?videoid=4750403"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4750407"
+      ]
+    }
+  }
+}

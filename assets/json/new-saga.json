@@ -1,0 +1,32 @@
+{
+  "name": "New Saga",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/new-saga.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5951680",
+          "https://video.sibnet.ru/shell.php?videoid=5958695",
+          "https://video.sibnet.ru/shell.php?videoid=5966039",
+          "https://video.sibnet.ru/shell.php?videoid=5972849"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

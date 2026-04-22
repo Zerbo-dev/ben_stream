@@ -1,0 +1,43 @@
+{
+  "name": "Tokyo Ravens",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tokyo-ravens.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4784665",
+          "https://video.sibnet.ru/shell.php?videoid=4784666",
+          "https://video.sibnet.ru/shell.php?videoid=4784670",
+          "https://video.sibnet.ru/shell.php?videoid=4784672",
+          "https://video.sibnet.ru/shell.php?videoid=4784675",
+          "https://video.sibnet.ru/shell.php?videoid=4784676",
+          "https://video.sibnet.ru/shell.php?videoid=4784678",
+          "https://video.sibnet.ru/shell.php?videoid=4784680",
+          "https://video.sibnet.ru/shell.php?videoid=4784683",
+          "https://video.sibnet.ru/shell.php?videoid=4784685",
+          "https://video.sibnet.ru/shell.php?videoid=4784687",
+          "https://video.sibnet.ru/shell.php?videoid=4784688",
+          "https://video.sibnet.ru/shell.php?videoid=4784691",
+          "https://video.sibnet.ru/shell.php?videoid=4784692",
+          "https://video.sibnet.ru/shell.php?videoid=4784694",
+          "https://video.sibnet.ru/shell.php?videoid=4784696",
+          "https://video.sibnet.ru/shell.php?videoid=4784697",
+          "https://video.sibnet.ru/shell.php?videoid=4784698",
+          "https://video.sibnet.ru/shell.php?videoid=4784700",
+          "https://video.sibnet.ru/shell.php?videoid=4784703",
+          "https://video.sibnet.ru/shell.php?videoid=4784705",
+          "https://video.sibnet.ru/shell.php?videoid=4784707",
+          "https://video.sibnet.ru/shell.php?videoid=4784709",
+          "https://video.sibnet.ru/shell.php?videoid=4784712"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

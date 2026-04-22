@@ -1,0 +1,55 @@
+{
+  "name": "Katainaka no Ossan, Kensei ni Naru",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/katainaka-no-ossan-kensei-ni-naru.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5868954",
+          "https://video.sibnet.ru/shell.php?videoid=5876845",
+          "https://video.sibnet.ru/shell.php?videoid=5884971",
+          "https://video.sibnet.ru/shell.php?videoid=5893043",
+          "https://video.sibnet.ru/shell.php?videoid=5900162",
+          "https://video.sibnet.ru/shell.php?videoid=5907625",
+          "https://video.sibnet.ru/shell.php?videoid=5914151",
+          "https://video.sibnet.ru/shell.php?videoid=5920741",
+          "https://video.sibnet.ru/shell.php?videoid=5926185",
+          "https://video.sibnet.ru/shell.php?videoid=5931175",
+          "https://video.sibnet.ru/shell.php?videoid=5936620",
+          "https://video.sibnet.ru/shell.php?videoid=5942385"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5868951",
+          "https://video.sibnet.ru/shell.php?videoid=5876844",
+          "https://video.sibnet.ru/shell.php?videoid=5884962",
+          "https://video.sibnet.ru/shell.php?videoid=5893031",
+          "https://video.sibnet.ru/shell.php?videoid=5900155",
+          "https://video.sibnet.ru/shell.php?videoid=5907615",
+          "https://video.sibnet.ru/shell.php?videoid=5914145",
+          "https://video.sibnet.ru/shell.php?videoid=5920738",
+          "https://video.sibnet.ru/shell.php?videoid=5926178",
+          "https://video.sibnet.ru/shell.php?videoid=5931166",
+          "https://video.sibnet.ru/shell.php?videoid=5936615",
+          "https://video.sibnet.ru/shell.php?videoid=5942989"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

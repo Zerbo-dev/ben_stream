@@ -1,0 +1,20 @@
+{
+  "name": "Voyage vers Agartha",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/voyage-vers-agartha.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4835135\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4835137\t"
+      ],
+      "oav": []
+    }
+  }
+}

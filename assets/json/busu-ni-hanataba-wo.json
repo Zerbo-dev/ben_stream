@@ -1,0 +1,31 @@
+{
+  "name": "Busu ni Hanataba wo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/busu-ni-hanataba-wo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5953084",
+          "https://video.sibnet.ru/shell.php?videoid=5960710",
+          "https://video.sibnet.ru/shell.php?videoid=5967614"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

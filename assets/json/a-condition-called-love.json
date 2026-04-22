@@ -1,0 +1,46 @@
+{
+  "name": "A Condition Called Love",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/a-condition-called-love.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5516672",
+          "https://video.sibnet.ru/shell.php?videoid=5523701",
+          "https://video.sibnet.ru/shell.php?videoid=5530708",
+          "https://video.sibnet.ru/shell.php?videoid=5538078",
+          "https://video.sibnet.ru/shell.php?videoid=5544685",
+          "https://video.sibnet.ru/shell.php?videoid=5550794",
+          "https://video.sibnet.ru/shell.php?videoid=5556647",
+          "https://video.sibnet.ru/shell.php?videoid=5563274",
+          "https://video.sibnet.ru/shell.php?videoid=5570857",
+          "https://video.sibnet.ru/shell.php?videoid=5579084",
+          "https://video.sibnet.ru/shell.php?videoid=5586364",
+          "https://video.sibnet.ru/shell.php?videoid=5593560"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5493389",
+          "https://video.sibnet.ru/shell.php?videoid=5501473",
+          "https://video.sibnet.ru/shell.php?videoid=5509274",
+          "https://video.sibnet.ru/shell.php?videoid=5515655",
+          "https://video.sibnet.ru/shell.php?videoid=5523204",
+          "https://video.sibnet.ru/shell.php?videoid=5530551",
+          "https://video.sibnet.ru/shell.php?videoid=5537266",
+          "https://video.sibnet.ru/shell.php?videoid=5543857",
+          "https://video.sibnet.ru/shell.php?videoid=5549844",
+          "https://video.sibnet.ru/shell.php?videoid=5555837",
+          "https://video.sibnet.ru/shell.php?videoid=5562026",
+          "https://video.sibnet.ru/shell.php?videoid=5570112"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

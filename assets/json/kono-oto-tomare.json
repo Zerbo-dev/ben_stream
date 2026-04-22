@@ -1,0 +1,47 @@
+{
+  "name": "Kono Oto Tomare",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kono-oto-tomare.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4958248",
+          "https://video.sibnet.ru/shell.php?videoid=4958249",
+          "https://video.sibnet.ru/shell.php?videoid=4958250",
+          "https://video.sibnet.ru/shell.php?videoid=4958251",
+          "https://video.sibnet.ru/shell.php?videoid=4958253",
+          "https://video.sibnet.ru/shell.php?videoid=4958254",
+          "https://video.sibnet.ru/shell.php?videoid=4958256",
+          "https://video.sibnet.ru/shell.php?videoid=4958257",
+          "https://video.sibnet.ru/shell.php?videoid=4958259",
+          "https://video.sibnet.ru/shell.php?videoid=4958261",
+          "https://video.sibnet.ru/shell.php?videoid=4958262",
+          "https://video.sibnet.ru/shell.php?videoid=4958263",
+          "https://video.sibnet.ru/shell.php?videoid=4958264"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4958265",
+          "https://video.sibnet.ru/shell.php?videoid=4958269",
+          "https://video.sibnet.ru/shell.php?videoid=4958271",
+          "https://video.sibnet.ru/shell.php?videoid=4958272",
+          "https://video.sibnet.ru/shell.php?videoid=4958273",
+          "https://video.sibnet.ru/shell.php?videoid=4958274",
+          "https://video.sibnet.ru/shell.php?videoid=4958277",
+          "https://video.sibnet.ru/shell.php?videoid=4958278",
+          "https://video.sibnet.ru/shell.php?videoid=4958279",
+          "https://video.sibnet.ru/shell.php?videoid=4958281",
+          "https://video.sibnet.ru/shell.php?videoid=4958282",
+          "https://video.sibnet.ru/shell.php?videoid=4958283",
+          "https://video.sibnet.ru/shell.php?videoid=4958284"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

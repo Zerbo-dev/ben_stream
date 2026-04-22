@@ -1,0 +1,28 @@
+{
+  "name": "Am I Actually the Strongest?",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/am-i-actually-the-strongest.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5185568",
+          "https://video.sibnet.ru/shell.php?videoid=5192246",
+          "https://video.sibnet.ru/shell.php?videoid=5199000",
+          "https://video.sibnet.ru/shell.php?videoid=5211711",
+          "https://video.sibnet.ru/shell.php?videoid=5219805",
+          "https://video.sibnet.ru/shell.php?videoid=5240887",
+          "https://video.sibnet.ru/shell.php?videoid=5248437",
+          "https://video.sibnet.ru/shell.php?videoid=5254635",
+          "https://video.sibnet.ru/shell.php?videoid=5264750"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

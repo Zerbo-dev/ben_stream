@@ -1,0 +1,29 @@
+{
+  "name": "Japan Sinks 2020",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/japan-sinks-2020.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5894411",
+          "https://video.sibnet.ru/shell.php?videoid=5894412",
+          "https://video.sibnet.ru/shell.php?videoid=5894414",
+          "https://video.sibnet.ru/shell.php?videoid=5894417",
+          "https://video.sibnet.ru/shell.php?videoid=5894420",
+          "https://video.sibnet.ru/shell.php?videoid=5894423",
+          "https://video.sibnet.ru/shell.php?videoid=5894425",
+          "https://video.sibnet.ru/shell.php?videoid=5894427",
+          "https://video.sibnet.ru/shell.php?videoid=5894428",
+          "https://video.sibnet.ru/shell.php?videoid=5894429"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

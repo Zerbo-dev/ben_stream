@@ -1,0 +1,43 @@
+{
+  "name": "Kanon",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kanon.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4877911",
+          "https://video.sibnet.ru/shell.php?videoid=4877912",
+          "https://video.sibnet.ru/shell.php?videoid=4877916",
+          "https://video.sibnet.ru/shell.php?videoid=4877920",
+          "https://video.sibnet.ru/shell.php?videoid=4877922",
+          "https://video.sibnet.ru/shell.php?videoid=4877926",
+          "https://video.sibnet.ru/shell.php?videoid=4877929",
+          "https://video.sibnet.ru/shell.php?videoid=4877932",
+          "https://video.sibnet.ru/shell.php?videoid=4877933",
+          "https://video.sibnet.ru/shell.php?videoid=4877935",
+          "https://video.sibnet.ru/shell.php?videoid=4877940",
+          "https://video.sibnet.ru/shell.php?videoid=4877942",
+          "https://video.sibnet.ru/shell.php?videoid=4877943",
+          "https://video.sibnet.ru/shell.php?videoid=4877944",
+          "https://video.sibnet.ru/shell.php?videoid=4877946",
+          "https://video.sibnet.ru/shell.php?videoid=4877948",
+          "https://video.sibnet.ru/shell.php?videoid=4877951",
+          "https://video.sibnet.ru/shell.php?videoid=4877954",
+          "https://video.sibnet.ru/shell.php?videoid=4877956",
+          "https://video.sibnet.ru/shell.php?videoid=4877958",
+          "https://video.sibnet.ru/shell.php?videoid=4877961",
+          "https://video.sibnet.ru/shell.php?videoid=4877962",
+          "https://video.sibnet.ru/shell.php?videoid=4877967",
+          "https://video.sibnet.ru/shell.php?videoid=4877970"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

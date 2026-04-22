@@ -1,0 +1,31 @@
+{
+  "name": "ACCA 13-Ku Kansatsu-Ka",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/acca-13-ku-kansatsu-ka.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5089590",
+          "https://video.sibnet.ru/shell.php?videoid=5089591",
+          "https://video.sibnet.ru/shell.php?videoid=5089593",
+          "https://video.sibnet.ru/shell.php?videoid=5089594",
+          "https://video.sibnet.ru/shell.php?videoid=5089595",
+          "https://video.sibnet.ru/shell.php?videoid=5089596",
+          "https://video.sibnet.ru/shell.php?videoid=5089597",
+          "https://video.sibnet.ru/shell.php?videoid=5089598",
+          "https://video.sibnet.ru/shell.php?videoid=5089599",
+          "https://video.sibnet.ru/shell.php?videoid=5089600",
+          "https://video.sibnet.ru/shell.php?videoid=5089601",
+          "https://video.sibnet.ru/shell.php?videoid=5089602"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

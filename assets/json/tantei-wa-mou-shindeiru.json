@@ -1,0 +1,46 @@
+{
+  "name": "Tantei wa mou, Shindeiru",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tantei-wa-mou-shindeiru.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4362105",
+          "https://video.sibnet.ru/shell.php?videoid=4370774",
+          "https://video.sibnet.ru/shell.php?videoid=4376331",
+          "https://video.sibnet.ru/shell.php?videoid=4381614",
+          "https://video.sibnet.ru/shell.php?videoid=4388377",
+          "https://video.sibnet.ru/shell.php?videoid=4394182",
+          "https://video.sibnet.ru/shell.php?videoid=4400653",
+          "https://video.sibnet.ru/shell.php?videoid=4408502",
+          "https://video.sibnet.ru/shell.php?videoid=4414520",
+          "https://video.sibnet.ru/shell.php?videoid=4421425",
+          "https://video.sibnet.ru/shell.php?videoid=4428179",
+          "https://video.sibnet.ru/shell.php?videoid=4436865"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4346203",
+          "https://video.sibnet.ru/shell.php?videoid=4353237",
+          "https://video.sibnet.ru/shell.php?videoid=4361880",
+          "https://video.sibnet.ru/shell.php?videoid=4368789",
+          "https://video.sibnet.ru/shell.php?videoid=4376061",
+          "https://video.sibnet.ru/shell.php?videoid=4381533",
+          "https://video.sibnet.ru/shell.php?videoid=4388321",
+          "https://video.sibnet.ru/shell.php?videoid=4394185",
+          "https://video.sibnet.ru/shell.php?videoid=4400216",
+          "https://video.sibnet.ru/shell.php?videoid=4408440",
+          "https://video.sibnet.ru/shell.php?videoid=4414522",
+          "https://video.sibnet.ru/shell.php?videoid=4421393"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

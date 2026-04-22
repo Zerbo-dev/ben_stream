@@ -1,0 +1,45 @@
+{
+  "name": "Azur Lane",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/azur-lane.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801634",
+          "https://video.sibnet.ru/shell.php?videoid=4801636",
+          "https://video.sibnet.ru/shell.php?videoid=4801639",
+          "https://video.sibnet.ru/shell.php?videoid=4801641",
+          "https://video.sibnet.ru/shell.php?videoid=4801642",
+          "https://video.sibnet.ru/shell.php?videoid=4801643",
+          "https://video.sibnet.ru/shell.php?videoid=4801644",
+          "https://video.sibnet.ru/shell.php?videoid=4801646",
+          "https://video.sibnet.ru/shell.php?videoid=4801647",
+          "https://video.sibnet.ru/shell.php?videoid=4801649",
+          "https://video.sibnet.ru/shell.php?videoid=4801651",
+          "https://video.sibnet.ru/shell.php?videoid=4801652"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4801653",
+          "https://video.sibnet.ru/shell.php?videoid=4801654",
+          "https://video.sibnet.ru/shell.php?videoid=4801655",
+          "https://video.sibnet.ru/shell.php?videoid=4801656",
+          "https://video.sibnet.ru/shell.php?videoid=4801657",
+          "https://video.sibnet.ru/shell.php?videoid=4801658",
+          "https://video.sibnet.ru/shell.php?videoid=4801659",
+          "https://video.sibnet.ru/shell.php?videoid=4801660",
+          "https://video.sibnet.ru/shell.php?videoid=4801661",
+          "https://video.sibnet.ru/shell.php?videoid=4801662",
+          "https://video.sibnet.ru/shell.php?videoid=4801663",
+          "https://video.sibnet.ru/shell.php?videoid=4801664"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Rosario to Vampire",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/rosario-to-vampire.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4735170",
+          "https://video.sibnet.ru/shell.php?videoid=4735171",
+          "https://video.sibnet.ru/shell.php?videoid=4735172",
+          "https://video.sibnet.ru/shell.php?videoid=4735173",
+          "https://video.sibnet.ru/shell.php?videoid=4735174",
+          "https://video.sibnet.ru/shell.php?videoid=4735175",
+          "https://video.sibnet.ru/shell.php?videoid=4735176",
+          "https://video.sibnet.ru/shell.php?videoid=4735177",
+          "https://video.sibnet.ru/shell.php?videoid=4735178",
+          "https://video.sibnet.ru/shell.php?videoid=4756584",
+          "https://video.sibnet.ru/shell.php?videoid=4756586",
+          "https://video.sibnet.ru/shell.php?videoid=4756587",
+          "https://video.sibnet.ru/shell.php?videoid=4756589"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4735183",
+          "https://video.sibnet.ru/shell.php?videoid=4735185",
+          "https://video.sibnet.ru/shell.php?videoid=4735186",
+          "https://video.sibnet.ru/shell.php?videoid=4735191",
+          "https://video.sibnet.ru/shell.php?videoid=4735194",
+          "https://video.sibnet.ru/shell.php?videoid=4735198",
+          "https://video.sibnet.ru/shell.php?videoid=4735201",
+          "https://video.sibnet.ru/shell.php?videoid=4735204",
+          "https://video.sibnet.ru/shell.php?videoid=4735207",
+          "https://video.sibnet.ru/shell.php?videoid=4735210",
+          "https://video.sibnet.ru/shell.php?videoid=4735213",
+          "https://video.sibnet.ru/shell.php?videoid=4735215",
+          "https://video.sibnet.ru/shell.php?videoid=4735218"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4735076",
+          "https://video.sibnet.ru/shell.php?videoid=4735082",
+          "https://video.sibnet.ru/shell.php?videoid=4735083",
+          "https://video.sibnet.ru/shell.php?videoid=4735084",
+          "https://video.sibnet.ru/shell.php?videoid=4735086",
+          "https://video.sibnet.ru/shell.php?videoid=4735087",
+          "https://video.sibnet.ru/shell.php?videoid=4735088",
+          "https://video.sibnet.ru/shell.php?videoid=4735089",
+          "https://video.sibnet.ru/shell.php?videoid=4735090",
+          "https://video.sibnet.ru/shell.php?videoid=4735094",
+          "https://video.sibnet.ru/shell.php?videoid=4735096",
+          "https://video.sibnet.ru/shell.php?videoid=4735097",
+          "https://video.sibnet.ru/shell.php?videoid=4735099"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4735100",
+          "https://video.sibnet.ru/shell.php?videoid=4735101",
+          "https://video.sibnet.ru/shell.php?videoid=4735104",
+          "https://video.sibnet.ru/shell.php?videoid=4735105",
+          "https://video.sibnet.ru/shell.php?videoid=4735106",
+          "https://video.sibnet.ru/shell.php?videoid=4735107",
+          "https://video.sibnet.ru/shell.php?videoid=4735109",
+          "https://video.sibnet.ru/shell.php?videoid=4735110",
+          "https://video.sibnet.ru/shell.php?videoid=4735111",
+          "https://video.sibnet.ru/shell.php?videoid=4735112",
+          "https://video.sibnet.ru/shell.php?videoid=4735113",
+          "https://video.sibnet.ru/shell.php?videoid=4735115",
+          "https://video.sibnet.ru/shell.php?videoid=4735116"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

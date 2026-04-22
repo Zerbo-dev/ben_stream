@@ -1,0 +1,48 @@
+{
+  "name": "Tsurune",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tsurune.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4968565",
+          "https://video.sibnet.ru/shell.php?videoid=4968566",
+          "https://video.sibnet.ru/shell.php?videoid=4968567",
+          "https://video.sibnet.ru/shell.php?videoid=4968568",
+          "https://video.sibnet.ru/shell.php?videoid=4968569",
+          "https://video.sibnet.ru/shell.php?videoid=4968570",
+          "https://video.sibnet.ru/shell.php?videoid=4968571",
+          "https://video.sibnet.ru/shell.php?videoid=4968573",
+          "https://video.sibnet.ru/shell.php?videoid=4968574",
+          "https://video.sibnet.ru/shell.php?videoid=4968576",
+          "https://video.sibnet.ru/shell.php?videoid=4968577",
+          "https://video.sibnet.ru/shell.php?videoid=4968578",
+          "https://video.sibnet.ru/shell.php?videoid=4968579",
+          "https://video.sibnet.ru/shell.php?videoid=4968580"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5006589",
+          "https://video.sibnet.ru/shell.php?videoid=5006593",
+          "https://video.sibnet.ru/shell.php?videoid=5012939",
+          "https://video.sibnet.ru/shell.php?videoid=5021530",
+          "https://video.sibnet.ru/shell.php?videoid=5028204",
+          "https://video.sibnet.ru/shell.php?videoid=5035743",
+          "https://video.sibnet.ru/shell.php?videoid=5044743",
+          "https://video.sibnet.ru/shell.php?videoid=5055486",
+          "https://video.sibnet.ru/shell.php?videoid=5063410",
+          "https://video.sibnet.ru/shell.php?videoid=5070511",
+          "https://video.sibnet.ru/shell.php?videoid=5076878",
+          "https://video.sibnet.ru/shell.php?videoid=5083762",
+          "https://video.sibnet.ru/shell.php?videoid=5090900"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

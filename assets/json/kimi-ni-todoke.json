@@ -1,0 +1,118 @@
+{
+  "name": "Kimi ni Todoke",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kimi-ni-todoke.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5421960",
+          "https://video.sibnet.ru/shell.php?videoid=5421961",
+          "https://video.sibnet.ru/shell.php?videoid=5421962",
+          "https://video.sibnet.ru/shell.php?videoid=5421963",
+          "https://video.sibnet.ru/shell.php?videoid=5421966",
+          "https://video.sibnet.ru/shell.php?videoid=5421968",
+          "https://video.sibnet.ru/shell.php?videoid=5421969",
+          "https://video.sibnet.ru/shell.php?videoid=5421970",
+          "https://video.sibnet.ru/shell.php?videoid=5421971",
+          "https://video.sibnet.ru/shell.php?videoid=5421973",
+          "https://video.sibnet.ru/shell.php?videoid=5421975",
+          "https://video.sibnet.ru/shell.php?videoid=5421976",
+          "https://video.sibnet.ru/shell.php?videoid=5421978",
+          "https://video.sibnet.ru/shell.php?videoid=5421979",
+          "https://video.sibnet.ru/shell.php?videoid=5421981",
+          "https://video.sibnet.ru/shell.php?videoid=5421982",
+          "https://video.sibnet.ru/shell.php?videoid=5421984",
+          "https://video.sibnet.ru/shell.php?videoid=5421985",
+          "https://video.sibnet.ru/shell.php?videoid=5421987",
+          "https://video.sibnet.ru/shell.php?videoid=5421988",
+          "https://video.sibnet.ru/shell.php?videoid=5421989",
+          "https://video.sibnet.ru/shell.php?videoid=5421990",
+          "https://video.sibnet.ru/shell.php?videoid=5421991",
+          "https://video.sibnet.ru/shell.php?videoid=5421993",
+          "https://video.sibnet.ru/shell.php?videoid=5421995"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5421997",
+          "https://video.sibnet.ru/shell.php?videoid=5421999",
+          "https://video.sibnet.ru/shell.php?videoid=5564870",
+          "https://video.sibnet.ru/shell.php?videoid=5422001",
+          "https://video.sibnet.ru/shell.php?videoid=5422009",
+          "https://video.sibnet.ru/shell.php?videoid=5422010",
+          "https://video.sibnet.ru/shell.php?videoid=5422011",
+          "https://video.sibnet.ru/shell.php?videoid=5422013",
+          "https://video.sibnet.ru/shell.php?videoid=5422015",
+          "https://video.sibnet.ru/shell.php?videoid=5422017",
+          "https://video.sibnet.ru/shell.php?videoid=5422019",
+          "https://video.sibnet.ru/shell.php?videoid=5422021",
+          "https://video.sibnet.ru/shell.php?videoid=5422206"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5617029",
+          "https://video.sibnet.ru/shell.php?videoid=5617033",
+          "https://video.sibnet.ru/shell.php?videoid=5617034",
+          "https://video.sibnet.ru/shell.php?videoid=5617039",
+          "https://video.sibnet.ru/shell.php?videoid=5617041",
+          "https://video.sibnet.ru/shell.php?videoid=5617042"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4837623",
+          "https://video.sibnet.ru/shell.php?videoid=4837626",
+          "https://video.sibnet.ru/shell.php?videoid=4837627",
+          "https://video.sibnet.ru/shell.php?videoid=4837629",
+          "https://video.sibnet.ru/shell.php?videoid=4837630",
+          "https://video.sibnet.ru/shell.php?videoid=4837632",
+          "https://video.sibnet.ru/shell.php?videoid=4837635",
+          "https://video.sibnet.ru/shell.php?videoid=4837637",
+          "https://video.sibnet.ru/shell.php?videoid=4837638",
+          "https://video.sibnet.ru/shell.php?videoid=4837641",
+          "https://video.sibnet.ru/shell.php?videoid=4837643",
+          "https://video.sibnet.ru/shell.php?videoid=4837646",
+          "https://video.sibnet.ru/shell.php?videoid=4837647",
+          "https://video.sibnet.ru/shell.php?videoid=4837649",
+          "https://video.sibnet.ru/shell.php?videoid=4837651",
+          "https://video.sibnet.ru/shell.php?videoid=4837652",
+          "https://video.sibnet.ru/shell.php?videoid=4837656",
+          "https://video.sibnet.ru/shell.php?videoid=4837658",
+          "https://video.sibnet.ru/shell.php?videoid=4837659",
+          "https://video.sibnet.ru/shell.php?videoid=4837662",
+          "https://video.sibnet.ru/shell.php?videoid=4837664",
+          "https://video.sibnet.ru/shell.php?videoid=4837665",
+          "https://video.sibnet.ru/shell.php?videoid=4837668",
+          "https://video.sibnet.ru/shell.php?videoid=4837670",
+          "https://video.sibnet.ru/shell.php?videoid=4837673"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4837676",
+          "https://video.sibnet.ru/shell.php?videoid=4837677",
+          "https://video.sibnet.ru/shell.php?videoid=4837679",
+          "https://video.sibnet.ru/shell.php?videoid=4837682",
+          "https://video.sibnet.ru/shell.php?videoid=4837683",
+          "https://video.sibnet.ru/shell.php?videoid=4837686",
+          "https://video.sibnet.ru/shell.php?videoid=4837689",
+          "https://video.sibnet.ru/shell.php?videoid=4837691",
+          "https://video.sibnet.ru/shell.php?videoid=4837693",
+          "https://video.sibnet.ru/shell.php?videoid=4837697",
+          "https://video.sibnet.ru/shell.php?videoid=4837702",
+          "https://video.sibnet.ru/shell.php?videoid=4837704",
+          "https://video.sibnet.ru/shell.php?videoid=4837707"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5616964",
+          "https://video.sibnet.ru/shell.php?videoid=5616966",
+          "https://video.sibnet.ru/shell.php?videoid=5616967",
+          "https://video.sibnet.ru/shell.php?videoid=5616968",
+          "https://video.sibnet.ru/shell.php?videoid=5616972",
+          "https://video.sibnet.ru/shell.php?videoid=5616976"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

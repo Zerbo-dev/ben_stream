@@ -1,0 +1,70 @@
+{
+  "name": "Tokyo Ghoul Re",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tokyo-ghoul-re.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4668046",
+          "https://video.sibnet.ru/shell.php?videoid=4668047",
+          "https://video.sibnet.ru/shell.php?videoid=4668048",
+          "https://video.sibnet.ru/shell.php?videoid=4668050",
+          "https://video.sibnet.ru/shell.php?videoid=4668052",
+          "https://video.sibnet.ru/shell.php?videoid=4668053",
+          "https://video.sibnet.ru/shell.php?videoid=4668054",
+          "https://video.sibnet.ru/shell.php?videoid=4668057",
+          "https://video.sibnet.ru/shell.php?videoid=4668058",
+          "https://video.sibnet.ru/shell.php?videoid=4668059",
+          "https://video.sibnet.ru/shell.php?videoid=4668060",
+          "https://video.sibnet.ru/shell.php?videoid=4668062",
+          "https://video.sibnet.ru/shell.php?videoid=4668064",
+          "https://video.sibnet.ru/shell.php?videoid=4668065",
+          "https://video.sibnet.ru/shell.php?videoid=4668067",
+          "https://video.sibnet.ru/shell.php?videoid=4668068",
+          "https://video.sibnet.ru/shell.php?videoid=4668070",
+          "https://video.sibnet.ru/shell.php?videoid=4668071",
+          "https://video.sibnet.ru/shell.php?videoid=4668073",
+          "https://video.sibnet.ru/shell.php?videoid=4668074",
+          "https://video.sibnet.ru/shell.php?videoid=4668075",
+          "https://video.sibnet.ru/shell.php?videoid=4668076",
+          "https://video.sibnet.ru/shell.php?videoid=4668078",
+          "https://video.sibnet.ru/shell.php?videoid=4668079"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4669998",
+          "https://video.sibnet.ru/shell.php?videoid=4670001",
+          "https://video.sibnet.ru/shell.php?videoid=4670002",
+          "https://video.sibnet.ru/shell.php?videoid=4670004",
+          "https://video.sibnet.ru/shell.php?videoid=4670005",
+          "https://video.sibnet.ru/shell.php?videoid=4670009",
+          "https://video.sibnet.ru/shell.php?videoid=4670010",
+          "https://video.sibnet.ru/shell.php?videoid=4670011",
+          "https://video.sibnet.ru/shell.php?videoid=4670012",
+          "https://video.sibnet.ru/shell.php?videoid=4670013",
+          "https://video.sibnet.ru/shell.php?videoid=4670015",
+          "https://video.sibnet.ru/shell.php?videoid=4670018",
+          "https://video.sibnet.ru/shell.php?videoid=4670019",
+          "https://video.sibnet.ru/shell.php?videoid=4670021",
+          "https://video.sibnet.ru/shell.php?videoid=4670022",
+          "https://video.sibnet.ru/shell.php?videoid=4670024",
+          "https://video.sibnet.ru/shell.php?videoid=4670028",
+          "https://video.sibnet.ru/shell.php?videoid=4670030",
+          "https://video.sibnet.ru/shell.php?videoid=4670032",
+          "https://video.sibnet.ru/shell.php?videoid=4670035",
+          "https://video.sibnet.ru/shell.php?videoid=4670038",
+          "https://video.sibnet.ru/shell.php?videoid=4670041",
+          "https://video.sibnet.ru/shell.php?videoid=4670043",
+          "https://video.sibnet.ru/shell.php?videoid=4670044"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

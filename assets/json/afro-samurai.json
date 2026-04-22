@@ -1,0 +1,38 @@
+{
+  "name": "Afro Samurai",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/afro-samurai.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4734184",
+          "https://video.sibnet.ru/shell.php?videoid=4734185",
+          "https://video.sibnet.ru/shell.php?videoid=4734190",
+          "https://video.sibnet.ru/shell.php?videoid=4734193",
+          "https://video.sibnet.ru/shell.php?videoid=4734196",
+          "https://video.sibnet.ru/shell.php?videoid=4734199"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4734199\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4734170",
+          "https://video.sibnet.ru/shell.php?videoid=4734172",
+          "https://video.sibnet.ru/shell.php?videoid=4734173",
+          "https://video.sibnet.ru/shell.php?videoid=4734175",
+          "https://video.sibnet.ru/shell.php?videoid=4734177",
+          "https://video.sibnet.ru/shell.php?videoid=4734179"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4734179\t"
+      ],
+      "oav": []
+    }
+  }
+}

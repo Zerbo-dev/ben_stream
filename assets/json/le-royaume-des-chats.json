@@ -1,0 +1,20 @@
+{
+  "name": "Le Royaume des chats",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-royaume-des-chats.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366076"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4729075"
+      ],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "La voie du tablier",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/la-voie-du-tablier.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4959528",
+          "https://video.sibnet.ru/shell.php?videoid=4959530",
+          "https://video.sibnet.ru/shell.php?videoid=4959532",
+          "https://video.sibnet.ru/shell.php?videoid=4959533",
+          "https://video.sibnet.ru/shell.php?videoid=4959535",
+          "https://video.sibnet.ru/shell.php?videoid=4959537",
+          "https://video.sibnet.ru/shell.php?videoid=4959540",
+          "https://video.sibnet.ru/shell.php?videoid=4959542",
+          "https://video.sibnet.ru/shell.php?videoid=4959543",
+          "https://video.sibnet.ru/shell.php?videoid=4959544"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4996147",
+          "https://video.sibnet.ru/shell.php?videoid=4996148",
+          "https://video.sibnet.ru/shell.php?videoid=4996149",
+          "https://video.sibnet.ru/shell.php?videoid=4996150",
+          "https://video.sibnet.ru/shell.php?videoid=4996151"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4959424",
+          "https://video.sibnet.ru/shell.php?videoid=4959427",
+          "https://video.sibnet.ru/shell.php?videoid=4959430",
+          "https://video.sibnet.ru/shell.php?videoid=4959433",
+          "https://video.sibnet.ru/shell.php?videoid=4959437",
+          "https://video.sibnet.ru/shell.php?videoid=4959440",
+          "https://video.sibnet.ru/shell.php?videoid=4959441",
+          "https://video.sibnet.ru/shell.php?videoid=4959444",
+          "https://video.sibnet.ru/shell.php?videoid=4959445",
+          "https://video.sibnet.ru/shell.php?videoid=4959448"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Sonic Prime",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sonic-prime.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4982472",
+          "https://video.sibnet.ru/shell.php?videoid=4982474",
+          "https://video.sibnet.ru/shell.php?videoid=4982475",
+          "https://video.sibnet.ru/shell.php?videoid=4982476",
+          "https://video.sibnet.ru/shell.php?videoid=4982479",
+          "https://video.sibnet.ru/shell.php?videoid=4982480",
+          "https://video.sibnet.ru/shell.php?videoid=4982482",
+          "https://video.sibnet.ru/shell.php?videoid=4982486"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5197816",
+          "https://video.sibnet.ru/shell.php?videoid=5197823",
+          "https://video.sibnet.ru/shell.php?videoid=5197830",
+          "https://video.sibnet.ru/shell.php?videoid=5197832",
+          "https://video.sibnet.ru/shell.php?videoid=5197836",
+          "https://video.sibnet.ru/shell.php?videoid=5197838",
+          "https://video.sibnet.ru/shell.php?videoid=5197846",
+          "https://video.sibnet.ru/shell.php?videoid=5197851"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5395054",
+          "https://video.sibnet.ru/shell.php?videoid=5395057",
+          "https://video.sibnet.ru/shell.php?videoid=5395059",
+          "https://video.sibnet.ru/shell.php?videoid=5395061",
+          "https://video.sibnet.ru/shell.php?videoid=5395064",
+          "https://video.sibnet.ru/shell.php?videoid=5395065",
+          "https://video.sibnet.ru/shell.php?videoid=5395067"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

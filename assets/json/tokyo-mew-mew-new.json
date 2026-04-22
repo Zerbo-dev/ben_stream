@@ -1,0 +1,45 @@
+{
+  "name": "Tokyo Mew Mew New",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tokyo-mew-mew-new.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5092237",
+          "https://video.sibnet.ru/shell.php?videoid=5092239",
+          "https://video.sibnet.ru/shell.php?videoid=5092240",
+          "https://video.sibnet.ru/shell.php?videoid=5092241",
+          "https://video.sibnet.ru/shell.php?videoid=5092242",
+          "https://video.sibnet.ru/shell.php?videoid=5092243",
+          "https://video.sibnet.ru/shell.php?videoid=5092244",
+          "https://video.sibnet.ru/shell.php?videoid=5092251",
+          "https://video.sibnet.ru/shell.php?videoid=5092253",
+          "https://video.sibnet.ru/shell.php?videoid=5092254",
+          "https://video.sibnet.ru/shell.php?videoid=5092255",
+          "https://video.sibnet.ru/shell.php?videoid=5092257"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5096458",
+          "https://video.sibnet.ru/shell.php?videoid=5102486",
+          "https://video.sibnet.ru/shell.php?videoid=5109459",
+          "https://video.sibnet.ru/shell.php?videoid=5117381",
+          "https://video.sibnet.ru/shell.php?videoid=5124140",
+          "https://video.sibnet.ru/shell.php?videoid=5131569",
+          "https://video.sibnet.ru/shell.php?videoid=5142160",
+          "https://video.sibnet.ru/shell.php?videoid=5150397",
+          "https://video.sibnet.ru/shell.php?videoid=5157069",
+          "https://video.sibnet.ru/shell.php?videoid=5163820",
+          "https://video.sibnet.ru/shell.php?videoid=5170883",
+          "https://video.sibnet.ru/shell.php?videoid=5177098"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

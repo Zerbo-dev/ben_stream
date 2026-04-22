@@ -1,0 +1,45 @@
+{
+  "name": "3D Kanojo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/3d-kanojo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4734128",
+          "https://video.sibnet.ru/shell.php?videoid=4734129",
+          "https://video.sibnet.ru/shell.php?videoid=4734130",
+          "https://video.sibnet.ru/shell.php?videoid=4734131",
+          "https://video.sibnet.ru/shell.php?videoid=4734133",
+          "https://video.sibnet.ru/shell.php?videoid=4734134",
+          "https://video.sibnet.ru/shell.php?videoid=4734135",
+          "https://video.sibnet.ru/shell.php?videoid=5476539",
+          "https://video.sibnet.ru/shell.php?videoid=4734137",
+          "https://video.sibnet.ru/shell.php?videoid=4734138",
+          "https://video.sibnet.ru/shell.php?videoid=4734140",
+          "https://video.sibnet.ru/shell.php?videoid=4734141"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4734149",
+          "https://video.sibnet.ru/shell.php?videoid=4734152",
+          "https://video.sibnet.ru/shell.php?videoid=4734153",
+          "https://video.sibnet.ru/shell.php?videoid=4734155",
+          "https://video.sibnet.ru/shell.php?videoid=4734157",
+          "https://video.sibnet.ru/shell.php?videoid=4734158",
+          "https://video.sibnet.ru/shell.php?videoid=4734159",
+          "https://video.sibnet.ru/shell.php?videoid=4734161",
+          "https://video.sibnet.ru/shell.php?videoid=4734162",
+          "https://video.sibnet.ru/shell.php?videoid=4734163",
+          "https://video.sibnet.ru/shell.php?videoid=4734165",
+          "https://video.sibnet.ru/shell.php?videoid=4734166"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

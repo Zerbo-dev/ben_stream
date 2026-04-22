@@ -1,0 +1,32 @@
+{
+  "name": "Silent Witch",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/silent-witch.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5953140",
+          "https://video.sibnet.ru/shell.php?videoid=5960867",
+          "https://video.sibnet.ru/shell.php?videoid=5967746",
+          "https://video.sibnet.ru/shell.php?videoid=5974376"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "One Outs",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/one-outs.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4841520",
+          "https://video.sibnet.ru/shell.php?videoid=4841532",
+          "https://video.sibnet.ru/shell.php?videoid=4841542",
+          "https://video.sibnet.ru/shell.php?videoid=4841546",
+          "https://video.sibnet.ru/shell.php?videoid=4841553",
+          "https://video.sibnet.ru/shell.php?videoid=4841558",
+          "https://video.sibnet.ru/shell.php?videoid=4841563",
+          "https://video.sibnet.ru/shell.php?videoid=4841567",
+          "https://video.sibnet.ru/shell.php?videoid=4841576",
+          "https://video.sibnet.ru/shell.php?videoid=4841581",
+          "https://video.sibnet.ru/shell.php?videoid=4841586",
+          "https://video.sibnet.ru/shell.php?videoid=4841590",
+          "https://video.sibnet.ru/shell.php?videoid=4841595",
+          "https://video.sibnet.ru/shell.php?videoid=4841602",
+          "https://video.sibnet.ru/shell.php?videoid=4841609",
+          "https://video.sibnet.ru/shell.php?videoid=4841620",
+          "https://video.sibnet.ru/shell.php?videoid=4841628",
+          "https://video.sibnet.ru/shell.php?videoid=4841635",
+          "https://video.sibnet.ru/shell.php?videoid=4841640",
+          "https://video.sibnet.ru/shell.php?videoid=4841647",
+          "https://video.sibnet.ru/shell.php?videoid=4841652",
+          "https://video.sibnet.ru/shell.php?videoid=4841656",
+          "https://video.sibnet.ru/shell.php?videoid=4841661",
+          "https://video.sibnet.ru/shell.php?videoid=4841667",
+          "https://video.sibnet.ru/shell.php?videoid=4841671"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

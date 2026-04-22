@@ -1,0 +1,56 @@
+{
+  "name": "Oregairu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/oregairu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4853949",
+          "https://video.sibnet.ru/shell.php?videoid=4853951",
+          "https://video.sibnet.ru/shell.php?videoid=4853953",
+          "https://video.sibnet.ru/shell.php?videoid=4853956",
+          "https://video.sibnet.ru/shell.php?videoid=4853961",
+          "https://video.sibnet.ru/shell.php?videoid=4853963",
+          "https://video.sibnet.ru/shell.php?videoid=4853965",
+          "https://video.sibnet.ru/shell.php?videoid=4853968",
+          "https://video.sibnet.ru/shell.php?videoid=4853973",
+          "https://video.sibnet.ru/shell.php?videoid=4853974",
+          "https://video.sibnet.ru/shell.php?videoid=4853976",
+          "https://video.sibnet.ru/shell.php?videoid=4853977",
+          "https://video.sibnet.ru/shell.php?videoid=4853979",
+          "https://video.sibnet.ru/shell.php?videoid=4853980"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4853981",
+          "https://video.sibnet.ru/shell.php?videoid=4853982",
+          "https://video.sibnet.ru/shell.php?videoid=4853983",
+          "https://video.sibnet.ru/shell.php?videoid=4853984",
+          "https://video.sibnet.ru/shell.php?videoid=4853986",
+          "https://video.sibnet.ru/shell.php?videoid=4853989",
+          "https://video.sibnet.ru/shell.php?videoid=4853991",
+          "https://video.sibnet.ru/shell.php?videoid=4853994",
+          "https://video.sibnet.ru/shell.php?videoid=4853996",
+          "https://video.sibnet.ru/shell.php?videoid=4853998",
+          "https://video.sibnet.ru/shell.php?videoid=4854000",
+          "https://video.sibnet.ru/shell.php?videoid=4854003",
+          "https://video.sibnet.ru/shell.php?videoid=4854006",
+          "https://video.sibnet.ru/shell.php?videoid=4854009"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=5132906"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4853980",
+        "https://video.sibnet.ru/shell.php?videoid=4854009",
+        "https://video.sibnet.ru/shell.php?videoid=5132906"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Tomodachi Game",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tomodachi-game.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4689104",
+          "https://video.sibnet.ru/shell.php?videoid=4701126",
+          "https://video.sibnet.ru/shell.php?videoid=5057658",
+          "https://video.sibnet.ru/shell.php?videoid=4717121",
+          "https://video.sibnet.ru/shell.php?videoid=4727361",
+          "https://video.sibnet.ru/shell.php?videoid=4734872",
+          "https://video.sibnet.ru/shell.php?videoid=4743010",
+          "https://video.sibnet.ru/shell.php?videoid=4752139",
+          "https://video.sibnet.ru/shell.php?videoid=4760836",
+          "https://video.sibnet.ru/shell.php?videoid=4770361",
+          "https://video.sibnet.ru/shell.php?videoid=4779226",
+          "https://video.sibnet.ru/shell.php?videoid=4796399"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4668346",
+          "https://video.sibnet.ru/shell.php?videoid=4669940",
+          "https://video.sibnet.ru/shell.php?videoid=4678097",
+          "https://video.sibnet.ru/shell.php?videoid=4688715",
+          "https://video.sibnet.ru/shell.php?videoid=4700804",
+          "https://video.sibnet.ru/shell.php?videoid=4707837",
+          "https://video.sibnet.ru/shell.php?videoid=4716680",
+          "https://video.sibnet.ru/shell.php?videoid=4727036",
+          "https://video.sibnet.ru/shell.php?videoid=4734531",
+          "https://video.sibnet.ru/shell.php?videoid=4742517",
+          "https://video.sibnet.ru/shell.php?videoid=4751804",
+          "https://video.sibnet.ru/shell.php?videoid=4759789"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Mirai Nikki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mirai-nikki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4783184",
+          "https://video.sibnet.ru/shell.php?videoid=4783187",
+          "https://video.sibnet.ru/shell.php?videoid=4783191",
+          "https://video.sibnet.ru/shell.php?videoid=4783197",
+          "https://video.sibnet.ru/shell.php?videoid=4783201",
+          "https://video.sibnet.ru/shell.php?videoid=4783204",
+          "https://video.sibnet.ru/shell.php?videoid=4783207",
+          "https://video.sibnet.ru/shell.php?videoid=4783208",
+          "https://video.sibnet.ru/shell.php?videoid=4783211",
+          "https://video.sibnet.ru/shell.php?videoid=4783212",
+          "https://video.sibnet.ru/shell.php?videoid=4783214",
+          "https://video.sibnet.ru/shell.php?videoid=4783216",
+          "https://video.sibnet.ru/shell.php?videoid=4783217",
+          "https://video.sibnet.ru/shell.php?videoid=4783220",
+          "https://video.sibnet.ru/shell.php?videoid=4783222",
+          "https://video.sibnet.ru/shell.php?videoid=4783227",
+          "https://video.sibnet.ru/shell.php?videoid=4783229",
+          "https://video.sibnet.ru/shell.php?videoid=4783230",
+          "https://video.sibnet.ru/shell.php?videoid=4783235",
+          "https://video.sibnet.ru/shell.php?videoid=4783236",
+          "https://video.sibnet.ru/shell.php?videoid=4783238",
+          "https://video.sibnet.ru/shell.php?videoid=4783240",
+          "https://video.sibnet.ru/shell.php?videoid=4783243",
+          "https://video.sibnet.ru/shell.php?videoid=4783245",
+          "https://video.sibnet.ru/shell.php?videoid=4783248"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4783253"
+      ]
+    }
+  }
+}

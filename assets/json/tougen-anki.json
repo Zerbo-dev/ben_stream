@@ -1,0 +1,22 @@
+{
+  "name": "Tougen Anki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tougen-anki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5960779",
+          "https://video.sibnet.ru/shell.php?videoid=5967686",
+          "https://video.sibnet.ru/shell.php?videoid=5974310"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

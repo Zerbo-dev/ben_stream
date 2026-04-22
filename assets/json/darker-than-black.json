@@ -1,0 +1,64 @@
+{
+  "name": "Darker than Black",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/darker-than-black.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4752980",
+          "https://video.sibnet.ru/shell.php?videoid=4752981",
+          "https://video.sibnet.ru/shell.php?videoid=4752983",
+          "https://video.sibnet.ru/shell.php?videoid=4752985",
+          "https://video.sibnet.ru/shell.php?videoid=4752986",
+          "https://video.sibnet.ru/shell.php?videoid=4752988",
+          "https://video.sibnet.ru/shell.php?videoid=4752990",
+          "https://video.sibnet.ru/shell.php?videoid=4752992",
+          "https://video.sibnet.ru/shell.php?videoid=4752994",
+          "https://video.sibnet.ru/shell.php?videoid=5439430",
+          "https://video.sibnet.ru/shell.php?videoid=4752998",
+          "https://video.sibnet.ru/shell.php?videoid=4753000",
+          "https://video.sibnet.ru/shell.php?videoid=4753001",
+          "https://video.sibnet.ru/shell.php?videoid=4753002",
+          "https://video.sibnet.ru/shell.php?videoid=4753004",
+          "https://video.sibnet.ru/shell.php?videoid=4753006",
+          "https://video.sibnet.ru/shell.php?videoid=4753007",
+          "https://video.sibnet.ru/shell.php?videoid=4753008",
+          "https://video.sibnet.ru/shell.php?videoid=4753009",
+          "https://video.sibnet.ru/shell.php?videoid=4753010",
+          "https://video.sibnet.ru/shell.php?videoid=4753011",
+          "https://video.sibnet.ru/shell.php?videoid=4753012",
+          "https://video.sibnet.ru/shell.php?videoid=4753013",
+          "https://video.sibnet.ru/shell.php?videoid=4753014",
+          "https://video.sibnet.ru/shell.php?videoid=4753015"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4753106",
+          "https://video.sibnet.ru/shell.php?videoid=4753109",
+          "https://video.sibnet.ru/shell.php?videoid=4753115",
+          "https://video.sibnet.ru/shell.php?videoid=4753127",
+          "https://video.sibnet.ru/shell.php?videoid=4753135",
+          "https://video.sibnet.ru/shell.php?videoid=4753140",
+          "https://video.sibnet.ru/shell.php?videoid=4753145",
+          "https://video.sibnet.ru/shell.php?videoid=4753148",
+          "https://video.sibnet.ru/shell.php?videoid=4753154",
+          "https://video.sibnet.ru/shell.php?videoid=4753160",
+          "https://video.sibnet.ru/shell.php?videoid=4753255",
+          "https://video.sibnet.ru/shell.php?videoid=4753169"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4752953",
+        "https://video.sibnet.ru/shell.php?videoid=4752955",
+        "https://video.sibnet.ru/shell.php?videoid=4752957",
+        "https://video.sibnet.ru/shell.php?videoid=4752958",
+        "https://video.sibnet.ru/shell.php?videoid=4752964"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Love Live! Sunshine!!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/love-live-sunshine.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5052235",
+          "https://video.sibnet.ru/shell.php?videoid=5052237",
+          "https://video.sibnet.ru/shell.php?videoid=5052240",
+          "https://video.sibnet.ru/shell.php?videoid=5052243",
+          "https://video.sibnet.ru/shell.php?videoid=5052246",
+          "https://video.sibnet.ru/shell.php?videoid=5052248",
+          "https://video.sibnet.ru/shell.php?videoid=5052251",
+          "https://video.sibnet.ru/shell.php?videoid=5052254",
+          "https://video.sibnet.ru/shell.php?videoid=5052255",
+          "https://video.sibnet.ru/shell.php?videoid=5052259",
+          "https://video.sibnet.ru/shell.php?videoid=5052260",
+          "https://video.sibnet.ru/shell.php?videoid=5052262",
+          "https://video.sibnet.ru/shell.php?videoid=5052265"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5052269",
+          "https://video.sibnet.ru/shell.php?videoid=5052272",
+          "https://video.sibnet.ru/shell.php?videoid=5052273",
+          "https://video.sibnet.ru/shell.php?videoid=5052274",
+          "https://video.sibnet.ru/shell.php?videoid=5052275",
+          "https://video.sibnet.ru/shell.php?videoid=5052276",
+          "https://video.sibnet.ru/shell.php?videoid=5052278",
+          "https://video.sibnet.ru/shell.php?videoid=5052279",
+          "https://video.sibnet.ru/shell.php?videoid=5052281",
+          "https://video.sibnet.ru/shell.php?videoid=5052283",
+          "https://video.sibnet.ru/shell.php?videoid=5052287",
+          "https://video.sibnet.ru/shell.php?videoid=5052289",
+          "https://video.sibnet.ru/shell.php?videoid=5052291"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

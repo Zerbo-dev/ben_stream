@@ -1,0 +1,31 @@
+{
+  "name": "Les quatre frères Yuzuki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/les-quatre-freres-yuzuki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5273958",
+          "https://video.sibnet.ru/shell.php?videoid=5277602",
+          "https://video.sibnet.ru/shell.php?videoid=5287919",
+          "https://video.sibnet.ru/shell.php?videoid=5297893",
+          "https://video.sibnet.ru/shell.php?videoid=5305985",
+          "https://video.sibnet.ru/shell.php?videoid=5313932",
+          "https://video.sibnet.ru/shell.php?videoid=5324397",
+          "https://video.sibnet.ru/shell.php?videoid=5334491",
+          "https://video.sibnet.ru/shell.php?videoid=5345589",
+          "https://video.sibnet.ru/shell.php?videoid=5355077",
+          "https://video.sibnet.ru/shell.php?videoid=5364056",
+          "https://video.sibnet.ru/shell.php?videoid=5372174"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

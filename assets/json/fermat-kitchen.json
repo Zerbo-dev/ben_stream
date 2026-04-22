@@ -1,0 +1,31 @@
+{
+  "name": "Fermat Kitchen",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/fermat-kitchen.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5956065",
+          "https://video.sibnet.ru/shell.php?videoid=5961900",
+          "https://video.sibnet.ru/shell.php?videoid=5968836"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

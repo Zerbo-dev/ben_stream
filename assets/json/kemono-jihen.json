@@ -1,0 +1,31 @@
+{
+  "name": "Kemono Jihen",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kemono-jihen.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4211721",
+          "https://video.sibnet.ru/shell.php?videoid=4211722",
+          "https://video.sibnet.ru/shell.php?videoid=4215821",
+          "https://video.sibnet.ru/shell.php?videoid=4221958",
+          "https://video.sibnet.ru/shell.php?videoid=4227576",
+          "https://video.sibnet.ru/shell.php?videoid=4232814",
+          "https://video.sibnet.ru/shell.php?videoid=4241855",
+          "https://video.sibnet.ru/shell.php?videoid=4248758",
+          "https://video.sibnet.ru/shell.php?videoid=4255210",
+          "https://video.sibnet.ru/shell.php?videoid=4261155",
+          "https://video.sibnet.ru/shell.php?videoid=4266460",
+          "https://video.sibnet.ru/shell.php?videoid=4278399"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Uglymug, Epicfighter",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/uglymug-epicfighter.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5956068",
+          "https://video.sibnet.ru/shell.php?videoid=5963160",
+          "https://video.sibnet.ru/shell.php?videoid=5970145"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

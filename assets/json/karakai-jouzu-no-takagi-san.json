@@ -1,0 +1,61 @@
+{
+  "name": "Karakai Jouzu no Takagi-san",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/karakai-jouzu-no-takagi-san.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4692539",
+          "https://video.sibnet.ru/shell.php?videoid=4692541",
+          "https://video.sibnet.ru/shell.php?videoid=4692542",
+          "https://video.sibnet.ru/shell.php?videoid=4692544",
+          "https://video.sibnet.ru/shell.php?videoid=4692545",
+          "https://video.sibnet.ru/shell.php?videoid=4692546",
+          "https://video.sibnet.ru/shell.php?videoid=4692548",
+          "https://video.sibnet.ru/shell.php?videoid=4692551",
+          "https://video.sibnet.ru/shell.php?videoid=4692554",
+          "https://video.sibnet.ru/shell.php?videoid=4692557",
+          "https://video.sibnet.ru/shell.php?videoid=4692560",
+          "https://video.sibnet.ru/shell.php?videoid=4692562"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=3648600",
+          "https://video.sibnet.ru/shell.php?videoid=3661568",
+          "https://video.sibnet.ru/shell.php?videoid=3661940",
+          "https://video.sibnet.ru/shell.php?videoid=3668877",
+          "https://video.sibnet.ru/shell.php?videoid=3684146",
+          "https://video.sibnet.ru/shell.php?videoid=3684121",
+          "https://video.sibnet.ru/shell.php?videoid=3684939",
+          "https://video.sibnet.ru/shell.php?videoid=3690533",
+          "https://video.sibnet.ru/shell.php?videoid=3697549",
+          "https://video.sibnet.ru/shell.php?videoid=3698903",
+          "https://video.sibnet.ru/shell.php?videoid=3704168",
+          "https://video.sibnet.ru/shell.php?videoid=3708221"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4712164",
+          "https://video.sibnet.ru/shell.php?videoid=4692564",
+          "https://video.sibnet.ru/shell.php?videoid=4692568",
+          "https://video.sibnet.ru/shell.php?videoid=4692569",
+          "https://video.sibnet.ru/shell.php?videoid=4692571",
+          "https://video.sibnet.ru/shell.php?videoid=4692574",
+          "https://video.sibnet.ru/shell.php?videoid=4692575",
+          "https://video.sibnet.ru/shell.php?videoid=4692578",
+          "https://video.sibnet.ru/shell.php?videoid=4692580",
+          "https://video.sibnet.ru/shell.php?videoid=4692583",
+          "https://video.sibnet.ru/shell.php?videoid=4692586",
+          "https://video.sibnet.ru/shell.php?videoid=4692588"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5300796"
+      ],
+      "oav": []
+    }
+  }
+}

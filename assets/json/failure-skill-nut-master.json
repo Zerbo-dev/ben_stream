@@ -1,0 +1,40 @@
+{
+  "name": "Failure Skill 'Nut Master'",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/failure-skill-nut-master.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5787656",
+          "https://video.sibnet.ru/shell.php?videoid=5792535",
+          "https://video.sibnet.ru/shell.php?videoid=5798344",
+          "https://video.sibnet.ru/shell.php?videoid=5803873",
+          "https://video.sibnet.ru/shell.php?videoid=5808403",
+          "https://video.sibnet.ru/shell.php?videoid=5814675",
+          "https://video.sibnet.ru/shell.php?videoid=5821800",
+          "https://video.sibnet.ru/shell.php?videoid=5828273",
+          "https://video.sibnet.ru/shell.php?videoid=5836040",
+          "https://video.sibnet.ru/shell.php?videoid=5842129",
+          "https://video.sibnet.ru/shell.php?videoid=5848231",
+          "https://video.sibnet.ru/shell.php?videoid=5854110"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

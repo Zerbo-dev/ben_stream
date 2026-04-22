@@ -1,0 +1,31 @@
+{
+  "name": "Futari Solo Camp",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/futari-solo-camp.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5959683",
+          "https://video.sibnet.ru/shell.php?videoid=5966928",
+          "https://video.sibnet.ru/shell.php?videoid=5973779"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

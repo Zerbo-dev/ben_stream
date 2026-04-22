@@ -1,0 +1,20 @@
+{
+  "name": "Ponyo sur la falaise",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ponyo-sur-la-falaise.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4960860"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5343984"
+      ],
+      "oav": []
+    }
+  }
+}

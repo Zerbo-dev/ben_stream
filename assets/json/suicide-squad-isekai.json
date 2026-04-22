@@ -1,0 +1,42 @@
+{
+  "name": "Suicide Squad ISEKAI",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/suicide-squad-isekai.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5649499",
+          "https://video.sibnet.ru/shell.php?videoid=5649503",
+          "https://video.sibnet.ru/shell.php?videoid=5649506",
+          "https://video.sibnet.ru/shell.php?videoid=5649507",
+          "https://video.sibnet.ru/shell.php?videoid=5649510",
+          "https://video.sibnet.ru/shell.php?videoid=5649513",
+          "https://video.sibnet.ru/shell.php?videoid=5649515",
+          "https://video.sibnet.ru/shell.php?videoid=5649518",
+          "https://video.sibnet.ru/shell.php?videoid=5649521",
+          "https://video.sibnet.ru/shell.php?videoid=5649523"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5576918",
+          "https://video.sibnet.ru/shell.php?videoid=5576922",
+          "https://video.sibnet.ru/shell.php?videoid=5576923",
+          "https://video.sibnet.ru/shell.php?videoid=5584962",
+          "https://video.sibnet.ru/shell.php?videoid=5592797",
+          "https://video.sibnet.ru/shell.php?videoid=5600406",
+          "https://video.sibnet.ru/shell.php?videoid=5609042",
+          "https://video.sibnet.ru/shell.php?videoid=5616929",
+          "https://video.sibnet.ru/shell.php?videoid=5626190",
+          "https://video.sibnet.ru/shell.php?videoid=5637437"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

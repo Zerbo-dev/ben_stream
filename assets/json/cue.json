@@ -1,0 +1,43 @@
+{
+  "name": "Cue!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cue.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5036713",
+          "https://video.sibnet.ru/shell.php?videoid=5036714",
+          "https://video.sibnet.ru/shell.php?videoid=5036715",
+          "https://video.sibnet.ru/shell.php?videoid=5036716",
+          "https://video.sibnet.ru/shell.php?videoid=5036717",
+          "https://video.sibnet.ru/shell.php?videoid=5036718",
+          "https://video.sibnet.ru/shell.php?videoid=5036720",
+          "https://video.sibnet.ru/shell.php?videoid=5036722",
+          "https://video.sibnet.ru/shell.php?videoid=5036724",
+          "https://video.sibnet.ru/shell.php?videoid=5036726",
+          "https://video.sibnet.ru/shell.php?videoid=5036729",
+          "https://video.sibnet.ru/shell.php?videoid=5036732",
+          "https://video.sibnet.ru/shell.php?videoid=5036734",
+          "https://video.sibnet.ru/shell.php?videoid=5036736",
+          "https://video.sibnet.ru/shell.php?videoid=5036737",
+          "https://video.sibnet.ru/shell.php?videoid=5036741",
+          "https://video.sibnet.ru/shell.php?videoid=5036742",
+          "https://video.sibnet.ru/shell.php?videoid=5036744",
+          "https://video.sibnet.ru/shell.php?videoid=5036748",
+          "https://video.sibnet.ru/shell.php?videoid=5036749",
+          "https://video.sibnet.ru/shell.php?videoid=5036751",
+          "https://video.sibnet.ru/shell.php?videoid=5036753",
+          "https://video.sibnet.ru/shell.php?videoid=5036755",
+          "https://video.sibnet.ru/shell.php?videoid=5036756"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

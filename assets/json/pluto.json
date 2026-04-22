@@ -1,0 +1,38 @@
+{
+  "name": "Pluto",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/pluto.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5297667",
+          "https://video.sibnet.ru/shell.php?videoid=5297669",
+          "https://video.sibnet.ru/shell.php?videoid=5297672",
+          "https://video.sibnet.ru/shell.php?videoid=5297673",
+          "https://video.sibnet.ru/shell.php?videoid=5297676",
+          "https://video.sibnet.ru/shell.php?videoid=5297678",
+          "https://video.sibnet.ru/shell.php?videoid=5297680",
+          "https://video.sibnet.ru/shell.php?videoid=5297683"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5297537",
+          "https://video.sibnet.ru/shell.php?videoid=5297540",
+          "https://video.sibnet.ru/shell.php?videoid=5297542",
+          "https://video.sibnet.ru/shell.php?videoid=5297544",
+          "https://video.sibnet.ru/shell.php?videoid=5297546",
+          "https://video.sibnet.ru/shell.php?videoid=5297549",
+          "https://video.sibnet.ru/shell.php?videoid=5297551",
+          "https://video.sibnet.ru/shell.php?videoid=5297552"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Paranoia Agent",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/paranoia-agent.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4776817",
+          "https://video.sibnet.ru/shell.php?videoid=4776819",
+          "https://video.sibnet.ru/shell.php?videoid=4776822",
+          "https://video.sibnet.ru/shell.php?videoid=4776824",
+          "https://video.sibnet.ru/shell.php?videoid=4776825",
+          "https://video.sibnet.ru/shell.php?videoid=4776827",
+          "https://video.sibnet.ru/shell.php?videoid=4776829",
+          "https://video.sibnet.ru/shell.php?videoid=4776832",
+          "https://video.sibnet.ru/shell.php?videoid=4776833",
+          "https://video.sibnet.ru/shell.php?videoid=4776837",
+          "https://video.sibnet.ru/shell.php?videoid=4776840",
+          "https://video.sibnet.ru/shell.php?videoid=4776843",
+          "https://video.sibnet.ru/shell.php?videoid=4776844"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4776788",
+          "https://video.sibnet.ru/shell.php?videoid=4776789",
+          "https://video.sibnet.ru/shell.php?videoid=4776790",
+          "https://video.sibnet.ru/shell.php?videoid=4776791",
+          "https://video.sibnet.ru/shell.php?videoid=4776792",
+          "https://video.sibnet.ru/shell.php?videoid=4776793",
+          "https://video.sibnet.ru/shell.php?videoid=4776795",
+          "https://video.sibnet.ru/shell.php?videoid=4776798",
+          "https://video.sibnet.ru/shell.php?videoid=4776801",
+          "https://video.sibnet.ru/shell.php?videoid=4776806",
+          "https://video.sibnet.ru/shell.php?videoid=4776809",
+          "https://video.sibnet.ru/shell.php?videoid=4776810",
+          "https://video.sibnet.ru/shell.php?videoid=4776811"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

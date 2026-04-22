@@ -1,0 +1,47 @@
+{
+  "name": "Terra Formars",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/terra-formars.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4813232",
+          "https://video.sibnet.ru/shell.php?videoid=4813237",
+          "https://video.sibnet.ru/shell.php?videoid=4813249",
+          "https://video.sibnet.ru/shell.php?videoid=4813252",
+          "https://video.sibnet.ru/shell.php?videoid=4813260",
+          "https://video.sibnet.ru/shell.php?videoid=4813269",
+          "https://video.sibnet.ru/shell.php?videoid=4813275",
+          "https://video.sibnet.ru/shell.php?videoid=4813283",
+          "https://video.sibnet.ru/shell.php?videoid=4813285",
+          "https://video.sibnet.ru/shell.php?videoid=4813289",
+          "https://video.sibnet.ru/shell.php?videoid=4813295",
+          "https://video.sibnet.ru/shell.php?videoid=4813300",
+          "https://video.sibnet.ru/shell.php?videoid=4813304"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4813308",
+          "https://video.sibnet.ru/shell.php?videoid=4813313",
+          "https://video.sibnet.ru/shell.php?videoid=4813318",
+          "https://video.sibnet.ru/shell.php?videoid=4813319",
+          "https://video.sibnet.ru/shell.php?videoid=4813320",
+          "https://video.sibnet.ru/shell.php?videoid=4813321",
+          "https://video.sibnet.ru/shell.php?videoid=4813322",
+          "https://video.sibnet.ru/shell.php?videoid=4813325",
+          "https://video.sibnet.ru/shell.php?videoid=4813326",
+          "https://video.sibnet.ru/shell.php?videoid=4813328",
+          "https://video.sibnet.ru/shell.php?videoid=4813330",
+          "https://video.sibnet.ru/shell.php?videoid=4813331",
+          "https://video.sibnet.ru/shell.php?videoid=4813344"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "The Dreaming Boy is a Realist",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-dreaming-boy-is-a-realist.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5191252",
+          "https://video.sibnet.ru/shell.php?videoid=5194171",
+          "https://video.sibnet.ru/shell.php?videoid=5200579",
+          "https://video.sibnet.ru/shell.php?videoid=5206869",
+          "https://video.sibnet.ru/shell.php?videoid=5214000",
+          "https://video.sibnet.ru/shell.php?videoid=5221382",
+          "https://video.sibnet.ru/shell.php?videoid=5236286"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

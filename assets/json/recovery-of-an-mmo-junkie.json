@@ -1,0 +1,46 @@
+{
+  "name": "Recovery of an MMO Junkie",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/recovery-of-an-mmo-junkie.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4936779",
+          "https://video.sibnet.ru/shell.php?videoid=4936781",
+          "https://video.sibnet.ru/shell.php?videoid=4936782",
+          "https://video.sibnet.ru/shell.php?videoid=4936784",
+          "https://video.sibnet.ru/shell.php?videoid=4936785",
+          "https://video.sibnet.ru/shell.php?videoid=4936786",
+          "https://video.sibnet.ru/shell.php?videoid=4936789",
+          "https://video.sibnet.ru/shell.php?videoid=4936790",
+          "https://video.sibnet.ru/shell.php?videoid=4936791",
+          "https://video.sibnet.ru/shell.php?videoid=4936792"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4936793"
+      ]
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4935387",
+          "https://video.sibnet.ru/shell.php?videoid=4935388",
+          "https://video.sibnet.ru/shell.php?videoid=4935389",
+          "https://video.sibnet.ru/shell.php?videoid=4935392",
+          "https://video.sibnet.ru/shell.php?videoid=4935393",
+          "https://video.sibnet.ru/shell.php?videoid=4935396",
+          "https://video.sibnet.ru/shell.php?videoid=4935400",
+          "https://video.sibnet.ru/shell.php?videoid=4935402",
+          "https://video.sibnet.ru/shell.php?videoid=4935405",
+          "https://video.sibnet.ru/shell.php?videoid=4935412"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4935416"
+      ]
+    }
+  }
+}

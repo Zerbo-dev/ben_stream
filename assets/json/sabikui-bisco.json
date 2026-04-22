@@ -1,0 +1,46 @@
+{
+  "name": "Sabikui Bisco",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sabikui-bisco.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4579797",
+          "https://video.sibnet.ru/shell.php?videoid=4586763",
+          "https://video.sibnet.ru/shell.php?videoid=4593319",
+          "https://video.sibnet.ru/shell.php?videoid=4605577",
+          "https://video.sibnet.ru/shell.php?videoid=4605576",
+          "https://video.sibnet.ru/shell.php?videoid=4611959",
+          "https://video.sibnet.ru/shell.php?videoid=4622181",
+          "https://video.sibnet.ru/shell.php?videoid=4635338",
+          "https://video.sibnet.ru/shell.php?videoid=4635337",
+          "https://video.sibnet.ru/shell.php?videoid=4644183",
+          "https://video.sibnet.ru/shell.php?videoid=4651701",
+          "https://video.sibnet.ru/shell.php?videoid=4658662"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4571213",
+          "https://video.sibnet.ru/shell.php?videoid=4579551",
+          "https://video.sibnet.ru/shell.php?videoid=4586604",
+          "https://video.sibnet.ru/shell.php?videoid=4593169",
+          "https://video.sibnet.ru/shell.php?videoid=4599543",
+          "https://video.sibnet.ru/shell.php?videoid=4605467",
+          "https://video.sibnet.ru/shell.php?videoid=4611859",
+          "https://video.sibnet.ru/shell.php?videoid=4620631",
+          "https://video.sibnet.ru/shell.php?videoid=4628333",
+          "https://video.sibnet.ru/shell.php?videoid=4635156",
+          "https://video.sibnet.ru/shell.php?videoid=4644012",
+          "https://video.sibnet.ru/shell.php?videoid=4650880"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

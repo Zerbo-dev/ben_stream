@@ -1,0 +1,46 @@
+{
+  "name": "Sentouin, Hakenshimasu!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sentouin-hakenshimasu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5046392",
+          "https://video.sibnet.ru/shell.php?videoid=5046396",
+          "https://video.sibnet.ru/shell.php?videoid=5046398",
+          "https://video.sibnet.ru/shell.php?videoid=5046400",
+          "https://video.sibnet.ru/shell.php?videoid=5046401",
+          "https://video.sibnet.ru/shell.php?videoid=5046402",
+          "https://video.sibnet.ru/shell.php?videoid=5046403",
+          "https://video.sibnet.ru/shell.php?videoid=5046404",
+          "https://video.sibnet.ru/shell.php?videoid=5046407",
+          "https://video.sibnet.ru/shell.php?videoid=5046411",
+          "https://video.sibnet.ru/shell.php?videoid=5046412",
+          "https://video.sibnet.ru/shell.php?videoid=5046415"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4993794",
+          "https://video.sibnet.ru/shell.php?videoid=4993795",
+          "https://video.sibnet.ru/shell.php?videoid=4993796",
+          "https://video.sibnet.ru/shell.php?videoid=4993797",
+          "https://video.sibnet.ru/shell.php?videoid=4993798",
+          "https://video.sibnet.ru/shell.php?videoid=4993799",
+          "https://video.sibnet.ru/shell.php?videoid=4993800",
+          "https://video.sibnet.ru/shell.php?videoid=4993801",
+          "https://video.sibnet.ru/shell.php?videoid=4993802",
+          "https://video.sibnet.ru/shell.php?videoid=4993803",
+          "https://video.sibnet.ru/shell.php?videoid=4993804",
+          "https://video.sibnet.ru/shell.php?videoid=4993806"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

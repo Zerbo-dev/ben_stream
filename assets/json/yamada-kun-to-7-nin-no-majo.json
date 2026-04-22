@@ -1,0 +1,46 @@
+{
+  "name": "Yamada-kun to 7-nin no Majo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/yamada-kun-to-7-nin-no-majo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3138513",
+          "https://video.sibnet.ru/shell.php?videoid=3138514",
+          "https://video.sibnet.ru/shell.php?videoid=3138516",
+          "https://video.sibnet.ru/shell.php?videoid=3138531",
+          "https://video.sibnet.ru/shell.php?videoid=3138542",
+          "https://video.sibnet.ru/shell.php?videoid=3138544",
+          "https://video.sibnet.ru/shell.php?videoid=3138545",
+          "https://video.sibnet.ru/shell.php?videoid=3138546",
+          "https://video.sibnet.ru/shell.php?videoid=3138547",
+          "https://video.sibnet.ru/shell.php?videoid=3138549",
+          "https://video.sibnet.ru/shell.php?videoid=3138578",
+          "https://video.sibnet.ru/shell.php?videoid=3138593"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4721356",
+          "https://video.sibnet.ru/shell.php?videoid=4721361",
+          "https://video.sibnet.ru/shell.php?videoid=4721369",
+          "https://video.sibnet.ru/shell.php?videoid=4721373",
+          "https://video.sibnet.ru/shell.php?videoid=4721381",
+          "https://video.sibnet.ru/shell.php?videoid=4721384",
+          "https://video.sibnet.ru/shell.php?videoid=4721390",
+          "https://video.sibnet.ru/shell.php?videoid=4721392",
+          "https://video.sibnet.ru/shell.php?videoid=4721395",
+          "https://video.sibnet.ru/shell.php?videoid=4721397",
+          "https://video.sibnet.ru/shell.php?videoid=4721403",
+          "https://video.sibnet.ru/shell.php?videoid=4721408"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

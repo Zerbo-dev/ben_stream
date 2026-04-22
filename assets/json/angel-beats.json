@@ -1,0 +1,49 @@
+{
+  "name": "Angel Beats",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/angel-beats.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5385560",
+          "https://video.sibnet.ru/shell.php?videoid=5385562",
+          "https://video.sibnet.ru/shell.php?videoid=5385564",
+          "https://video.sibnet.ru/shell.php?videoid=5385565",
+          "https://video.sibnet.ru/shell.php?videoid=5385567",
+          "https://video.sibnet.ru/shell.php?videoid=5385569",
+          "https://video.sibnet.ru/shell.php?videoid=5385571",
+          "https://video.sibnet.ru/shell.php?videoid=5385575",
+          "https://video.sibnet.ru/shell.php?videoid=5385579",
+          "https://video.sibnet.ru/shell.php?videoid=5385582",
+          "https://video.sibnet.ru/shell.php?videoid=5385584",
+          "https://video.sibnet.ru/shell.php?videoid=5385587"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5385589"
+      ]
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4731007",
+          "https://video.sibnet.ru/shell.php?videoid=4731011",
+          "https://video.sibnet.ru/shell.php?videoid=4731022",
+          "https://video.sibnet.ru/shell.php?videoid=4731025",
+          "https://video.sibnet.ru/shell.php?videoid=4731029",
+          "https://video.sibnet.ru/shell.php?videoid=4731032",
+          "https://video.sibnet.ru/shell.php?videoid=4731036",
+          "https://video.sibnet.ru/shell.php?videoid=4731041",
+          "https://video.sibnet.ru/shell.php?videoid=4731043",
+          "https://video.sibnet.ru/shell.php?videoid=4731045",
+          "https://video.sibnet.ru/shell.php?videoid=4731049",
+          "https://video.sibnet.ru/shell.php?videoid=4731051",
+          "https://video.sibnet.ru/shell.php?videoid=4731053"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Loner Life in Another World",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/loner-life-in-another-world.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5938055",
+          "https://video.sibnet.ru/shell.php?videoid=5938057",
+          "https://video.sibnet.ru/shell.php?videoid=5938061",
+          "https://video.sibnet.ru/shell.php?videoid=5938064",
+          "https://video.sibnet.ru/shell.php?videoid=5938067",
+          "https://video.sibnet.ru/shell.php?videoid=5938070",
+          "https://video.sibnet.ru/shell.php?videoid=5938074",
+          "https://video.sibnet.ru/shell.php?videoid=5938077",
+          "https://video.sibnet.ru/shell.php?videoid=5938081",
+          "https://video.sibnet.ru/shell.php?videoid=5938085",
+          "https://video.sibnet.ru/shell.php?videoid=5938086",
+          "https://video.sibnet.ru/shell.php?videoid=5938089"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5692263",
+          "https://video.sibnet.ru/shell.php?videoid=5700576",
+          "https://video.sibnet.ru/shell.php?videoid=5710625",
+          "https://video.sibnet.ru/shell.php?videoid=5719110",
+          "https://video.sibnet.ru/shell.php?videoid=5728282",
+          "https://video.sibnet.ru/shell.php?videoid=5736932",
+          "https://video.sibnet.ru/shell.php?videoid=5744127",
+          "https://video.sibnet.ru/shell.php?videoid=5751362",
+          "https://video.sibnet.ru/shell.php?videoid=5758316",
+          "https://video.sibnet.ru/shell.php?videoid=5764326",
+          "https://video.sibnet.ru/shell.php?videoid=5768498",
+          "https://video.sibnet.ru/shell.php?videoid=5772445"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

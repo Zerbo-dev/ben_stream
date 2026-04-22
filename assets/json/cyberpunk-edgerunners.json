@@ -1,0 +1,42 @@
+{
+  "name": "Cyberpunk : Edgerunners",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cyberpunk-edgerunners.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4872758",
+          "https://video.sibnet.ru/shell.php?videoid=4872759",
+          "https://video.sibnet.ru/shell.php?videoid=4872761",
+          "https://video.sibnet.ru/shell.php?videoid=4872763",
+          "https://video.sibnet.ru/shell.php?videoid=4872765",
+          "https://video.sibnet.ru/shell.php?videoid=4872766",
+          "https://video.sibnet.ru/shell.php?videoid=4872768",
+          "https://video.sibnet.ru/shell.php?videoid=4872769",
+          "https://video.sibnet.ru/shell.php?videoid=4872770",
+          "https://video.sibnet.ru/shell.php?videoid=4872771"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4870389",
+          "https://video.sibnet.ru/shell.php?videoid=4870391",
+          "https://video.sibnet.ru/shell.php?videoid=4870392",
+          "https://video.sibnet.ru/shell.php?videoid=4870395",
+          "https://video.sibnet.ru/shell.php?videoid=4870396",
+          "https://video.sibnet.ru/shell.php?videoid=4870398",
+          "https://video.sibnet.ru/shell.php?videoid=4870400",
+          "https://video.sibnet.ru/shell.php?videoid=4870402",
+          "https://video.sibnet.ru/shell.php?videoid=4870403",
+          "https://video.sibnet.ru/shell.php?videoid=4870404"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

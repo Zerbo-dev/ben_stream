@@ -1,0 +1,45 @@
+{
+  "name": "Kanojo mo Kanojo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kanojo-mo-kanojo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4344603",
+          "https://video.sibnet.ru/shell.php?videoid=4351360",
+          "https://video.sibnet.ru/shell.php?videoid=4359989",
+          "https://video.sibnet.ru/shell.php?videoid=4366501",
+          "https://video.sibnet.ru/shell.php?videoid=4374373",
+          "https://video.sibnet.ru/shell.php?videoid=4379662",
+          "https://video.sibnet.ru/shell.php?videoid=4385803",
+          "https://video.sibnet.ru/shell.php?videoid=4392617",
+          "https://video.sibnet.ru/shell.php?videoid=4399035",
+          "https://video.sibnet.ru/shell.php?videoid=4406163",
+          "https://video.sibnet.ru/shell.php?videoid=4413038",
+          "https://video.sibnet.ru/shell.php?videoid=4419009"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5270508",
+          "https://video.sibnet.ru/shell.php?videoid=5279869",
+          "https://video.sibnet.ru/shell.php?videoid=5289282",
+          "https://video.sibnet.ru/shell.php?videoid=5299294",
+          "https://video.sibnet.ru/shell.php?videoid=5307308",
+          "https://video.sibnet.ru/shell.php?videoid=5315832",
+          "https://video.sibnet.ru/shell.php?videoid=5326109",
+          "https://video.sibnet.ru/shell.php?videoid=5336071",
+          "https://video.sibnet.ru/shell.php?videoid=5347046",
+          "https://video.sibnet.ru/shell.php?videoid=5356864",
+          "https://video.sibnet.ru/shell.php?videoid=5365627",
+          "https://video.sibnet.ru/shell.php?videoid=5373636"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

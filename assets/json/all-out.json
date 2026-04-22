@@ -1,0 +1,72 @@
+{
+  "name": "All Out",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/all-out.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5359767",
+          "https://video.sibnet.ru/shell.php?videoid=5359768",
+          "https://video.sibnet.ru/shell.php?videoid=5359771",
+          "https://video.sibnet.ru/shell.php?videoid=5359773",
+          "https://video.sibnet.ru/shell.php?videoid=5359774",
+          "https://video.sibnet.ru/shell.php?videoid=5359776",
+          "https://video.sibnet.ru/shell.php?videoid=5359777",
+          "https://video.sibnet.ru/shell.php?videoid=5359778",
+          "https://video.sibnet.ru/shell.php?videoid=5359780",
+          "https://video.sibnet.ru/shell.php?videoid=5359782",
+          "https://video.sibnet.ru/shell.php?videoid=5359783",
+          "https://video.sibnet.ru/shell.php?videoid=5359786",
+          "https://video.sibnet.ru/shell.php?videoid=5359788",
+          "https://video.sibnet.ru/shell.php?videoid=5359789",
+          "https://video.sibnet.ru/shell.php?videoid=5359791",
+          "https://video.sibnet.ru/shell.php?videoid=5359792",
+          "https://video.sibnet.ru/shell.php?videoid=5359795",
+          "https://video.sibnet.ru/shell.php?videoid=5359796",
+          "https://video.sibnet.ru/shell.php?videoid=5359798",
+          "https://video.sibnet.ru/shell.php?videoid=5359799",
+          "https://video.sibnet.ru/shell.php?videoid=5359800",
+          "https://video.sibnet.ru/shell.php?videoid=5359801",
+          "https://video.sibnet.ru/shell.php?videoid=5359804",
+          "https://video.sibnet.ru/shell.php?videoid=5359805",
+          "https://video.sibnet.ru/shell.php?videoid=5359807"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4757322",
+          "https://video.sibnet.ru/shell.php?videoid=4757331",
+          "https://video.sibnet.ru/shell.php?videoid=4757332",
+          "https://video.sibnet.ru/shell.php?videoid=4757334",
+          "https://video.sibnet.ru/shell.php?videoid=4757335",
+          "https://video.sibnet.ru/shell.php?videoid=4757336",
+          "https://video.sibnet.ru/shell.php?videoid=4757337",
+          "https://video.sibnet.ru/shell.php?videoid=4757339",
+          "https://video.sibnet.ru/shell.php?videoid=4757340",
+          "https://video.sibnet.ru/shell.php?videoid=4757341",
+          "https://video.sibnet.ru/shell.php?videoid=4757342",
+          "https://video.sibnet.ru/shell.php?videoid=4757344",
+          "https://video.sibnet.ru/shell.php?videoid=4757345",
+          "https://video.sibnet.ru/shell.php?videoid=4757347",
+          "https://video.sibnet.ru/shell.php?videoid=4757348",
+          "https://video.sibnet.ru/shell.php?videoid=4757352",
+          "https://video.sibnet.ru/shell.php?videoid=4757354",
+          "https://video.sibnet.ru/shell.php?videoid=4757357",
+          "https://video.sibnet.ru/shell.php?videoid=4757361",
+          "https://video.sibnet.ru/shell.php?videoid=4757364",
+          "https://video.sibnet.ru/shell.php?videoid=4757365",
+          "https://video.sibnet.ru/shell.php?videoid=4757368",
+          "https://video.sibnet.ru/shell.php?videoid=4757371",
+          "https://video.sibnet.ru/shell.php?videoid=4757373",
+          "https://video.sibnet.ru/shell.php?videoid=4757377"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

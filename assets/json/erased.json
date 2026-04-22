@@ -1,0 +1,29 @@
+{
+  "name": "Erased",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/erased.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4886064",
+          "https://video.sibnet.ru/shell.php?videoid=4886068",
+          "https://video.sibnet.ru/shell.php?videoid=4886071",
+          "https://video.sibnet.ru/shell.php?videoid=4886073",
+          "https://video.sibnet.ru/shell.php?videoid=4886076",
+          "https://video.sibnet.ru/shell.php?videoid=4886078",
+          "https://video.sibnet.ru/shell.php?videoid=4886081",
+          "https://video.sibnet.ru/shell.php?videoid=4886084",
+          "https://video.sibnet.ru/shell.php?videoid=4886086",
+          "https://video.sibnet.ru/shell.php?videoid=4886088"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Bye Bye, Earth",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/bye-bye-earth.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5594546",
+          "https://video.sibnet.ru/shell.php?videoid=5602058",
+          "https://video.sibnet.ru/shell.php?videoid=5610176",
+          "https://video.sibnet.ru/shell.php?videoid=5618340",
+          "https://video.sibnet.ru/shell.php?videoid=5628711",
+          "https://video.sibnet.ru/shell.php?videoid=5638947",
+          "https://video.sibnet.ru/shell.php?videoid=5649753",
+          "https://video.sibnet.ru/shell.php?videoid=5657261",
+          "https://video.sibnet.ru/shell.php?videoid=5665751",
+          "https://video.sibnet.ru/shell.php?videoid=5674969"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5868025",
+          "https://video.sibnet.ru/shell.php?videoid=5875638",
+          "https://video.sibnet.ru/shell.php?videoid=5884023",
+          "https://video.sibnet.ru/shell.php?videoid=5891760",
+          "https://video.sibnet.ru/shell.php?videoid=5899114",
+          "https://video.sibnet.ru/shell.php?videoid=5906528",
+          "https://video.sibnet.ru/shell.php?videoid=5913183",
+          "https://video.sibnet.ru/shell.php?videoid=5919685",
+          "https://video.sibnet.ru/shell.php?videoid=5925322",
+          "https://video.sibnet.ru/shell.php?videoid=5930441"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

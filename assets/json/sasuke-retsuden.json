@@ -1,0 +1,24 @@
+{
+  "name": "Sasuke Retsuden",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sasuke-retsuden.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5002585",
+          "https://video.sibnet.ru/shell.php?videoid=5009949",
+          "https://video.sibnet.ru/shell.php?videoid=5016724",
+          "https://video.sibnet.ru/shell.php?videoid=5025156",
+          "https://video.sibnet.ru/shell.php?videoid=5032089"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

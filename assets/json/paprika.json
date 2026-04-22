@@ -1,0 +1,20 @@
+{
+  "name": "Paprika",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/paprika.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093213"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093217"
+      ],
+      "oav": []
+    }
+  }
+}

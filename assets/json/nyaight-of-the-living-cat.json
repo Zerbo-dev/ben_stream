@@ -1,0 +1,31 @@
+{
+  "name": "Nyaight of the Living Cat",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/nyaight-of-the-living-cat.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5956067",
+          "https://video.sibnet.ru/shell.php?videoid=5963102",
+          "https://video.sibnet.ru/shell.php?videoid=5970053"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

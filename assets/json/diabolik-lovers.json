@@ -1,0 +1,46 @@
+{
+  "name": "Diabolik Lovers",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/diabolik-lovers.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943580",
+          "https://video.sibnet.ru/shell.php?videoid=4943585",
+          "https://video.sibnet.ru/shell.php?videoid=4943589",
+          "https://video.sibnet.ru/shell.php?videoid=4943593",
+          "https://video.sibnet.ru/shell.php?videoid=4943595",
+          "https://video.sibnet.ru/shell.php?videoid=4943604",
+          "https://video.sibnet.ru/shell.php?videoid=4943598",
+          "https://video.sibnet.ru/shell.php?videoid=4943606",
+          "https://video.sibnet.ru/shell.php?videoid=4943609",
+          "https://video.sibnet.ru/shell.php?videoid=4943612",
+          "https://video.sibnet.ru/shell.php?videoid=4943615",
+          "https://video.sibnet.ru/shell.php?videoid=4943616",
+          "https://video.sibnet.ru/shell.php?videoid=4943617"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5841801",
+          "https://video.sibnet.ru/shell.php?videoid=5841802",
+          "https://video.sibnet.ru/shell.php?videoid=5841804",
+          "https://video.sibnet.ru/shell.php?videoid=5841811",
+          "https://video.sibnet.ru/shell.php?videoid=5841812",
+          "https://video.sibnet.ru/shell.php?videoid=5841814",
+          "https://video.sibnet.ru/shell.php?videoid=5841815",
+          "https://video.sibnet.ru/shell.php?videoid=5841816",
+          "https://video.sibnet.ru/shell.php?videoid=5841820",
+          "https://video.sibnet.ru/shell.php?videoid=5841821",
+          "https://video.sibnet.ru/shell.php?videoid=5841822",
+          "https://video.sibnet.ru/shell.php?videoid=5841824"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

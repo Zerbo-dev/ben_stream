@@ -1,0 +1,69 @@
+{
+  "name": "Mushoku Tensei",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/mushoku-tensei.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4671027",
+          "https://video.sibnet.ru/shell.php?videoid=4671030",
+          "https://video.sibnet.ru/shell.php?videoid=4671032",
+          "https://video.sibnet.ru/shell.php?videoid=4671036",
+          "https://video.sibnet.ru/shell.php?videoid=4671038",
+          "https://video.sibnet.ru/shell.php?videoid=4671041",
+          "https://video.sibnet.ru/shell.php?videoid=4671047",
+          "https://video.sibnet.ru/shell.php?videoid=4671052",
+          "https://video.sibnet.ru/shell.php?videoid=4671058",
+          "https://video.sibnet.ru/shell.php?videoid=4671063",
+          "https://video.sibnet.ru/shell.php?videoid=4671068",
+          "https://video.sibnet.ru/shell.php?videoid=4671071",
+          "https://video.sibnet.ru/shell.php?videoid=4671075",
+          "https://video.sibnet.ru/shell.php?videoid=4671078",
+          "https://video.sibnet.ru/shell.php?videoid=4671080",
+          "https://video.sibnet.ru/shell.php?videoid=4671081",
+          "https://video.sibnet.ru/shell.php?videoid=4671084",
+          "https://video.sibnet.ru/shell.php?videoid=4671086",
+          "https://video.sibnet.ru/shell.php?videoid=4671087",
+          "https://video.sibnet.ru/shell.php?videoid=4671088",
+          "https://video.sibnet.ru/shell.php?videoid=4671089",
+          "https://video.sibnet.ru/shell.php?videoid=4671092",
+          "https://video.sibnet.ru/shell.php?videoid=4671095",
+          "https://video.sibnet.ru/shell.php?videoid=5114213"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4670916",
+          "https://video.sibnet.ru/shell.php?videoid=4670917",
+          "https://video.sibnet.ru/shell.php?videoid=4670918",
+          "https://video.sibnet.ru/shell.php?videoid=4670919",
+          "https://video.sibnet.ru/shell.php?videoid=4670920",
+          "https://video.sibnet.ru/shell.php?videoid=4670922",
+          "https://video.sibnet.ru/shell.php?videoid=4670923",
+          "https://video.sibnet.ru/shell.php?videoid=4670926",
+          "https://video.sibnet.ru/shell.php?videoid=4670927",
+          "https://video.sibnet.ru/shell.php?videoid=4670928",
+          "https://video.sibnet.ru/shell.php?videoid=4670929",
+          "https://video.sibnet.ru/shell.php?videoid=4670930",
+          "https://video.sibnet.ru/shell.php?videoid=4670931",
+          "https://video.sibnet.ru/shell.php?videoid=4670932",
+          "https://video.sibnet.ru/shell.php?videoid=4670933",
+          "https://video.sibnet.ru/shell.php?videoid=4670934",
+          "https://video.sibnet.ru/shell.php?videoid=4670936",
+          "https://video.sibnet.ru/shell.php?videoid=4670937",
+          "https://video.sibnet.ru/shell.php?videoid=4670938",
+          "https://video.sibnet.ru/shell.php?videoid=4670939",
+          "https://video.sibnet.ru/shell.php?videoid=4670940",
+          "https://video.sibnet.ru/shell.php?videoid=4670942",
+          "https://video.sibnet.ru/shell.php?videoid=4670943"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

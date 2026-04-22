@@ -1,0 +1,46 @@
+{
+  "name": "Bocchi the Rock",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/bocchi-the-rock.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5729469",
+          "https://video.sibnet.ru/shell.php?videoid=5729472",
+          "https://video.sibnet.ru/shell.php?videoid=5729473",
+          "https://video.sibnet.ru/shell.php?videoid=5729474",
+          "https://video.sibnet.ru/shell.php?videoid=5729475",
+          "https://video.sibnet.ru/shell.php?videoid=5729479",
+          "https://video.sibnet.ru/shell.php?videoid=5729481",
+          "https://video.sibnet.ru/shell.php?videoid=5729483",
+          "https://video.sibnet.ru/shell.php?videoid=5729484",
+          "https://video.sibnet.ru/shell.php?videoid=5729485",
+          "https://video.sibnet.ru/shell.php?videoid=5729487",
+          "https://video.sibnet.ru/shell.php?videoid=5729489"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4911400",
+          "https://video.sibnet.ru/shell.php?videoid=4919226",
+          "https://video.sibnet.ru/shell.php?videoid=4926995",
+          "https://video.sibnet.ru/shell.php?videoid=4934026",
+          "https://video.sibnet.ru/shell.php?videoid=4942411",
+          "https://video.sibnet.ru/shell.php?videoid=4949936",
+          "https://video.sibnet.ru/shell.php?videoid=4957223",
+          "https://video.sibnet.ru/shell.php?videoid=4969281",
+          "https://video.sibnet.ru/shell.php?videoid=4969417",
+          "https://video.sibnet.ru/shell.php?videoid=4975061",
+          "https://video.sibnet.ru/shell.php?videoid=4981228",
+          "https://video.sibnet.ru/shell.php?videoid=4989303"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

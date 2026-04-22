@@ -1,0 +1,54 @@
+{
+  "name": "Dragon Ball Z",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/dragon-ball-z.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4767664",
+        "https://video.sibnet.ru/shell.php?videoid=4767665",
+        "https://video.sibnet.ru/shell.php?videoid=4767669",
+        "https://video.sibnet.ru/shell.php?videoid=4767671",
+        "https://video.sibnet.ru/shell.php?videoid=4767674",
+        "https://video.sibnet.ru/shell.php?videoid=4767676",
+        "https://video.sibnet.ru/shell.php?videoid=4767678",
+        "https://video.sibnet.ru/shell.php?videoid=4767684",
+        "https://video.sibnet.ru/shell.php?videoid=4767686",
+        "https://video.sibnet.ru/shell.php?videoid=4767687",
+        "https://video.sibnet.ru/shell.php?videoid=4767691",
+        "https://video.sibnet.ru/shell.php?videoid=4767694",
+        "https://video.sibnet.ru/shell.php?videoid=4767662",
+        "https://video.sibnet.ru/shell.php?videoid=4767695",
+        "https://video.sibnet.ru/shell.php?videoid=4937936",
+        "https://video.sibnet.ru/shell.php?videoid=5567506"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5413455",
+          "https://video.sibnet.ru/shell.php?videoid=4960849"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4767597",
+        "https://video.sibnet.ru/shell.php?videoid=4767599",
+        "https://video.sibnet.ru/shell.php?videoid=4767601",
+        "https://video.sibnet.ru/shell.php?videoid=4767604",
+        "https://video.sibnet.ru/shell.php?videoid=4767605",
+        "https://video.sibnet.ru/shell.php?videoid=4767606",
+        "https://video.sibnet.ru/shell.php?videoid=4767608",
+        "https://video.sibnet.ru/shell.php?videoid=4767609",
+        "https://video.sibnet.ru/shell.php?videoid=4767614",
+        "https://video.sibnet.ru/shell.php?videoid=4767615",
+        "https://video.sibnet.ru/shell.php?videoid=4767617",
+        "https://video.sibnet.ru/shell.php?videoid=4767618",
+        "https://video.sibnet.ru/shell.php?videoid=4767621",
+        "https://video.sibnet.ru/shell.php?videoid=4768270",
+        "https://video.sibnet.ru/shell.php?videoid=5567505"
+      ],
+      "oav": []
+    }
+  }
+}

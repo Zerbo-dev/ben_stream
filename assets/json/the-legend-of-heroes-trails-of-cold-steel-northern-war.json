@@ -1,0 +1,31 @@
+{
+  "name": "The Legend of Heroes: Trails of Cold Steel, Northern War",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-legend-of-heroes-trails-of-cold-steel-northern-war.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4999711",
+          "https://video.sibnet.ru/shell.php?videoid=5008145",
+          "https://video.sibnet.ru/shell.php?videoid=5014627",
+          "https://video.sibnet.ru/shell.php?videoid=5023421",
+          "https://video.sibnet.ru/shell.php?videoid=5030329",
+          "https://video.sibnet.ru/shell.php?videoid=5038172",
+          "https://video.sibnet.ru/shell.php?videoid=5047370",
+          "https://video.sibnet.ru/shell.php?videoid=5057289",
+          "https://video.sibnet.ru/shell.php?videoid=5066070",
+          "https://video.sibnet.ru/shell.php?videoid=5072100",
+          "https://video.sibnet.ru/shell.php?videoid=5078538",
+          "https://video.sibnet.ru/shell.php?videoid=5086029"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

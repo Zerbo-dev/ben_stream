@@ -1,0 +1,22 @@
+{
+  "name": "Kaoru Hana wa Rin to Saku",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kaoru-hana-wa-rin-to-saku.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5954978",
+          "https://video.sibnet.ru/shell.php?videoid=5963238",
+          "https://video.sibnet.ru/shell.php?videoid=5970235"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

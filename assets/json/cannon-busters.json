@@ -1,0 +1,46 @@
+{
+  "name": "Cannon Busters",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cannon-busters.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4942586",
+          "https://video.sibnet.ru/shell.php?videoid=4942587",
+          "https://video.sibnet.ru/shell.php?videoid=4942590",
+          "https://video.sibnet.ru/shell.php?videoid=4942592",
+          "https://video.sibnet.ru/shell.php?videoid=4942593",
+          "https://video.sibnet.ru/shell.php?videoid=4942594",
+          "https://video.sibnet.ru/shell.php?videoid=4942598",
+          "https://video.sibnet.ru/shell.php?videoid=4942599",
+          "https://video.sibnet.ru/shell.php?videoid=4942601",
+          "https://video.sibnet.ru/shell.php?videoid=4942602",
+          "https://video.sibnet.ru/shell.php?videoid=4942603",
+          "https://video.sibnet.ru/shell.php?videoid=4942605"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4942506",
+          "https://video.sibnet.ru/shell.php?videoid=4942510",
+          "https://video.sibnet.ru/shell.php?videoid=4942515",
+          "https://video.sibnet.ru/shell.php?videoid=4942526",
+          "https://video.sibnet.ru/shell.php?videoid=4942531",
+          "https://video.sibnet.ru/shell.php?videoid=4942533",
+          "https://video.sibnet.ru/shell.php?videoid=4942534",
+          "https://video.sibnet.ru/shell.php?videoid=4942537",
+          "https://video.sibnet.ru/shell.php?videoid=4942540",
+          "https://video.sibnet.ru/shell.php?videoid=4942542",
+          "https://video.sibnet.ru/shell.php?videoid=4942547",
+          "https://video.sibnet.ru/shell.php?videoid=4942549"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

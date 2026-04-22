@@ -1,0 +1,69 @@
+{
+  "name": "Jormungand",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/jormungand.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5191892",
+          "https://video.sibnet.ru/shell.php?videoid=5191894",
+          "https://video.sibnet.ru/shell.php?videoid=5191895",
+          "https://video.sibnet.ru/shell.php?videoid=5191897",
+          "https://video.sibnet.ru/shell.php?videoid=5191899",
+          "https://video.sibnet.ru/shell.php?videoid=5191900",
+          "https://video.sibnet.ru/shell.php?videoid=5191903",
+          "https://video.sibnet.ru/shell.php?videoid=5191905",
+          "https://video.sibnet.ru/shell.php?videoid=5191907",
+          "https://video.sibnet.ru/shell.php?videoid=5191909",
+          "https://video.sibnet.ru/shell.php?videoid=5191912",
+          "https://video.sibnet.ru/shell.php?videoid=5191914",
+          "https://video.sibnet.ru/shell.php?videoid=5191916",
+          "https://video.sibnet.ru/shell.php?videoid=5191917",
+          "https://video.sibnet.ru/shell.php?videoid=5191920",
+          "https://video.sibnet.ru/shell.php?videoid=5191921",
+          "https://video.sibnet.ru/shell.php?videoid=5191922",
+          "https://video.sibnet.ru/shell.php?videoid=5191923",
+          "https://video.sibnet.ru/shell.php?videoid=5191924",
+          "https://video.sibnet.ru/shell.php?videoid=5191925",
+          "https://video.sibnet.ru/shell.php?videoid=5191926",
+          "https://video.sibnet.ru/shell.php?videoid=5191927",
+          "https://video.sibnet.ru/shell.php?videoid=5191928",
+          "https://video.sibnet.ru/shell.php?videoid=5191930"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4718075",
+          "https://video.sibnet.ru/shell.php?videoid=4718076",
+          "https://video.sibnet.ru/shell.php?videoid=4718079",
+          "https://video.sibnet.ru/shell.php?videoid=4718080",
+          "https://video.sibnet.ru/shell.php?videoid=4718082",
+          "https://video.sibnet.ru/shell.php?videoid=4718083",
+          "https://video.sibnet.ru/shell.php?videoid=4718085",
+          "https://video.sibnet.ru/shell.php?videoid=4718087",
+          "https://video.sibnet.ru/shell.php?videoid=4718089",
+          "https://video.sibnet.ru/shell.php?videoid=4718095",
+          "https://video.sibnet.ru/shell.php?videoid=4718096",
+          "https://video.sibnet.ru/shell.php?videoid=4718098",
+          "https://video.sibnet.ru/shell.php?videoid=4718100",
+          "https://video.sibnet.ru/shell.php?videoid=4718101",
+          "https://video.sibnet.ru/shell.php?videoid=4718103",
+          "https://video.sibnet.ru/shell.php?videoid=4718104",
+          "https://video.sibnet.ru/shell.php?videoid=4718108",
+          "https://video.sibnet.ru/shell.php?videoid=4718109",
+          "https://video.sibnet.ru/shell.php?videoid=4718111",
+          "https://video.sibnet.ru/shell.php?videoid=4718113",
+          "https://video.sibnet.ru/shell.php?videoid=4718115",
+          "https://video.sibnet.ru/shell.php?videoid=4718119",
+          "https://video.sibnet.ru/shell.php?videoid=4718121"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

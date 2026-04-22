@@ -1,0 +1,46 @@
+{
+  "name": "Kanojo ga Koushaku-tei ni Itta Riyuu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kanojo-ga-koushaku-tei-ni-itta-riyuu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5101747",
+          "https://video.sibnet.ru/shell.php?videoid=5108401",
+          "https://video.sibnet.ru/shell.php?videoid=5116402",
+          "https://video.sibnet.ru/shell.php?videoid=5123004",
+          "https://video.sibnet.ru/shell.php?videoid=5129804",
+          "https://video.sibnet.ru/shell.php?videoid=5140823",
+          "https://video.sibnet.ru/shell.php?videoid=5149227",
+          "https://video.sibnet.ru/shell.php?videoid=5155714",
+          "https://video.sibnet.ru/shell.php?videoid=5163015",
+          "https://video.sibnet.ru/shell.php?videoid=5169469",
+          "https://video.sibnet.ru/shell.php?videoid=5176347",
+          "https://video.sibnet.ru/shell.php?videoid=5181658"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5101748",
+          "https://video.sibnet.ru/shell.php?videoid=5108397",
+          "https://video.sibnet.ru/shell.php?videoid=5116399",
+          "https://video.sibnet.ru/shell.php?videoid=5123023",
+          "https://video.sibnet.ru/shell.php?videoid=5129801",
+          "https://video.sibnet.ru/shell.php?videoid=5140824",
+          "https://video.sibnet.ru/shell.php?videoid=5149214",
+          "https://video.sibnet.ru/shell.php?videoid=5155695",
+          "https://video.sibnet.ru/shell.php?videoid=5163013",
+          "https://video.sibnet.ru/shell.php?videoid=5169457",
+          "https://video.sibnet.ru/shell.php?videoid=5176345",
+          "https://video.sibnet.ru/shell.php?videoid=5181655"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

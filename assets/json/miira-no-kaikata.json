@@ -1,0 +1,31 @@
+{
+  "name": "Miira no Kaikata",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/miira-no-kaikata.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4940525",
+          "https://video.sibnet.ru/shell.php?videoid=4940528",
+          "https://video.sibnet.ru/shell.php?videoid=4940533",
+          "https://video.sibnet.ru/shell.php?videoid=4940537",
+          "https://video.sibnet.ru/shell.php?videoid=4940542",
+          "https://video.sibnet.ru/shell.php?videoid=4940549",
+          "https://video.sibnet.ru/shell.php?videoid=4940552",
+          "https://video.sibnet.ru/shell.php?videoid=4940554",
+          "https://video.sibnet.ru/shell.php?videoid=4940556",
+          "https://video.sibnet.ru/shell.php?videoid=4940558",
+          "https://video.sibnet.ru/shell.php?videoid=4940561",
+          "https://video.sibnet.ru/shell.php?videoid=4940565"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

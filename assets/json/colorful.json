@@ -1,0 +1,20 @@
+{
+  "name": "Colorful",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/colorful.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5340739"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5340735"
+      ],
+      "oav": []
+    }
+  }
+}

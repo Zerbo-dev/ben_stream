@@ -1,0 +1,20 @@
+{
+  "name": "Maboroshi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/maboroshi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5407917"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5407924"
+      ],
+      "oav": []
+    }
+  }
+}

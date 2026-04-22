@@ -1,0 +1,36 @@
+{
+  "name": "Grand Blue",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/grand-blue.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5467893",
+          "https://video.sibnet.ru/shell.php?videoid=5467894",
+          "https://video.sibnet.ru/shell.php?videoid=5467895",
+          "https://video.sibnet.ru/shell.php?videoid=5467896",
+          "https://video.sibnet.ru/shell.php?videoid=5467898",
+          "https://video.sibnet.ru/shell.php?videoid=5467900",
+          "https://video.sibnet.ru/shell.php?videoid=5467901",
+          "https://video.sibnet.ru/shell.php?videoid=5467902",
+          "https://video.sibnet.ru/shell.php?videoid=5467903",
+          "https://video.sibnet.ru/shell.php?videoid=5467904",
+          "https://video.sibnet.ru/shell.php?videoid=5467906",
+          "https://video.sibnet.ru/shell.php?videoid=5467907"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5956455",
+          "https://video.sibnet.ru/shell.php?videoid=5964156",
+          "https://video.sibnet.ru/shell.php?videoid=5970997"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

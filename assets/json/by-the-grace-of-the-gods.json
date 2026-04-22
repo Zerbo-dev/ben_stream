@@ -1,0 +1,74 @@
+{
+  "name": "By the Grace of the Gods",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/by-the-grace-of-the-gods.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5027906",
+          "https://video.sibnet.ru/shell.php?videoid=5027907",
+          "https://video.sibnet.ru/shell.php?videoid=5032833",
+          "https://video.sibnet.ru/shell.php?videoid=5041204",
+          "https://video.sibnet.ru/shell.php?videoid=5041195",
+          "https://video.sibnet.ru/shell.php?videoid=5041214",
+          "https://video.sibnet.ru/shell.php?videoid=5051069",
+          "https://video.sibnet.ru/shell.php?videoid=5051080",
+          "https://video.sibnet.ru/shell.php?videoid=5059936",
+          "https://video.sibnet.ru/shell.php?videoid=5059943",
+          "https://video.sibnet.ru/shell.php?videoid=5068643",
+          "https://video.sibnet.ru/shell.php?videoid=5068646"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5075046",
+          "https://video.sibnet.ru/shell.php?videoid=5075045",
+          "https://video.sibnet.ru/shell.php?videoid=5081355",
+          "https://video.sibnet.ru/shell.php?videoid=5081356",
+          "https://video.sibnet.ru/shell.php?videoid=5088252",
+          "https://video.sibnet.ru/shell.php?videoid=5088255",
+          "https://video.sibnet.ru/shell.php?videoid=5095050",
+          "https://video.sibnet.ru/shell.php?videoid=5095051",
+          "https://video.sibnet.ru/shell.php?videoid=5101380",
+          "https://video.sibnet.ru/shell.php?videoid=5101381",
+          "https://video.sibnet.ru/shell.php?videoid=5107990",
+          "https://video.sibnet.ru/shell.php?videoid=5107997"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4752951",
+          "https://video.sibnet.ru/shell.php?videoid=4752954",
+          "https://video.sibnet.ru/shell.php?videoid=4752956",
+          "https://video.sibnet.ru/shell.php?videoid=4752961",
+          "https://video.sibnet.ru/shell.php?videoid=4752965",
+          "https://video.sibnet.ru/shell.php?videoid=4752966",
+          "https://video.sibnet.ru/shell.php?videoid=4752969",
+          "https://video.sibnet.ru/shell.php?videoid=4752971",
+          "https://video.sibnet.ru/shell.php?videoid=4752972",
+          "https://video.sibnet.ru/shell.php?videoid=4752974",
+          "https://video.sibnet.ru/shell.php?videoid=4752975",
+          "https://video.sibnet.ru/shell.php?videoid=4752976"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5003037",
+          "https://video.sibnet.ru/shell.php?videoid=5010246",
+          "https://video.sibnet.ru/shell.php?videoid=5017032",
+          "https://video.sibnet.ru/shell.php?videoid=5025533",
+          "https://video.sibnet.ru/shell.php?videoid=5032417",
+          "https://video.sibnet.ru/shell.php?videoid=5040526",
+          "https://video.sibnet.ru/shell.php?videoid=5050186",
+          "https://video.sibnet.ru/shell.php?videoid=5059360",
+          "https://video.sibnet.ru/shell.php?videoid=5067986",
+          "https://video.sibnet.ru/shell.php?videoid=5073989",
+          "https://video.sibnet.ru/shell.php?videoid=5080352",
+          "https://video.sibnet.ru/shell.php?videoid=5087825"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

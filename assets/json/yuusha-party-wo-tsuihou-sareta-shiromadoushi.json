@@ -1,0 +1,31 @@
+{
+  "name": "Yuusha Party wo Tsuihou sareta Shiromadoushi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/yuusha-party-wo-tsuihou-sareta-shiromadoushi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5953978",
+          "https://video.sibnet.ru/shell.php?videoid=5961979",
+          "https://video.sibnet.ru/shell.php?videoid=5968874"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

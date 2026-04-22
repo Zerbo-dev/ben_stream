@@ -1,0 +1,20 @@
+{
+  "name": "Le Voyage de Chihiro",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-voyage-de-chihiro.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4917201"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4728974"
+      ],
+      "oav": []
+    }
+  }
+}

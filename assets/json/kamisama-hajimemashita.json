@@ -1,0 +1,46 @@
+{
+  "name": "Kamisama Hajimemashita",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kamisama-hajimemashita.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4768348",
+          "https://video.sibnet.ru/shell.php?videoid=4768350",
+          "https://video.sibnet.ru/shell.php?videoid=4768352",
+          "https://video.sibnet.ru/shell.php?videoid=4768356",
+          "https://video.sibnet.ru/shell.php?videoid=4768358",
+          "https://video.sibnet.ru/shell.php?videoid=4768359",
+          "https://video.sibnet.ru/shell.php?videoid=4768362",
+          "https://video.sibnet.ru/shell.php?videoid=4768371",
+          "https://video.sibnet.ru/shell.php?videoid=4768378",
+          "https://video.sibnet.ru/shell.php?videoid=4768380",
+          "https://video.sibnet.ru/shell.php?videoid=4768381",
+          "https://video.sibnet.ru/shell.php?videoid=4768383",
+          "https://video.sibnet.ru/shell.php?videoid=4768386"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4768387",
+          "https://video.sibnet.ru/shell.php?videoid=4768390",
+          "https://video.sibnet.ru/shell.php?videoid=4768391",
+          "https://video.sibnet.ru/shell.php?videoid=4768397",
+          "https://video.sibnet.ru/shell.php?videoid=4768399",
+          "https://video.sibnet.ru/shell.php?videoid=4768401",
+          "https://video.sibnet.ru/shell.php?videoid=4768403",
+          "https://video.sibnet.ru/shell.php?videoid=4768404",
+          "https://video.sibnet.ru/shell.php?videoid=4768408",
+          "https://video.sibnet.ru/shell.php?videoid=4768410",
+          "https://video.sibnet.ru/shell.php?videoid=4768411",
+          "https://video.sibnet.ru/shell.php?videoid=4768413"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

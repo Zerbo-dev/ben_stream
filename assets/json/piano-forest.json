@@ -1,0 +1,74 @@
+{
+  "name": "Piano Forest",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/piano-forest.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5881225",
+          "https://video.sibnet.ru/shell.php?videoid=5881229",
+          "https://video.sibnet.ru/shell.php?videoid=5881231",
+          "https://video.sibnet.ru/shell.php?videoid=5881234",
+          "https://video.sibnet.ru/shell.php?videoid=5881236",
+          "https://video.sibnet.ru/shell.php?videoid=5881239",
+          "https://video.sibnet.ru/shell.php?videoid=5881241",
+          "https://video.sibnet.ru/shell.php?videoid=5881244",
+          "https://video.sibnet.ru/shell.php?videoid=5881246",
+          "https://video.sibnet.ru/shell.php?videoid=5881247",
+          "https://video.sibnet.ru/shell.php?videoid=5881250",
+          "https://video.sibnet.ru/shell.php?videoid=5881254"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5880962",
+          "https://video.sibnet.ru/shell.php?videoid=5880963",
+          "https://video.sibnet.ru/shell.php?videoid=5880964",
+          "https://video.sibnet.ru/shell.php?videoid=5880965",
+          "https://video.sibnet.ru/shell.php?videoid=5880966",
+          "https://video.sibnet.ru/shell.php?videoid=5880967",
+          "https://video.sibnet.ru/shell.php?videoid=5880968",
+          "https://video.sibnet.ru/shell.php?videoid=5880969",
+          "https://video.sibnet.ru/shell.php?videoid=5880970",
+          "https://video.sibnet.ru/shell.php?videoid=5880971",
+          "https://video.sibnet.ru/shell.php?videoid=5880972",
+          "https://video.sibnet.ru/shell.php?videoid=5880975"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5675216",
+          "https://video.sibnet.ru/shell.php?videoid=5675220",
+          "https://video.sibnet.ru/shell.php?videoid=5675221",
+          "https://video.sibnet.ru/shell.php?videoid=5675222",
+          "https://video.sibnet.ru/shell.php?videoid=5675224",
+          "https://video.sibnet.ru/shell.php?videoid=5675226",
+          "https://video.sibnet.ru/shell.php?videoid=5675229",
+          "https://video.sibnet.ru/shell.php?videoid=5675231",
+          "https://video.sibnet.ru/shell.php?videoid=5675233",
+          "https://video.sibnet.ru/shell.php?videoid=5675234",
+          "https://video.sibnet.ru/shell.php?videoid=5675235",
+          "https://video.sibnet.ru/shell.php?videoid=5675237"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5675239",
+          "https://video.sibnet.ru/shell.php?videoid=5675240",
+          "https://video.sibnet.ru/shell.php?videoid=5675242",
+          "https://video.sibnet.ru/shell.php?videoid=5675244",
+          "https://video.sibnet.ru/shell.php?videoid=5675247",
+          "https://video.sibnet.ru/shell.php?videoid=5675249",
+          "https://video.sibnet.ru/shell.php?videoid=5675252",
+          "https://video.sibnet.ru/shell.php?videoid=5675253",
+          "https://video.sibnet.ru/shell.php?videoid=5675255",
+          "https://video.sibnet.ru/shell.php?videoid=5675257",
+          "https://video.sibnet.ru/shell.php?videoid=5675260",
+          "https://video.sibnet.ru/shell.php?videoid=5675262"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

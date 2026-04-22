@@ -1,0 +1,46 @@
+{
+  "name": "Farming Life in Another World",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/farming-life-in-another-world.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5609090",
+          "https://video.sibnet.ru/shell.php?videoid=5609091",
+          "https://video.sibnet.ru/shell.php?videoid=5609093",
+          "https://video.sibnet.ru/shell.php?videoid=5609094",
+          "https://video.sibnet.ru/shell.php?videoid=5609095",
+          "https://video.sibnet.ru/shell.php?videoid=5609096",
+          "https://video.sibnet.ru/shell.php?videoid=5609097",
+          "https://video.sibnet.ru/shell.php?videoid=5609098",
+          "https://video.sibnet.ru/shell.php?videoid=5609099",
+          "https://video.sibnet.ru/shell.php?videoid=5609100",
+          "https://video.sibnet.ru/shell.php?videoid=5609101",
+          "https://video.sibnet.ru/shell.php?videoid=5609102"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4999672",
+          "https://video.sibnet.ru/shell.php?videoid=5008031",
+          "https://video.sibnet.ru/shell.php?videoid=5014548",
+          "https://video.sibnet.ru/shell.php?videoid=5023355",
+          "https://video.sibnet.ru/shell.php?videoid=5030261",
+          "https://video.sibnet.ru/shell.php?videoid=5037976",
+          "https://video.sibnet.ru/shell.php?videoid=5047312",
+          "https://video.sibnet.ru/shell.php?videoid=5057176",
+          "https://video.sibnet.ru/shell.php?videoid=5065984",
+          "https://video.sibnet.ru/shell.php?videoid=5072015",
+          "https://video.sibnet.ru/shell.php?videoid=5078374",
+          "https://video.sibnet.ru/shell.php?videoid=5086010"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

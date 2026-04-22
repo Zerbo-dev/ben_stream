@@ -1,0 +1,46 @@
+{
+  "name": "Synduality Noir",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/synduality-noir.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5901166",
+          "https://video.sibnet.ru/shell.php?videoid=5901169",
+          "https://video.sibnet.ru/shell.php?videoid=5901174",
+          "https://video.sibnet.ru/shell.php?videoid=5901178",
+          "https://video.sibnet.ru/shell.php?videoid=5901187",
+          "https://video.sibnet.ru/shell.php?videoid=5901193",
+          "https://video.sibnet.ru/shell.php?videoid=5901201",
+          "https://video.sibnet.ru/shell.php?videoid=5901208",
+          "https://video.sibnet.ru/shell.php?videoid=5901215",
+          "https://video.sibnet.ru/shell.php?videoid=5901226",
+          "https://video.sibnet.ru/shell.php?videoid=5901231",
+          "https://video.sibnet.ru/shell.php?videoid=5901237"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5241657",
+          "https://video.sibnet.ru/shell.php?videoid=5241659",
+          "https://video.sibnet.ru/shell.php?videoid=5241660",
+          "https://video.sibnet.ru/shell.php?videoid=5241664",
+          "https://video.sibnet.ru/shell.php?videoid=5241665",
+          "https://video.sibnet.ru/shell.php?videoid=5241671",
+          "https://video.sibnet.ru/shell.php?videoid=5241673",
+          "https://video.sibnet.ru/shell.php?videoid=5241687",
+          "https://video.sibnet.ru/shell.php?videoid=5254679",
+          "https://video.sibnet.ru/shell.php?videoid=5254684",
+          "https://video.sibnet.ru/shell.php?videoid=5260249",
+          "https://video.sibnet.ru/shell.php?videoid=5393443"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

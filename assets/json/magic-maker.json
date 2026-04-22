@@ -1,0 +1,55 @@
+{
+  "name": "Magic Maker",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/magic-maker.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5793346",
+          "https://video.sibnet.ru/shell.php?videoid=5799043",
+          "https://video.sibnet.ru/shell.php?videoid=5804898",
+          "https://video.sibnet.ru/shell.php?videoid=5809337",
+          "https://video.sibnet.ru/shell.php?videoid=5816509",
+          "https://video.sibnet.ru/shell.php?videoid=5822915",
+          "https://video.sibnet.ru/shell.php?videoid=5830003",
+          "https://video.sibnet.ru/shell.php?videoid=5836939",
+          "https://video.sibnet.ru/shell.php?videoid=5843439",
+          "https://video.sibnet.ru/shell.php?videoid=5849685",
+          "https://video.sibnet.ru/shell.php?videoid=5855024",
+          "https://video.sibnet.ru/shell.php?videoid=5861264"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5793326",
+          "https://video.sibnet.ru/shell.php?videoid=5798978",
+          "https://video.sibnet.ru/shell.php?videoid=5804436",
+          "https://video.sibnet.ru/shell.php?videoid=5809268",
+          "https://video.sibnet.ru/shell.php?videoid=5815759",
+          "https://video.sibnet.ru/shell.php?videoid=5822848",
+          "https://video.sibnet.ru/shell.php?videoid=5829248",
+          "https://video.sibnet.ru/shell.php?videoid=5836797",
+          "https://video.sibnet.ru/shell.php?videoid=5842938",
+          "https://video.sibnet.ru/shell.php?videoid=5849132",
+          "https://video.sibnet.ru/shell.php?videoid=5854725",
+          "https://video.sibnet.ru/shell.php?videoid=5861224"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

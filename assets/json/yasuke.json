@@ -1,0 +1,34 @@
+{
+  "name": "Yasuke",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/yasuke.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5658118",
+          "https://video.sibnet.ru/shell.php?videoid=5658119",
+          "https://video.sibnet.ru/shell.php?videoid=5658121",
+          "https://video.sibnet.ru/shell.php?videoid=5658122",
+          "https://video.sibnet.ru/shell.php?videoid=5658123",
+          "https://video.sibnet.ru/shell.php?videoid=5658125"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5658108",
+          "https://video.sibnet.ru/shell.php?videoid=5658111",
+          "https://video.sibnet.ru/shell.php?videoid=5658112",
+          "https://video.sibnet.ru/shell.php?videoid=5658113",
+          "https://video.sibnet.ru/shell.php?videoid=5658115",
+          "https://video.sibnet.ru/shell.php?videoid=5658116"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

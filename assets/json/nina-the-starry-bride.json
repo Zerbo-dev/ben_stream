@@ -1,0 +1,31 @@
+{
+  "name": "Nina the Starry Bride",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/nina-the-starry-bride.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5706138",
+          "https://video.sibnet.ru/shell.php?videoid=5715718",
+          "https://video.sibnet.ru/shell.php?videoid=5724428",
+          "https://video.sibnet.ru/shell.php?videoid=5733002",
+          "https://video.sibnet.ru/shell.php?videoid=5741277",
+          "https://video.sibnet.ru/shell.php?videoid=5748484",
+          "https://video.sibnet.ru/shell.php?videoid=5754905",
+          "https://video.sibnet.ru/shell.php?videoid=5762414",
+          "https://video.sibnet.ru/shell.php?videoid=5766732",
+          "https://video.sibnet.ru/shell.php?videoid=5770715",
+          "https://video.sibnet.ru/shell.php?videoid=5775405",
+          "https://video.sibnet.ru/shell.php?videoid=5781614"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

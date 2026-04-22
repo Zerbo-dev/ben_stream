@@ -1,0 +1,46 @@
+{
+  "name": "I Will \"Parry\" All",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/i-will-parry-all.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5961651",
+          "https://video.sibnet.ru/shell.php?videoid=5961659",
+          "https://video.sibnet.ru/shell.php?videoid=5961663",
+          "https://video.sibnet.ru/shell.php?videoid=5961667",
+          "https://video.sibnet.ru/shell.php?videoid=5961672",
+          "https://video.sibnet.ru/shell.php?videoid=5961676",
+          "https://video.sibnet.ru/shell.php?videoid=5961682",
+          "https://video.sibnet.ru/shell.php?videoid=5961686",
+          "https://video.sibnet.ru/shell.php?videoid=5961689",
+          "https://video.sibnet.ru/shell.php?videoid=5961693",
+          "https://video.sibnet.ru/shell.php?videoid=5961695",
+          "https://video.sibnet.ru/shell.php?videoid=5961699"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5585529",
+          "https://video.sibnet.ru/shell.php?videoid=5593255",
+          "https://video.sibnet.ru/shell.php?videoid=5600862",
+          "https://video.sibnet.ru/shell.php?videoid=5609302",
+          "https://video.sibnet.ru/shell.php?videoid=5617183",
+          "https://video.sibnet.ru/shell.php?videoid=5627095",
+          "https://video.sibnet.ru/shell.php?videoid=5637751",
+          "https://video.sibnet.ru/shell.php?videoid=5648350",
+          "https://video.sibnet.ru/shell.php?videoid=5656063",
+          "https://video.sibnet.ru/shell.php?videoid=5664187",
+          "https://video.sibnet.ru/shell.php?videoid=5673376",
+          "https://video.sibnet.ru/shell.php?videoid=5682732"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

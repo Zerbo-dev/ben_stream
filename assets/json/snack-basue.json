@@ -1,0 +1,20 @@
+{
+  "name": "Snack Basue",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/snack-basue.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5477826"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

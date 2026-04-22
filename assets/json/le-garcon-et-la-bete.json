@@ -1,0 +1,20 @@
+{
+  "name": "Le Garçon et la bête",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-garcon-et-la-bete.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5038701"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5366198"
+      ],
+      "oav": []
+    }
+  }
+}

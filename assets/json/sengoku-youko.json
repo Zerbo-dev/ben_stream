@@ -1,0 +1,28 @@
+{
+  "name": "Sengoku Youko",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sengoku-youko.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5394169",
+          "https://video.sibnet.ru/shell.php?videoid=5403012",
+          "https://video.sibnet.ru/shell.php?videoid=5411214",
+          "https://video.sibnet.ru/shell.php?videoid=5418982",
+          "https://video.sibnet.ru/shell.php?videoid=5425265",
+          "https://video.sibnet.ru/shell.php?videoid=5431997",
+          "https://video.sibnet.ru/shell.php?videoid=5440258",
+          "https://video.sibnet.ru/shell.php?videoid=5449824",
+          "https://video.sibnet.ru/shell.php?videoid=5466865"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

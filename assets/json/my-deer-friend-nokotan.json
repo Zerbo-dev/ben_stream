@@ -1,0 +1,31 @@
+{
+  "name": "My Deer Friend Nokotan",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/my-deer-friend-nokotan.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5588860",
+          "https://video.sibnet.ru/shell.php?videoid=5596707",
+          "https://video.sibnet.ru/shell.php?videoid=5604078",
+          "https://video.sibnet.ru/shell.php?videoid=5612763",
+          "https://video.sibnet.ru/shell.php?videoid=5616294",
+          "https://video.sibnet.ru/shell.php?videoid=5625293",
+          "https://video.sibnet.ru/shell.php?videoid=5636246",
+          "https://video.sibnet.ru/shell.php?videoid=5647299",
+          "https://video.sibnet.ru/shell.php?videoid=5654612",
+          "https://video.sibnet.ru/shell.php?videoid=5663095",
+          "https://video.sibnet.ru/shell.php?videoid=5671948",
+          "https://video.sibnet.ru/shell.php?videoid=5681179"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

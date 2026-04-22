@@ -1,0 +1,48 @@
+{
+  "name": "Beast Tamer",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/beast-tamer.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4927415",
+          "https://video.sibnet.ru/shell.php?videoid=4934468",
+          "https://video.sibnet.ru/shell.php?videoid=4942735",
+          "https://video.sibnet.ru/shell.php?videoid=4950452",
+          "https://video.sibnet.ru/shell.php?videoid=4957454",
+          "https://video.sibnet.ru/shell.php?videoid=4964183",
+          "https://video.sibnet.ru/shell.php?videoid=4969713",
+          "https://video.sibnet.ru/shell.php?videoid=4975593",
+          "https://video.sibnet.ru/shell.php?videoid=4981526",
+          "https://video.sibnet.ru/shell.php?videoid=4989623",
+          "https://video.sibnet.ru/shell.php?videoid=4995436",
+          "https://video.sibnet.ru/shell.php?videoid=5002182",
+          "https://video.sibnet.ru/shell.php?videoid=5009926"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4901084",
+          "https://video.sibnet.ru/shell.php?videoid=4911262",
+          "https://video.sibnet.ru/shell.php?videoid=4919062",
+          "https://video.sibnet.ru/shell.php?videoid=4926912",
+          "https://video.sibnet.ru/shell.php?videoid=4933874",
+          "https://video.sibnet.ru/shell.php?videoid=4942301",
+          "https://video.sibnet.ru/shell.php?videoid=4949768",
+          "https://video.sibnet.ru/shell.php?videoid=4957153",
+          "https://video.sibnet.ru/shell.php?videoid=4963674",
+          "https://video.sibnet.ru/shell.php?videoid=4969348",
+          "https://video.sibnet.ru/shell.php?videoid=4974879",
+          "https://video.sibnet.ru/shell.php?videoid=4981097",
+          "https://video.sibnet.ru/shell.php?videoid=4989210"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

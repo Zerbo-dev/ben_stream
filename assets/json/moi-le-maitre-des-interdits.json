@@ -1,0 +1,31 @@
+{
+  "name": "Moi, le maître des interdits",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/moi-le-maitre-des-interdits.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5268004",
+          "https://video.sibnet.ru/shell.php?videoid=5276453",
+          "https://video.sibnet.ru/shell.php?videoid=5286687",
+          "https://video.sibnet.ru/shell.php?videoid=5296243",
+          "https://video.sibnet.ru/shell.php?videoid=5304770",
+          "https://video.sibnet.ru/shell.php?videoid=5313031",
+          "https://video.sibnet.ru/shell.php?videoid=5323028",
+          "https://video.sibnet.ru/shell.php?videoid=5333137",
+          "https://video.sibnet.ru/shell.php?videoid=5343967",
+          "https://video.sibnet.ru/shell.php?videoid=5353662",
+          "https://video.sibnet.ru/shell.php?videoid=5362921",
+          "https://video.sibnet.ru/shell.php?videoid=5371053"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

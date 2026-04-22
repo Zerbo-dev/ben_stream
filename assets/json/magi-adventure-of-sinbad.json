@@ -1,0 +1,48 @@
+{
+  "name": "Magi : Adventure of Sinbad",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/magi-adventure-of-sinbad.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5382633",
+          "https://video.sibnet.ru/shell.php?videoid=5382634",
+          "https://video.sibnet.ru/shell.php?videoid=5382635",
+          "https://video.sibnet.ru/shell.php?videoid=5382636",
+          "https://video.sibnet.ru/shell.php?videoid=5382637",
+          "https://video.sibnet.ru/shell.php?videoid=5382638",
+          "https://video.sibnet.ru/shell.php?videoid=5382639",
+          "https://video.sibnet.ru/shell.php?videoid=5382640",
+          "https://video.sibnet.ru/shell.php?videoid=5382641",
+          "https://video.sibnet.ru/shell.php?videoid=5382642",
+          "https://video.sibnet.ru/shell.php?videoid=5382643",
+          "https://video.sibnet.ru/shell.php?videoid=5382644",
+          "https://video.sibnet.ru/shell.php?videoid=5382645"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4948331",
+          "https://video.sibnet.ru/shell.php?videoid=4948332",
+          "https://video.sibnet.ru/shell.php?videoid=4948334",
+          "https://video.sibnet.ru/shell.php?videoid=4948335",
+          "https://video.sibnet.ru/shell.php?videoid=4948390",
+          "https://video.sibnet.ru/shell.php?videoid=4948341",
+          "https://video.sibnet.ru/shell.php?videoid=4948344",
+          "https://video.sibnet.ru/shell.php?videoid=4948346",
+          "https://video.sibnet.ru/shell.php?videoid=4948350",
+          "https://video.sibnet.ru/shell.php?videoid=4948353",
+          "https://video.sibnet.ru/shell.php?videoid=4948356",
+          "https://video.sibnet.ru/shell.php?videoid=4948359",
+          "https://video.sibnet.ru/shell.php?videoid=4948363"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

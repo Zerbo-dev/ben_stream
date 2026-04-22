@@ -1,0 +1,20 @@
+{
+  "name": "Fireworks",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/fireworks.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4812165\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4812168\t"
+      ],
+      "oav": []
+    }
+  }
+}

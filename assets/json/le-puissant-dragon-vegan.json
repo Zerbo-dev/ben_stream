@@ -1,0 +1,45 @@
+{
+  "name": "Le Puissant Dragon Vegan",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/le-puissant-dragon-vegan.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4816295",
+          "https://video.sibnet.ru/shell.php?videoid=4816296",
+          "https://video.sibnet.ru/shell.php?videoid=4816297",
+          "https://video.sibnet.ru/shell.php?videoid=4824429",
+          "https://video.sibnet.ru/shell.php?videoid=4836331",
+          "https://video.sibnet.ru/shell.php?videoid=4846915",
+          "https://video.sibnet.ru/shell.php?videoid=4855686",
+          "https://video.sibnet.ru/shell.php?videoid=4864633",
+          "https://video.sibnet.ru/shell.php?videoid=4873884",
+          "https://video.sibnet.ru/shell.php?videoid=4882215",
+          "https://video.sibnet.ru/shell.php?videoid=4900372",
+          "https://video.sibnet.ru/shell.php?videoid=4910810"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5700103",
+          "https://video.sibnet.ru/shell.php?videoid=5700105",
+          "https://video.sibnet.ru/shell.php?videoid=5708565",
+          "https://video.sibnet.ru/shell.php?videoid=5717791",
+          "https://video.sibnet.ru/shell.php?videoid=5726812",
+          "https://video.sibnet.ru/shell.php?videoid=5735007",
+          "https://video.sibnet.ru/shell.php?videoid=5742984",
+          "https://video.sibnet.ru/shell.php?videoid=5750365",
+          "https://video.sibnet.ru/shell.php?videoid=5756764",
+          "https://video.sibnet.ru/shell.php?videoid=5763492",
+          "https://video.sibnet.ru/shell.php?videoid=5767795",
+          "https://video.sibnet.ru/shell.php?videoid=5771662"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

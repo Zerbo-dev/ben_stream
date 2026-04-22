@@ -1,0 +1,46 @@
+{
+  "name": "Hataraku Maou-sama",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hataraku-maou-sama.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4946595",
+          "https://video.sibnet.ru/shell.php?videoid=4946598",
+          "https://video.sibnet.ru/shell.php?videoid=4946602",
+          "https://video.sibnet.ru/shell.php?videoid=4946606",
+          "https://video.sibnet.ru/shell.php?videoid=4946608",
+          "https://video.sibnet.ru/shell.php?videoid=4946610",
+          "https://video.sibnet.ru/shell.php?videoid=4946613",
+          "https://video.sibnet.ru/shell.php?videoid=4946615",
+          "https://video.sibnet.ru/shell.php?videoid=4946616",
+          "https://video.sibnet.ru/shell.php?videoid=4946620",
+          "https://video.sibnet.ru/shell.php?videoid=4946621",
+          "https://video.sibnet.ru/shell.php?videoid=4946623",
+          "https://video.sibnet.ru/shell.php?videoid=4946624"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4796347",
+          "https://video.sibnet.ru/shell.php?videoid=4796804",
+          "https://video.sibnet.ru/shell.php?videoid=4804165",
+          "https://video.sibnet.ru/shell.php?videoid=4813663",
+          "https://video.sibnet.ru/shell.php?videoid=4821893",
+          "https://video.sibnet.ru/shell.php?videoid=4834536",
+          "https://video.sibnet.ru/shell.php?videoid=4844649",
+          "https://video.sibnet.ru/shell.php?videoid=4853539",
+          "https://video.sibnet.ru/shell.php?videoid=4862990",
+          "https://video.sibnet.ru/shell.php?videoid=4872111",
+          "https://video.sibnet.ru/shell.php?videoid=4880289",
+          "https://video.sibnet.ru/shell.php?videoid=4890589"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

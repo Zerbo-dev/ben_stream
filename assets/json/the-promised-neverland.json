@@ -1,0 +1,59 @@
+{
+  "name": "The Promised Neverland",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-promised-neverland.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3863596",
+          "https://video.sibnet.ru/shell.php?videoid=3863597",
+          "https://video.sibnet.ru/shell.php?videoid=3866096",
+          "https://video.sibnet.ru/shell.php?videoid=3866099",
+          "https://video.sibnet.ru/shell.php?videoid=3868249",
+          "https://video.sibnet.ru/shell.php?videoid=3868250",
+          "https://video.sibnet.ru/shell.php?videoid=3868252",
+          "https://video.sibnet.ru/shell.php?videoid=3868254",
+          "https://video.sibnet.ru/shell.php?videoid=3868255",
+          "https://video.sibnet.ru/shell.php?videoid=3868256",
+          "https://video.sibnet.ru/shell.php?videoid=3868257",
+          "https://video.sibnet.ru/shell.php?videoid=3868258"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3564879",
+          "https://video.sibnet.ru/shell.php?videoid=3536574",
+          "https://video.sibnet.ru/shell.php?videoid=3536459",
+          "https://video.sibnet.ru/shell.php?videoid=3540427",
+          "https://video.sibnet.ru/shell.php?videoid=3544810",
+          "https://video.sibnet.ru/shell.php?videoid=3549575",
+          "https://video.sibnet.ru/shell.php?videoid=3554431",
+          "https://video.sibnet.ru/shell.php?videoid=3559326",
+          "https://video.sibnet.ru/shell.php?videoid=3564389",
+          "https://video.sibnet.ru/shell.php?videoid=3569412",
+          "https://video.sibnet.ru/shell.php?videoid=3575305",
+          "https://video.sibnet.ru/shell.php?videoid=3581228"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4203216",
+          "https://video.sibnet.ru/shell.php?videoid=4209711",
+          "https://video.sibnet.ru/shell.php?videoid=4214066",
+          "https://video.sibnet.ru/shell.php?videoid=4218507",
+          "https://video.sibnet.ru/shell.php?videoid=4225091",
+          "https://video.sibnet.ru/shell.php?videoid=4235975",
+          "https://video.sibnet.ru/shell.php?videoid=4245709",
+          "https://video.sibnet.ru/shell.php?videoid=4252571",
+          "https://video.sibnet.ru/shell.php?videoid=4258998",
+          "https://video.sibnet.ru/shell.php?videoid=4263871",
+          "https://video.sibnet.ru/shell.php?videoid=4271599"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

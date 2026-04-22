@@ -1,0 +1,20 @@
+{
+  "name": "Onigamiden",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/onigamiden.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4801888\t"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4801893\t"
+      ],
+      "oav": []
+    }
+  }
+}

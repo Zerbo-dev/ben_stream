@@ -1,0 +1,38 @@
+{
+  "name": "Scott Pilgrim",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/scott-pilgrim.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5367541",
+          "https://video.sibnet.ru/shell.php?videoid=5367543",
+          "https://video.sibnet.ru/shell.php?videoid=5367545",
+          "https://video.sibnet.ru/shell.php?videoid=5367548",
+          "https://video.sibnet.ru/shell.php?videoid=5367552",
+          "https://video.sibnet.ru/shell.php?videoid=5367554",
+          "https://video.sibnet.ru/shell.php?videoid=5367560",
+          "https://video.sibnet.ru/shell.php?videoid=5367564"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5367375",
+          "https://video.sibnet.ru/shell.php?videoid=5367377",
+          "https://video.sibnet.ru/shell.php?videoid=5367378",
+          "https://video.sibnet.ru/shell.php?videoid=5367385",
+          "https://video.sibnet.ru/shell.php?videoid=5367393",
+          "https://video.sibnet.ru/shell.php?videoid=5367408",
+          "https://video.sibnet.ru/shell.php?videoid=5367410",
+          "https://video.sibnet.ru/shell.php?videoid=5367413"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

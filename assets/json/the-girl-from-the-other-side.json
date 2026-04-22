@@ -1,0 +1,22 @@
+{
+  "name": "The Girl from the Other Side",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-girl-from-the-other-side.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4815707",
+          "https://video.sibnet.ru/shell.php?videoid=4815708",
+          "https://video.sibnet.ru/shell.php?videoid=4815709"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

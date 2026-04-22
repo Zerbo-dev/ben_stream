@@ -1,0 +1,31 @@
+{
+  "name": "Hotel Inhumans",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hotel-inhumans.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5955385",
+          "https://video.sibnet.ru/shell.php?videoid=5963198",
+          "https://video.sibnet.ru/shell.php?videoid=5970170"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

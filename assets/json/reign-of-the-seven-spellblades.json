@@ -1,0 +1,29 @@
+{
+  "name": "Reign of the Seven Spellblades",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/reign-of-the-seven-spellblades.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5198295",
+          "https://video.sibnet.ru/shell.php?videoid=5203781",
+          "https://video.sibnet.ru/shell.php?videoid=5210322",
+          "https://video.sibnet.ru/shell.php?videoid=5218648",
+          "https://video.sibnet.ru/shell.php?videoid=5223986",
+          "https://video.sibnet.ru/shell.php?videoid=5247331",
+          "https://video.sibnet.ru/shell.php?videoid=5253721",
+          "https://video.sibnet.ru/shell.php?videoid=5263983",
+          "https://video.sibnet.ru/shell.php?videoid=5270165",
+          "https://video.sibnet.ru/shell.php?videoid=5279314"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

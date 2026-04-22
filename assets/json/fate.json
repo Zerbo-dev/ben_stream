@@ -1,0 +1,19 @@
+{
+  "name": "Fate",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/fate.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5054096",
+        "https://video.sibnet.ru/shell.php?videoid=5054071"
+      ],
+      "oav": []
+    }
+  }
+}

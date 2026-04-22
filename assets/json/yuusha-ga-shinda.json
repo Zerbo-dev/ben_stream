@@ -1,0 +1,46 @@
+{
+  "name": "Yuusha ga Shinda!",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/yuusha-ga-shinda.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5119463",
+          "https://video.sibnet.ru/shell.php?videoid=5126821",
+          "https://video.sibnet.ru/shell.php?videoid=5135163",
+          "https://video.sibnet.ru/shell.php?videoid=5145251",
+          "https://video.sibnet.ru/shell.php?videoid=5152376",
+          "https://video.sibnet.ru/shell.php?videoid=5159669",
+          "https://video.sibnet.ru/shell.php?videoid=5167090",
+          "https://video.sibnet.ru/shell.php?videoid=5173501",
+          "https://video.sibnet.ru/shell.php?videoid=5179091",
+          "https://video.sibnet.ru/shell.php?videoid=5184048",
+          "https://video.sibnet.ru/shell.php?videoid=5190666",
+          "https://video.sibnet.ru/shell.php?videoid=5197178"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5098252",
+          "https://video.sibnet.ru/shell.php?videoid=5104554",
+          "https://video.sibnet.ru/shell.php?videoid=5111510",
+          "https://video.sibnet.ru/shell.php?videoid=5119121",
+          "https://video.sibnet.ru/shell.php?videoid=5126550",
+          "https://video.sibnet.ru/shell.php?videoid=5134755",
+          "https://video.sibnet.ru/shell.php?videoid=5144962",
+          "https://video.sibnet.ru/shell.php?videoid=5152182",
+          "https://video.sibnet.ru/shell.php?videoid=5159304",
+          "https://video.sibnet.ru/shell.php?videoid=5165509",
+          "https://video.sibnet.ru/shell.php?videoid=5173092",
+          "https://video.sibnet.ru/shell.php?videoid=5178835"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

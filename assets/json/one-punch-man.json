@@ -1,0 +1,18 @@
+{
+  "name": "One Punch man",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/one-punch-man.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4776274"
+      ]
+    }
+  }
+}

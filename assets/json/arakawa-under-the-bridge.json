@@ -1,0 +1,47 @@
+{
+  "name": "Arakawa Under the Bridge",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/arakawa-under-the-bridge.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4812034",
+          "https://video.sibnet.ru/shell.php?videoid=4812036",
+          "https://video.sibnet.ru/shell.php?videoid=4812039",
+          "https://video.sibnet.ru/shell.php?videoid=4812041",
+          "https://video.sibnet.ru/shell.php?videoid=4812044",
+          "https://video.sibnet.ru/shell.php?videoid=4812047",
+          "https://video.sibnet.ru/shell.php?videoid=4812048",
+          "https://video.sibnet.ru/shell.php?videoid=4812051",
+          "https://video.sibnet.ru/shell.php?videoid=4812052",
+          "https://video.sibnet.ru/shell.php?videoid=4812057",
+          "https://video.sibnet.ru/shell.php?videoid=4812064",
+          "https://video.sibnet.ru/shell.php?videoid=4812071",
+          "https://video.sibnet.ru/shell.php?videoid=4812076"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4812080",
+          "https://video.sibnet.ru/shell.php?videoid=4812086",
+          "https://video.sibnet.ru/shell.php?videoid=4812092",
+          "https://video.sibnet.ru/shell.php?videoid=4812098",
+          "https://video.sibnet.ru/shell.php?videoid=4812099",
+          "https://video.sibnet.ru/shell.php?videoid=4812102",
+          "https://video.sibnet.ru/shell.php?videoid=4812103",
+          "https://video.sibnet.ru/shell.php?videoid=4812106",
+          "https://video.sibnet.ru/shell.php?videoid=4812108",
+          "https://video.sibnet.ru/shell.php?videoid=4812109",
+          "https://video.sibnet.ru/shell.php?videoid=4812113",
+          "https://video.sibnet.ru/shell.php?videoid=4812116",
+          "https://video.sibnet.ru/shell.php?videoid=4812117"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

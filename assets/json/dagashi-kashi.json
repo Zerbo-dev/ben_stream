@@ -1,0 +1,45 @@
+{
+  "name": "Dagashi Kashi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/dagashi-kashi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943010",
+          "https://video.sibnet.ru/shell.php?videoid=4943011",
+          "https://video.sibnet.ru/shell.php?videoid=4943013",
+          "https://video.sibnet.ru/shell.php?videoid=4943014",
+          "https://video.sibnet.ru/shell.php?videoid=4943015",
+          "https://video.sibnet.ru/shell.php?videoid=4943018",
+          "https://video.sibnet.ru/shell.php?videoid=4943020",
+          "https://video.sibnet.ru/shell.php?videoid=4943021",
+          "https://video.sibnet.ru/shell.php?videoid=4943023",
+          "https://video.sibnet.ru/shell.php?videoid=4943024",
+          "https://video.sibnet.ru/shell.php?videoid=4943026",
+          "https://video.sibnet.ru/shell.php?videoid=4943029"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4943031",
+          "https://video.sibnet.ru/shell.php?videoid=4943032",
+          "https://video.sibnet.ru/shell.php?videoid=4943033",
+          "https://video.sibnet.ru/shell.php?videoid=4943034",
+          "https://video.sibnet.ru/shell.php?videoid=4943035",
+          "https://video.sibnet.ru/shell.php?videoid=4943038",
+          "https://video.sibnet.ru/shell.php?videoid=4943039",
+          "https://video.sibnet.ru/shell.php?videoid=4943040",
+          "https://video.sibnet.ru/shell.php?videoid=4943041",
+          "https://video.sibnet.ru/shell.php?videoid=4943042",
+          "https://video.sibnet.ru/shell.php?videoid=4943043",
+          "https://video.sibnet.ru/shell.php?videoid=4943046"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

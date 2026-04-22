@@ -1,0 +1,46 @@
+{
+  "name": "Clockwork Planet",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/clockwork-planet.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5372189",
+          "https://video.sibnet.ru/shell.php?videoid=5372199",
+          "https://video.sibnet.ru/shell.php?videoid=5372203",
+          "https://video.sibnet.ru/shell.php?videoid=5372208",
+          "https://video.sibnet.ru/shell.php?videoid=5372211",
+          "https://video.sibnet.ru/shell.php?videoid=5372219",
+          "https://video.sibnet.ru/shell.php?videoid=5372221",
+          "https://video.sibnet.ru/shell.php?videoid=5372223",
+          "https://video.sibnet.ru/shell.php?videoid=5372226",
+          "https://video.sibnet.ru/shell.php?videoid=5372228",
+          "https://video.sibnet.ru/shell.php?videoid=5372235",
+          "https://video.sibnet.ru/shell.php?videoid=5372238"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801711",
+          "https://video.sibnet.ru/shell.php?videoid=4801714",
+          "https://video.sibnet.ru/shell.php?videoid=4801716",
+          "https://video.sibnet.ru/shell.php?videoid=4801718",
+          "https://video.sibnet.ru/shell.php?videoid=4801721",
+          "https://video.sibnet.ru/shell.php?videoid=4801722",
+          "https://video.sibnet.ru/shell.php?videoid=4801724",
+          "https://video.sibnet.ru/shell.php?videoid=4801726",
+          "https://video.sibnet.ru/shell.php?videoid=4801729",
+          "https://video.sibnet.ru/shell.php?videoid=4801732",
+          "https://video.sibnet.ru/shell.php?videoid=4801734",
+          "https://video.sibnet.ru/shell.php?videoid=4801737"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

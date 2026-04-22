@@ -1,0 +1,45 @@
+{
+  "name": "SHY",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/shy.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5266002",
+          "https://video.sibnet.ru/shell.php?videoid=5274409",
+          "https://video.sibnet.ru/shell.php?videoid=5283534",
+          "https://video.sibnet.ru/shell.php?videoid=5293442",
+          "https://video.sibnet.ru/shell.php?videoid=5302660",
+          "https://video.sibnet.ru/shell.php?videoid=5310790",
+          "https://video.sibnet.ru/shell.php?videoid=5320230",
+          "https://video.sibnet.ru/shell.php?videoid=5330248",
+          "https://video.sibnet.ru/shell.php?videoid=5340573",
+          "https://video.sibnet.ru/shell.php?videoid=5350961",
+          "https://video.sibnet.ru/shell.php?videoid=5360702",
+          "https://video.sibnet.ru/shell.php?videoid=5369313"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5582190",
+          "https://video.sibnet.ru/shell.php?videoid=5589737",
+          "https://video.sibnet.ru/shell.php?videoid=5597617",
+          "https://video.sibnet.ru/shell.php?videoid=5606163",
+          "https://video.sibnet.ru/shell.php?videoid=5613748",
+          "https://video.sibnet.ru/shell.php?videoid=5634436",
+          "https://video.sibnet.ru/shell.php?videoid=5644083",
+          "https://video.sibnet.ru/shell.php?videoid=5652964",
+          "https://video.sibnet.ru/shell.php?videoid=5661162",
+          "https://video.sibnet.ru/shell.php?videoid=5669894",
+          "https://video.sibnet.ru/shell.php?videoid=5678870",
+          "https://video.sibnet.ru/shell.php?videoid=5688767"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Summer Ghost",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/summer-ghost.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093237"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093238"
+      ],
+      "oav": []
+    }
+  }
+}

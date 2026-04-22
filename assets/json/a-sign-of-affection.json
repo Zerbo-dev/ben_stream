@@ -1,0 +1,46 @@
+{
+  "name": "A Sign of Affection",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/a-sign-of-affection.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5415183",
+          "https://video.sibnet.ru/shell.php?videoid=5421713",
+          "https://video.sibnet.ru/shell.php?videoid=5428445",
+          "https://video.sibnet.ru/shell.php?videoid=5436006",
+          "https://video.sibnet.ru/shell.php?videoid=5445013",
+          "https://video.sibnet.ru/shell.php?videoid=5453304",
+          "https://video.sibnet.ru/shell.php?videoid=5462160",
+          "https://video.sibnet.ru/shell.php?videoid=5470707",
+          "https://video.sibnet.ru/shell.php?videoid=5479723",
+          "https://video.sibnet.ru/shell.php?videoid=5488078",
+          "https://video.sibnet.ru/shell.php?videoid=5496143",
+          "https://video.sibnet.ru/shell.php?videoid=5504030"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5389278",
+          "https://video.sibnet.ru/shell.php?videoid=5397429",
+          "https://video.sibnet.ru/shell.php?videoid=5406164",
+          "https://video.sibnet.ru/shell.php?videoid=5414387",
+          "https://video.sibnet.ru/shell.php?videoid=5421075",
+          "https://video.sibnet.ru/shell.php?videoid=5427977",
+          "https://video.sibnet.ru/shell.php?videoid=5435545",
+          "https://video.sibnet.ru/shell.php?videoid=5444129",
+          "https://video.sibnet.ru/shell.php?videoid=5452858",
+          "https://video.sibnet.ru/shell.php?videoid=5461626",
+          "https://video.sibnet.ru/shell.php?videoid=5470193",
+          "https://video.sibnet.ru/shell.php?videoid=5479139"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

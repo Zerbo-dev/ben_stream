@@ -1,0 +1,74 @@
+{
+  "name": "Ijiranaide, Nagatoro-san",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ijiranaide-nagatoro-san.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4573351",
+          "https://video.sibnet.ru/shell.php?videoid=4580989",
+          "https://video.sibnet.ru/shell.php?videoid=4589163",
+          "https://video.sibnet.ru/shell.php?videoid=4594077",
+          "https://video.sibnet.ru/shell.php?videoid=4600276",
+          "https://video.sibnet.ru/shell.php?videoid=5553840",
+          "https://video.sibnet.ru/shell.php?videoid=4614623",
+          "https://video.sibnet.ru/shell.php?videoid=4622092",
+          "https://video.sibnet.ru/shell.php?videoid=4629048",
+          "https://video.sibnet.ru/shell.php?videoid=4636255",
+          "https://video.sibnet.ru/shell.php?videoid=4645173",
+          "https://video.sibnet.ru/shell.php?videoid=4651686"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5479098",
+          "https://video.sibnet.ru/shell.php?videoid=5479099",
+          "https://video.sibnet.ru/shell.php?videoid=5479101",
+          "https://video.sibnet.ru/shell.php?videoid=5479103",
+          "https://video.sibnet.ru/shell.php?videoid=5479105",
+          "https://video.sibnet.ru/shell.php?videoid=5479107",
+          "https://video.sibnet.ru/shell.php?videoid=5479108",
+          "https://video.sibnet.ru/shell.php?videoid=5479109",
+          "https://video.sibnet.ru/shell.php?videoid=5479111",
+          "https://video.sibnet.ru/shell.php?videoid=5479113",
+          "https://video.sibnet.ru/shell.php?videoid=5479114",
+          "https://video.sibnet.ru/shell.php?videoid=5479115"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4290980",
+          "https://video.sibnet.ru/shell.php?videoid=4295910",
+          "https://video.sibnet.ru/shell.php?videoid=4301350",
+          "https://video.sibnet.ru/shell.php?videoid=4306690",
+          "https://video.sibnet.ru/shell.php?videoid=4310975",
+          "https://video.sibnet.ru/shell.php?videoid=4315884",
+          "https://video.sibnet.ru/shell.php?videoid=4319845",
+          "https://video.sibnet.ru/shell.php?videoid=4323890",
+          "https://video.sibnet.ru/shell.php?videoid=4328598",
+          "https://video.sibnet.ru/shell.php?videoid=4332899",
+          "https://video.sibnet.ru/shell.php?videoid=4336991",
+          "https://video.sibnet.ru/shell.php?videoid=4340165"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5001688",
+          "https://video.sibnet.ru/shell.php?videoid=5006411",
+          "https://video.sibnet.ru/shell.php?videoid=5009553",
+          "https://video.sibnet.ru/shell.php?videoid=5015744",
+          "https://video.sibnet.ru/shell.php?videoid=5024418",
+          "https://video.sibnet.ru/shell.php?videoid=5031591",
+          "https://video.sibnet.ru/shell.php?videoid=5039558",
+          "https://video.sibnet.ru/shell.php?videoid=5049154",
+          "https://video.sibnet.ru/shell.php?videoid=5058520",
+          "https://video.sibnet.ru/shell.php?videoid=5067253",
+          "https://video.sibnet.ru/shell.php?videoid=5073176",
+          "https://video.sibnet.ru/shell.php?videoid=5079577"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

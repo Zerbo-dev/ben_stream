@@ -1,0 +1,55 @@
+{
+  "name": "Übel Blatt",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ubel-blatt.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5889045",
+          "https://video.sibnet.ru/shell.php?videoid=5889047",
+          "https://video.sibnet.ru/shell.php?videoid=5889050",
+          "https://video.sibnet.ru/shell.php?videoid=5889051",
+          "https://video.sibnet.ru/shell.php?videoid=5889052",
+          "https://video.sibnet.ru/shell.php?videoid=5889053",
+          "https://video.sibnet.ru/shell.php?videoid=5889055",
+          "https://video.sibnet.ru/shell.php?videoid=5889057",
+          "https://video.sibnet.ru/shell.php?videoid=5889058",
+          "https://video.sibnet.ru/shell.php?videoid=5889061",
+          "https://video.sibnet.ru/shell.php?videoid=5889064",
+          "https://video.sibnet.ru/shell.php?videoid=5889069"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5795027",
+          "https://video.sibnet.ru/shell.php?videoid=5800542",
+          "https://video.sibnet.ru/shell.php?videoid=5805773",
+          "https://video.sibnet.ru/shell.php?videoid=5810826",
+          "https://video.sibnet.ru/shell.php?videoid=5817734",
+          "https://video.sibnet.ru/shell.php?videoid=5824908",
+          "https://video.sibnet.ru/shell.php?videoid=5831175",
+          "https://video.sibnet.ru/shell.php?videoid=5838129",
+          "https://video.sibnet.ru/shell.php?videoid=5844762",
+          "https://video.sibnet.ru/shell.php?videoid=5850661",
+          "https://video.sibnet.ru/shell.php?videoid=5856558",
+          "https://video.sibnet.ru/shell.php?videoid=5863068"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

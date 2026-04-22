@@ -1,0 +1,20 @@
+{
+  "name": "La traversée du Temps",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/la-traversee-du-temps.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5450814"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5450815"
+      ],
+      "oav": []
+    }
+  }
+}

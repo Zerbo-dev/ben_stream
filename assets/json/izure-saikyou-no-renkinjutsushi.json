@@ -1,0 +1,40 @@
+{
+  "name": "Izure Saikyou no Renkinjutsushi?",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/izure-saikyou-no-renkinjutsushi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5788428",
+          "https://video.sibnet.ru/shell.php?videoid=5793242",
+          "https://video.sibnet.ru/shell.php?videoid=5798922",
+          "https://video.sibnet.ru/shell.php?videoid=5804385",
+          "https://video.sibnet.ru/shell.php?videoid=5809204",
+          "https://video.sibnet.ru/shell.php?videoid=5815686",
+          "https://video.sibnet.ru/shell.php?videoid=5822806",
+          "https://video.sibnet.ru/shell.php?videoid=5829193",
+          "https://video.sibnet.ru/shell.php?videoid=5836746",
+          "https://video.sibnet.ru/shell.php?videoid=5842780",
+          "https://video.sibnet.ru/shell.php?videoid=5849077",
+          "https://video.sibnet.ru/shell.php?videoid=5854638"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

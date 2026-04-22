@@ -1,0 +1,27 @@
+{
+  "name": "Classroom for Heroes",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/classroom-for-heroes.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5193225",
+          "https://video.sibnet.ru/shell.php?videoid=5199512",
+          "https://video.sibnet.ru/shell.php?videoid=5205903",
+          "https://video.sibnet.ru/shell.php?videoid=5212587",
+          "https://video.sibnet.ru/shell.php?videoid=5220496",
+          "https://video.sibnet.ru/shell.php?videoid=5242171",
+          "https://video.sibnet.ru/shell.php?videoid=5249296",
+          "https://video.sibnet.ru/shell.php?videoid=5255337"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

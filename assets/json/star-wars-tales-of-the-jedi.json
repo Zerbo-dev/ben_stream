@@ -1,0 +1,34 @@
+{
+  "name": "Star Wars Tales of the Jedi",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/star-wars-tales-of-the-jedi.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4933743",
+          "https://video.sibnet.ru/shell.php?videoid=4933746",
+          "https://video.sibnet.ru/shell.php?videoid=4933749",
+          "https://video.sibnet.ru/shell.php?videoid=4933753",
+          "https://video.sibnet.ru/shell.php?videoid=4933757",
+          "https://video.sibnet.ru/shell.php?videoid=4933762"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4933649",
+          "https://video.sibnet.ru/shell.php?videoid=4933650",
+          "https://video.sibnet.ru/shell.php?videoid=4933653",
+          "https://video.sibnet.ru/shell.php?videoid=4933654",
+          "https://video.sibnet.ru/shell.php?videoid=4933655",
+          "https://video.sibnet.ru/shell.php?videoid=4933657"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

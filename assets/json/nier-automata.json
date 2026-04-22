@@ -1,0 +1,46 @@
+{
+  "name": "NieR:Automata",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/nier-automata.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5031775",
+          "https://video.sibnet.ru/shell.php?videoid=5039771",
+          "https://video.sibnet.ru/shell.php?videoid=5049378",
+          "https://video.sibnet.ru/shell.php?videoid=5231463",
+          "https://video.sibnet.ru/shell.php?videoid=5235756",
+          "https://video.sibnet.ru/shell.php?videoid=5242610",
+          "https://video.sibnet.ru/shell.php?videoid=5249545",
+          "https://video.sibnet.ru/shell.php?videoid=5255653",
+          "https://video.sibnet.ru/shell.php?videoid=5255645",
+          "https://video.sibnet.ru/shell.php?videoid=5255648",
+          "https://video.sibnet.ru/shell.php?videoid=5255657",
+          "https://video.sibnet.ru/shell.php?videoid=5255652"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5001561",
+          "https://video.sibnet.ru/shell.php?videoid=5009444",
+          "https://video.sibnet.ru/shell.php?videoid=5015681",
+          "https://video.sibnet.ru/shell.php?videoid=5049041",
+          "https://video.sibnet.ru/shell.php?videoid=5058442",
+          "https://video.sibnet.ru/shell.php?videoid=5067191",
+          "https://video.sibnet.ru/shell.php?videoid=5073014",
+          "https://video.sibnet.ru/shell.php?videoid=5079543",
+          "https://video.sibnet.ru/shell.php?videoid=5205797",
+          "https://video.sibnet.ru/shell.php?videoid=5205799",
+          "https://video.sibnet.ru/shell.php?videoid=5205801",
+          "https://video.sibnet.ru/shell.php?videoid=5205802"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Saint Cecilia & Pastor Lawrence",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/saint-cecilia-and-pastor-lawrence.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5196190",
+          "https://video.sibnet.ru/shell.php?videoid=5202264",
+          "https://video.sibnet.ru/shell.php?videoid=5208349",
+          "https://video.sibnet.ru/shell.php?videoid=5216615",
+          "https://video.sibnet.ru/shell.php?videoid=5222628",
+          "https://video.sibnet.ru/shell.php?videoid=5237909",
+          "https://video.sibnet.ru/shell.php?videoid=5245766",
+          "https://video.sibnet.ru/shell.php?videoid=5251919"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

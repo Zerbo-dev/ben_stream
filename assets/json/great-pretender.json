@@ -1,0 +1,70 @@
+{
+  "name": "Great Pretender",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/great-pretender.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4948387",
+          "https://video.sibnet.ru/shell.php?videoid=4948342",
+          "https://video.sibnet.ru/shell.php?videoid=4948345",
+          "https://video.sibnet.ru/shell.php?videoid=4948347",
+          "https://video.sibnet.ru/shell.php?videoid=4948348",
+          "https://video.sibnet.ru/shell.php?videoid=4948351",
+          "https://video.sibnet.ru/shell.php?videoid=4948352",
+          "https://video.sibnet.ru/shell.php?videoid=4948355",
+          "https://video.sibnet.ru/shell.php?videoid=4948357",
+          "https://video.sibnet.ru/shell.php?videoid=4948358",
+          "https://video.sibnet.ru/shell.php?videoid=4948360",
+          "https://video.sibnet.ru/shell.php?videoid=4948362",
+          "https://video.sibnet.ru/shell.php?videoid=4948365",
+          "https://video.sibnet.ru/shell.php?videoid=4948366",
+          "https://video.sibnet.ru/shell.php?videoid=4948367",
+          "https://video.sibnet.ru/shell.php?videoid=4948368",
+          "https://video.sibnet.ru/shell.php?videoid=4948369",
+          "https://video.sibnet.ru/shell.php?videoid=4948371",
+          "https://video.sibnet.ru/shell.php?videoid=4948373",
+          "https://video.sibnet.ru/shell.php?videoid=4948376",
+          "https://video.sibnet.ru/shell.php?videoid=4948377",
+          "https://video.sibnet.ru/shell.php?videoid=4948379",
+          "https://video.sibnet.ru/shell.php?videoid=4948380"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4672162",
+          "https://video.sibnet.ru/shell.php?videoid=4672164",
+          "https://video.sibnet.ru/shell.php?videoid=4672166",
+          "https://video.sibnet.ru/shell.php?videoid=4672171",
+          "https://video.sibnet.ru/shell.php?videoid=4672172",
+          "https://video.sibnet.ru/shell.php?videoid=4672174",
+          "https://video.sibnet.ru/shell.php?videoid=4672178",
+          "https://video.sibnet.ru/shell.php?videoid=4672181",
+          "https://video.sibnet.ru/shell.php?videoid=4672182",
+          "https://video.sibnet.ru/shell.php?videoid=4672185",
+          "https://video.sibnet.ru/shell.php?videoid=4672189",
+          "https://video.sibnet.ru/shell.php?videoid=4672190",
+          "https://video.sibnet.ru/shell.php?videoid=4672192",
+          "https://video.sibnet.ru/shell.php?videoid=4672194",
+          "https://video.sibnet.ru/shell.php?videoid=4672202",
+          "https://video.sibnet.ru/shell.php?videoid=4672223",
+          "https://video.sibnet.ru/shell.php?videoid=4672226",
+          "https://video.sibnet.ru/shell.php?videoid=4672228",
+          "https://video.sibnet.ru/shell.php?videoid=4672232",
+          "https://video.sibnet.ru/shell.php?videoid=4672233",
+          "https://video.sibnet.ru/shell.php?videoid=4672234",
+          "https://video.sibnet.ru/shell.php?videoid=4672236",
+          "https://video.sibnet.ru/shell.php?videoid=4672237"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5442092"
+      ],
+      "oav": []
+    }
+  }
+}

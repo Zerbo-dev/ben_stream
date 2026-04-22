@@ -1,0 +1,31 @@
+{
+  "name": "Hyakuren no Haou to Seiyaku no Valkyria",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hyakuren-no-haou-to-seiyaku-no-valkyria.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4876346",
+          "https://video.sibnet.ru/shell.php?videoid=4876348",
+          "https://video.sibnet.ru/shell.php?videoid=4876350",
+          "https://video.sibnet.ru/shell.php?videoid=4876351",
+          "https://video.sibnet.ru/shell.php?videoid=4876352",
+          "https://video.sibnet.ru/shell.php?videoid=4876354",
+          "https://video.sibnet.ru/shell.php?videoid=4876355",
+          "https://video.sibnet.ru/shell.php?videoid=4876356",
+          "https://video.sibnet.ru/shell.php?videoid=4876357",
+          "https://video.sibnet.ru/shell.php?videoid=4876359",
+          "https://video.sibnet.ru/shell.php?videoid=4876361",
+          "https://video.sibnet.ru/shell.php?videoid=4876363"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

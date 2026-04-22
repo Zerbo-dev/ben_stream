@@ -1,0 +1,45 @@
+{
+  "name": "Kizuna no Allele",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kizuna-no-allele.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5096206",
+          "https://video.sibnet.ru/shell.php?videoid=5101906",
+          "https://video.sibnet.ru/shell.php?videoid=5108562",
+          "https://video.sibnet.ru/shell.php?videoid=5116665",
+          "https://video.sibnet.ru/shell.php?videoid=5123401",
+          "https://video.sibnet.ru/shell.php?videoid=5130212",
+          "https://video.sibnet.ru/shell.php?videoid=5141134",
+          "https://video.sibnet.ru/shell.php?videoid=5149439",
+          "https://video.sibnet.ru/shell.php?videoid=5156075",
+          "https://video.sibnet.ru/shell.php?videoid=5163096",
+          "https://video.sibnet.ru/shell.php?videoid=5169737",
+          "https://video.sibnet.ru/shell.php?videoid=5176465"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5268111",
+          "https://video.sibnet.ru/shell.php?videoid=5276569",
+          "https://video.sibnet.ru/shell.php?videoid=5286763",
+          "https://video.sibnet.ru/shell.php?videoid=5296639",
+          "https://video.sibnet.ru/shell.php?videoid=5304854",
+          "https://video.sibnet.ru/shell.php?videoid=5313099",
+          "https://video.sibnet.ru/shell.php?videoid=5323124",
+          "https://video.sibnet.ru/shell.php?videoid=5333201",
+          "https://video.sibnet.ru/shell.php?videoid=5344182",
+          "https://video.sibnet.ru/shell.php?videoid=5353765",
+          "https://video.sibnet.ru/shell.php?videoid=5362944",
+          "https://video.sibnet.ru/shell.php?videoid=5371279"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

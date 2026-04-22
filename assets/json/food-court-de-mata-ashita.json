@@ -1,0 +1,31 @@
+{
+  "name": "Food Court de, Mata Ashita",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/food-court-de-mata-ashita.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5956201",
+          "https://video.sibnet.ru/shell.php?videoid=5964078",
+          "https://video.sibnet.ru/shell.php?videoid=5970702"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

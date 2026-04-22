@@ -1,0 +1,46 @@
+{
+  "name": "Deca-Dence",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/deca-dence.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4943240",
+          "https://video.sibnet.ru/shell.php?videoid=4943241",
+          "https://video.sibnet.ru/shell.php?videoid=4943245",
+          "https://video.sibnet.ru/shell.php?videoid=4943248",
+          "https://video.sibnet.ru/shell.php?videoid=4943250",
+          "https://video.sibnet.ru/shell.php?videoid=4943258",
+          "https://video.sibnet.ru/shell.php?videoid=4943265",
+          "https://video.sibnet.ru/shell.php?videoid=4943272",
+          "https://video.sibnet.ru/shell.php?videoid=4943279",
+          "https://video.sibnet.ru/shell.php?videoid=4943289",
+          "https://video.sibnet.ru/shell.php?videoid=4943304",
+          "https://video.sibnet.ru/shell.php?videoid=4943320"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4672243",
+          "https://video.sibnet.ru/shell.php?videoid=4672245",
+          "https://video.sibnet.ru/shell.php?videoid=4672247",
+          "https://video.sibnet.ru/shell.php?videoid=4672248",
+          "https://video.sibnet.ru/shell.php?videoid=4672250",
+          "https://video.sibnet.ru/shell.php?videoid=4672252",
+          "https://video.sibnet.ru/shell.php?videoid=4672255",
+          "https://video.sibnet.ru/shell.php?videoid=4672257",
+          "https://video.sibnet.ru/shell.php?videoid=4672258",
+          "https://video.sibnet.ru/shell.php?videoid=4672260",
+          "https://video.sibnet.ru/shell.php?videoid=4672261",
+          "https://video.sibnet.ru/shell.php?videoid=4672263"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

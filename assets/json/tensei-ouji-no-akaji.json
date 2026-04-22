@@ -1,0 +1,46 @@
+{
+  "name": "Tensei Ouji no Akaji",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/tensei-ouji-no-akaji.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4594097",
+          "https://video.sibnet.ru/shell.php?videoid=4606197",
+          "https://video.sibnet.ru/shell.php?videoid=4606196",
+          "https://video.sibnet.ru/shell.php?videoid=4612855",
+          "https://video.sibnet.ru/shell.php?videoid=4622188",
+          "https://video.sibnet.ru/shell.php?videoid=4629053",
+          "https://video.sibnet.ru/shell.php?videoid=4645152",
+          "https://video.sibnet.ru/shell.php?videoid=4645107",
+          "https://video.sibnet.ru/shell.php?videoid=4651704",
+          "https://video.sibnet.ru/shell.php?videoid=4660236",
+          "https://video.sibnet.ru/shell.php?videoid=4669911",
+          "https://video.sibnet.ru/shell.php?videoid=4678073"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4668184",
+          "https://video.sibnet.ru/shell.php?videoid=4668186",
+          "https://video.sibnet.ru/shell.php?videoid=4668189",
+          "https://video.sibnet.ru/shell.php?videoid=4668190",
+          "https://video.sibnet.ru/shell.php?videoid=4668192",
+          "https://video.sibnet.ru/shell.php?videoid=4668195",
+          "https://video.sibnet.ru/shell.php?videoid=4668197",
+          "https://video.sibnet.ru/shell.php?videoid=4668200",
+          "https://video.sibnet.ru/shell.php?videoid=4668201",
+          "https://video.sibnet.ru/shell.php?videoid=4668204",
+          "https://video.sibnet.ru/shell.php?videoid=4668206",
+          "https://video.sibnet.ru/shell.php?videoid=4668208"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

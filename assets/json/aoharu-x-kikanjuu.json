@@ -1,0 +1,41 @@
+{
+  "name": "Aoharu x Kikanjuu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/aoharu-x-kikanjuu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5870867",
+          "https://video.sibnet.ru/shell.php?videoid=5870831",
+          "https://video.sibnet.ru/shell.php?videoid=5870833",
+          "https://video.sibnet.ru/shell.php?videoid=5870835",
+          "https://video.sibnet.ru/shell.php?videoid=5870836",
+          "https://video.sibnet.ru/shell.php?videoid=5870838",
+          "https://video.sibnet.ru/shell.php?videoid=5870842",
+          "https://video.sibnet.ru/shell.php?videoid=5870844",
+          "https://video.sibnet.ru/shell.php?videoid=5870845",
+          "https://video.sibnet.ru/shell.php?videoid=5870847",
+          "https://video.sibnet.ru/shell.php?videoid=5870849",
+          "https://video.sibnet.ru/shell.php?videoid=5870851",
+          "https://video.sibnet.ru/shell.php?videoid=5870853"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

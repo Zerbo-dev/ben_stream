@@ -1,0 +1,34 @@
+{
+  "name": "Trinity Seven",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/trinity-seven.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4721346",
+          "https://video.sibnet.ru/shell.php?videoid=4721351",
+          "https://video.sibnet.ru/shell.php?videoid=4721355",
+          "https://video.sibnet.ru/shell.php?videoid=4721357",
+          "https://video.sibnet.ru/shell.php?videoid=4721359",
+          "https://video.sibnet.ru/shell.php?videoid=4721362",
+          "https://video.sibnet.ru/shell.php?videoid=4721364",
+          "https://video.sibnet.ru/shell.php?videoid=4721368",
+          "https://video.sibnet.ru/shell.php?videoid=4721371",
+          "https://video.sibnet.ru/shell.php?videoid=4721372",
+          "https://video.sibnet.ru/shell.php?videoid=4721375",
+          "https://video.sibnet.ru/shell.php?videoid=4721377"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4721380",
+        "https://video.sibnet.ru/shell.php?videoid=4721385"
+      ],
+      "oav": []
+    }
+  }
+}

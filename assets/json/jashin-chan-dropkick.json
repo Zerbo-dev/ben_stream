@@ -1,0 +1,58 @@
+{
+  "name": "Jashin-chan Dropkick",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/jashin-chan-dropkick.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4843032",
+          "https://video.sibnet.ru/shell.php?videoid=4843035",
+          "https://video.sibnet.ru/shell.php?videoid=4843037",
+          "https://video.sibnet.ru/shell.php?videoid=4843040",
+          "https://video.sibnet.ru/shell.php?videoid=4843042",
+          "https://video.sibnet.ru/shell.php?videoid=4843044",
+          "https://video.sibnet.ru/shell.php?videoid=4843048",
+          "https://video.sibnet.ru/shell.php?videoid=4843051",
+          "https://video.sibnet.ru/shell.php?videoid=4843055",
+          "https://video.sibnet.ru/shell.php?videoid=4843057",
+          "https://video.sibnet.ru/shell.php?videoid=4843060",
+          "https://video.sibnet.ru/shell.php?videoid=4843063"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4843066",
+          "https://video.sibnet.ru/shell.php?videoid=4843069",
+          "https://video.sibnet.ru/shell.php?videoid=4843072",
+          "https://video.sibnet.ru/shell.php?videoid=4843075",
+          "https://video.sibnet.ru/shell.php?videoid=4843078",
+          "https://video.sibnet.ru/shell.php?videoid=4843082",
+          "https://video.sibnet.ru/shell.php?videoid=4843085",
+          "https://video.sibnet.ru/shell.php?videoid=4843088",
+          "https://video.sibnet.ru/shell.php?videoid=4843092",
+          "https://video.sibnet.ru/shell.php?videoid=4843095",
+          "https://video.sibnet.ru/shell.php?videoid=4843096"
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid=4843098",
+          "https://video.sibnet.ru/shell.php?videoid=4843099",
+          "https://video.sibnet.ru/shell.php?videoid=4843102",
+          "https://video.sibnet.ru/shell.php?videoid=4843104",
+          "https://video.sibnet.ru/shell.php?videoid=4843106",
+          "https://video.sibnet.ru/shell.php?videoid=4843107",
+          "https://video.sibnet.ru/shell.php?videoid=4843108",
+          "https://video.sibnet.ru/shell.php?videoid=4843109",
+          "https://video.sibnet.ru/shell.php?videoid=4851642",
+          "https://video.sibnet.ru/shell.php?videoid=4861273",
+          "https://video.sibnet.ru/shell.php?videoid=4870272",
+          "https://video.sibnet.ru/shell.php?videoid=4878646"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Un été avec Coo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/un-ete-avec-coo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093258"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5093240"
+      ],
+      "oav": []
+    }
+  }
+}

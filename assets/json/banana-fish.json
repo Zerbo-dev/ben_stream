@@ -1,0 +1,43 @@
+{
+  "name": "Banana Fish",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/banana-fish.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3396068",
+          "https://video.sibnet.ru/shell.php?videoid=3396069",
+          "https://video.sibnet.ru/shell.php?videoid=3419589",
+          "https://video.sibnet.ru/shell.php?videoid=3419591",
+          "https://video.sibnet.ru/shell.php?videoid=3419592",
+          "https://video.sibnet.ru/shell.php?videoid=3419594",
+          "https://video.sibnet.ru/shell.php?videoid=3438510",
+          "https://video.sibnet.ru/shell.php?videoid=3438512",
+          "https://video.sibnet.ru/shell.php?videoid=3438516",
+          "https://video.sibnet.ru/shell.php?videoid=3442985",
+          "https://video.sibnet.ru/shell.php?videoid=3453512",
+          "https://video.sibnet.ru/shell.php?videoid=3457659",
+          "https://video.sibnet.ru/shell.php?videoid=3468262",
+          "https://video.sibnet.ru/shell.php?videoid=3470385",
+          "https://video.sibnet.ru/shell.php?videoid=3474882",
+          "https://video.sibnet.ru/shell.php?videoid=3479411",
+          "https://video.sibnet.ru/shell.php?videoid=3483598",
+          "https://video.sibnet.ru/shell.php?videoid=3488007",
+          "https://video.sibnet.ru/shell.php?videoid=3491904",
+          "https://video.sibnet.ru/shell.php?videoid=3495505",
+          "https://video.sibnet.ru/shell.php?videoid=3500302",
+          "https://video.sibnet.ru/shell.php?videoid=3505608",
+          "https://video.sibnet.ru/shell.php?videoid=3509886",
+          "https://video.sibnet.ru/shell.php?videoid=3515935"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

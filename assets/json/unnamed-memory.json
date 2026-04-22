@@ -1,0 +1,45 @@
+{
+  "name": "Unnamed Memory",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/unnamed-memory.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5499446",
+          "https://video.sibnet.ru/shell.php?videoid=5506967",
+          "https://video.sibnet.ru/shell.php?videoid=5513954",
+          "https://video.sibnet.ru/shell.php?videoid=5520816",
+          "https://video.sibnet.ru/shell.php?videoid=5528539",
+          "https://video.sibnet.ru/shell.php?videoid=5535464",
+          "https://video.sibnet.ru/shell.php?videoid=5541944",
+          "https://video.sibnet.ru/shell.php?videoid=5548303",
+          "https://video.sibnet.ru/shell.php?videoid=5554280",
+          "https://video.sibnet.ru/shell.php?videoid=5560173",
+          "https://video.sibnet.ru/shell.php?videoid=5567639",
+          "https://video.sibnet.ru/shell.php?videoid=5575200"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5792533",
+          "https://video.sibnet.ru/shell.php?videoid=5798345",
+          "https://video.sibnet.ru/shell.php?videoid=5803874",
+          "https://video.sibnet.ru/shell.php?videoid=5808390",
+          "https://video.sibnet.ru/shell.php?videoid=5814656",
+          "https://video.sibnet.ru/shell.php?videoid=5821777",
+          "https://video.sibnet.ru/shell.php?videoid=5828249",
+          "https://video.sibnet.ru/shell.php?videoid=5836004",
+          "https://video.sibnet.ru/shell.php?videoid=5842121",
+          "https://video.sibnet.ru/shell.php?videoid=5848209",
+          "https://video.sibnet.ru/shell.php?videoid=5854094",
+          "https://video.sibnet.ru/shell.php?videoid=5860276"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

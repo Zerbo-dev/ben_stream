@@ -1,0 +1,45 @@
+{
+  "name": "Nanbaka",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/nanbaka.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3412641",
+          "https://video.sibnet.ru/shell.php?videoid=3412645",
+          "https://video.sibnet.ru/shell.php?videoid=3412646",
+          "https://video.sibnet.ru/shell.php?videoid=3412648",
+          "https://video.sibnet.ru/shell.php?videoid=3412650",
+          "https://video.sibnet.ru/shell.php?videoid=3412652",
+          "https://video.sibnet.ru/shell.php?videoid=3412653",
+          "https://video.sibnet.ru/shell.php?videoid=3412655",
+          "https://video.sibnet.ru/shell.php?videoid=3412657",
+          "https://video.sibnet.ru/shell.php?videoid=3412659",
+          "https://video.sibnet.ru/shell.php?videoid=3412663",
+          "https://video.sibnet.ru/shell.php?videoid=3412667",
+          "https://video.sibnet.ru/shell.php?videoid=3412670",
+          "https://video.sibnet.ru/shell.php?videoid=3412672",
+          "https://video.sibnet.ru/shell.php?videoid=3412674",
+          "https://video.sibnet.ru/shell.php?videoid=3412675",
+          "https://video.sibnet.ru/shell.php?videoid=3412676",
+          "https://video.sibnet.ru/shell.php?videoid=3412677",
+          "https://video.sibnet.ru/shell.php?videoid=3412678",
+          "https://video.sibnet.ru/shell.php?videoid=3412679",
+          "https://video.sibnet.ru/shell.php?videoid=3412682",
+          "https://video.sibnet.ru/shell.php?videoid=3412684",
+          "https://video.sibnet.ru/shell.php?videoid=3412685",
+          "https://video.sibnet.ru/shell.php?videoid=3412686",
+          "https://video.sibnet.ru/shell.php?videoid=3412687",
+          "https://video.sibnet.ru/shell.php?videoid=3417020"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

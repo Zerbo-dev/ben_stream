@@ -1,0 +1,26 @@
+{
+  "name": "Deadman Wonderland",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/deadman-wonderland.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=2984568"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4765465"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4765493"
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Nagi no Asukara",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/nagi-no-asukara.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801820",
+          "https://video.sibnet.ru/shell.php?videoid=4801824",
+          "https://video.sibnet.ru/shell.php?videoid=4801826",
+          "https://video.sibnet.ru/shell.php?videoid=4801828",
+          "https://video.sibnet.ru/shell.php?videoid=4801831",
+          "https://video.sibnet.ru/shell.php?videoid=4801833",
+          "https://video.sibnet.ru/shell.php?videoid=4801836",
+          "https://video.sibnet.ru/shell.php?videoid=4801838",
+          "https://video.sibnet.ru/shell.php?videoid=4801842",
+          "https://video.sibnet.ru/shell.php?videoid=4801844",
+          "https://video.sibnet.ru/shell.php?videoid=4801845",
+          "https://video.sibnet.ru/shell.php?videoid=4801847",
+          "https://video.sibnet.ru/shell.php?videoid=4801849",
+          "https://video.sibnet.ru/shell.php?videoid=4801853",
+          "https://video.sibnet.ru/shell.php?videoid=4801855",
+          "https://video.sibnet.ru/shell.php?videoid=4801857",
+          "https://video.sibnet.ru/shell.php?videoid=4801858",
+          "https://video.sibnet.ru/shell.php?videoid=4801859",
+          "https://video.sibnet.ru/shell.php?videoid=4801860",
+          "https://video.sibnet.ru/shell.php?videoid=4801861",
+          "https://video.sibnet.ru/shell.php?videoid=4801862",
+          "https://video.sibnet.ru/shell.php?videoid=4801863",
+          "https://video.sibnet.ru/shell.php?videoid=4801866",
+          "https://video.sibnet.ru/shell.php?videoid=4801867",
+          "https://video.sibnet.ru/shell.php?videoid=4801868",
+          "https://video.sibnet.ru/shell.php?videoid=4801869"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

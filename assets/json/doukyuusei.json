@@ -1,0 +1,18 @@
+{
+  "name": "Doukyuusei",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/doukyuusei.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4768672\t"
+      ],
+      "oav": []
+    }
+  }
+}

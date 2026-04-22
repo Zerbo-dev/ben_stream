@@ -1,0 +1,42 @@
+{
+  "name": "Back Street Girls",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/back-street-girls.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5382773",
+          "https://video.sibnet.ru/shell.php?videoid=5382775",
+          "https://video.sibnet.ru/shell.php?videoid=5382777",
+          "https://video.sibnet.ru/shell.php?videoid=5382778",
+          "https://video.sibnet.ru/shell.php?videoid=5382780",
+          "https://video.sibnet.ru/shell.php?videoid=5382781",
+          "https://video.sibnet.ru/shell.php?videoid=5382783",
+          "https://video.sibnet.ru/shell.php?videoid=5382785",
+          "https://video.sibnet.ru/shell.php?videoid=5382787",
+          "https://video.sibnet.ru/shell.php?videoid=5382789"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4693401",
+          "https://video.sibnet.ru/shell.php?videoid=4693404",
+          "https://video.sibnet.ru/shell.php?videoid=4693407",
+          "https://video.sibnet.ru/shell.php?videoid=4693411",
+          "https://video.sibnet.ru/shell.php?videoid=4693414",
+          "https://video.sibnet.ru/shell.php?videoid=4693417",
+          "https://video.sibnet.ru/shell.php?videoid=4693423",
+          "https://video.sibnet.ru/shell.php?videoid=4693427",
+          "https://video.sibnet.ru/shell.php?videoid=4693428",
+          "https://video.sibnet.ru/shell.php?videoid=4693429"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

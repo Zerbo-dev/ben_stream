@@ -1,0 +1,48 @@
+{
+  "name": "Cheat Skill Level Up",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cheat-skill-level-up.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5117294",
+          "https://video.sibnet.ru/shell.php?videoid=5130574",
+          "https://video.sibnet.ru/shell.php?videoid=5130538",
+          "https://video.sibnet.ru/shell.php?videoid=5141335",
+          "https://video.sibnet.ru/shell.php?videoid=5149577",
+          "https://video.sibnet.ru/shell.php?videoid=5156167",
+          "https://video.sibnet.ru/shell.php?videoid=5163378",
+          "https://video.sibnet.ru/shell.php?videoid=5169913",
+          "https://video.sibnet.ru/shell.php?videoid=5176623",
+          "https://video.sibnet.ru/shell.php?videoid=5182142",
+          "https://video.sibnet.ru/shell.php?videoid=5187491",
+          "https://video.sibnet.ru/shell.php?videoid=5195246",
+          "https://video.sibnet.ru/shell.php?videoid=5200714"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5095994",
+          "https://video.sibnet.ru/shell.php?videoid=5101861",
+          "https://video.sibnet.ru/shell.php?videoid=5108523",
+          "https://video.sibnet.ru/shell.php?videoid=5116611",
+          "https://video.sibnet.ru/shell.php?videoid=5123317",
+          "https://video.sibnet.ru/shell.php?videoid=5130055",
+          "https://video.sibnet.ru/shell.php?videoid=5141042",
+          "https://video.sibnet.ru/shell.php?videoid=5149360",
+          "https://video.sibnet.ru/shell.php?videoid=5155947",
+          "https://video.sibnet.ru/shell.php?videoid=5163036",
+          "https://video.sibnet.ru/shell.php?videoid=5169675",
+          "https://video.sibnet.ru/shell.php?videoid=5176422",
+          "https://video.sibnet.ru/shell.php?videoid=5183008"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

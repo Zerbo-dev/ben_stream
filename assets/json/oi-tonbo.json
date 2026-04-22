@@ -1,0 +1,47 @@
+{
+  "name": "Oi! Tonbo",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/oi-tonbo.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5502887",
+          "https://video.sibnet.ru/shell.php?videoid=5503281",
+          "https://video.sibnet.ru/shell.php?videoid=5510682",
+          "https://video.sibnet.ru/shell.php?videoid=5517258",
+          "https://video.sibnet.ru/shell.php?videoid=5524524",
+          "https://video.sibnet.ru/shell.php?videoid=5531571",
+          "https://video.sibnet.ru/shell.php?videoid=5538504",
+          "https://video.sibnet.ru/shell.php?videoid=5544910",
+          "https://video.sibnet.ru/shell.php?videoid=5551053",
+          "https://video.sibnet.ru/shell.php?videoid=5556732",
+          "https://video.sibnet.ru/shell.php?videoid=5563633",
+          "https://video.sibnet.ru/shell.php?videoid=5571472",
+          "https://video.sibnet.ru/shell.php?videoid=5579229"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5702712",
+          "https://video.sibnet.ru/shell.php?videoid=5712779",
+          "https://video.sibnet.ru/shell.php?videoid=5721451",
+          "https://video.sibnet.ru/shell.php?videoid=5730039",
+          "https://video.sibnet.ru/shell.php?videoid=5739018",
+          "https://video.sibnet.ru/shell.php?videoid=5746035",
+          "https://video.sibnet.ru/shell.php?videoid=5753118",
+          "https://video.sibnet.ru/shell.php?videoid=5760254",
+          "https://video.sibnet.ru/shell.php?videoid=5765308",
+          "https://video.sibnet.ru/shell.php?videoid=5769395",
+          "https://video.sibnet.ru/shell.php?videoid=5773453",
+          "https://video.sibnet.ru/shell.php?videoid=5779608",
+          "https://video.sibnet.ru/shell.php?videoid=5790177"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

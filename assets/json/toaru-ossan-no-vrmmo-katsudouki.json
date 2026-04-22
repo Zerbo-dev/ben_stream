@@ -1,0 +1,31 @@
+{
+  "name": "Toaru Ossan no VRMMO Katsudouki",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/toaru-ossan-no-vrmmo-katsudouki.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5266022",
+          "https://video.sibnet.ru/shell.php?videoid=5274459",
+          "https://video.sibnet.ru/shell.php?videoid=5283620",
+          "https://video.sibnet.ru/shell.php?videoid=5293506",
+          "https://video.sibnet.ru/shell.php?videoid=5302680",
+          "https://video.sibnet.ru/shell.php?videoid=5310864",
+          "https://video.sibnet.ru/shell.php?videoid=5320297",
+          "https://video.sibnet.ru/shell.php?videoid=5330387",
+          "https://video.sibnet.ru/shell.php?videoid=5340689",
+          "https://video.sibnet.ru/shell.php?videoid=5351062",
+          "https://video.sibnet.ru/shell.php?videoid=5360865",
+          "https://video.sibnet.ru/shell.php?videoid=5369346"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

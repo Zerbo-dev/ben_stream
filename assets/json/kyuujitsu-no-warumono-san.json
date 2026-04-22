@@ -1,0 +1,29 @@
+{
+  "name": "Kyuujitsu no Warumono-san",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kyuujitsu-no-warumono-san.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5391260",
+          "https://video.sibnet.ru/shell.php?videoid=5399031",
+          "https://video.sibnet.ru/shell.php?videoid=5407754",
+          "https://video.sibnet.ru/shell.php?videoid=5416199",
+          "https://video.sibnet.ru/shell.php?videoid=5422435",
+          "https://video.sibnet.ru/shell.php?videoid=5429317",
+          "https://video.sibnet.ru/shell.php?videoid=5446230",
+          "https://video.sibnet.ru/shell.php?videoid=5463427",
+          "https://video.sibnet.ru/shell.php?videoid=5472065",
+          "https://video.sibnet.ru/shell.php?videoid=5480922"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Management of Novice Alchemist",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/management-of-novice-alchemist.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4918300",
+          "https://video.sibnet.ru/shell.php?videoid=4918303",
+          "https://video.sibnet.ru/shell.php?videoid=4923750",
+          "https://video.sibnet.ru/shell.php?videoid=4929071",
+          "https://video.sibnet.ru/shell.php?videoid=4936096",
+          "https://video.sibnet.ru/shell.php?videoid=4944811",
+          "https://video.sibnet.ru/shell.php?videoid=4952191",
+          "https://video.sibnet.ru/shell.php?videoid=4958922",
+          "https://video.sibnet.ru/shell.php?videoid=4965131",
+          "https://video.sibnet.ru/shell.php?videoid=4970987",
+          "https://video.sibnet.ru/shell.php?videoid=4976957",
+          "https://video.sibnet.ru/shell.php?videoid=4983462"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

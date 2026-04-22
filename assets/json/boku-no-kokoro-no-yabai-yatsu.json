@@ -1,0 +1,62 @@
+{
+  "name": "Boku no Kokoro no Yabai Yatsu",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/boku-no-kokoro-no-yabai-yatsu.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5933370",
+          "https://video.sibnet.ru/shell.php?videoid=5933371",
+          "https://video.sibnet.ru/shell.php?videoid=5933372",
+          "https://video.sibnet.ru/shell.php?videoid=5933373",
+          "https://video.sibnet.ru/shell.php?videoid=5933374",
+          "https://video.sibnet.ru/shell.php?videoid=5933375",
+          "https://video.sibnet.ru/shell.php?videoid=5933376",
+          "https://video.sibnet.ru/shell.php?videoid=5933378",
+          "https://video.sibnet.ru/shell.php?videoid=5933380",
+          "https://video.sibnet.ru/shell.php?videoid=5933381",
+          "https://video.sibnet.ru/shell.php?videoid=5933382",
+          "https://video.sibnet.ru/shell.php?videoid=5933383"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5097127",
+          "https://video.sibnet.ru/shell.php?videoid=5100066",
+          "https://video.sibnet.ru/shell.php?videoid=5106583",
+          "https://video.sibnet.ru/shell.php?videoid=5114053",
+          "https://video.sibnet.ru/shell.php?videoid=5121167",
+          "https://video.sibnet.ru/shell.php?videoid=5128091",
+          "https://video.sibnet.ru/shell.php?videoid=5136946",
+          "https://video.sibnet.ru/shell.php?videoid=5147046",
+          "https://video.sibnet.ru/shell.php?videoid=5154206",
+          "https://video.sibnet.ru/shell.php?videoid=5161068",
+          "https://video.sibnet.ru/shell.php?videoid=5167338",
+          "https://video.sibnet.ru/shell.php?videoid=5174862"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5389517",
+          "https://video.sibnet.ru/shell.php?videoid=5389408",
+          "https://video.sibnet.ru/shell.php?videoid=5397609",
+          "https://video.sibnet.ru/shell.php?videoid=5406371",
+          "https://video.sibnet.ru/shell.php?videoid=5414634",
+          "https://video.sibnet.ru/shell.php?videoid=5421295",
+          "https://video.sibnet.ru/shell.php?videoid=5428132",
+          "https://video.sibnet.ru/shell.php?videoid=5435756",
+          "https://video.sibnet.ru/shell.php?videoid=5444652",
+          "https://video.sibnet.ru/shell.php?videoid=5453115",
+          "https://video.sibnet.ru/shell.php?videoid=5461802",
+          "https://video.sibnet.ru/shell.php?videoid=5470509",
+          "https://video.sibnet.ru/shell.php?videoid=5479439",
+          "https://video.sibnet.ru/shell.php?videoid=5487983"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

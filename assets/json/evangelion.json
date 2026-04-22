@@ -1,0 +1,81 @@
+{
+  "name": "Evangelion",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/evangelion.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4752634",
+          "https://video.sibnet.ru/shell.php?videoid=4752637",
+          "https://video.sibnet.ru/shell.php?videoid=4752639",
+          "https://video.sibnet.ru/shell.php?videoid=4752642",
+          "https://video.sibnet.ru/shell.php?videoid=4752643",
+          "https://video.sibnet.ru/shell.php?videoid=4752648",
+          "https://video.sibnet.ru/shell.php?videoid=4752652",
+          "https://video.sibnet.ru/shell.php?videoid=4752654",
+          "https://video.sibnet.ru/shell.php?videoid=4752656",
+          "https://video.sibnet.ru/shell.php?videoid=4752658",
+          "https://video.sibnet.ru/shell.php?videoid=4752661",
+          "https://video.sibnet.ru/shell.php?videoid=4752664",
+          "https://video.sibnet.ru/shell.php?videoid=4752666",
+          "https://video.sibnet.ru/shell.php?videoid=4752669",
+          "https://video.sibnet.ru/shell.php?videoid=4752670",
+          "https://video.sibnet.ru/shell.php?videoid=4752672",
+          "https://video.sibnet.ru/shell.php?videoid=4752675",
+          "https://video.sibnet.ru/shell.php?videoid=4752679",
+          "https://video.sibnet.ru/shell.php?videoid=4752681",
+          "https://video.sibnet.ru/shell.php?videoid=4752683",
+          "https://video.sibnet.ru/shell.php?videoid=4752686",
+          "https://video.sibnet.ru/shell.php?videoid=4752690",
+          "https://video.sibnet.ru/shell.php?videoid=4752692",
+          "https://video.sibnet.ru/shell.php?videoid=4752694",
+          "https://video.sibnet.ru/shell.php?videoid=4752696",
+          "https://video.sibnet.ru/shell.php?videoid=4752698"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4752067",
+          "https://video.sibnet.ru/shell.php?videoid=4752070",
+          "https://video.sibnet.ru/shell.php?videoid=4752071",
+          "https://video.sibnet.ru/shell.php?videoid=4752072",
+          "https://video.sibnet.ru/shell.php?videoid=4752073",
+          "https://video.sibnet.ru/shell.php?videoid=4752077",
+          "https://video.sibnet.ru/shell.php?videoid=4752078",
+          "https://video.sibnet.ru/shell.php?videoid=4752080",
+          "https://video.sibnet.ru/shell.php?videoid=4752082",
+          "https://video.sibnet.ru/shell.php?videoid=4752084",
+          "https://video.sibnet.ru/shell.php?videoid=4752085",
+          "https://video.sibnet.ru/shell.php?videoid=4752088",
+          "https://video.sibnet.ru/shell.php?videoid=4752090",
+          "https://video.sibnet.ru/shell.php?videoid=4752091",
+          "https://video.sibnet.ru/shell.php?videoid=4752094",
+          "https://video.sibnet.ru/shell.php?videoid=4752095",
+          "https://video.sibnet.ru/shell.php?videoid=4752097",
+          "https://video.sibnet.ru/shell.php?videoid=4752098",
+          "https://video.sibnet.ru/shell.php?videoid=4752099",
+          "https://video.sibnet.ru/shell.php?videoid=4752101",
+          "https://video.sibnet.ru/shell.php?videoid=4752103",
+          "https://video.sibnet.ru/shell.php?videoid=4752105",
+          "https://video.sibnet.ru/shell.php?videoid=4752106",
+          "https://video.sibnet.ru/shell.php?videoid=4752108",
+          "https://video.sibnet.ru/shell.php?videoid=4752109",
+          "https://video.sibnet.ru/shell.php?videoid=4752110"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5375722",
+        "https://video.sibnet.ru/shell.php?videoid=5273487",
+        "https://video.sibnet.ru/shell.php?videoid=5273468",
+        "https://video.sibnet.ru/shell.php?videoid=4752150",
+        "https://video.sibnet.ru/shell.php?videoid=4752152",
+        "https://video.sibnet.ru/shell.php?videoid=5273492"
+      ],
+      "oav": []
+    }
+  }
+}

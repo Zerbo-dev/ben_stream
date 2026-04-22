@@ -1,0 +1,76 @@
+{
+  "name": "My Happy Marriage",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/my-happy-marriage.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5189543",
+          "https://video.sibnet.ru/shell.php?videoid=5195992",
+          "https://video.sibnet.ru/shell.php?videoid=5202174",
+          "https://video.sibnet.ru/shell.php?videoid=5210902",
+          "https://video.sibnet.ru/shell.php?videoid=5216507",
+          "https://video.sibnet.ru/shell.php?videoid=5570461",
+          "https://video.sibnet.ru/shell.php?videoid=5228026",
+          "https://video.sibnet.ru/shell.php?videoid=5233256",
+          "https://video.sibnet.ru/shell.php?videoid=5237851",
+          "https://video.sibnet.ru/shell.php?videoid=5245671",
+          "https://video.sibnet.ru/shell.php?videoid=5251863",
+          "https://video.sibnet.ru/shell.php?videoid=5257239"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5791860",
+          "https://video.sibnet.ru/shell.php?videoid=5797462",
+          "https://video.sibnet.ru/shell.php?videoid=5803066",
+          "https://video.sibnet.ru/shell.php?videoid=5807819",
+          "https://video.sibnet.ru/shell.php?videoid=5813527",
+          "https://video.sibnet.ru/shell.php?videoid=5820691",
+          "https://video.sibnet.ru/shell.php?videoid=5827418",
+          "https://video.sibnet.ru/shell.php?videoid=5835093",
+          "https://video.sibnet.ru/shell.php?videoid=5840875",
+          "https://video.sibnet.ru/shell.php?videoid=5847431",
+          "https://video.sibnet.ru/shell.php?videoid=5853060",
+          "https://video.sibnet.ru/shell.php?videoid=5891811",
+          "https://video.sibnet.ru/shell.php?videoid=5891826"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5791942"
+      ]
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5189535",
+          "https://video.sibnet.ru/shell.php?videoid=5195983",
+          "https://video.sibnet.ru/shell.php?videoid=5202155",
+          "https://video.sibnet.ru/shell.php?videoid=5216524",
+          "https://video.sibnet.ru/shell.php?videoid=5222595",
+          "https://video.sibnet.ru/shell.php?videoid=5237845",
+          "https://video.sibnet.ru/shell.php?videoid=5245654",
+          "https://video.sibnet.ru/shell.php?videoid=5251858"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5791854",
+          "https://video.sibnet.ru/shell.php?videoid=5797450",
+          "https://video.sibnet.ru/shell.php?videoid=5803062",
+          "https://video.sibnet.ru/shell.php?videoid=5807815",
+          "https://video.sibnet.ru/shell.php?videoid=5813524",
+          "https://video.sibnet.ru/shell.php?videoid=5820635",
+          "https://video.sibnet.ru/shell.php?videoid=5827416",
+          "https://video.sibnet.ru/shell.php?videoid=5835096",
+          "https://video.sibnet.ru/shell.php?videoid=5840853",
+          "https://video.sibnet.ru/shell.php?videoid=5847424",
+          "https://video.sibnet.ru/shell.php?videoid=5853053",
+          "https://video.sibnet.ru/shell.php?videoid=5891808",
+          "https://video.sibnet.ru/shell.php?videoid=5891818"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5791935"
+      ]
+    }
+  }
+}

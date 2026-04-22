@@ -1,0 +1,49 @@
+{
+  "name": "School Days",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/school-days.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4842208",
+          "https://video.sibnet.ru/shell.php?videoid=4842210",
+          "https://video.sibnet.ru/shell.php?videoid=4842213",
+          "https://video.sibnet.ru/shell.php?videoid=4842214",
+          "https://video.sibnet.ru/shell.php?videoid=4842216",
+          "https://video.sibnet.ru/shell.php?videoid=4842218",
+          "https://video.sibnet.ru/shell.php?videoid=4842220",
+          "https://video.sibnet.ru/shell.php?videoid=4842222",
+          "https://video.sibnet.ru/shell.php?videoid=4842225",
+          "https://video.sibnet.ru/shell.php?videoid=4842227",
+          "https://video.sibnet.ru/shell.php?videoid=4842229",
+          "https://video.sibnet.ru/shell.php?videoid=4842231"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4842207",
+          "https://video.sibnet.ru/shell.php?videoid=4842209",
+          "https://video.sibnet.ru/shell.php?videoid=4842212",
+          "https://video.sibnet.ru/shell.php?videoid=4842215",
+          "https://video.sibnet.ru/shell.php?videoid=4842217",
+          "https://video.sibnet.ru/shell.php?videoid=4842221",
+          "https://video.sibnet.ru/shell.php?videoid=4842224",
+          "https://video.sibnet.ru/shell.php?videoid=4842226",
+          "https://video.sibnet.ru/shell.php?videoid=4842228",
+          "https://video.sibnet.ru/shell.php?videoid=4842232",
+          "https://video.sibnet.ru/shell.php?videoid=4842233",
+          "https://video.sibnet.ru/shell.php?videoid=4842235"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4842237",
+        "https://video.sibnet.ru/shell.php?videoid=4842238"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Spriggan",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/spriggan.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5216655",
+          "https://video.sibnet.ru/shell.php?videoid=5216658",
+          "https://video.sibnet.ru/shell.php?videoid=5216660",
+          "https://video.sibnet.ru/shell.php?videoid=5216661",
+          "https://video.sibnet.ru/shell.php?videoid=5216663",
+          "https://video.sibnet.ru/shell.php?videoid=5216665"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4757288",
+          "https://video.sibnet.ru/shell.php?videoid=4757289",
+          "https://video.sibnet.ru/shell.php?videoid=4757290",
+          "https://video.sibnet.ru/shell.php?videoid=4757291",
+          "https://video.sibnet.ru/shell.php?videoid=4757293",
+          "https://video.sibnet.ru/shell.php?videoid=4757295"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

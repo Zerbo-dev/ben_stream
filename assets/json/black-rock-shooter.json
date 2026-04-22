@@ -1,0 +1,42 @@
+{
+  "name": "Black Rock Shooter",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/black-rock-shooter.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4801665",
+          "https://video.sibnet.ru/shell.php?videoid=4801666",
+          "https://video.sibnet.ru/shell.php?videoid=4801667",
+          "https://video.sibnet.ru/shell.php?videoid=4801668",
+          "https://video.sibnet.ru/shell.php?videoid=4801669",
+          "https://video.sibnet.ru/shell.php?videoid=4801670",
+          "https://video.sibnet.ru/shell.php?videoid=4801671",
+          "https://video.sibnet.ru/shell.php?videoid=4801672",
+          "https://video.sibnet.ru/shell.php?videoid=4801673"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4801674",
+          "https://video.sibnet.ru/shell.php?videoid=4801675",
+          "https://video.sibnet.ru/shell.php?videoid=4801677",
+          "https://video.sibnet.ru/shell.php?videoid=4801678",
+          "https://video.sibnet.ru/shell.php?videoid=4801679",
+          "https://video.sibnet.ru/shell.php?videoid=4801680",
+          "https://video.sibnet.ru/shell.php?videoid=4801681",
+          "https://video.sibnet.ru/shell.php?videoid=4801682",
+          "https://video.sibnet.ru/shell.php?videoid=4801684",
+          "https://video.sibnet.ru/shell.php?videoid=4801685",
+          "https://video.sibnet.ru/shell.php?videoid=4801686",
+          "https://video.sibnet.ru/shell.php?videoid=4801687"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

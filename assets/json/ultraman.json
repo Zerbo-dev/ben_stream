@@ -1,0 +1,64 @@
+{
+  "name": "Ultraman",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ultraman.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4755598",
+          "https://video.sibnet.ru/shell.php?videoid=4755599",
+          "https://video.sibnet.ru/shell.php?videoid=4755601",
+          "https://video.sibnet.ru/shell.php?videoid=4755604",
+          "https://video.sibnet.ru/shell.php?videoid=4755607",
+          "https://video.sibnet.ru/shell.php?videoid=4755609",
+          "https://video.sibnet.ru/shell.php?videoid=4755612",
+          "https://video.sibnet.ru/shell.php?videoid=4755615",
+          "https://video.sibnet.ru/shell.php?videoid=4755616",
+          "https://video.sibnet.ru/shell.php?videoid=4755618",
+          "https://video.sibnet.ru/shell.php?videoid=4755619",
+          "https://video.sibnet.ru/shell.php?videoid=4755620",
+          "https://video.sibnet.ru/shell.php?videoid=4755621"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4755622",
+          "https://video.sibnet.ru/shell.php?videoid=4755623",
+          "https://video.sibnet.ru/shell.php?videoid=4755624",
+          "https://video.sibnet.ru/shell.php?videoid=4755625",
+          "https://video.sibnet.ru/shell.php?videoid=4755626",
+          "https://video.sibnet.ru/shell.php?videoid=4755627"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4753551",
+          "https://video.sibnet.ru/shell.php?videoid=4753553",
+          "https://video.sibnet.ru/shell.php?videoid=4753555",
+          "https://video.sibnet.ru/shell.php?videoid=4753556",
+          "https://video.sibnet.ru/shell.php?videoid=4753557",
+          "https://video.sibnet.ru/shell.php?videoid=4753558",
+          "https://video.sibnet.ru/shell.php?videoid=4753559",
+          "https://video.sibnet.ru/shell.php?videoid=4753560",
+          "https://video.sibnet.ru/shell.php?videoid=4753561",
+          "https://video.sibnet.ru/shell.php?videoid=4753562",
+          "https://video.sibnet.ru/shell.php?videoid=4753563",
+          "https://video.sibnet.ru/shell.php?videoid=4753564",
+          "https://video.sibnet.ru/shell.php?videoid=4753565"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4753567",
+          "https://video.sibnet.ru/shell.php?videoid=4753569",
+          "https://video.sibnet.ru/shell.php?videoid=4753572",
+          "https://video.sibnet.ru/shell.php?videoid=4753575",
+          "https://video.sibnet.ru/shell.php?videoid=4753577",
+          "https://video.sibnet.ru/shell.php?videoid=4753579"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

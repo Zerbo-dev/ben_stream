@@ -1,0 +1,62 @@
+{
+  "name": "In Another World With My Smartphone",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/in-another-world-with-my-smartphone.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=3552727",
+          "https://video.sibnet.ru/shell.php?videoid=3552729",
+          "https://video.sibnet.ru/shell.php?videoid=3552732",
+          "https://video.sibnet.ru/shell.php?videoid=3552733",
+          "https://video.sibnet.ru/shell.php?videoid=3552734",
+          "https://video.sibnet.ru/shell.php?videoid=3552736",
+          "https://video.sibnet.ru/shell.php?videoid=3552737",
+          "https://video.sibnet.ru/shell.php?videoid=3552740",
+          "https://video.sibnet.ru/shell.php?videoid=3552741",
+          "https://video.sibnet.ru/shell.php?videoid=3552742",
+          "https://video.sibnet.ru/shell.php?videoid=3552743",
+          "https://video.sibnet.ru/shell.php?videoid=3552745"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5176523"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4705797",
+          "https://video.sibnet.ru/shell.php?videoid=4705798",
+          "https://video.sibnet.ru/shell.php?videoid=4705800",
+          "https://video.sibnet.ru/shell.php?videoid=4705803",
+          "https://video.sibnet.ru/shell.php?videoid=4705805",
+          "https://video.sibnet.ru/shell.php?videoid=4705806",
+          "https://video.sibnet.ru/shell.php?videoid=4705808",
+          "https://video.sibnet.ru/shell.php?videoid=4705810",
+          "https://video.sibnet.ru/shell.php?videoid=4705812",
+          "https://video.sibnet.ru/shell.php?videoid=4705814",
+          "https://video.sibnet.ru/shell.php?videoid=4705815",
+          "https://video.sibnet.ru/shell.php?videoid=4705816"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5095279",
+          "https://video.sibnet.ru/shell.php?videoid=5101824",
+          "https://video.sibnet.ru/shell.php?videoid=5108488",
+          "https://video.sibnet.ru/shell.php?videoid=5116536",
+          "https://video.sibnet.ru/shell.php?videoid=5123209",
+          "https://video.sibnet.ru/shell.php?videoid=5140962",
+          "https://video.sibnet.ru/shell.php?videoid=5149315",
+          "https://video.sibnet.ru/shell.php?videoid=5155895",
+          "https://video.sibnet.ru/shell.php?videoid=5163006",
+          "https://video.sibnet.ru/shell.php?videoid=5169651",
+          "https://video.sibnet.ru/shell.php?videoid=5176375"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

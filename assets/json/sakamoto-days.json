@@ -1,0 +1,44 @@
+{
+  "name": "Sakamoto Days",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/sakamoto-days.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5795824",
+          "https://video.sibnet.ru/shell.php?videoid=5801277",
+          "https://video.sibnet.ru/shell.php?videoid=5806365",
+          "https://video.sibnet.ru/shell.php?videoid=5811614",
+          "https://video.sibnet.ru/shell.php?videoid=5818927",
+          "https://video.sibnet.ru/shell.php?videoid=5825676",
+          "https://video.sibnet.ru/shell.php?videoid=5831925",
+          "https://video.sibnet.ru/shell.php?videoid=5838903",
+          "https://video.sibnet.ru/shell.php?videoid=5845448",
+          "https://video.sibnet.ru/shell.php?videoid=5851275",
+          "https://video.sibnet.ru/shell.php?videoid=5857628"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5795817",
+          "https://video.sibnet.ru/shell.php?videoid=5801271",
+          "https://video.sibnet.ru/shell.php?videoid=5806359",
+          "https://video.sibnet.ru/shell.php?videoid=5811603",
+          "https://video.sibnet.ru/shell.php?videoid=5818922",
+          "https://video.sibnet.ru/shell.php?videoid=5825666",
+          "https://video.sibnet.ru/shell.php?videoid=5831919",
+          "https://video.sibnet.ru/shell.php?videoid=5838898",
+          "https://video.sibnet.ru/shell.php?videoid=5845441",
+          "https://video.sibnet.ru/shell.php?videoid=5851271",
+          "https://video.sibnet.ru/shell.php?videoid=5857616"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Hamatora",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/hamatora.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4946197",
+          "https://video.sibnet.ru/shell.php?videoid=4946198",
+          "https://video.sibnet.ru/shell.php?videoid=4946206",
+          "https://video.sibnet.ru/shell.php?videoid=4946207",
+          "https://video.sibnet.ru/shell.php?videoid=4946208",
+          "https://video.sibnet.ru/shell.php?videoid=4946210",
+          "https://video.sibnet.ru/shell.php?videoid=4946211",
+          "https://video.sibnet.ru/shell.php?videoid=4946218",
+          "https://video.sibnet.ru/shell.php?videoid=4946220",
+          "https://video.sibnet.ru/shell.php?videoid=4946227",
+          "https://video.sibnet.ru/shell.php?videoid=4946230",
+          "https://video.sibnet.ru/shell.php?videoid=4946235"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=4946239",
+          "https://video.sibnet.ru/shell.php?videoid=4946240",
+          "https://video.sibnet.ru/shell.php?videoid=4946242",
+          "https://video.sibnet.ru/shell.php?videoid=4946243",
+          "https://video.sibnet.ru/shell.php?videoid=4946252",
+          "https://video.sibnet.ru/shell.php?videoid=4946254",
+          "https://video.sibnet.ru/shell.php?videoid=4946255",
+          "https://video.sibnet.ru/shell.php?videoid=4946256",
+          "https://video.sibnet.ru/shell.php?videoid=4946258",
+          "https://video.sibnet.ru/shell.php?videoid=4946260",
+          "https://video.sibnet.ru/shell.php?videoid=4946262",
+          "https://video.sibnet.ru/shell.php?videoid=4946263"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Ninja Scroll",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ninja-scroll.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5091669",
+          "https://video.sibnet.ru/shell.php?videoid=5091670",
+          "https://video.sibnet.ru/shell.php?videoid=5091671",
+          "https://video.sibnet.ru/shell.php?videoid=5091673",
+          "https://video.sibnet.ru/shell.php?videoid=5091675",
+          "https://video.sibnet.ru/shell.php?videoid=5091676",
+          "https://video.sibnet.ru/shell.php?videoid=5091677",
+          "https://video.sibnet.ru/shell.php?videoid=5091678",
+          "https://video.sibnet.ru/shell.php?videoid=5091679",
+          "https://video.sibnet.ru/shell.php?videoid=5091680",
+          "https://video.sibnet.ru/shell.php?videoid=5091685",
+          "https://video.sibnet.ru/shell.php?videoid=5091686",
+          "https://video.sibnet.ru/shell.php?videoid=5091687"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5091688"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5091486",
+          "https://video.sibnet.ru/shell.php?videoid=5091487",
+          "https://video.sibnet.ru/shell.php?videoid=5091488",
+          "https://video.sibnet.ru/shell.php?videoid=5091489",
+          "https://video.sibnet.ru/shell.php?videoid=5091490",
+          "https://video.sibnet.ru/shell.php?videoid=5091491",
+          "https://video.sibnet.ru/shell.php?videoid=5091492",
+          "https://video.sibnet.ru/shell.php?videoid=5091493",
+          "https://video.sibnet.ru/shell.php?videoid=5091494",
+          "https://video.sibnet.ru/shell.php?videoid=5091495",
+          "https://video.sibnet.ru/shell.php?videoid=5091496",
+          "https://video.sibnet.ru/shell.php?videoid=5091497",
+          "https://video.sibnet.ru/shell.php?videoid=5091498"
+        ]
+      },
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=5091499"
+      ],
+      "oav": []
+    }
+  }
+}

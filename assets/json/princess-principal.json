@@ -1,0 +1,38 @@
+{
+  "name": "Princess Principal",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/princess-principal.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4813176",
+          "https://video.sibnet.ru/shell.php?videoid=4813179",
+          "https://video.sibnet.ru/shell.php?videoid=4813182",
+          "https://video.sibnet.ru/shell.php?videoid=4813187",
+          "https://video.sibnet.ru/shell.php?videoid=4813202",
+          "https://video.sibnet.ru/shell.php?videoid=4813224",
+          "https://video.sibnet.ru/shell.php?videoid=4813225",
+          "https://video.sibnet.ru/shell.php?videoid=4813228",
+          "https://video.sibnet.ru/shell.php?videoid=4813229",
+          "https://video.sibnet.ru/shell.php?videoid=4813230",
+          "https://video.sibnet.ru/shell.php?videoid=4813233",
+          "https://video.sibnet.ru/shell.php?videoid=4813239"
+        ]
+      },
+      "films": [],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=4813240",
+        "https://video.sibnet.ru/shell.php?videoid=4813242",
+        "https://video.sibnet.ru/shell.php?videoid=4813243",
+        "https://video.sibnet.ru/shell.php?videoid=4813244",
+        "https://video.sibnet.ru/shell.php?videoid=4813246",
+        "https://video.sibnet.ru/shell.php?videoid=4813247"
+      ]
+    }
+  }
+}

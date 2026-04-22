@@ -1,0 +1,32 @@
+{
+  "name": "Plastic Memories",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/plastic-memories.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4825093",
+          "https://video.sibnet.ru/shell.php?videoid=4825097",
+          "https://video.sibnet.ru/shell.php?videoid=4825098",
+          "https://video.sibnet.ru/shell.php?videoid=4825101",
+          "https://video.sibnet.ru/shell.php?videoid=4825103",
+          "https://video.sibnet.ru/shell.php?videoid=4825106",
+          "https://video.sibnet.ru/shell.php?videoid=4825108",
+          "https://video.sibnet.ru/shell.php?videoid=4825110",
+          "https://video.sibnet.ru/shell.php?videoid=4825112",
+          "https://video.sibnet.ru/shell.php?videoid=4825117",
+          "https://video.sibnet.ru/shell.php?videoid=4825120",
+          "https://video.sibnet.ru/shell.php?videoid=4825122",
+          "https://video.sibnet.ru/shell.php?videoid=4825123"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

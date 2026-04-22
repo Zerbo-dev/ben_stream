@@ -1,0 +1,46 @@
+{
+  "name": "Kenja no Deshi wo Nanoru Kenja",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/kenja-no-deshi-wo-nanoru-kenja.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5082053",
+          "https://video.sibnet.ru/shell.php?videoid=5082054",
+          "https://video.sibnet.ru/shell.php?videoid=5082055",
+          "https://video.sibnet.ru/shell.php?videoid=5082056",
+          "https://video.sibnet.ru/shell.php?videoid=5082057",
+          "https://video.sibnet.ru/shell.php?videoid=5082058",
+          "https://video.sibnet.ru/shell.php?videoid=5082060",
+          "https://video.sibnet.ru/shell.php?videoid=5082061",
+          "https://video.sibnet.ru/shell.php?videoid=5088268",
+          "https://video.sibnet.ru/shell.php?videoid=5082063",
+          "https://video.sibnet.ru/shell.php?videoid=5082064",
+          "https://video.sibnet.ru/shell.php?videoid=5082065"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4573173",
+          "https://video.sibnet.ru/shell.php?videoid=4580686",
+          "https://video.sibnet.ru/shell.php?videoid=4589074",
+          "https://video.sibnet.ru/shell.php?videoid=4594006",
+          "https://video.sibnet.ru/shell.php?videoid=4600281",
+          "https://video.sibnet.ru/shell.php?videoid=4606142",
+          "https://video.sibnet.ru/shell.php?videoid=4612753",
+          "https://video.sibnet.ru/shell.php?videoid=4628935",
+          "https://video.sibnet.ru/shell.php?videoid=4628910",
+          "https://video.sibnet.ru/shell.php?videoid=4636240",
+          "https://video.sibnet.ru/shell.php?videoid=4644981",
+          "https://video.sibnet.ru/shell.php?videoid=4651671"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

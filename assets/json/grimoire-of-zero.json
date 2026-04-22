@@ -1,0 +1,46 @@
+{
+  "name": "Grimoire of Zero",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/grimoire-of-zero.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4841298",
+          "https://video.sibnet.ru/shell.php?videoid=4841303",
+          "https://video.sibnet.ru/shell.php?videoid=4841312",
+          "https://video.sibnet.ru/shell.php?videoid=4841319",
+          "https://video.sibnet.ru/shell.php?videoid=4841326",
+          "https://video.sibnet.ru/shell.php?videoid=4841334",
+          "https://video.sibnet.ru/shell.php?videoid=4841339",
+          "https://video.sibnet.ru/shell.php?videoid=4841343",
+          "https://video.sibnet.ru/shell.php?videoid=4841350",
+          "https://video.sibnet.ru/shell.php?videoid=4841357",
+          "https://video.sibnet.ru/shell.php?videoid=4841359",
+          "https://video.sibnet.ru/shell.php?videoid=4841363"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4841266",
+          "https://video.sibnet.ru/shell.php?videoid=4841267",
+          "https://video.sibnet.ru/shell.php?videoid=4841269",
+          "https://video.sibnet.ru/shell.php?videoid=4841270",
+          "https://video.sibnet.ru/shell.php?videoid=4841271",
+          "https://video.sibnet.ru/shell.php?videoid=4841272",
+          "https://video.sibnet.ru/shell.php?videoid=4841273",
+          "https://video.sibnet.ru/shell.php?videoid=4841275",
+          "https://video.sibnet.ru/shell.php?videoid=4841282",
+          "https://video.sibnet.ru/shell.php?videoid=4841284",
+          "https://video.sibnet.ru/shell.php?videoid=4841286",
+          "https://video.sibnet.ru/shell.php?videoid=4841290"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

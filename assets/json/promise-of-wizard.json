@@ -1,0 +1,40 @@
+{
+  "name": "Promise of Wizard",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/promise-of-wizard.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5798404",
+          "https://video.sibnet.ru/shell.php?videoid=5798406",
+          "https://video.sibnet.ru/shell.php?videoid=5803109",
+          "https://video.sibnet.ru/shell.php?videoid=5807841",
+          "https://video.sibnet.ru/shell.php?videoid=5813556",
+          "https://video.sibnet.ru/shell.php?videoid=5820724",
+          "https://video.sibnet.ru/shell.php?videoid=5827460",
+          "https://video.sibnet.ru/shell.php?videoid=5835128",
+          "https://video.sibnet.ru/shell.php?videoid=5840963",
+          "https://video.sibnet.ru/shell.php?videoid=5847437",
+          "https://video.sibnet.ru/shell.php?videoid=5853063",
+          "https://video.sibnet.ru/shell.php?videoid=5859364"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

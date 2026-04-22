@@ -1,0 +1,46 @@
+{
+  "name": "Romantic Killer",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/romantic-killer.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4934444",
+          "https://video.sibnet.ru/shell.php?videoid=4934445",
+          "https://video.sibnet.ru/shell.php?videoid=4934447",
+          "https://video.sibnet.ru/shell.php?videoid=4934449",
+          "https://video.sibnet.ru/shell.php?videoid=4934451",
+          "https://video.sibnet.ru/shell.php?videoid=4934452",
+          "https://video.sibnet.ru/shell.php?videoid=4934453",
+          "https://video.sibnet.ru/shell.php?videoid=4934455",
+          "https://video.sibnet.ru/shell.php?videoid=4934458",
+          "https://video.sibnet.ru/shell.php?videoid=4934460",
+          "https://video.sibnet.ru/shell.php?videoid=4934462",
+          "https://video.sibnet.ru/shell.php?videoid=4934464"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=4934454",
+          "https://video.sibnet.ru/shell.php?videoid=4934456",
+          "https://video.sibnet.ru/shell.php?videoid=4934459",
+          "https://video.sibnet.ru/shell.php?videoid=4934461",
+          "https://video.sibnet.ru/shell.php?videoid=4934463",
+          "https://video.sibnet.ru/shell.php?videoid=4934465",
+          "https://video.sibnet.ru/shell.php?videoid=4934466",
+          "https://video.sibnet.ru/shell.php?videoid=4934474",
+          "https://video.sibnet.ru/shell.php?videoid=4934469",
+          "https://video.sibnet.ru/shell.php?videoid=4934470",
+          "https://video.sibnet.ru/shell.php?videoid=4934471",
+          "https://video.sibnet.ru/shell.php?videoid=4934472"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

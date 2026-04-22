@@ -1,0 +1,52 @@
+{
+  "name": "Suisei no Gargantia",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/suisei-no-gargantia.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5090795",
+          "https://video.sibnet.ru/shell.php?videoid=5090797",
+          "https://video.sibnet.ru/shell.php?videoid=5090798",
+          "https://video.sibnet.ru/shell.php?videoid=5090800",
+          "https://video.sibnet.ru/shell.php?videoid=5090801",
+          "https://video.sibnet.ru/shell.php?videoid=5090803",
+          "https://video.sibnet.ru/shell.php?videoid=5090804",
+          "https://video.sibnet.ru/shell.php?videoid=5090805",
+          "https://video.sibnet.ru/shell.php?videoid=5090808",
+          "https://video.sibnet.ru/shell.php?videoid=5090809",
+          "https://video.sibnet.ru/shell.php?videoid=5090811",
+          "https://video.sibnet.ru/shell.php?videoid=5090812",
+          "https://video.sibnet.ru/shell.php?videoid=5090814",
+          "https://video.sibnet.ru/shell.php?videoid=5090816",
+          "https://video.sibnet.ru/shell.php?videoid=5090818"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5090269",
+          "https://video.sibnet.ru/shell.php?videoid=5090274",
+          "https://video.sibnet.ru/shell.php?videoid=5090277",
+          "https://video.sibnet.ru/shell.php?videoid=5090286",
+          "https://video.sibnet.ru/shell.php?videoid=5090287",
+          "https://video.sibnet.ru/shell.php?videoid=5090291",
+          "https://video.sibnet.ru/shell.php?videoid=5090293",
+          "https://video.sibnet.ru/shell.php?videoid=5090294",
+          "https://video.sibnet.ru/shell.php?videoid=5090295",
+          "https://video.sibnet.ru/shell.php?videoid=5090303",
+          "https://video.sibnet.ru/shell.php?videoid=5090304",
+          "https://video.sibnet.ru/shell.php?videoid=5090305",
+          "https://video.sibnet.ru/shell.php?videoid=5090306",
+          "https://video.sibnet.ru/shell.php?videoid=5090307",
+          "https://video.sibnet.ru/shell.php?videoid=5090309"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

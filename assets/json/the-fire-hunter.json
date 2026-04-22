@@ -1,0 +1,41 @@
+{
+  "name": "The Fire Hunter",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-fire-hunter.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5009395",
+          "https://video.sibnet.ru/shell.php?videoid=5015531",
+          "https://video.sibnet.ru/shell.php?videoid=5024161",
+          "https://video.sibnet.ru/shell.php?videoid=5031423",
+          "https://video.sibnet.ru/shell.php?videoid=5039311",
+          "https://video.sibnet.ru/shell.php?videoid=5048883",
+          "https://video.sibnet.ru/shell.php?videoid=5058322",
+          "https://video.sibnet.ru/shell.php?videoid=5067032",
+          "https://video.sibnet.ru/shell.php?videoid=5072930",
+          "https://video.sibnet.ru/shell.php?videoid=5079430"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5398766",
+          "https://video.sibnet.ru/shell.php?videoid=5407602",
+          "https://video.sibnet.ru/shell.php?videoid=5416016",
+          "https://video.sibnet.ru/shell.php?videoid=5422318",
+          "https://video.sibnet.ru/shell.php?videoid=5429113",
+          "https://video.sibnet.ru/shell.php?videoid=5437087",
+          "https://video.sibnet.ru/shell.php?videoid=5445911",
+          "https://video.sibnet.ru/shell.php?videoid=5454297",
+          "https://video.sibnet.ru/shell.php?videoid=5463273",
+          "https://video.sibnet.ru/shell.php?videoid=5471694"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

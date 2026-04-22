@@ -1,0 +1,45 @@
+{
+  "name": "Roshidere",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/roshidere.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5647593",
+          "https://video.sibnet.ru/shell.php?videoid=5657559",
+          "https://video.sibnet.ru/shell.php?videoid=5718931",
+          "https://video.sibnet.ru/shell.php?videoid=5718933",
+          "https://video.sibnet.ru/shell.php?videoid=5718934",
+          "https://video.sibnet.ru/shell.php?videoid=5718935",
+          "https://video.sibnet.ru/shell.php?videoid=5718939",
+          "https://video.sibnet.ru/shell.php?videoid=5718941",
+          "https://video.sibnet.ru/shell.php?videoid=5727469",
+          "https://video.sibnet.ru/shell.php?videoid=5735812",
+          "https://video.sibnet.ru/shell.php?videoid=5744136"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5583823",
+          "https://video.sibnet.ru/shell.php?videoid=5591871",
+          "https://video.sibnet.ru/shell.php?videoid=5599483",
+          "https://video.sibnet.ru/shell.php?videoid=5608326",
+          "https://video.sibnet.ru/shell.php?videoid=5616189",
+          "https://video.sibnet.ru/shell.php?videoid=5625345",
+          "https://video.sibnet.ru/shell.php?videoid=5636281",
+          "https://video.sibnet.ru/shell.php?videoid=5647345",
+          "https://video.sibnet.ru/shell.php?videoid=5654672",
+          "https://video.sibnet.ru/shell.php?videoid=5663118",
+          "https://video.sibnet.ru/shell.php?videoid=5674657",
+          "https://video.sibnet.ru/shell.php?videoid=5681205"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

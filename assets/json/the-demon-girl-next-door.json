@@ -1,0 +1,45 @@
+{
+  "name": "The Demon Girl Next Door",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/the-demon-girl-next-door.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5256763",
+          "https://video.sibnet.ru/shell.php?videoid=5256767",
+          "https://video.sibnet.ru/shell.php?videoid=5256770",
+          "https://video.sibnet.ru/shell.php?videoid=5256773",
+          "https://video.sibnet.ru/shell.php?videoid=5256775",
+          "https://video.sibnet.ru/shell.php?videoid=5256777",
+          "https://video.sibnet.ru/shell.php?videoid=5256779",
+          "https://video.sibnet.ru/shell.php?videoid=5256782",
+          "https://video.sibnet.ru/shell.php?videoid=5256783",
+          "https://video.sibnet.ru/shell.php?videoid=5256784",
+          "https://video.sibnet.ru/shell.php?videoid=5256785",
+          "https://video.sibnet.ru/shell.php?videoid=5256786"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5256787",
+          "https://video.sibnet.ru/shell.php?videoid=5256789",
+          "https://video.sibnet.ru/shell.php?videoid=5256790",
+          "https://video.sibnet.ru/shell.php?videoid=5256791",
+          "https://video.sibnet.ru/shell.php?videoid=5256792",
+          "https://video.sibnet.ru/shell.php?videoid=5256793",
+          "https://video.sibnet.ru/shell.php?videoid=5256795",
+          "https://video.sibnet.ru/shell.php?videoid=5256797",
+          "https://video.sibnet.ru/shell.php?videoid=5256798",
+          "https://video.sibnet.ru/shell.php?videoid=5256799",
+          "https://video.sibnet.ru/shell.php?videoid=5256800",
+          "https://video.sibnet.ru/shell.php?videoid=5256801"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

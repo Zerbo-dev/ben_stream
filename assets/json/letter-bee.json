@@ -1,0 +1,71 @@
+{
+  "name": "Letter Bee",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/letter-bee.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5184199",
+          "https://video.sibnet.ru/shell.php?videoid=5184200",
+          "https://video.sibnet.ru/shell.php?videoid=5184201",
+          "https://video.sibnet.ru/shell.php?videoid=5184202",
+          "https://video.sibnet.ru/shell.php?videoid=5184203",
+          "https://video.sibnet.ru/shell.php?videoid=5184204",
+          "https://video.sibnet.ru/shell.php?videoid=5184205",
+          "https://video.sibnet.ru/shell.php?videoid=5184206",
+          "https://video.sibnet.ru/shell.php?videoid=5184207",
+          "https://video.sibnet.ru/shell.php?videoid=5184209",
+          "https://video.sibnet.ru/shell.php?videoid=5184210",
+          "https://video.sibnet.ru/shell.php?videoid=5184211",
+          "https://video.sibnet.ru/shell.php?videoid=5184212",
+          "https://video.sibnet.ru/shell.php?videoid=5184213",
+          "https://video.sibnet.ru/shell.php?videoid=5184214",
+          "https://video.sibnet.ru/shell.php?videoid=5184215",
+          "https://video.sibnet.ru/shell.php?videoid=5184219",
+          "https://video.sibnet.ru/shell.php?videoid=5184221",
+          "https://video.sibnet.ru/shell.php?videoid=5184223",
+          "https://video.sibnet.ru/shell.php?videoid=5184225",
+          "https://video.sibnet.ru/shell.php?videoid=5184226",
+          "https://video.sibnet.ru/shell.php?videoid=5184229",
+          "https://video.sibnet.ru/shell.php?videoid=5186429",
+          "https://video.sibnet.ru/shell.php?videoid=5186430",
+          "https://video.sibnet.ru/shell.php?videoid=5186431"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid=5186434",
+          "https://video.sibnet.ru/shell.php?videoid=5186437",
+          "https://video.sibnet.ru/shell.php?videoid=5186438",
+          "https://video.sibnet.ru/shell.php?videoid=5186440",
+          "https://video.sibnet.ru/shell.php?videoid=5186442",
+          "https://video.sibnet.ru/shell.php?videoid=5186443",
+          "https://video.sibnet.ru/shell.php?videoid=5186445",
+          "https://video.sibnet.ru/shell.php?videoid=5186446",
+          "https://video.sibnet.ru/shell.php?videoid=5186447",
+          "https://video.sibnet.ru/shell.php?videoid=5186449",
+          "https://video.sibnet.ru/shell.php?videoid=5186451",
+          "https://video.sibnet.ru/shell.php?videoid=5186453",
+          "https://video.sibnet.ru/shell.php?videoid=5186454",
+          "https://video.sibnet.ru/shell.php?videoid=5186455",
+          "https://video.sibnet.ru/shell.php?videoid=5186456",
+          "https://video.sibnet.ru/shell.php?videoid=5186457",
+          "https://video.sibnet.ru/shell.php?videoid=5186458",
+          "https://video.sibnet.ru/shell.php?videoid=5186459",
+          "https://video.sibnet.ru/shell.php?videoid=5186460",
+          "https://video.sibnet.ru/shell.php?videoid=5186461",
+          "https://video.sibnet.ru/shell.php?videoid=5186462",
+          "https://video.sibnet.ru/shell.php?videoid=5186464",
+          "https://video.sibnet.ru/shell.php?videoid=5186465",
+          "https://video.sibnet.ru/shell.php?videoid=5186466",
+          "https://video.sibnet.ru/shell.php?videoid=5186467"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

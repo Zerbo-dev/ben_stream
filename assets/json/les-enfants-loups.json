@@ -1,0 +1,20 @@
+{
+  "name": "Les Enfants loups",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/les-enfants-loups.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4955557"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4955518"
+      ],
+      "oav": []
+    }
+  }
+}

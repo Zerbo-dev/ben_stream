@@ -1,0 +1,46 @@
+{
+  "name": "Devil May Cry",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/devil-may-cry.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5867629",
+          "https://video.sibnet.ru/shell.php?videoid=5867632",
+          "https://video.sibnet.ru/shell.php?videoid=5867634",
+          "https://video.sibnet.ru/shell.php?videoid=5867636",
+          "https://video.sibnet.ru/shell.php?videoid=5867639",
+          "https://video.sibnet.ru/shell.php?videoid=5867641",
+          "https://video.sibnet.ru/shell.php?videoid=5867642",
+          "https://video.sibnet.ru/shell.php?videoid=5867644"
+        ]
+      },
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5867062",
+          "https://video.sibnet.ru/shell.php?videoid=5867064",
+          "https://video.sibnet.ru/shell.php?videoid=5867067",
+          "https://video.sibnet.ru/shell.php?videoid=5867068",
+          "https://video.sibnet.ru/shell.php?videoid=5867070",
+          "https://video.sibnet.ru/shell.php?videoid=5867072",
+          "https://video.sibnet.ru/shell.php?videoid=5867074"
+        ],
+        "saison2": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison3": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ],
+        "saison4": [
+          "https://video.sibnet.ru/shell.php?videoid="
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

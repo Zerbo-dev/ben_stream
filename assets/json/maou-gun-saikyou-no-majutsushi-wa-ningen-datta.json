@@ -1,0 +1,31 @@
+{
+  "name": "Maou-gun Saikyou no Majutsushi wa Ningen datta",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/maou-gun-saikyou-no-majutsushi-wa-ningen-datta.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5576150",
+          "https://video.sibnet.ru/shell.php?videoid=5583745",
+          "https://video.sibnet.ru/shell.php?videoid=5591819",
+          "https://video.sibnet.ru/shell.php?videoid=5599413",
+          "https://video.sibnet.ru/shell.php?videoid=5608283",
+          "https://video.sibnet.ru/shell.php?videoid=5616159",
+          "https://video.sibnet.ru/shell.php?videoid=5625327",
+          "https://video.sibnet.ru/shell.php?videoid=5636230",
+          "https://video.sibnet.ru/shell.php?videoid=5647274",
+          "https://video.sibnet.ru/shell.php?videoid=5654600",
+          "https://video.sibnet.ru/shell.php?videoid=5663078",
+          "https://video.sibnet.ru/shell.php?videoid=5671929"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

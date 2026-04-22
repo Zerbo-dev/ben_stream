@@ -1,0 +1,27 @@
+{
+  "name": "Ayakashi Triangle",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/ayakashi-triangle.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {
+        "saison1": [
+          "https://video.sibnet.ru/shell.php?videoid=5004521",
+          "https://video.sibnet.ru/shell.php?videoid=5011467",
+          "https://video.sibnet.ru/shell.php?videoid=5018668",
+          "https://video.sibnet.ru/shell.php?videoid=5026588",
+          "https://video.sibnet.ru/shell.php?videoid=5069227",
+          "https://video.sibnet.ru/shell.php?videoid=5075100",
+          "https://video.sibnet.ru/shell.php?videoid=5236269",
+          "https://video.sibnet.ru/shell.php?videoid=5250028"
+        ]
+      },
+      "films": [],
+      "oav": []
+    }
+  }
+}

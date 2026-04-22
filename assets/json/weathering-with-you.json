@@ -1,0 +1,20 @@
+{
+  "name": "Weathering With You",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/weathering-with-you.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4110281"
+      ],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4831762"
+      ],
+      "oav": []
+    }
+  }
+}

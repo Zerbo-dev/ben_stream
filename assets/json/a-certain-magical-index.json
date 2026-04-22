@@ -1,0 +1,23 @@
+{
+  "name": "A Certain Magical Index",
+  "cover": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/a-certain-magical-index.jpg",
+  "langues": {
+    "vf": {
+      "saisons": {},
+      "films": [],
+      "oav": []
+    },
+    "vostfr": {
+      "saisons": {},
+      "films": [
+        "https://video.sibnet.ru/shell.php?videoid=4754108\t"
+      ],
+      "oav": [
+        "https://video.sibnet.ru/shell.php?videoid=5002930",
+        "https://video.sibnet.ru/shell.php?videoid=5002932",
+        "https://video.sibnet.ru/shell.php?videoid=5002933",
+        "https://video.sibnet.ru/shell.php?videoid=5002934"
+      ]
+    }
+  }
+}

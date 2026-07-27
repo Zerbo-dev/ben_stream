@@ -68,7 +68,7 @@ async function handleChannelPost(
     config: AppConfig;
   }
 ): Promise<void> {
-  const { catalog, config } = deps;
+  const { telegram, catalog, config } = deps;
 
   if (String(post.chat.id) !== String(config.channelId)) {
     return;
@@ -77,8 +77,18 @@ async function handleChannelPost(
   const item = messageToCatalogItem(post);
   if (!item) return;
 
-  // Pour les albums, on indexe chaque message (épisodes/fichiers séparés)
-  await catalog.upsert(item);
+  try {
+    // Pour les albums, on indexe chaque message (épisodes/fichiers séparés)
+    await catalog.upsert(item);
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : "erreur inconnue";
+    console.error("channel index error", detail);
+    await notifyAdmins(
+      telegram,
+      config.adminIds,
+      `❌ Indexation canal échouée pour <b>${escapeHtml(item.title)}</b>\n<code>${escapeHtml(detail)}</code>\n\nVérifie que le token Upstash est bien <b>read-write</b> (pas read-only).`
+    );
+  }
 }
 
 async function handlePrivateMessage(
@@ -126,7 +136,18 @@ async function handlePrivateMessage(
       return;
     }
 
-    await catalog.upsert(item);
+    try {
+      await catalog.upsert(item);
+    } catch (error) {
+      const detail = error instanceof Error ? error.message : "erreur inconnue";
+      await telegram.sendMessage(
+        chatId,
+        `❌ Impossible d'écrire dans Redis (Upstash).\n<code>${escapeHtml(detail)}</code>\n\nLe token doit être <b>read-write</b>, pas read-only.`,
+        { parse_mode: "HTML" }
+      );
+      return;
+    }
+
     await telegram.sendMessage(
       chatId,
       `✅ Indexé : <b>${escapeHtml(item.title)}</b>\nID: <code>${item.messageId}</code>`,
@@ -313,4 +334,16 @@ function isForwardFromChannel(
     message.forward_from_chat?.id ?? message.forward_origin?.chat?.id;
   if (originChatId == null) return false;
   return String(originChatId) === String(channelId);
+}
+
+async function notifyAdmins(
+  telegram: TelegramClient,
+  adminIds: number[],
+  text: string
+): Promise<void> {
+  await Promise.allSettled(
+    adminIds.map((adminId) =>
+      telegram.sendMessage(adminId, text, { parse_mode: "HTML" })
+    )
+  );
 }

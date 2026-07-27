@@ -184,8 +184,8 @@ function looksLikeAnime(lower: string, source: string): boolean {
   if (/\b(anime|manga|shonen|shoujo|ova|oav|ona|seinen)\b/.test(lower)) {
     return true;
   }
-  if (/@[^\s]*(anime|otaku|manga|crunchyroll)[^\s]*/i.test(source)) return true;
-  if (/\b(crunchyroll|animeginga|otaku)\b/i.test(source)) return true;
+  if (/@[^\s]*(anime|otaku|manga|crunchyroll)/i.test(source)) return true;
+  if (/animeginga|otaku_sekai|crunchyroll|a_n_i_m_e/i.test(source)) return true;
   return false;
 }
 

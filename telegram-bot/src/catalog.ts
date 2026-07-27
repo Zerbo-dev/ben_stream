@@ -6,14 +6,12 @@ const ITEM_PREFIX = "vod:item:";
 const INDEX_KEY = "vod:index";
 
 export function hydrateCatalogItem(item: CatalogItem): CatalogItem {
-  if (item.contentType && item.showName && item.normalizedShowName && item.displayTitle) {
-    return item;
-  }
+  // Toujours re-parser caption/titre pour appliquer le nettoyage à jour
   const meta = parseVodMetadata(item.caption || item.title, item.fileName);
   return {
     ...item,
     ...meta,
-    normalizedTitle: item.normalizedTitle || normalizeTitle(meta.displayTitle),
+    normalizedTitle: normalizeTitle(meta.displayTitle),
   };
 }
 

@@ -20,6 +20,7 @@ import {
   contentTypeEmoji,
   contentTypeLabel,
   formatEpisodeCode,
+  formatShowLabel,
 } from "../vod.js";
 
 const PAGE_SIZE = 8;
@@ -314,26 +315,26 @@ async function sendGroupedResults(
   const preview = groups.slice(0, 12);
   const lines = preview.map((group, i) => {
     const emoji = contentTypeEmoji(group.contentType);
+    const label = formatGroupLabel(group);
     if (group.contentType === "film" || group.episodes.length === 1) {
-      const item = group.episodes[0];
-      return `${i + 1}. ${emoji} <b>${escapeHtml(item.displayTitle)}</b>`;
+      return `${i + 1}. ${emoji} <b>${escapeHtml(label)}</b>`;
     }
-    return `${i + 1}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${describeGroup(group)}`;
+    return `${i + 1}. ${emoji} <b>${escapeHtml(label)}</b> — ${describeGroup(group)}`;
   });
 
   const rows = preview.map((group) => {
+    const label = formatGroupLabel(group);
     if (group.contentType === "film" || group.episodes.length === 1) {
-      const item = group.episodes[0];
       return [
         {
-          text: `${contentTypeEmoji(group.contentType)} ${truncateButton(item.displayTitle)}`,
-          callback_data: `get:${item.messageId}`,
+          text: `${contentTypeEmoji(group.contentType)} ${truncateButton(label)}`,
+          callback_data: `get:${group.episodes[0].messageId}`,
         },
       ];
     }
     return [
       {
-        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length}ép)`,
+        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(label)}`,
         callback_data: `show:${group.key}:0`,
       },
     ];
@@ -394,25 +395,26 @@ async function sendBrowsePage(
   const lines = slice.map((group, i) => {
     const n = safePage * PAGE_SIZE + i + 1;
     const emoji = contentTypeEmoji(group.contentType);
+    const label = formatGroupLabel(group);
     if (group.contentType === "film" || group.episodes.length === 1) {
-      return `${n}. ${emoji} <b>${escapeHtml(group.episodes[0].displayTitle)}</b>`;
+      return `${n}. ${emoji} <b>${escapeHtml(label)}</b>`;
     }
-    return `${n}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${describeGroup(group)}`;
+    return `${n}. ${emoji} <b>${escapeHtml(label)}</b> — ${describeGroup(group)}`;
   });
 
   const rows = slice.map((group) => {
+    const label = formatGroupLabel(group);
     if (group.contentType === "film" || group.episodes.length === 1) {
-      const item = group.episodes[0];
       return [
         {
-          text: `${contentTypeEmoji(group.contentType)} ${truncateButton(item.displayTitle)}`,
-          callback_data: `get:${item.messageId}`,
+          text: `${contentTypeEmoji(group.contentType)} ${truncateButton(label)}`,
+          callback_data: `get:${group.episodes[0].messageId}`,
         },
       ];
     }
     return [
       {
-        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length}ép)`,
+        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(label)}`,
         callback_data: `show:${group.key}:0`,
       },
     ];
@@ -499,9 +501,10 @@ async function sendShowPage(
     { text: "🏠 Menu", callback_data: "menu" },
   ]);
 
+  const showLabel = formatGroupLabel(group);
+
   const text =
-    `${contentTypeEmoji(group.contentType)} <b>${escapeHtml(group.showName)}</b>` +
-    `${group.year ? ` (${group.year})` : ""}\n` +
+    `${contentTypeEmoji(group.contentType)} <b>${escapeHtml(showLabel)}</b>\n` +
     `${seasons.length} saison(s) · ${episodes.length} épisode(s)\n\n` +
     `${lines.join("\n")}\n\nPrends un épisode, ou toute une saison.`;
 
@@ -523,10 +526,18 @@ function listSeasons(group: ShowGroup): number[] {
   return [...set].sort((a, b) => a - b);
 }
 
+function formatGroupLabel(group: ShowGroup): string {
+  return formatShowLabel(group.showName, {
+    seasons: listSeasons(group),
+    year: group.year,
+    contentType: group.contentType,
+  });
+}
+
 function describeGroup(group: ShowGroup): string {
   const seasons = listSeasons(group).length;
   const eps = group.episodes.length;
-  if (seasons <= 1) return `1 saison · ${eps} ép.`;
+  if (seasons <= 1) return `${eps} ép.`;
   return `${seasons} saisons · ${eps} ép.`;
 }
 

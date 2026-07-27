@@ -144,6 +144,8 @@ function cleanShowName(
 ): string {
   let name = rawTitle.split("\n")[0] || rawTitle;
 
+  name = stripChannelNoise(name);
+
   name = name
     .replace(/#\w+/g, " ")
     .replace(/\bS\d{1,2}\s*E\d{1,3}\b/gi, " ")
@@ -158,6 +160,7 @@ function cleanShowName(
     .replace(/\b(19|20)\d{2}\b/g, " ")
     .replace(/[._]+/g, " ")
     .replace(/\s*[-–—|·•]\s*$/g, "")
+    .replace(/^\s*[-–—|·•]\s*/g, "")
     .replace(/\s{2,}/g, " ")
     .trim();
 
@@ -169,7 +172,102 @@ function cleanShowName(
       .trim();
   }
 
+  name = stripChannelNoise(name).replace(/\s{2,}/g, " ").trim();
+
   return name || rawTitle.split("\n")[0]?.trim() || "Sans titre";
+}
+
+/**
+ * Retire handles, liens Telegram, tags canal et suffixes type release.
+ * Ex: "@BenStream | Breaking Bad S01E01" → "Breaking Bad S01E01"
+ */
+function stripChannelNoise(input: string): string {
+  let name = input;
+
+  name = name
+    .replace(/https?:\/\/t\.me\/\S+/gi, " ")
+    .replace(/\bt\.me\/\+\S+/gi, " ")
+    .replace(/\bt\.me\/\S+/gi, " ")
+    .replace(/@[A-Za-z0-9_]{3,}/g, " ")
+    .replace(/【[^】]*】/g, " ")
+    .replace(/\[[^\]]*\]/g, " ")
+    .replace(/\{[^}]*\}/g, " ")
+    .replace(/[«»""]/g, " ");
+
+  // Séparateurs fréquents : Canal | Titre  /  Titre | Canal
+  const parts = name
+    .split(/\s*[|•·]\s*/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (parts.length > 1) {
+    const scored = parts
+      .map((part) => ({ part, score: titlePartScore(part) }))
+      .sort((a, b) => b.score - a.score);
+    name = scored[0]?.part || name;
+  }
+
+  // Préfixe/suffixe canal collé avec tiret : "BenStream - Titre" / "Titre - BenStream"
+  name = name
+    .replace(
+      /^\s*([A-Za-z0-9_]{3,24})\s*[-–—]\s+(?=[A-Za-zÀ-ÿ0-9])/u,
+      (full, maybeChannel: string) =>
+        looksLikeChannelToken(maybeChannel) ? "" : full
+    )
+    .replace(
+      /\s*[-–—]\s*([A-Za-z0-9_]{3,24})\s*$/u,
+      (full, maybeChannel: string) =>
+        looksLikeChannelToken(maybeChannel) ? "" : full
+    );
+
+  // Mots bruit typiques des pubs Telegram
+  name = name.replace(
+    /\b(join|rejoins|abonne[-\s]?toi|subscribe|channel|canal|telegram|streaming|film gratis|lien|link)\b/gi,
+    " "
+  );
+
+  return name.replace(/\s{2,}/g, " ").trim();
+}
+
+function titlePartScore(part: string): number {
+  let score = part.length;
+  if (/[a-zà-ÿ]/u.test(part)) score += 8; // vrai titre souvent mixed/lower
+  if (/^[A-Z0-9 _-]{3,20}$/.test(part)) score -= 12; // CANAL TOUT EN MAJ
+  if (looksLikeChannelToken(part)) score -= 20;
+  if (/\bS\d{1,2}E\d{1,3}\b/i.test(part) || /\b\d{1,2}x\d{1,3}\b/.test(part)) {
+    score += 15;
+  }
+  if (/\(\d{4}\)/.test(part)) score += 10;
+  return score;
+}
+
+function looksLikeChannelToken(token: string): boolean {
+  const t = token.trim();
+  if (!t) return true;
+  if (/^@/.test(t)) return true;
+  if (/^(benstream|benflix|animebox|stream|movies?|films?|series?|serie|tv|vod|zone|hub|premium|gratuit|free)$/i.test(t)) {
+    return true;
+  }
+  // Token court tout caps type "MOVIEZONE"
+  if (/^[A-Z0-9_]{3,18}$/.test(t) && t === t.toUpperCase()) return true;
+  return false;
+}
+
+/** Libellé liste : "Breaking Bad · S01" */
+export function formatShowLabel(
+  showName: string,
+  options: { seasons?: number[]; year?: number; contentType?: ContentType } = {}
+): string {
+  const seasons = [...new Set(options.seasons || [])].sort((a, b) => a - b);
+  if (options.contentType === "film" || seasons.length === 0) {
+    return options.year ? `${showName} (${options.year})` : showName;
+  }
+  if (seasons.length === 1) {
+    return `${showName} · S${String(seasons[0]).padStart(2, "0")}`;
+  }
+  const first = String(seasons[0]).padStart(2, "0");
+  const last = String(seasons[seasons.length - 1]).padStart(2, "0");
+  return `${showName} · S${first}-S${last}`;
 }
 
 function buildDisplayTitle(meta: {

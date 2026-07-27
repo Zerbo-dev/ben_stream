@@ -95,13 +95,37 @@ export class CatalogStore {
     return items.filter((item) => item.contentType === type);
   }
 
-  async stats(): Promise<Record<ContentType | "total", number>> {
+  async stats(): Promise<{
+    totalFiles: number;
+    films: number;
+    series: number;
+    animes: number;
+    seasons: number;
+    episodes: number;
+  }> {
     const items = await this.getAll();
+    const groups = groupByShow(items);
+
+    const filmGroups = groups.filter((g) => g.contentType === "film");
+    const serieGroups = groups.filter((g) => g.contentType === "serie");
+    const animeGroups = groups.filter((g) => g.contentType === "anime");
+
+    const seasonKeys = new Set<string>();
+    let episodes = 0;
+    for (const group of [...serieGroups, ...animeGroups]) {
+      for (const ep of group.episodes) {
+        episodes += 1;
+        seasonKeys.add(`${group.key}:${ep.season ?? 1}`);
+      }
+    }
+
     return {
-      total: items.length,
-      film: items.filter((i) => i.contentType === "film").length,
-      serie: items.filter((i) => i.contentType === "serie").length,
-      anime: items.filter((i) => i.contentType === "anime").length,
+      totalFiles: items.length,
+      films: filmGroups.length,
+      series: serieGroups.length,
+      animes: animeGroups.length,
+      seasons: seasonKeys.size,
+      episodes,
     };
   }
 

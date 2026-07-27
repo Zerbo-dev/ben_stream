@@ -135,15 +135,10 @@ async function handlePrivateMessage(
 
   if (command === "/stats") {
     const stats = await catalog.stats();
-    await telegram.sendMessage(
-      chatId,
-      `📊 <b>Catalogue BenStream</b>\n\n` +
-        `🎬 Films : <b>${stats.film}</b>\n` +
-        `📺 Séries : <b>${stats.serie}</b>\n` +
-        `🎌 Animés : <b>${stats.anime}</b>\n` +
-        `——————\nTotal fichiers : <b>${stats.total}</b>`,
-      { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
-    );
+    await telegram.sendMessage(chatId, formatStatsText(stats), {
+      parse_mode: "HTML",
+      reply_markup: mainMenuKeyboard(),
+    });
     return;
   }
 
@@ -255,7 +250,7 @@ async function sendMainMenu(
   const stats = await catalog.stats();
   await telegram.sendMessage(
     chatId,
-    `${HELP_TEXT}\n\n📦 <b>${stats.total}</b> fichiers · 🎬 ${stats.film} · 📺 ${stats.serie} · 🎌 ${stats.anime}`,
+    `${HELP_TEXT}\n\n${formatStatsSummary(stats)}`,
     {
       parse_mode: "HTML",
       reply_markup: mainMenuKeyboard(),
@@ -323,7 +318,7 @@ async function sendGroupedResults(
       const item = group.episodes[0];
       return `${i + 1}. ${emoji} <b>${escapeHtml(item.displayTitle)}</b>`;
     }
-    return `${i + 1}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${group.episodes.length} épisodes`;
+    return `${i + 1}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${describeGroup(group)}`;
   });
 
   const rows = preview.map((group) => {
@@ -338,7 +333,7 @@ async function sendGroupedResults(
     }
     return [
       {
-        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length})`,
+        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length}ép)`,
         callback_data: `show:${group.key}:0`,
       },
     ];
@@ -402,7 +397,7 @@ async function sendBrowsePage(
     if (group.contentType === "film" || group.episodes.length === 1) {
       return `${n}. ${emoji} <b>${escapeHtml(group.episodes[0].displayTitle)}</b>`;
     }
-    return `${n}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${group.episodes.length} ép.`;
+    return `${n}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${describeGroup(group)}`;
   });
 
   const rows = slice.map((group) => {
@@ -417,7 +412,7 @@ async function sendBrowsePage(
     }
     return [
       {
-        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length})`,
+        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length}ép)`,
         callback_data: `show:${group.key}:0`,
       },
     ];
@@ -457,6 +452,7 @@ async function sendShowPage(
   edit: { messageId: number } | false
 ): Promise<void> {
   const episodes = group.episodes;
+  const seasons = listSeasons(group);
   const totalPages = Math.max(1, Math.ceil(episodes.length / PAGE_SIZE));
   const safePage = Math.min(Math.max(page, 0), totalPages - 1);
   const slice = episodes.slice(safePage * PAGE_SIZE, safePage * PAGE_SIZE + PAGE_SIZE);
@@ -468,15 +464,28 @@ async function sendShowPage(
     return `${n}. <b>${ep}</b>${meta ? ` — ${meta}` : ""}`;
   });
 
-  const rows = slice.map((item) => {
+  const rows: { text: string; callback_data: string }[][] = [];
+
+  // Boutons "toute la saison"
+  for (const season of seasons) {
+    const count = episodes.filter((ep) => (ep.season ?? 1) === season).length;
+    rows.push([
+      {
+        text: `📦 Toute la saison ${season} (${count} ép.)`,
+        callback_data: `sea:${group.key}:${season}`,
+      },
+    ]);
+  }
+
+  for (const item of slice) {
     const ep = formatEpisodeCode(item.season, item.episode) || item.displayTitle;
-    return [
+    rows.push([
       {
         text: `▶️ ${truncateButton(ep)}`,
         callback_data: `get:${item.messageId}`,
       },
-    ];
-  });
+    ]);
+  }
 
   const nav: { text: string; callback_data: string }[] = [];
   if (safePage > 0) nav.push({ text: "⬅️", callback_data: `show:${group.key}:${safePage - 1}` });
@@ -493,8 +502,8 @@ async function sendShowPage(
   const text =
     `${contentTypeEmoji(group.contentType)} <b>${escapeHtml(group.showName)}</b>` +
     `${group.year ? ` (${group.year})` : ""}\n` +
-    `${episodes.length} épisode(s)\n\n` +
-    `${lines.join("\n")}\n\nChoisis un épisode.`;
+    `${seasons.length} saison(s) · ${episodes.length} épisode(s)\n\n` +
+    `${lines.join("\n")}\n\nPrends un épisode, ou toute une saison.`;
 
   if (edit) {
     await telegram.editMessageText(chatId, edit.messageId, text, {
@@ -507,6 +516,35 @@ async function sendShowPage(
       reply_markup: { inline_keyboard: rows },
     });
   }
+}
+
+function listSeasons(group: ShowGroup): number[] {
+  const set = new Set(group.episodes.map((ep) => ep.season ?? 1));
+  return [...set].sort((a, b) => a - b);
+}
+
+function describeGroup(group: ShowGroup): string {
+  const seasons = listSeasons(group).length;
+  const eps = group.episodes.length;
+  if (seasons <= 1) return `1 saison · ${eps} ép.`;
+  return `${seasons} saisons · ${eps} ép.`;
+}
+
+function formatStatsSummary(stats: Awaited<ReturnType<CatalogStore["stats"]>>): string {
+  return (
+    `📦 <b>${stats.totalFiles}</b> fichiers · ` +
+    `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`
+  );
+}
+
+function formatStatsText(stats: Awaited<ReturnType<CatalogStore["stats"]>>): string {
+  return (
+    `📊 <b>Catalogue BenStream</b>\n\n` +
+    `🎬 Films : <b>${stats.films}</b>\n` +
+    `📺 Séries : <b>${stats.series}</b> · ${stats.seasons} saison(s) · ${stats.episodes} ép.\n` +
+    `🎌 Animés : <b>${stats.animes}</b>\n` +
+    `——————\nTotal fichiers : <b>${stats.totalFiles}</b>`
+  );
 }
 
 function truncateButton(title: string): string {
@@ -544,7 +582,7 @@ async function handleCallback(
       await telegram.editMessageText(
         chatId,
         messageId,
-        `${HELP_TEXT}\n\n📦 <b>${stats.total}</b> fichiers · 🎬 ${stats.film} · 📺 ${stats.serie} · 🎌 ${stats.anime}`,
+        `${HELP_TEXT}\n\n${formatStatsSummary(stats)}`,
         { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
       );
     } else {
@@ -556,12 +594,7 @@ async function handleCallback(
   if (data === "stats") {
     await telegram.answerCallbackQuery(cb.id);
     const stats = await catalog.stats();
-    const text =
-      `📊 <b>Catalogue BenStream</b>\n\n` +
-      `🎬 Films : <b>${stats.film}</b>\n` +
-      `📺 Séries : <b>${stats.serie}</b>\n` +
-      `🎌 Animés : <b>${stats.anime}</b>\n` +
-      `——————\nTotal fichiers : <b>${stats.total}</b>`;
+    const text = formatStatsText(stats);
     if (messageId) {
       await telegram.editMessageText(chatId, messageId, text, {
         parse_mode: "HTML",
@@ -610,6 +643,57 @@ async function handleCallback(
       group,
       page,
       messageId ? { messageId } : false
+    );
+    return;
+  }
+
+  if (data.startsWith("sea:")) {
+    const [, key, seasonRaw] = data.split(":");
+    const season = Number(seasonRaw);
+    const group = await catalog.findShowByKey(key);
+    if (!group || !Number.isFinite(season)) {
+      await telegram.answerCallbackQuery(cb.id, "Saison introuvable", true);
+      return;
+    }
+
+    const seasonEps = group.episodes
+      .filter((ep) => (ep.season ?? 1) === season)
+      .sort((a, b) => (a.episode ?? 0) - (b.episode ?? 0));
+
+    if (!seasonEps.length) {
+      await telegram.answerCallbackQuery(cb.id, "Aucun épisode", true);
+      return;
+    }
+
+    await telegram.answerCallbackQuery(
+      cb.id,
+      `Envoi saison ${season} (${seasonEps.length} ép.)…`
+    );
+
+    await telegram.sendMessage(
+      chatId,
+      `📦 Envoi de <b>${escapeHtml(group.showName)}</b> — saison ${season} (${seasonEps.length} épisodes)…`,
+      { parse_mode: "HTML" }
+    );
+
+    let sent = 0;
+    let failed = 0;
+    for (const item of seasonEps) {
+      try {
+        await telegram.copyMessage(chatId, config.channelId, item.messageId);
+        sent += 1;
+      } catch (error) {
+        failed += 1;
+        console.error("season send error", item.messageId, error);
+      }
+    }
+
+    await telegram.sendMessage(
+      chatId,
+      `✅ Saison ${season} : <b>${sent}</b> envoyé(s)` +
+        (failed ? ` · ❌ ${failed} échec(s)` : "") +
+        `\nBon visionnage 🍿`,
+      { parse_mode: "HTML" }
     );
     return;
   }

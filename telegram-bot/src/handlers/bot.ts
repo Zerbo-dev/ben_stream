@@ -43,7 +43,9 @@ Envoie un <b>titre</b> pour chercher, ou utilise le menu.
 <code>Breaking Bad S01E01 1080p VOSTFR</code>
 <code>Attack on Titan S01E03 #anime</code>
 
-<code>S01E01</code> / <code>1x02</code> → série auto. <code>#anime</code> seulement pour les animés.`;
+<code>S01E01</code> / <code>1x02</code> → série auto. <code>#anime</code> seulement pour les animés.
+
+<i>Admin :</i> <code>/purge &lt;message_id&gt;</code> retire une entrée du catalogue.`;
 
 export async function handleUpdate(
   update: TelegramUpdate,
@@ -160,6 +162,32 @@ async function handlePrivateMessage(
 
   if (command === "/animes" || command === "/anime") {
     await sendBrowsePage(telegram, catalog, chatId, "anime", 0, false);
+    return;
+  }
+
+  if (command === "/purge") {
+    if (!isAdmin(userId, config.adminIds)) {
+      await telegram.sendMessage(chatId, "Commande réservée aux admins.");
+      return;
+    }
+    const rawId = text.replace(/^\/purge(@\w+)?\s*/i, "").trim();
+    const messageId = Number(rawId);
+    if (!rawId || !Number.isFinite(messageId)) {
+      await telegram.sendMessage(
+        chatId,
+        "Usage : /purge <message_id>\nLe message_id est celui du post dans le canal (affiché à l'indexation)."
+      );
+      return;
+    }
+    const existing = await catalog.get(messageId);
+    await catalog.remove(messageId);
+    await telegram.sendMessage(
+      chatId,
+      existing
+        ? `🗑 Retiré du catalogue : <b>${escapeHtml(existing.displayTitle)}</b> (<code>${messageId}</code>)`
+        : `🗑 ID <code>${messageId}</code> retiré (ou déjà absent).`,
+      { parse_mode: "HTML" }
+    );
     return;
   }
 
@@ -689,6 +717,7 @@ async function handleCallback(
 
     let sent = 0;
     let failed = 0;
+    let purged = 0;
     for (const item of seasonEps) {
       try {
         await telegram.copyMessage(chatId, config.channelId, item.messageId);
@@ -696,6 +725,10 @@ async function handleCallback(
       } catch (error) {
         failed += 1;
         console.error("season send error", item.messageId, error);
+        if (isMissingMediaError(error)) {
+          await catalog.remove(item.messageId);
+          purged += 1;
+        }
       }
     }
 
@@ -703,6 +736,7 @@ async function handleCallback(
       chatId,
       `✅ Saison ${season} : <b>${sent}</b> envoyé(s)` +
         (failed ? ` · ❌ ${failed} échec(s)` : "") +
+        (purged ? ` · 🗑 ${purged} retiré(s) du catalogue` : "") +
         `\nBon visionnage 🍿`,
       { parse_mode: "HTML" }
     );
@@ -737,12 +771,27 @@ async function handleCallback(
     );
   } catch (error) {
     const detail = error instanceof Error ? error.message : "erreur inconnue";
+    let purgedNote = "";
+    if (isMissingMediaError(error)) {
+      await catalog.remove(item.messageId);
+      purgedNote = "\n🗑 Entrée retirée du catalogue (média absent du canal).";
+    }
     await telegram.sendMessage(
       chatId,
-      `❌ Impossible d'envoyer ce média.\n<code>${escapeHtml(detail)}</code>`,
+      `❌ Impossible d'envoyer ce média.\n<code>${escapeHtml(detail)}</code>${purgedNote}`,
       { parse_mode: "HTML" }
     );
   }
+}
+
+function isMissingMediaError(error: unknown): boolean {
+  const detail = error instanceof Error ? error.message.toLowerCase() : "";
+  return (
+    detail.includes("message to copy not found") ||
+    detail.includes("message not found") ||
+    detail.includes("msg_id is invalid") ||
+    detail.includes("MESSAGE_ID_INVALID".toLowerCase())
+  );
 }
 
 function isForwardFromChannel(

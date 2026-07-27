@@ -1,9 +1,17 @@
 import { Redis } from "@upstash/redis";
+import { normalizeTitle } from "./text.js";
 import type { CatalogItem, ContentType, ShowGroup } from "./types.js";
 import { parseVodMetadata, showKey } from "./vod.js";
+import {
+  clusterShowNames,
+  findBestShowMatch,
+  preferCanonicalName,
+} from "./show-match.js";
 
 const ITEM_PREFIX = "vod:item:";
 const INDEX_KEY = "vod:index";
+
+export { normalizeTitle } from "./text.js";
 
 export function hydrateCatalogItem(item: CatalogItem): CatalogItem {
   // Toujours re-parser caption/titre pour appliquer le nettoyage à jour
@@ -27,9 +35,68 @@ export class CatalogStore {
   }
 
   async upsert(item: CatalogItem): Promise<void> {
+    const resolved = await this.resolveAgainstCatalog(item);
+    await this.writeItem(resolved);
+  }
+
+  private async writeItem(item: CatalogItem): Promise<void> {
     const key = this.itemKey(item.messageId);
     await this.redis.set(key, item);
     await this.redis.sadd(INDEX_KEY, String(item.messageId));
+  }
+
+  /**
+   * Si une œuvre proche existe déjà, on réutilise son nom canonique.
+   * Cas imprévu sans voisin → on garde le nom parsé tel quel.
+   */
+  private async resolveAgainstCatalog(item: CatalogItem): Promise<CatalogItem> {
+    const hydrated = hydrateCatalogItem(item);
+    const existing = await this.getAll();
+    const names = [
+      ...new Set(
+        existing
+          .filter((e) => e.messageId !== hydrated.messageId)
+          .map((e) => e.showName)
+      ),
+    ];
+    const match = findBestShowMatch(hydrated.showName, names);
+    if (!match) return hydrated;
+
+    const canonical = preferCanonicalName(match.name, hydrated.showName);
+    const displayTitle = hydrated.displayTitle.startsWith(hydrated.showName)
+      ? `${canonical}${hydrated.displayTitle.slice(hydrated.showName.length)}`
+      : hydrated.displayTitle.replace(hydrated.showName, canonical);
+
+    return {
+      ...hydrated,
+      showName: canonical,
+      normalizedShowName: normalizeTitle(canonical),
+      displayTitle,
+    };
+  }
+
+  /** Ré-applique le parseur + clustering flou, puis persiste. */
+  async reparseAll(): Promise<{ total: number; updated: number }> {
+    const items = await this.getAllRaw();
+    const hydrated = items.map(hydrateCatalogItem);
+    const cluster = clusterShowNames(hydrated.map((h) => h.showName));
+
+    let updated = 0;
+    for (const h of hydrated) {
+      const canonical =
+        cluster.get(normalizeTitle(h.showName)) || h.showName;
+      const displayTitle = h.displayTitle.startsWith(h.showName)
+        ? `${canonical}${h.displayTitle.slice(h.showName.length)}`
+        : h.displayTitle.replace(h.showName, canonical);
+      await this.writeItem({
+        ...h,
+        showName: canonical,
+        normalizedShowName: normalizeTitle(canonical),
+        displayTitle,
+      });
+      updated += 1;
+    }
+    return { total: items.length, updated };
   }
 
   async remove(messageId: number): Promise<void> {
@@ -158,38 +225,36 @@ export class CatalogStore {
 
     return values.filter((item): item is CatalogItem => item != null);
   }
-
-  /** Ré-applique le parseur intelligent et persiste en Redis. */
-  async reparseAll(): Promise<{ total: number; updated: number }> {
-    const items = await this.getAllRaw();
-    let updated = 0;
-    for (const item of items) {
-      const fresh = hydrateCatalogItem(item);
-      await this.upsert(fresh);
-      updated += 1;
-    }
-    return { total: items.length, updated };
-  }
 }
 
 export function groupByShow(items: CatalogItem[]): ShowGroup[] {
+  const hydratedItems = items.map(hydrateCatalogItem);
+  const cluster = clusterShowNames(hydratedItems.map((i) => i.showName));
+
   const map = new Map<string, ShowGroup>();
 
-  for (const item of items) {
-    const hydrated = hydrateCatalogItem(item);
-    const key = showKey(hydrated.normalizedShowName || normalizeTitle(hydrated.title));
+  for (const hydrated of hydratedItems) {
+    const canonical =
+      cluster.get(normalizeTitle(hydrated.showName)) || hydrated.showName;
+    const key = showKey(normalizeTitle(canonical));
     const existing = map.get(key);
     if (!existing) {
       map.set(key, {
         key,
-        showName: hydrated.showName || hydrated.title,
-        normalizedShowName: hydrated.normalizedShowName,
+        showName: canonical,
+        normalizedShowName: normalizeTitle(canonical),
         contentType: hydrated.contentType,
         year: hydrated.year,
-        episodes: [hydrated],
+        episodes: [{ ...hydrated, showName: canonical, normalizedShowName: normalizeTitle(canonical) }],
       });
     } else {
-      existing.episodes.push(hydrated);
+      // Si types divergent (serie vs anime), on privilégie anime si un épisode l'est
+      if (hydrated.contentType === "anime") existing.contentType = "anime";
+      existing.episodes.push({
+        ...hydrated,
+        showName: canonical,
+        normalizedShowName: normalizeTitle(canonical),
+      });
       if (!existing.year && hydrated.year) existing.year = hydrated.year;
     }
   }
@@ -207,16 +272,6 @@ export function groupByShow(items: CatalogItem[]): ShowGroup[] {
   return [...map.values()].sort((a, b) =>
     a.showName.localeCompare(b.showName, "fr", { sensitivity: "base" })
   );
-}
-
-export function normalizeTitle(input: string): string {
-  return input
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim()
-    .replace(/\s+/g, " ");
 }
 
 export function extractTitleFromMessage(parts: {

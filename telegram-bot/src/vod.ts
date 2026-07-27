@@ -1,4 +1,4 @@
-import { normalizeTitle } from "./catalog.js";
+import { normalizeTitle } from "./text.js";
 import type { ContentType, VodMetadata } from "./types.js";
 
 const QUALITY_RE =
@@ -101,7 +101,8 @@ export function parseVodMetadata(
     qualities,
     languages,
   });
-  showName = applyTitleAliases(showName);
+  // Les synonymes bilingues + fuzzy matching se font au groupement / upsert
+  // (voir show-match.ts) — pas un if unique ici.
 
   const displayTitle = buildDisplayTitle({
     showName,
@@ -195,12 +196,6 @@ function normalizeLang(raw: string): string {
   if (v === "ENGLISH") return "ENG";
   if (v === "FRENCH") return "VF";
   return v;
-}
-
-function applyTitleAliases(showName: string): string {
-  const n = normalizeTitle(showName);
-  if (n === "money heist" || n === "la casa de papel") return "La Casa de Papel";
-  return showName;
 }
 
 function cleanShowName(

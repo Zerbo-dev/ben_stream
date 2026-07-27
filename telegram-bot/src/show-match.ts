@@ -252,9 +252,14 @@ export function clusterShowNames(names: string[]): Map<string, string> {
     const ra = find(a);
     const rb = find(b);
     if (ra === rb) return;
-    const keep = preferCanonicalName(ra, rb);
-    const drop = keep === ra ? rb : ra;
-    parent.set(drop, keep);
+    let keep = preferCanonicalName(ra, rb);
+    // Si le primary synonyme n'est pas encore un nœud, on l'introduit
+    if (!parent.has(keep)) parent.set(keep, keep);
+    const drop = keep === ra ? rb : ra === keep ? rb : ra;
+    // Attacher les deux racines au keep
+    parent.set(ra, keep);
+    parent.set(rb, keep);
+    if (drop !== keep) parent.set(drop, keep);
   };
 
   for (const n of unique) parent.set(n, n);

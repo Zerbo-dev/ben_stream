@@ -25,27 +25,13 @@ import {
 
 const PAGE_SIZE = 8;
 
-const HELP_TEXT = `🎬 <b>BenStream</b> — films, séries & animés à la demande
+const WELCOME_TEXT = `🎬 <b>BenStream</b>
+Envoie un titre, ou choisis ci-dessous.`;
 
-Envoie un <b>titre</b> pour chercher, ou utilise le menu.
-
-<b>Commandes</b>
-/start — menu
-/films — parcourir les films
-/series — parcourir les séries
-/animes — parcourir les animés
-/recent — derniers ajouts
-/search &lt;titre&gt; — recherche
-/stats — catalogue
-
-<b>Astuce pubs canal (admin)</b>
-<code>Inception (2010) 1080p VF</code>
-<code>Breaking Bad S01E01 1080p VOSTFR</code>
-<code>Attack on Titan S01E03 #anime</code>
-
-<code>S01E01</code> / <code>1x02</code> → série auto. <code>#anime</code> seulement pour les animés.
-
-<i>Admin :</i> <code>/purge</code> (boutons 🗑) · <code>/reparse</code> (nettoie tout le catalogue).`;
+const ADMIN_HELP = `🛠 <b>Admin</b>
+/purge — supprimer
+/reparse — recalculer le catalogue
+/stats — détails`;
 
 export async function handleUpdate(
   update: TelegramUpdate,
@@ -90,18 +76,14 @@ async function handleChannelPost(
 
   try {
     await catalog.upsert(item);
-    await notifyAdmins(
-      telegram,
-      config.adminIds,
-      `✅ Indexé ${contentTypeEmoji(item.contentType)} <b>${escapeHtml(item.displayTitle)}</b>`
-    );
+    // Succès silencieux — pas de spam admin à chaque post
   } catch (error) {
     const detail = error instanceof Error ? error.message : "erreur inconnue";
     console.error("channel index error", detail);
     await notifyAdmins(
       telegram,
       config.adminIds,
-      `❌ Indexation échouée pour <b>${escapeHtml(item.title)}</b>\n<code>${escapeHtml(detail)}</code>\n\nVérifie le token Upstash <b>read-write</b>.`
+      `❌ Indexation : <b>${escapeHtml(item.title)}</b>\n<code>${escapeHtml(detail)}</code>`
     );
   }
 }
@@ -125,20 +107,30 @@ async function handlePrivateMessage(
   }
 
   if (!text) {
-    await telegram.sendMessage(chatId, "Envoie un titre, ou /start pour le menu.");
+    await telegram.sendMessage(chatId, "Envoie un titre.");
     return;
   }
 
   const command = text.split(/\s+/)[0].replace(/@\w+$/, "").toLowerCase();
+  const admin = isAdmin(userId, config.adminIds);
 
-  if (command === "/start" || command === "/menu" || command === "/help") {
-    await sendMainMenu(telegram, catalog, chatId);
+  if (command === "/start" || command === "/menu") {
+    await sendMainMenu(telegram, catalog, chatId, admin);
+    return;
+  }
+
+  if (command === "/help") {
+    await telegram.sendMessage(
+      chatId,
+      admin ? `${WELCOME_TEXT}\n\n${ADMIN_HELP}` : WELCOME_TEXT,
+      { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
+    );
     return;
   }
 
   if (command === "/stats") {
     const stats = await catalog.stats();
-    await telegram.sendMessage(chatId, formatStatsText(stats), {
+    await telegram.sendMessage(chatId, formatStatsText(stats, admin), {
       parse_mode: "HTML",
       reply_markup: mainMenuKeyboard(),
     });
@@ -146,28 +138,28 @@ async function handlePrivateMessage(
   }
 
   if (command === "/recent") {
-    await sendBrowsePage(telegram, catalog, chatId, "recent", 0, false, isAdmin(userId, config.adminIds));
+    await sendBrowsePage(telegram, catalog, chatId, "recent", 0, false, admin);
     return;
   }
 
   if (command === "/films" || command === "/film") {
-    await sendBrowsePage(telegram, catalog, chatId, "film", 0, false, isAdmin(userId, config.adminIds));
+    await sendBrowsePage(telegram, catalog, chatId, "film", 0, false, admin);
     return;
   }
 
   if (command === "/series" || command === "/serie") {
-    await sendBrowsePage(telegram, catalog, chatId, "serie", 0, false, isAdmin(userId, config.adminIds));
+    await sendBrowsePage(telegram, catalog, chatId, "serie", 0, false, admin);
     return;
   }
 
   if (command === "/animes" || command === "/anime") {
-    await sendBrowsePage(telegram, catalog, chatId, "anime", 0, false, isAdmin(userId, config.adminIds));
+    await sendBrowsePage(telegram, catalog, chatId, "anime", 0, false, admin);
     return;
   }
 
   if (command === "/purge") {
-    if (!isAdmin(userId, config.adminIds)) {
-      await telegram.sendMessage(chatId, "Commande réservée aux admins.");
+    if (!admin) {
+      await telegram.sendMessage(chatId, "Réservé aux admins.");
       return;
     }
     const query = text.replace(/^\/purge(@\w+)?\s*/i, "").trim();
@@ -176,8 +168,8 @@ async function handlePrivateMessage(
   }
 
   if (command === "/reparse") {
-    if (!isAdmin(userId, config.adminIds)) {
-      await telegram.sendMessage(chatId, "Commande réservée aux admins.");
+    if (!admin) {
+      await telegram.sendMessage(chatId, "Réservé aux admins.");
       return;
     }
     await telegram.sendMessage(chatId, "🧠 Reparse du catalogue en cours…");
@@ -199,18 +191,18 @@ async function handlePrivateMessage(
       await telegram.sendMessage(chatId, "Usage : /search <titre>");
       return;
     }
-    await runSearch(telegram, catalog, chatId, query, isAdmin(userId, config.adminIds));
+    await runSearch(telegram, catalog, chatId, query, admin);
     return;
   }
 
   if (text.startsWith("/")) {
-    await telegram.sendMessage(chatId, "Commande inconnue. Voir /start", {
+    await telegram.sendMessage(chatId, "Commande inconnue.", {
       reply_markup: mainMenuKeyboard(),
     });
     return;
   }
 
-  await runSearch(telegram, catalog, chatId, text, isAdmin(userId, config.adminIds));
+  await runSearch(telegram, catalog, chatId, text, admin);
 }
 
 async function handleAdminForward(
@@ -280,17 +272,25 @@ async function handleAdminForward(
 async function sendMainMenu(
   telegram: TelegramClient,
   catalog: CatalogStore,
-  chatId: number
+  chatId: number,
+  admin = false,
+  edit: { messageId: number } | false = false
 ): Promise<void> {
   const stats = await catalog.stats();
-  await telegram.sendMessage(
-    chatId,
-    `${HELP_TEXT}\n\n${formatStatsSummary(stats)}`,
-    {
+  const text = admin
+    ? `${WELCOME_TEXT}\n${formatStatsSummary(stats)}\n\n${ADMIN_HELP}`
+    : `${WELCOME_TEXT}\n${formatStatsSummary(stats)}`;
+  if (edit) {
+    await telegram.editMessageText(chatId, edit.messageId, text, {
       parse_mode: "HTML",
       reply_markup: mainMenuKeyboard(),
-    }
-  );
+    });
+    return;
+  }
+  await telegram.sendMessage(chatId, text, {
+    parse_mode: "HTML",
+    reply_markup: mainMenuKeyboard(),
+  });
 }
 
 function mainMenuKeyboard(): InlineKeyboardMarkup {
@@ -320,7 +320,7 @@ async function runSearch(
   if (!items.length) {
     await telegram.sendMessage(
       chatId,
-      `Aucun résultat pour « ${escapeHtml(query)} ».\nEssaie un autre mot, ou /films /series /animes.`,
+      `Rien pour « ${escapeHtml(query)} ».`,
       { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
     );
     return;
@@ -336,7 +336,7 @@ async function runSearch(
     telegram,
     chatId,
     groups,
-    `🔎 Résultats pour « ${escapeHtml(query)} »`,
+    `🔎 « ${escapeHtml(query)} »`,
     admin
   );
 }
@@ -373,9 +373,7 @@ async function sendPurgePicker(
 
   await telegram.sendMessage(
     chatId,
-    `🗑 <b>Mode suppression</b>\nAppuie sur un titre pour le retirer du catalogue` +
-      `${query ? ` (filtre : « ${escapeHtml(query)} »)` : " (récents)"}` +
-      `.\n\n${lines.join("\n")}`,
+    `🗑 <b>Purge</b>${query ? ` · ${escapeHtml(query)}` : ""}\n\n${lines.join("\n")}`,
     {
       parse_mode: "HTML",
       reply_markup: { inline_keyboard: rows },
@@ -427,7 +425,7 @@ async function sendGroupedResults(
 
   await telegram.sendMessage(
     chatId,
-    `${title}\n\n${lines.join("\n")}\n\nChoisis un titre ou une série.`,
+    `${title}\n\n${lines.join("\n")}`,
     {
       parse_mode: "HTML",
       reply_markup: { inline_keyboard: rows },
@@ -458,8 +456,7 @@ async function sendBrowsePage(
   }
 
   if (!groups.length) {
-    const empty =
-      "Rien ici pour l’instant.\nPublie des médias dans le canal avec une caption claire.";
+    const empty = "Catalogue vide.";
     if (edit) {
       await telegram.editMessageText(chatId, edit.messageId, empty, {
         reply_markup: mainMenuKeyboard(),
@@ -517,9 +514,7 @@ async function sendBrowsePage(
   rows.push(nav);
   rows.push([{ text: "🏠 Menu", callback_data: "menu" }]);
 
-  const text =
-    `<b>${heading}</b> — ${groups.length} titre(s)\n\n` +
-    `${lines.join("\n")}\n\nAppuie pour regarder ou ouvrir les épisodes.`;
+  const text = `<b>${heading}</b>\n\n${lines.join("\n")}`;
 
   if (edit) {
     await telegram.editMessageText(chatId, edit.messageId, text, {
@@ -561,7 +556,7 @@ async function sendShowPage(
     const count = episodes.filter((ep) => (ep.season ?? 1) === season).length;
     const seasonRow = [
       {
-        text: `📦 Toute la saison ${season} (${count} ép.)`,
+        text: `📦 S${season} · tout (${count})`,
         callback_data: `sea:${group.key}:${season}`,
       },
     ];
@@ -603,9 +598,8 @@ async function sendShowPage(
   const showLabel = formatGroupLabel(group);
   const text =
     `${contentTypeEmoji(group.contentType)} <b>${escapeHtml(showLabel)}</b>\n` +
-    `${seasons.length} saison(s) · ${episodes.length} épisode(s)\n\n` +
-    `${lines.join("\n")}\n\nPrends un épisode, ou toute une saison.` +
-    (admin ? "\n🗑 = retirer du catalogue." : "");
+    `${episodes.length} ép.\n\n` +
+    `${lines.join("\n")}`;
 
   if (edit) {
     await telegram.editMessageText(chatId, edit.messageId, text, {
@@ -641,19 +635,20 @@ function describeGroup(group: ShowGroup): string {
 }
 
 function formatStatsSummary(stats: Awaited<ReturnType<CatalogStore["stats"]>>): string {
-  return (
-    `📦 <b>${stats.totalFiles}</b> fichiers · ` +
-    `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`
-  );
+  return `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`;
 }
 
-function formatStatsText(stats: Awaited<ReturnType<CatalogStore["stats"]>>): string {
+function formatStatsText(
+  stats: Awaited<ReturnType<CatalogStore["stats"]>>,
+  admin = false
+): string {
+  if (!admin) {
+    return `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`;
+  }
   return (
-    `📊 <b>Catalogue BenStream</b>\n\n` +
-    `🎬 Films : <b>${stats.films}</b>\n` +
-    `📺 Séries : <b>${stats.series}</b> · ${stats.seasons} saison(s) · ${stats.episodes} ép.\n` +
-    `🎌 Animés : <b>${stats.animes}</b>\n` +
-    `——————\nTotal fichiers : <b>${stats.totalFiles}</b>`
+    `📊 <b>Catalogue</b>\n` +
+    `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}\n` +
+    `${stats.seasons} saisons · ${stats.episodes} ép. · ${stats.totalFiles} fichiers`
   );
 }
 
@@ -680,6 +675,8 @@ async function handleCallback(
     return;
   }
 
+  const admin = isAdmin(cb.from?.id, config.adminIds);
+
   if (data === "noop") {
     await telegram.answerCallbackQuery(cb.id);
     return;
@@ -687,24 +684,20 @@ async function handleCallback(
 
   if (data === "menu") {
     await telegram.answerCallbackQuery(cb.id);
-    const stats = await catalog.stats();
-    if (messageId) {
-      await telegram.editMessageText(
-        chatId,
-        messageId,
-        `${HELP_TEXT}\n\n${formatStatsSummary(stats)}`,
-        { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
-      );
-    } else {
-      await sendMainMenu(telegram, catalog, chatId);
-    }
+    await sendMainMenu(
+      telegram,
+      catalog,
+      chatId,
+      admin,
+      messageId ? { messageId } : false
+    );
     return;
   }
 
   if (data === "stats") {
     await telegram.answerCallbackQuery(cb.id);
     const stats = await catalog.stats();
-    const text = formatStatsText(stats);
+    const text = formatStatsText(stats, admin);
     if (messageId) {
       await telegram.editMessageText(chatId, messageId, text, {
         parse_mode: "HTML",
@@ -718,8 +711,6 @@ async function handleCallback(
     }
     return;
   }
-
-  const admin = isAdmin(cb.from?.id, config.adminIds);
 
   if (data.startsWith("cat:")) {
     const [, category, pageRaw] = data.split(":");
@@ -775,14 +766,7 @@ async function handleCallback(
     await catalog.remove(delId);
     await telegram.answerCallbackQuery(
       cb.id,
-      existing ? `Retiré : ${existing.displayTitle}` : "Déjà absent"
-    );
-    await telegram.sendMessage(
-      chatId,
-      existing
-        ? `🗑 Retiré du catalogue : <b>${escapeHtml(existing.displayTitle)}</b>`
-        : "🗑 Déjà absent du catalogue.",
-      { parse_mode: "HTML" }
+      existing ? `🗑 ${truncateButton(existing.displayTitle)}` : "Déjà absent"
     );
     return;
   }
@@ -845,13 +829,7 @@ async function handleCallback(
 
     await telegram.answerCallbackQuery(
       cb.id,
-      `Envoi saison ${season} (${seasonEps.length} ép.)…`
-    );
-
-    await telegram.sendMessage(
-      chatId,
-      `📦 Envoi de <b>${escapeHtml(group.showName)}</b> — saison ${season} (${seasonEps.length} épisodes)…`,
-      { parse_mode: "HTML" }
+      `Saison ${season} · ${seasonEps.length} ép.`
     );
 
     let sent = 0;
@@ -871,14 +849,14 @@ async function handleCallback(
       }
     }
 
-    await telegram.sendMessage(
-      chatId,
-      `✅ Saison ${season} : <b>${sent}</b> envoyé(s)` +
-        (failed ? ` · ❌ ${failed} échec(s)` : "") +
-        (purged ? ` · 🗑 ${purged} retiré(s) du catalogue` : "") +
-        `\nBon visionnage 🍿`,
-      { parse_mode: "HTML" }
-    );
+    if (failed || purged) {
+      await telegram.sendMessage(
+        chatId,
+        `Saison ${season} : ${sent} ok` +
+          (failed ? ` · ${failed} échec` : "") +
+          (purged ? ` · ${purged} retiré` : "")
+      );
+    }
     return;
   }
 
@@ -899,27 +877,23 @@ async function handleCallback(
     return;
   }
 
-  await telegram.answerCallbackQuery(cb.id, "Envoi en cours…");
+  await telegram.answerCallbackQuery(cb.id);
 
   try {
     await telegram.copyMessage(chatId, config.channelId, item.messageId);
-    await telegram.sendMessage(
-      chatId,
-      `✅ ${contentTypeEmoji(item.contentType)} <b>${escapeHtml(item.displayTitle)}</b>\nBon visionnage 🍿`,
-      { parse_mode: "HTML" }
-    );
   } catch (error) {
     const detail = error instanceof Error ? error.message : "erreur inconnue";
     let purgedNote = "";
     if (isMissingMediaError(error)) {
       await catalog.remove(item.messageId);
-      purgedNote = "\n🗑 Entrée retirée du catalogue (média absent du canal).";
+      purgedNote = " (retiré du catalogue)";
     }
     await telegram.sendMessage(
       chatId,
-      `❌ Impossible d'envoyer ce média.\n<code>${escapeHtml(detail)}</code>${purgedNote}`,
+      `❌ Envoi impossible${purgedNote}.`,
       { parse_mode: "HTML" }
     );
+    console.error("send error", detail);
   }
 }
 

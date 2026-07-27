@@ -45,7 +45,7 @@ Envoie un <b>titre</b> pour chercher, ou utilise le menu.
 
 <code>S01E01</code> / <code>1x02</code> → série auto. <code>#anime</code> seulement pour les animés.
 
-<i>Admin :</i> <code>/purge &lt;message_id&gt;</code> retire une entrée du catalogue.`;
+<i>Admin :</i> <code>/purge</code> puis appuie sur 🗑 (plus besoin d’ID).`;
 
 export async function handleUpdate(
   update: TelegramUpdate,
@@ -146,22 +146,22 @@ async function handlePrivateMessage(
   }
 
   if (command === "/recent") {
-    await sendBrowsePage(telegram, catalog, chatId, "recent", 0, false);
+    await sendBrowsePage(telegram, catalog, chatId, "recent", 0, false, isAdmin(userId, config.adminIds));
     return;
   }
 
   if (command === "/films" || command === "/film") {
-    await sendBrowsePage(telegram, catalog, chatId, "film", 0, false);
+    await sendBrowsePage(telegram, catalog, chatId, "film", 0, false, isAdmin(userId, config.adminIds));
     return;
   }
 
   if (command === "/series" || command === "/serie") {
-    await sendBrowsePage(telegram, catalog, chatId, "serie", 0, false);
+    await sendBrowsePage(telegram, catalog, chatId, "serie", 0, false, isAdmin(userId, config.adminIds));
     return;
   }
 
   if (command === "/animes" || command === "/anime") {
-    await sendBrowsePage(telegram, catalog, chatId, "anime", 0, false);
+    await sendBrowsePage(telegram, catalog, chatId, "anime", 0, false, isAdmin(userId, config.adminIds));
     return;
   }
 
@@ -170,24 +170,8 @@ async function handlePrivateMessage(
       await telegram.sendMessage(chatId, "Commande réservée aux admins.");
       return;
     }
-    const rawId = text.replace(/^\/purge(@\w+)?\s*/i, "").trim();
-    const messageId = Number(rawId);
-    if (!rawId || !Number.isFinite(messageId)) {
-      await telegram.sendMessage(
-        chatId,
-        "Usage : /purge <message_id>\nLe message_id est celui du post dans le canal (affiché à l'indexation)."
-      );
-      return;
-    }
-    const existing = await catalog.get(messageId);
-    await catalog.remove(messageId);
-    await telegram.sendMessage(
-      chatId,
-      existing
-        ? `🗑 Retiré du catalogue : <b>${escapeHtml(existing.displayTitle)}</b> (<code>${messageId}</code>)`
-        : `🗑 ID <code>${messageId}</code> retiré (ou déjà absent).`,
-      { parse_mode: "HTML" }
-    );
+    const query = text.replace(/^\/purge(@\w+)?\s*/i, "").trim();
+    await sendPurgePicker(telegram, catalog, chatId, query);
     return;
   }
 
@@ -197,7 +181,7 @@ async function handlePrivateMessage(
       await telegram.sendMessage(chatId, "Usage : /search <titre>");
       return;
     }
-    await runSearch(telegram, catalog, chatId, query);
+    await runSearch(telegram, catalog, chatId, query, isAdmin(userId, config.adminIds));
     return;
   }
 
@@ -208,9 +192,7 @@ async function handlePrivateMessage(
     return;
   }
 
-  // Ignore unused admin check warning
-  void userId;
-  await runSearch(telegram, catalog, chatId, text);
+  await runSearch(telegram, catalog, chatId, text, isAdmin(userId, config.adminIds));
 }
 
 async function handleAdminForward(
@@ -265,9 +247,15 @@ async function handleAdminForward(
 
   await telegram.sendMessage(
     chatId,
-    `✅ Indexé ${contentTypeEmoji(item.contentType)} <b>${escapeHtml(item.displayTitle)}</b>\n` +
-      `<code>${item.contentType}</code> · ID <code>${item.messageId}</code>`,
-    { parse_mode: "HTML" }
+    `✅ Indexé ${contentTypeEmoji(item.contentType)} <b>${escapeHtml(item.displayTitle)}</b>`,
+    {
+      parse_mode: "HTML",
+      reply_markup: {
+        inline_keyboard: [
+          [{ text: "🗑 Retirer du catalogue", callback_data: `del:${item.messageId}` }],
+        ],
+      },
+    }
   );
 }
 
@@ -307,7 +295,8 @@ async function runSearch(
   telegram: TelegramClient,
   catalog: CatalogStore,
   chatId: number,
-  query: string
+  query: string,
+  admin = false
 ): Promise<void> {
   const items = await catalog.search(query, 50);
   if (!items.length) {
@@ -320,9 +309,8 @@ async function runSearch(
   }
 
   const groups = groupByShow(items);
-  // Une seule série/animé avec plusieurs épisodes → ouvrir directement la fiche
   if (groups.length === 1 && groups[0].episodes.length > 1 && groups[0].contentType !== "film") {
-    await sendShowPage(telegram, chatId, groups[0], 0, false);
+    await sendShowPage(telegram, chatId, groups[0], 0, false, admin);
     return;
   }
 
@@ -330,7 +318,50 @@ async function runSearch(
     telegram,
     chatId,
     groups,
-    `🔎 Résultats pour « ${escapeHtml(query)} »`
+    `🔎 Résultats pour « ${escapeHtml(query)} »`,
+    admin
+  );
+}
+
+async function sendPurgePicker(
+  telegram: TelegramClient,
+  catalog: CatalogStore,
+  chatId: number,
+  query: string
+): Promise<void> {
+  const items = query
+    ? await catalog.search(query, 20)
+    : await catalog.recent(15);
+
+  if (!items.length) {
+    await telegram.sendMessage(
+      chatId,
+      query
+        ? `Rien à purger pour « ${escapeHtml(query)} ».`
+        : "Catalogue vide — rien à purger.",
+      { parse_mode: "HTML" }
+    );
+    return;
+  }
+
+  const lines = items.map((item, i) => `${i + 1}. ${escapeHtml(item.displayTitle)}`);
+  const rows = items.map((item) => [
+    {
+      text: `🗑 ${truncateButton(item.displayTitle)}`,
+      callback_data: `del:${item.messageId}`,
+    },
+  ]);
+  rows.push([{ text: "🏠 Menu", callback_data: "menu" }]);
+
+  await telegram.sendMessage(
+    chatId,
+    `🗑 <b>Mode suppression</b>\nAppuie sur un titre pour le retirer du catalogue` +
+      `${query ? ` (filtre : « ${escapeHtml(query)} »)` : " (récents)"}` +
+      `.\n\n${lines.join("\n")}`,
+    {
+      parse_mode: "HTML",
+      reply_markup: { inline_keyboard: rows },
+    }
   );
 }
 
@@ -338,7 +369,8 @@ async function sendGroupedResults(
   telegram: TelegramClient,
   chatId: number,
   groups: ShowGroup[],
-  title: string
+  title: string,
+  admin = false
 ): Promise<void> {
   const preview = groups.slice(0, 12);
   const lines = preview.map((group, i) => {
@@ -353,12 +385,17 @@ async function sendGroupedResults(
   const rows = preview.map((group) => {
     const label = formatGroupLabel(group);
     if (group.contentType === "film" || group.episodes.length === 1) {
-      return [
+      const item = group.episodes[0];
+      const row = [
         {
           text: `${contentTypeEmoji(group.contentType)} ${truncateButton(label)}`,
-          callback_data: `get:${group.episodes[0].messageId}`,
+          callback_data: `get:${item.messageId}`,
         },
       ];
+      if (admin) {
+        row.push({ text: "🗑", callback_data: `del:${item.messageId}` });
+      }
+      return row;
     }
     return [
       {
@@ -386,7 +423,8 @@ async function sendBrowsePage(
   chatId: number,
   category: ContentType | "recent",
   page: number,
-  edit: { messageId: number } | false
+  edit: { messageId: number } | false,
+  admin = false
 ): Promise<void> {
   let groups: ShowGroup[];
   let heading: string;
@@ -403,7 +441,7 @@ async function sendBrowsePage(
 
   if (!groups.length) {
     const empty =
-      "Rien ici pour l’instant.\nPublie des médias dans le canal avec une caption claire (#film #serie #anime).";
+      "Rien ici pour l’instant.\nPublie des médias dans le canal avec une caption claire.";
     if (edit) {
       await telegram.editMessageText(chatId, edit.messageId, empty, {
         reply_markup: mainMenuKeyboard(),
@@ -433,12 +471,16 @@ async function sendBrowsePage(
   const rows = slice.map((group) => {
     const label = formatGroupLabel(group);
     if (group.contentType === "film" || group.episodes.length === 1) {
-      return [
+      const row = [
         {
           text: `${contentTypeEmoji(group.contentType)} ${truncateButton(label)}`,
           callback_data: `get:${group.episodes[0].messageId}`,
         },
       ];
+      if (admin) {
+        row.push({ text: "🗑", callback_data: `del:${group.episodes[0].messageId}` });
+      }
+      return row;
     }
     return [
       {
@@ -479,7 +521,8 @@ async function sendShowPage(
   chatId: number,
   group: ShowGroup,
   page: number,
-  edit: { messageId: number } | false
+  edit: { messageId: number } | false,
+  admin = false
 ): Promise<void> {
   const episodes = group.episodes;
   const seasons = listSeasons(group);
@@ -496,25 +539,35 @@ async function sendShowPage(
 
   const rows: { text: string; callback_data: string }[][] = [];
 
-  // Boutons "toute la saison"
   for (const season of seasons) {
     const count = episodes.filter((ep) => (ep.season ?? 1) === season).length;
-    rows.push([
+    const seasonRow = [
       {
         text: `📦 Toute la saison ${season} (${count} ép.)`,
         callback_data: `sea:${group.key}:${season}`,
       },
-    ]);
+    ];
+    if (admin) {
+      seasonRow.push({
+        text: `🗑 S${season}`,
+        callback_data: `dsea:${group.key}:${season}`,
+      });
+    }
+    rows.push(seasonRow);
   }
 
   for (const item of slice) {
     const ep = formatEpisodeCode(item.season, item.episode) || item.displayTitle;
-    rows.push([
+    const row = [
       {
         text: `▶️ ${truncateButton(ep)}`,
         callback_data: `get:${item.messageId}`,
       },
-    ]);
+    ];
+    if (admin) {
+      row.push({ text: "🗑", callback_data: `del:${item.messageId}` });
+    }
+    rows.push(row);
   }
 
   const nav: { text: string; callback_data: string }[] = [];
@@ -530,11 +583,11 @@ async function sendShowPage(
   ]);
 
   const showLabel = formatGroupLabel(group);
-
   const text =
     `${contentTypeEmoji(group.contentType)} <b>${escapeHtml(showLabel)}</b>\n` +
     `${seasons.length} saison(s) · ${episodes.length} épisode(s)\n\n` +
-    `${lines.join("\n")}\n\nPrends un épisode, ou toute une saison.`;
+    `${lines.join("\n")}\n\nPrends un épisode, ou toute une saison.` +
+    (admin ? "\n🗑 = retirer du catalogue." : "");
 
   if (edit) {
     await telegram.editMessageText(chatId, edit.messageId, text, {
@@ -648,6 +701,8 @@ async function handleCallback(
     return;
   }
 
+  const admin = isAdmin(cb.from?.id, config.adminIds);
+
   if (data.startsWith("cat:")) {
     const [, category, pageRaw] = data.split(":");
     const page = Number(pageRaw || 0);
@@ -662,7 +717,8 @@ async function handleCallback(
       chatId,
       category as ContentType | "recent",
       page,
-      messageId ? { messageId } : false
+      messageId ? { messageId } : false,
+      admin
     );
     return;
   }
@@ -681,8 +737,73 @@ async function handleCallback(
       chatId,
       group,
       page,
-      messageId ? { messageId } : false
+      messageId ? { messageId } : false,
+      admin
     );
+    return;
+  }
+
+  if (data.startsWith("del:")) {
+    if (!admin) {
+      await telegram.answerCallbackQuery(cb.id, "Réservé aux admins", true);
+      return;
+    }
+    const delId = Number(data.slice(4));
+    if (!Number.isFinite(delId)) {
+      await telegram.answerCallbackQuery(cb.id, "Entrée invalide", true);
+      return;
+    }
+    const existing = await catalog.get(delId);
+    await catalog.remove(delId);
+    await telegram.answerCallbackQuery(
+      cb.id,
+      existing ? `Retiré : ${existing.displayTitle}` : "Déjà absent"
+    );
+    await telegram.sendMessage(
+      chatId,
+      existing
+        ? `🗑 Retiré du catalogue : <b>${escapeHtml(existing.displayTitle)}</b>`
+        : "🗑 Déjà absent du catalogue.",
+      { parse_mode: "HTML" }
+    );
+    return;
+  }
+
+  if (data.startsWith("dsea:")) {
+    if (!admin) {
+      await telegram.answerCallbackQuery(cb.id, "Réservé aux admins", true);
+      return;
+    }
+    const [, key, seasonRaw] = data.split(":");
+    const season = Number(seasonRaw);
+    const group = await catalog.findShowByKey(key);
+    if (!group || !Number.isFinite(season)) {
+      await telegram.answerCallbackQuery(cb.id, "Saison introuvable", true);
+      return;
+    }
+    const seasonEps = group.episodes.filter((ep) => (ep.season ?? 1) === season);
+    for (const item of seasonEps) {
+      await catalog.remove(item.messageId);
+    }
+    await telegram.answerCallbackQuery(cb.id, `Saison ${season} retirée`);
+    const refreshed = await catalog.findShowByKey(key);
+    if (refreshed && messageId) {
+      await sendShowPage(telegram, chatId, refreshed, 0, { messageId }, admin);
+    } else if (messageId) {
+      await telegram.editMessageText(
+        chatId,
+        messageId,
+        `🗑 <b>${escapeHtml(group.showName)}</b> — saison ${season} retirée du catalogue` +
+          (!refreshed ? " (plus aucun épisode)." : "."),
+        { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
+      );
+    } else {
+      await telegram.sendMessage(
+        chatId,
+        `🗑 <b>${escapeHtml(group.showName)}</b> — saison ${season} : ${seasonEps.length} épisode(s) retiré(s).`,
+        { parse_mode: "HTML" }
+      );
+    }
     return;
   }
 

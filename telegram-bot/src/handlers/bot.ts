@@ -38,9 +38,11 @@ Envoie un <b>titre</b> pour chercher, ou utilise le menu.
 /stats — catalogue
 
 <b>Astuce pubs canal (admin)</b>
-<code>Inception (2010) 1080p VF #film</code>
-<code>Breaking Bad S01E01 1080p VOSTFR #serie</code>
-<code>Attack on Titan S01E03 #anime</code>`;
+<code>Inception (2010) 1080p VF</code>
+<code>Breaking Bad S01E01 1080p VOSTFR</code>
+<code>Attack on Titan S01E03 #anime</code>
+
+<code>S01E01</code> / <code>1x02</code> → série auto. <code>#anime</code> seulement pour les animés.`;
 
 export async function handleUpdate(
   update: TelegramUpdate,

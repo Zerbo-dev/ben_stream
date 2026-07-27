@@ -54,18 +54,18 @@ https://TON_DOMAINE.vercel.app/api/health
 
 ## Conventions de publication (canal)
 
-Pour un catalogue propre, mets une caption claire :
-
 ```text
-Inception (2010) 1080p VF #film
-Breaking Bad S01E01 1080p VOSTFR #serie
+Inception (2010) 1080p VF
+Breaking Bad S01E01 1080p VOSTFR
 Attack on Titan S01E03 #anime
 ```
 
-Le bot détecte automatiquement :
-- type (`#film` / `#serie` / `#anime`, ou heuristique SxxExx)
-- saison / épisode (`S01E02`, `1x02`, `Episode 5`)
-- année, qualité (`1080p`, `4K`…), langue (`VF`, `VOSTFR`…)
+Règles auto :
+- `S01E01`, `1x02`, `Episode 5`… → **série**
+- pas d’épisode + année/titre → **film**
+- `#anime` (ou mot “anime/manga”) → **animé**
+- tags optionnels : `#film` `#serie` `#anime` pour forcer
+- qualité / langue détectées si présentes (`1080p`, `VF`, `VOSTFR`…)
 
 Les séries et animés sont **groupés** : recherche du nom → liste d’épisodes paginée.
 

@@ -68,11 +68,16 @@ export function parseVodMetadata(
   }
 
   const taggedType = detectTaggedType(lower);
-  const contentType: ContentType =
-    taggedType ||
-    (episode != null
-      ? guessSeriesOrAnime(lower, languages)
-      : "film");
+  let contentType: ContentType;
+
+  if (taggedType) {
+    contentType = taggedType;
+  } else if (episode != null) {
+    // S01E01 / 1x02 / Episode N → c'est une série (sauf tag #anime explicite)
+    contentType = looksLikeAnime(lower) ? "anime" : "serie";
+  } else {
+    contentType = "film";
+  }
 
   const showName = cleanShowName(rawTitle, {
     year,
@@ -117,15 +122,14 @@ export function showKey(normalizedShowName: string): string {
 
 function detectTaggedType(lower: string): ContentType | null {
   if (/(#|\b)(anime|animé|animation\s*japonaise)\b/.test(lower)) return "anime";
-  if (/(#|\b)(serie|série|series|saison)\b/.test(lower)) return "serie";
+  if (/(#|\b)(serie|série|series)\b/.test(lower)) return "serie";
   if (/(#|\b)(film|movie|cinema|cinéma)\b/.test(lower)) return "film";
   return null;
 }
 
-function guessSeriesOrAnime(lower: string, languages: string[]): ContentType {
-  if (languages.some((l) => l === "VOSTFR" || l === "VO")) return "anime";
-  if (/\b(anime|manga|shonen|shonen|ova|ona)\b/.test(lower)) return "anime";
-  return "serie";
+/** Uniquement si le titre le dit clairement — pas via VOSTFR. */
+function looksLikeAnime(lower: string): boolean {
+  return /\b(anime|manga|shonen|shoujo|ova|ona|seinen)\b/.test(lower);
 }
 
 function cleanShowName(

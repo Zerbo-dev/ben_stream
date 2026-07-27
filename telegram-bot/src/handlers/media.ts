@@ -1,5 +1,10 @@
 import type { CatalogItem, MediaKind, TelegramMessage } from "../types.js";
-import { extractTitleFromMessage, normalizeTitle } from "../catalog.js";
+import { extractTitleFromMessage, hydrateCatalogItem, normalizeTitle } from "../catalog.js";
+import {
+  contentTypeEmoji,
+  formatEpisodeCode,
+  parseVodMetadata,
+} from "../vod.js";
 
 export function isMediaMessage(message: TelegramMessage): boolean {
   return Boolean(
@@ -22,7 +27,6 @@ export function detectKind(message: TelegramMessage): MediaKind {
 
 export function messageToCatalogItem(message: TelegramMessage): CatalogItem | null {
   if (!isMediaMessage(message)) {
-    // Texte seul : ignorer (sauf si on veut indexer des liens — non pour VOD)
     return null;
   }
 
@@ -39,10 +43,12 @@ export function messageToCatalogItem(message: TelegramMessage): CatalogItem | nu
     fileName,
   });
 
+  const meta = parseVodMetadata(title, fileName);
+
   return {
     messageId: message.message_id,
     title,
-    normalizedTitle: normalizeTitle(title),
+    normalizedTitle: normalizeTitle(meta.displayTitle || title),
     kind: detectKind(message),
     fileName,
     fileSize:
@@ -54,6 +60,7 @@ export function messageToCatalogItem(message: TelegramMessage): CatalogItem | nu
     mediaGroupId: message.media_group_id,
     caption: message.caption,
     indexedAt: Date.now(),
+    ...meta,
   };
 }
 
@@ -96,16 +103,23 @@ export function formatDuration(seconds?: number): string {
 }
 
 export function formatItemLine(item: CatalogItem, index?: number): string {
+  const hydrated = hydrateCatalogItem(item);
   const prefix = typeof index === "number" ? `${index}. ` : "";
+  const ep = formatEpisodeCode(hydrated.season, hydrated.episode);
   const meta = [
-    kindLabel(item.kind),
-    formatDuration(item.duration),
-    formatBytes(item.fileSize),
+    contentTypeEmoji(hydrated.contentType),
+    ep || (hydrated.year ? String(hydrated.year) : ""),
+    hydrated.quality,
+    hydrated.language,
+    formatDuration(hydrated.duration),
+    formatBytes(hydrated.fileSize),
   ]
     .filter(Boolean)
     .join(" · ");
 
-  return `${prefix}<b>${escapeHtml(item.title)}</b>${meta ? `\n   ${meta}` : ""}`;
+  return `${prefix}<b>${escapeHtml(hydrated.displayTitle || hydrated.title)}</b>${
+    meta ? `\n   ${meta}` : ""
+  }`;
 }
 
 export function escapeHtml(value: string): string {

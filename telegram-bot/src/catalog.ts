@@ -1,8 +1,21 @@
 import { Redis } from "@upstash/redis";
-import type { CatalogItem } from "./types.js";
+import type { CatalogItem, ContentType, ShowGroup } from "./types.js";
+import { parseVodMetadata, showKey } from "./vod.js";
 
 const ITEM_PREFIX = "vod:item:";
 const INDEX_KEY = "vod:index";
+
+export function hydrateCatalogItem(item: CatalogItem): CatalogItem {
+  if (item.contentType && item.showName && item.normalizedShowName && item.displayTitle) {
+    return item;
+  }
+  const meta = parseVodMetadata(item.caption || item.title, item.fileName);
+  return {
+    ...item,
+    ...meta,
+    normalizedTitle: item.normalizedTitle || normalizeTitle(meta.displayTitle),
+  };
+}
 
 export class CatalogStore {
   constructor(private readonly redis: Redis) {}
@@ -27,7 +40,8 @@ export class CatalogStore {
   }
 
   async get(messageId: number): Promise<CatalogItem | null> {
-    return (await this.redis.get<CatalogItem>(this.itemKey(messageId))) ?? null;
+    const item = await this.redis.get<CatalogItem>(this.itemKey(messageId));
+    return item ? hydrateCatalogItem(item) : null;
   }
 
   async getAll(): Promise<CatalogItem[]> {
@@ -46,10 +60,11 @@ export class CatalogStore {
 
     return values
       .filter((item): item is CatalogItem => item != null)
+      .map(hydrateCatalogItem)
       .sort((a, b) => b.indexedAt - a.indexedAt);
   }
 
-  async search(query: string, limit = 20): Promise<CatalogItem[]> {
+  async search(query: string, limit = 40): Promise<CatalogItem[]> {
     const normalized = normalizeTitle(query);
     if (!normalized) return [];
 
@@ -58,9 +73,11 @@ export class CatalogStore {
 
     const scored = items
       .map((item) => {
-        const hay = item.normalizedTitle;
+        const hay = `${item.normalizedTitle} ${item.normalizedShowName}`;
         let score = 0;
-        if (hay === normalized) score += 100;
+        if (item.normalizedShowName === normalized) score += 120;
+        if (item.normalizedTitle === normalized) score += 100;
+        if (item.normalizedShowName.includes(normalized)) score += 70;
         if (hay.includes(normalized)) score += 50;
         for (const token of tokens) {
           if (hay.includes(token)) score += 10;
@@ -73,6 +90,21 @@ export class CatalogStore {
     return scored.slice(0, limit).map((entry) => entry.item);
   }
 
+  async byContentType(type: ContentType): Promise<CatalogItem[]> {
+    const items = await this.getAll();
+    return items.filter((item) => item.contentType === type);
+  }
+
+  async stats(): Promise<Record<ContentType | "total", number>> {
+    const items = await this.getAll();
+    return {
+      total: items.length,
+      film: items.filter((i) => i.contentType === "film").length,
+      serie: items.filter((i) => i.contentType === "serie").length,
+      anime: items.filter((i) => i.contentType === "anime").length,
+    };
+  }
+
   async count(): Promise<number> {
     return await this.redis.scard(INDEX_KEY);
   }
@@ -81,6 +113,49 @@ export class CatalogStore {
     const items = await this.getAll();
     return items.slice(0, limit);
   }
+
+  async findShowByKey(key: string): Promise<ShowGroup | null> {
+    const items = await this.getAll();
+    const groups = groupByShow(items);
+    return groups.find((group) => group.key === key) || null;
+  }
+}
+
+export function groupByShow(items: CatalogItem[]): ShowGroup[] {
+  const map = new Map<string, ShowGroup>();
+
+  for (const item of items) {
+    const hydrated = hydrateCatalogItem(item);
+    const key = showKey(hydrated.normalizedShowName || normalizeTitle(hydrated.title));
+    const existing = map.get(key);
+    if (!existing) {
+      map.set(key, {
+        key,
+        showName: hydrated.showName || hydrated.title,
+        normalizedShowName: hydrated.normalizedShowName,
+        contentType: hydrated.contentType,
+        year: hydrated.year,
+        episodes: [hydrated],
+      });
+    } else {
+      existing.episodes.push(hydrated);
+      if (!existing.year && hydrated.year) existing.year = hydrated.year;
+    }
+  }
+
+  for (const group of map.values()) {
+    group.episodes.sort((a, b) => {
+      const seasonDiff = (a.season ?? 1) - (b.season ?? 1);
+      if (seasonDiff !== 0) return seasonDiff;
+      const epDiff = (a.episode ?? 0) - (b.episode ?? 0);
+      if (epDiff !== 0) return epDiff;
+      return a.messageId - b.messageId;
+    });
+  }
+
+  return [...map.values()].sort((a, b) =>
+    a.showName.localeCompare(b.showName, "fr", { sensitivity: "base" })
+  );
 }
 
 export function normalizeTitle(input: string): string {
@@ -101,17 +176,17 @@ export function extractTitleFromMessage(parts: {
   const caption = parts.caption?.trim();
   if (caption) {
     const firstLine = caption.split("\n").map((l) => l.trim()).find(Boolean);
-    if (firstLine) return truncate(firstLine, 120);
+    if (firstLine) return truncate(firstLine, 160);
   }
 
   const text = parts.text?.trim();
   if (text) {
     const firstLine = text.split("\n").map((l) => l.trim()).find(Boolean);
-    if (firstLine) return truncate(firstLine, 120);
+    if (firstLine) return truncate(firstLine, 160);
   }
 
   if (parts.fileName) {
-    return truncate(stripExtension(parts.fileName), 120);
+    return truncate(stripExtension(parts.fileName), 160);
   }
 
   return "Sans titre";

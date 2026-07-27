@@ -52,24 +52,22 @@ Vérifier :
 https://TON_DOMAINE.vercel.app/api/health
 ```
 
-## Utilisation
+## Conventions de publication (canal)
 
-### Côté catalogue (admin)
+Pour un catalogue propre, mets une caption claire :
 
-- Publie des vidéos/documents dans le canal avec une **caption claire** :
-  - `Inception (2010)`
-  - `Breaking Bad S01E01`
-- Ou transfère un média du canal en message privé au bot (si ton user ID est dans `ADMIN_IDS`)
+```text
+Inception (2010) 1080p VF #film
+Breaking Bad S01E01 1080p VOSTFR #serie
+Attack on Titan S01E03 #anime
+```
 
-> Le Bot API ne permet pas de lire l'historique passé du canal. Seuls les nouveaux posts (après ajout du bot) sont indexés automatiquement. Pour l'ancien catalogue : republier ou transférer au bot.
+Le bot détecte automatiquement :
+- type (`#film` / `#serie` / `#anime`, ou heuristique SxxExx)
+- saison / épisode (`S01E02`, `1x02`, `Episode 5`)
+- année, qualité (`1080p`, `4K`…), langue (`VF`, `VOSTFR`…)
 
-### Côté utilisateur
-
-- `/start` — aide
-- `/search matrix` — recherche
-- ou envoyer directement `matrix`
-- `/recent` — derniers ajouts
-- Cliquer un résultat → réception du fichier
+Les séries et animés sont **groupés** : recherche du nom → liste d’épisodes paginée.
 
 ## Endpoints
 

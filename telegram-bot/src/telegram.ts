@@ -51,6 +51,24 @@ export class TelegramClient {
     });
   }
 
+  editMessageText(
+    chatId: number | string,
+    messageId: number,
+    text: string,
+    options: {
+      parse_mode?: "HTML" | "Markdown" | "MarkdownV2";
+      reply_markup?: InlineKeyboardMarkup;
+      disable_web_page_preview?: boolean;
+    } = {}
+  ) {
+    return this.call<boolean | { message_id: number }>("editMessageText", {
+      chat_id: chatId,
+      message_id: messageId,
+      text,
+      ...options,
+    });
+  }
+
   answerCallbackQuery(callbackQueryId: string, text?: string, showAlert = false) {
     return this.call<boolean>("answerCallbackQuery", {
       callback_query_id: callbackQueryId,

@@ -1,6 +1,20 @@
 export type MediaKind = "video" | "document" | "audio" | "photo" | "animation" | "other";
 
-export interface CatalogItem {
+export type ContentType = "film" | "serie" | "anime";
+
+export interface VodMetadata {
+  contentType: ContentType;
+  showName: string;
+  normalizedShowName: string;
+  year?: number;
+  season?: number;
+  episode?: number;
+  quality?: string;
+  language?: string;
+  displayTitle: string;
+}
+
+export interface CatalogItem extends VodMetadata {
   /** message_id dans le canal source */
   messageId: number;
   title: string;
@@ -12,6 +26,15 @@ export interface CatalogItem {
   mediaGroupId?: string;
   caption?: string;
   indexedAt: number;
+}
+
+export interface ShowGroup {
+  key: string;
+  showName: string;
+  normalizedShowName: string;
+  contentType: ContentType;
+  year?: number;
+  episodes: CatalogItem[];
 }
 
 export interface TelegramUser {

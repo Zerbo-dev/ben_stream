@@ -1,34 +1,46 @@
 import type { AppConfig } from "../config.js";
 import { isAdmin } from "../config.js";
-import type { CatalogStore } from "../catalog.js";
+import {
+  CatalogStore,
+  groupByShow,
+} from "../catalog.js";
 import type { TelegramClient } from "../telegram.js";
 import type {
-  CatalogItem,
+  ContentType,
   InlineKeyboardMarkup,
+  ShowGroup,
   TelegramMessage,
   TelegramUpdate,
 } from "../types.js";
 import {
   escapeHtml,
-  formatItemLine,
-  kindLabel,
   messageToCatalogItem,
 } from "./media.js";
+import {
+  contentTypeEmoji,
+  contentTypeLabel,
+  formatEpisodeCode,
+} from "../vod.js";
 
-const HELP_TEXT = `🎬 <b>BenStream Bot</b>
+const PAGE_SIZE = 8;
 
-Je te sers des films et séries à la demande depuis le catalogue.
+const HELP_TEXT = `🎬 <b>BenStream</b> — films, séries & animés à la demande
+
+Envoie un <b>titre</b> pour chercher, ou utilise le menu.
 
 <b>Commandes</b>
-/start — accueil
-/help — aide
-/search &lt;titre&gt; — rechercher
+/start — menu
+/films — parcourir les films
+/series — parcourir les séries
+/animes — parcourir les animés
 /recent — derniers ajouts
-/stats — taille du catalogue
+/search &lt;titre&gt; — recherche
+/stats — catalogue
 
-Tu peux aussi m'envoyer directement un titre.
-
-<i>Astuce admin :</i> transfère un média du canal ici pour l'indexer manuellement.`;
+<b>Astuce pubs canal (admin)</b>
+<code>Inception (2010) 1080p VF #film</code>
+<code>Breaking Bad S01E01 1080p VOSTFR #serie</code>
+<code>Attack on Titan S01E03 #anime</code>`;
 
 export async function handleUpdate(
   update: TelegramUpdate,
@@ -38,11 +50,9 @@ export async function handleUpdate(
     config: AppConfig;
   }
 ): Promise<void> {
-  const { telegram, catalog, config } = deps;
-
   if (update.channel_post || update.edited_channel_post) {
     const post = update.channel_post || update.edited_channel_post!;
-    await handleChannelPost(post, { telegram, catalog, config });
+    await handleChannelPost(post, deps);
     return;
   }
 
@@ -53,8 +63,6 @@ export async function handleUpdate(
 
   const message = update.message || update.edited_message;
   if (!message) return;
-
-  // Ignore les messages hors chat privé (sauf commandes admin éventuelles)
   if (message.chat.type !== "private") return;
 
   await handlePrivateMessage(message, deps);
@@ -70,23 +78,25 @@ async function handleChannelPost(
 ): Promise<void> {
   const { telegram, catalog, config } = deps;
 
-  if (String(post.chat.id) !== String(config.channelId)) {
-    return;
-  }
+  if (String(post.chat.id) !== String(config.channelId)) return;
 
   const item = messageToCatalogItem(post);
   if (!item) return;
 
   try {
-    // Pour les albums, on indexe chaque message (épisodes/fichiers séparés)
     await catalog.upsert(item);
+    await notifyAdmins(
+      telegram,
+      config.adminIds,
+      `✅ Indexé ${contentTypeEmoji(item.contentType)} <b>${escapeHtml(item.displayTitle)}</b>`
+    );
   } catch (error) {
     const detail = error instanceof Error ? error.message : "erreur inconnue";
     console.error("channel index error", detail);
     await notifyAdmins(
       telegram,
       config.adminIds,
-      `❌ Indexation canal échouée pour <b>${escapeHtml(item.title)}</b>\n<code>${escapeHtml(detail)}</code>\n\nVérifie que le token Upstash est bien <b>read-write</b> (pas read-only).`
+      `❌ Indexation échouée pour <b>${escapeHtml(item.title)}</b>\n<code>${escapeHtml(detail)}</code>\n\nVérifie le token Upstash <b>read-write</b>.`
     );
   }
 }
@@ -104,100 +114,58 @@ async function handlePrivateMessage(
   const userId = message.from?.id;
   const text = (message.text || "").trim();
 
-  // Indexation manuelle : admin transfère un média du canal
   if (isForwardFromChannel(message, config.channelId)) {
-    if (!isAdmin(userId, config.adminIds)) {
-      await telegram.sendMessage(
-        chatId,
-        "Seul un admin peut indexer du contenu manuellement."
-      );
-      return;
-    }
-
-    const sourceMessageId =
-      message.forward_from_message_id ||
-      message.forward_origin?.message_id;
-
-    if (!sourceMessageId) {
-      await telegram.sendMessage(
-        chatId,
-        "Impossible de retrouver le message_id d'origine. Republie le média dans le canal (le bot l'indexera automatiquement)."
-      );
-      return;
-    }
-
-    const item = messageToCatalogItem({
-      ...message,
-      message_id: sourceMessageId,
-    });
-
-    if (!item) {
-      await telegram.sendMessage(chatId, "Ce message ne contient pas de média indexable.");
-      return;
-    }
-
-    try {
-      await catalog.upsert(item);
-    } catch (error) {
-      const detail = error instanceof Error ? error.message : "erreur inconnue";
-      await telegram.sendMessage(
-        chatId,
-        `❌ Impossible d'écrire dans Redis (Upstash).\n<code>${escapeHtml(detail)}</code>\n\nLe token doit être <b>read-write</b>, pas read-only.`,
-        { parse_mode: "HTML" }
-      );
-      return;
-    }
-
-    await telegram.sendMessage(
-      chatId,
-      `✅ Indexé : <b>${escapeHtml(item.title)}</b>\nID: <code>${item.messageId}</code>`,
-      { parse_mode: "HTML" }
-    );
+    await handleAdminForward(message, deps);
     return;
   }
 
   if (!text) {
+    await telegram.sendMessage(chatId, "Envoie un titre, ou /start pour le menu.");
+    return;
+  }
+
+  const command = text.split(/\s+/)[0].replace(/@\w+$/, "").toLowerCase();
+
+  if (command === "/start" || command === "/menu" || command === "/help") {
+    await sendMainMenu(telegram, catalog, chatId);
+    return;
+  }
+
+  if (command === "/stats") {
+    const stats = await catalog.stats();
     await telegram.sendMessage(
       chatId,
-      "Envoie un titre à rechercher, ou /help pour l'aide."
+      `📊 <b>Catalogue BenStream</b>\n\n` +
+        `🎬 Films : <b>${stats.film}</b>\n` +
+        `📺 Séries : <b>${stats.serie}</b>\n` +
+        `🎌 Animés : <b>${stats.anime}</b>\n` +
+        `——————\nTotal fichiers : <b>${stats.total}</b>`,
+      { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
     );
     return;
   }
 
-  if (text === "/start") {
-    await telegram.sendMessage(chatId, HELP_TEXT, { parse_mode: "HTML" });
+  if (command === "/recent") {
+    await sendBrowsePage(telegram, catalog, chatId, "recent", 0, false);
     return;
   }
 
-  if (text === "/help") {
-    await telegram.sendMessage(chatId, HELP_TEXT, { parse_mode: "HTML" });
+  if (command === "/films" || command === "/film") {
+    await sendBrowsePage(telegram, catalog, chatId, "film", 0, false);
     return;
   }
 
-  if (text === "/stats") {
-    const count = await catalog.count();
-    await telegram.sendMessage(
-      chatId,
-      `📊 Catalogue : <b>${count}</b> titre(s) indexé(s).`,
-      { parse_mode: "HTML" }
-    );
+  if (command === "/series" || command === "/serie") {
+    await sendBrowsePage(telegram, catalog, chatId, "serie", 0, false);
     return;
   }
 
-  if (text === "/recent") {
-    const items = await catalog.recent(10);
-    if (!items.length) {
-      await telegram.sendMessage(
-        chatId,
-        "Catalogue vide. Publie des médias dans le canal (bot admin) pour les indexer."
-      );
-      return;
-    }
-    await sendSearchResults(telegram, chatId, items, "🕐 Derniers ajouts");
+  if (command === "/animes" || command === "/anime") {
+    await sendBrowsePage(telegram, catalog, chatId, "anime", 0, false);
     return;
   }
 
-  if (text.startsWith("/search")) {
+  if (command === "/search") {
     const query = text.replace(/^\/search(@\w+)?\s*/i, "").trim();
     if (!query) {
       await telegram.sendMessage(chatId, "Usage : /search <titre>");
@@ -207,13 +175,106 @@ async function handlePrivateMessage(
     return;
   }
 
-  // Texte libre = recherche
   if (text.startsWith("/")) {
-    await telegram.sendMessage(chatId, "Commande inconnue. Voir /help");
+    await telegram.sendMessage(chatId, "Commande inconnue. Voir /start", {
+      reply_markup: mainMenuKeyboard(),
+    });
     return;
   }
 
+  // Ignore unused admin check warning
+  void userId;
   await runSearch(telegram, catalog, chatId, text);
+}
+
+async function handleAdminForward(
+  message: TelegramMessage,
+  deps: {
+    telegram: TelegramClient;
+    catalog: CatalogStore;
+    config: AppConfig;
+  }
+): Promise<void> {
+  const { telegram, catalog, config } = deps;
+  const chatId = message.chat.id;
+  const userId = message.from?.id;
+
+  if (!isAdmin(userId, config.adminIds)) {
+    await telegram.sendMessage(chatId, "Seul un admin peut indexer manuellement.");
+    return;
+  }
+
+  const sourceMessageId =
+    message.forward_from_message_id || message.forward_origin?.message_id;
+
+  if (!sourceMessageId) {
+    await telegram.sendMessage(
+      chatId,
+      "Impossible de retrouver le message d'origine. Republie le média dans le canal."
+    );
+    return;
+  }
+
+  const item = messageToCatalogItem({
+    ...message,
+    message_id: sourceMessageId,
+  });
+
+  if (!item) {
+    await telegram.sendMessage(chatId, "Ce message ne contient pas de média indexable.");
+    return;
+  }
+
+  try {
+    await catalog.upsert(item);
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : "erreur inconnue";
+    await telegram.sendMessage(
+      chatId,
+      `❌ Redis : <code>${escapeHtml(detail)}</code>`,
+      { parse_mode: "HTML" }
+    );
+    return;
+  }
+
+  await telegram.sendMessage(
+    chatId,
+    `✅ Indexé ${contentTypeEmoji(item.contentType)} <b>${escapeHtml(item.displayTitle)}</b>\n` +
+      `<code>${item.contentType}</code> · ID <code>${item.messageId}</code>`,
+    { parse_mode: "HTML" }
+  );
+}
+
+async function sendMainMenu(
+  telegram: TelegramClient,
+  catalog: CatalogStore,
+  chatId: number
+): Promise<void> {
+  const stats = await catalog.stats();
+  await telegram.sendMessage(
+    chatId,
+    `${HELP_TEXT}\n\n📦 <b>${stats.total}</b> fichiers · 🎬 ${stats.film} · 📺 ${stats.serie} · 🎌 ${stats.anime}`,
+    {
+      parse_mode: "HTML",
+      reply_markup: mainMenuKeyboard(),
+    }
+  );
+}
+
+function mainMenuKeyboard(): InlineKeyboardMarkup {
+  return {
+    inline_keyboard: [
+      [
+        { text: "🎬 Films", callback_data: "cat:film:0" },
+        { text: "📺 Séries", callback_data: "cat:serie:0" },
+      ],
+      [
+        { text: "🎌 Animés", callback_data: "cat:anime:0" },
+        { text: "🕐 Récents", callback_data: "cat:recent:0" },
+      ],
+      [{ text: "📊 Stats", callback_data: "stats" }],
+    ],
+  };
 }
 
 async function runSearch(
@@ -222,50 +283,228 @@ async function runSearch(
   chatId: number,
   query: string
 ): Promise<void> {
-  const items = await catalog.search(query, 15);
+  const items = await catalog.search(query, 50);
   if (!items.length) {
     await telegram.sendMessage(
       chatId,
-      `Aucun résultat pour « ${escapeHtml(query)} ».`,
-      { parse_mode: "HTML" }
+      `Aucun résultat pour « ${escapeHtml(query)} ».\nEssaie un autre mot, ou /films /series /animes.`,
+      { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
     );
     return;
   }
-  await sendSearchResults(
+
+  const groups = groupByShow(items);
+  // Une seule série/animé avec plusieurs épisodes → ouvrir directement la fiche
+  if (groups.length === 1 && groups[0].episodes.length > 1 && groups[0].contentType !== "film") {
+    await sendShowPage(telegram, chatId, groups[0], 0, false);
+    return;
+  }
+
+  await sendGroupedResults(
     telegram,
     chatId,
-    items,
+    groups,
     `🔎 Résultats pour « ${escapeHtml(query)} »`
   );
 }
 
-async function sendSearchResults(
+async function sendGroupedResults(
   telegram: TelegramClient,
   chatId: number,
-  items: CatalogItem[],
+  groups: ShowGroup[],
   title: string
 ): Promise<void> {
-  const lines = items.map((item, i) => formatItemLine(item, i + 1));
-  const keyboard = buildResultsKeyboard(items);
+  const preview = groups.slice(0, 12);
+  const lines = preview.map((group, i) => {
+    const emoji = contentTypeEmoji(group.contentType);
+    if (group.contentType === "film" || group.episodes.length === 1) {
+      const item = group.episodes[0];
+      return `${i + 1}. ${emoji} <b>${escapeHtml(item.displayTitle)}</b>`;
+    }
+    return `${i + 1}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${group.episodes.length} épisodes`;
+  });
+
+  const rows = preview.map((group) => {
+    if (group.contentType === "film" || group.episodes.length === 1) {
+      const item = group.episodes[0];
+      return [
+        {
+          text: `${contentTypeEmoji(group.contentType)} ${truncateButton(item.displayTitle)}`,
+          callback_data: `get:${item.messageId}`,
+        },
+      ];
+    }
+    return [
+      {
+        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length})`,
+        callback_data: `show:${group.key}:0`,
+      },
+    ];
+  });
+
+  rows.push([{ text: "🏠 Menu", callback_data: "menu" }]);
 
   await telegram.sendMessage(
     chatId,
-    `${title}\n\n${lines.join("\n\n")}\n\nAppuie sur un bouton pour recevoir le fichier.`,
+    `${title}\n\n${lines.join("\n")}\n\nChoisis un titre ou une série.`,
     {
       parse_mode: "HTML",
-      reply_markup: keyboard,
+      reply_markup: { inline_keyboard: rows },
     }
   );
 }
 
-function buildResultsKeyboard(items: CatalogItem[]): InlineKeyboardMarkup {
-  const rows = items.map((item) => [
-    {
-      text: `${kindLabel(item.kind)} ${truncateButton(item.title)}`,
-      callback_data: `get:${item.messageId}`,
-    },
+async function sendBrowsePage(
+  telegram: TelegramClient,
+  catalog: CatalogStore,
+  chatId: number,
+  category: ContentType | "recent",
+  page: number,
+  edit: { messageId: number } | false
+): Promise<void> {
+  let groups: ShowGroup[];
+  let heading: string;
+
+  if (category === "recent") {
+    const items = await catalog.recent(40);
+    groups = groupByShow(items);
+    heading = "🕐 Derniers ajouts";
+  } else {
+    const items = await catalog.byContentType(category);
+    groups = groupByShow(items);
+    heading = contentTypeLabel(category);
+  }
+
+  if (!groups.length) {
+    const empty =
+      "Rien ici pour l’instant.\nPublie des médias dans le canal avec une caption claire (#film #serie #anime).";
+    if (edit) {
+      await telegram.editMessageText(chatId, edit.messageId, empty, {
+        reply_markup: mainMenuKeyboard(),
+      });
+    } else {
+      await telegram.sendMessage(chatId, empty, {
+        reply_markup: mainMenuKeyboard(),
+      });
+    }
+    return;
+  }
+
+  const totalPages = Math.max(1, Math.ceil(groups.length / PAGE_SIZE));
+  const safePage = Math.min(Math.max(page, 0), totalPages - 1);
+  const slice = groups.slice(safePage * PAGE_SIZE, safePage * PAGE_SIZE + PAGE_SIZE);
+
+  const lines = slice.map((group, i) => {
+    const n = safePage * PAGE_SIZE + i + 1;
+    const emoji = contentTypeEmoji(group.contentType);
+    if (group.contentType === "film" || group.episodes.length === 1) {
+      return `${n}. ${emoji} <b>${escapeHtml(group.episodes[0].displayTitle)}</b>`;
+    }
+    return `${n}. ${emoji} <b>${escapeHtml(group.showName)}</b> — ${group.episodes.length} ép.`;
+  });
+
+  const rows = slice.map((group) => {
+    if (group.contentType === "film" || group.episodes.length === 1) {
+      const item = group.episodes[0];
+      return [
+        {
+          text: `${contentTypeEmoji(group.contentType)} ${truncateButton(item.displayTitle)}`,
+          callback_data: `get:${item.messageId}`,
+        },
+      ];
+    }
+    return [
+      {
+        text: `${contentTypeEmoji(group.contentType)} ${truncateButton(group.showName)} (${group.episodes.length})`,
+        callback_data: `show:${group.key}:0`,
+      },
+    ];
+  });
+
+  const nav: { text: string; callback_data: string }[] = [];
+  if (safePage > 0) nav.push({ text: "⬅️", callback_data: `cat:${category}:${safePage - 1}` });
+  nav.push({ text: `${safePage + 1}/${totalPages}`, callback_data: "noop" });
+  if (safePage < totalPages - 1) {
+    nav.push({ text: "➡️", callback_data: `cat:${category}:${safePage + 1}` });
+  }
+  rows.push(nav);
+  rows.push([{ text: "🏠 Menu", callback_data: "menu" }]);
+
+  const text =
+    `<b>${heading}</b> — ${groups.length} titre(s)\n\n` +
+    `${lines.join("\n")}\n\nAppuie pour regarder ou ouvrir les épisodes.`;
+
+  if (edit) {
+    await telegram.editMessageText(chatId, edit.messageId, text, {
+      parse_mode: "HTML",
+      reply_markup: { inline_keyboard: rows },
+    });
+  } else {
+    await telegram.sendMessage(chatId, text, {
+      parse_mode: "HTML",
+      reply_markup: { inline_keyboard: rows },
+    });
+  }
+}
+
+async function sendShowPage(
+  telegram: TelegramClient,
+  chatId: number,
+  group: ShowGroup,
+  page: number,
+  edit: { messageId: number } | false
+): Promise<void> {
+  const episodes = group.episodes;
+  const totalPages = Math.max(1, Math.ceil(episodes.length / PAGE_SIZE));
+  const safePage = Math.min(Math.max(page, 0), totalPages - 1);
+  const slice = episodes.slice(safePage * PAGE_SIZE, safePage * PAGE_SIZE + PAGE_SIZE);
+
+  const lines = slice.map((item, i) => {
+    const n = safePage * PAGE_SIZE + i + 1;
+    const ep = formatEpisodeCode(item.season, item.episode) || `#${n}`;
+    const meta = [item.quality, item.language].filter(Boolean).join(" · ");
+    return `${n}. <b>${ep}</b>${meta ? ` — ${meta}` : ""}`;
+  });
+
+  const rows = slice.map((item) => {
+    const ep = formatEpisodeCode(item.season, item.episode) || item.displayTitle;
+    return [
+      {
+        text: `▶️ ${truncateButton(ep)}`,
+        callback_data: `get:${item.messageId}`,
+      },
+    ];
+  });
+
+  const nav: { text: string; callback_data: string }[] = [];
+  if (safePage > 0) nav.push({ text: "⬅️", callback_data: `show:${group.key}:${safePage - 1}` });
+  nav.push({ text: `${safePage + 1}/${totalPages}`, callback_data: "noop" });
+  if (safePage < totalPages - 1) {
+    nav.push({ text: "➡️", callback_data: `show:${group.key}:${safePage + 1}` });
+  }
+  rows.push(nav);
+  rows.push([
+    { text: `↩️ ${contentTypeLabel(group.contentType)}`, callback_data: `cat:${group.contentType}:0` },
+    { text: "🏠 Menu", callback_data: "menu" },
   ]);
-  return { inline_keyboard: rows };
+
+  const text =
+    `${contentTypeEmoji(group.contentType)} <b>${escapeHtml(group.showName)}</b>` +
+    `${group.year ? ` (${group.year})` : ""}\n` +
+    `${episodes.length} épisode(s)\n\n` +
+    `${lines.join("\n")}\n\nChoisis un épisode.`;
+
+  if (edit) {
+    await telegram.editMessageText(chatId, edit.messageId, text, {
+      parse_mode: "HTML",
+      reply_markup: { inline_keyboard: rows },
+    });
+  } else {
+    await telegram.sendMessage(chatId, text, {
+      parse_mode: "HTML",
+      reply_markup: { inline_keyboard: rows },
+    });
+  }
 }
 
 function truncateButton(title: string): string {
@@ -284,9 +523,92 @@ async function handleCallback(
   const cb = update.callback_query!;
   const data = cb.data || "";
   const chatId = cb.message?.chat.id;
+  const messageId = cb.message?.message_id;
 
   if (!chatId) {
     await telegram.answerCallbackQuery(cb.id, "Session expirée");
+    return;
+  }
+
+  if (data === "noop") {
+    await telegram.answerCallbackQuery(cb.id);
+    return;
+  }
+
+  if (data === "menu") {
+    await telegram.answerCallbackQuery(cb.id);
+    const stats = await catalog.stats();
+    if (messageId) {
+      await telegram.editMessageText(
+        chatId,
+        messageId,
+        `${HELP_TEXT}\n\n📦 <b>${stats.total}</b> fichiers · 🎬 ${stats.film} · 📺 ${stats.serie} · 🎌 ${stats.anime}`,
+        { parse_mode: "HTML", reply_markup: mainMenuKeyboard() }
+      );
+    } else {
+      await sendMainMenu(telegram, catalog, chatId);
+    }
+    return;
+  }
+
+  if (data === "stats") {
+    await telegram.answerCallbackQuery(cb.id);
+    const stats = await catalog.stats();
+    const text =
+      `📊 <b>Catalogue BenStream</b>\n\n` +
+      `🎬 Films : <b>${stats.film}</b>\n` +
+      `📺 Séries : <b>${stats.serie}</b>\n` +
+      `🎌 Animés : <b>${stats.anime}</b>\n` +
+      `——————\nTotal fichiers : <b>${stats.total}</b>`;
+    if (messageId) {
+      await telegram.editMessageText(chatId, messageId, text, {
+        parse_mode: "HTML",
+        reply_markup: mainMenuKeyboard(),
+      });
+    } else {
+      await telegram.sendMessage(chatId, text, {
+        parse_mode: "HTML",
+        reply_markup: mainMenuKeyboard(),
+      });
+    }
+    return;
+  }
+
+  if (data.startsWith("cat:")) {
+    const [, category, pageRaw] = data.split(":");
+    const page = Number(pageRaw || 0);
+    if (!["film", "serie", "anime", "recent"].includes(category)) {
+      await telegram.answerCallbackQuery(cb.id, "Catégorie inconnue", true);
+      return;
+    }
+    await telegram.answerCallbackQuery(cb.id);
+    await sendBrowsePage(
+      telegram,
+      catalog,
+      chatId,
+      category as ContentType | "recent",
+      page,
+      messageId ? { messageId } : false
+    );
+    return;
+  }
+
+  if (data.startsWith("show:")) {
+    const [, key, pageRaw] = data.split(":");
+    const page = Number(pageRaw || 0);
+    const group = await catalog.findShowByKey(key);
+    if (!group) {
+      await telegram.answerCallbackQuery(cb.id, "Série introuvable", true);
+      return;
+    }
+    await telegram.answerCallbackQuery(cb.id);
+    await sendShowPage(
+      telegram,
+      chatId,
+      group,
+      page,
+      messageId ? { messageId } : false
+    );
     return;
   }
 
@@ -295,13 +617,13 @@ async function handleCallback(
     return;
   }
 
-  const messageId = Number(data.slice(4));
-  if (!Number.isFinite(messageId)) {
+  const getId = Number(data.slice(4));
+  if (!Number.isFinite(getId)) {
     await telegram.answerCallbackQuery(cb.id, "ID invalide", true);
     return;
   }
 
-  const item = await catalog.get(messageId);
+  const item = await catalog.get(getId);
   if (!item) {
     await telegram.answerCallbackQuery(cb.id, "Introuvable dans le catalogue", true);
     return;
@@ -313,14 +635,14 @@ async function handleCallback(
     await telegram.copyMessage(chatId, config.channelId, item.messageId);
     await telegram.sendMessage(
       chatId,
-      `✅ Envoyé : <b>${escapeHtml(item.title)}</b>`,
+      `✅ ${contentTypeEmoji(item.contentType)} <b>${escapeHtml(item.displayTitle)}</b>\nBon visionnage 🍿`,
       { parse_mode: "HTML" }
     );
   } catch (error) {
     const detail = error instanceof Error ? error.message : "erreur inconnue";
     await telegram.sendMessage(
       chatId,
-      `❌ Impossible d'envoyer ce média.\n<code>${escapeHtml(detail)}</code>\n\nVérifie que le bot est bien admin du canal et que le message existe encore.`,
+      `❌ Impossible d'envoyer ce média.\n<code>${escapeHtml(detail)}</code>`,
       { parse_mode: "HTML" }
     );
   }

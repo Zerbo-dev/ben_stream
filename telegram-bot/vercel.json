@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "regions": ["cdg1"],
+  "functions": {
+    "api/webhook.ts": {
+      "maxDuration": 30
+    }
+  }
+}

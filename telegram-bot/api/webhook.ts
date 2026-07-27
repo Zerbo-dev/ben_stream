@@ -1,0 +1,47 @@
+import type { VercelRequest, VercelResponse } from "@vercel/node";
+import { CatalogStore } from "../src/catalog.js";
+import { getConfig } from "../src/config.js";
+import { handleUpdate } from "../src/handlers/bot.js";
+import { parseUpdate, TelegramClient } from "../src/telegram.js";
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+  if (req.method === "GET") {
+    res.status(200).json({ ok: true, service: "benstream-telegram-bot" });
+    return;
+  }
+
+  if (req.method !== "POST") {
+    res.status(405).json({ ok: false, error: "Method Not Allowed" });
+    return;
+  }
+
+  try {
+    const config = getConfig();
+
+    if (config.webhookSecret) {
+      const header = req.headers["x-telegram-bot-api-secret-token"];
+      const token = Array.isArray(header) ? header[0] : header;
+      if (token !== config.webhookSecret) {
+        res.status(401).json({ ok: false, error: "Unauthorized" });
+        return;
+      }
+    }
+
+    const update = parseUpdate(req.body);
+    const telegram = new TelegramClient(config.botToken);
+    const catalog = CatalogStore.fromEnv(
+      config.upstashUrl,
+      config.upstashToken
+    );
+
+    await handleUpdate(update, { telegram, catalog, config });
+    res.status(200).json({ ok: true });
+  } catch (error) {
+    console.error("webhook error", error);
+    // Toujours 200 pour éviter les retries agressifs de Telegram sur erreurs métier
+    res.status(200).json({
+      ok: false,
+      error: error instanceof Error ? error.message : "unknown error",
+    });
+  }
+}

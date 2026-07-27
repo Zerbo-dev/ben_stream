@@ -141,6 +141,35 @@ export class CatalogStore {
     const groups = groupByShow(items);
     return groups.find((group) => group.key === key) || null;
   }
+
+  async getAllRaw(): Promise<CatalogItem[]> {
+    const ids = await this.redis.smembers(INDEX_KEY);
+    if (!ids.length) return [];
+
+    const keys = ids.map((id) => this.itemKey(Number(id)));
+    const values: Array<CatalogItem | null> = [];
+
+    const chunkSize = 100;
+    for (let i = 0; i < keys.length; i += chunkSize) {
+      const chunk = keys.slice(i, i + chunkSize);
+      const part = await this.redis.mget<CatalogItem[]>(...chunk);
+      values.push(...(part || []));
+    }
+
+    return values.filter((item): item is CatalogItem => item != null);
+  }
+
+  /** Ré-applique le parseur intelligent et persiste en Redis. */
+  async reparseAll(): Promise<{ total: number; updated: number }> {
+    const items = await this.getAllRaw();
+    let updated = 0;
+    for (const item of items) {
+      const fresh = hydrateCatalogItem(item);
+      await this.upsert(fresh);
+      updated += 1;
+    }
+    return { total: items.length, updated };
+  }
 }
 
 export function groupByShow(items: CatalogItem[]): ShowGroup[] {

@@ -45,7 +45,7 @@ Envoie un <b>titre</b> pour chercher, ou utilise le menu.
 
 <code>S01E01</code> / <code>1x02</code> → série auto. <code>#anime</code> seulement pour les animés.
 
-<i>Admin :</i> <code>/purge</code> puis appuie sur 🗑 (plus besoin d’ID).`;
+<i>Admin :</i> <code>/purge</code> (boutons 🗑) · <code>/reparse</code> (nettoie tout le catalogue).`;
 
 export async function handleUpdate(
   update: TelegramUpdate,
@@ -172,6 +172,24 @@ async function handlePrivateMessage(
     }
     const query = text.replace(/^\/purge(@\w+)?\s*/i, "").trim();
     await sendPurgePicker(telegram, catalog, chatId, query);
+    return;
+  }
+
+  if (command === "/reparse") {
+    if (!isAdmin(userId, config.adminIds)) {
+      await telegram.sendMessage(chatId, "Commande réservée aux admins.");
+      return;
+    }
+    await telegram.sendMessage(chatId, "🧠 Reparse du catalogue en cours…");
+    const result = await catalog.reparseAll();
+    const stats = await catalog.stats();
+    await telegram.sendMessage(
+      chatId,
+      `✅ Reparse terminé.\n` +
+        `Fichiers : <b>${result.total}</b> · Mis à jour : <b>${result.updated}</b>\n` +
+        `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`,
+      { parse_mode: "HTML" }
+    );
     return;
   }
 

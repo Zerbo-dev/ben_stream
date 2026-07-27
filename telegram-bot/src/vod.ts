@@ -31,10 +31,11 @@ export function parseVodMetadata(
   rawTitle: string,
   fileName?: string
 ): VodMetadata {
-  const captionLine = (rawTitle || "").split("\n")[0] || "";
+  const fullCaption = rawTitle || "";
+  const captionLine = fullCaption.split("\n").map((l) => l.trim()).find(Boolean) || "";
   const fileLine = (fileName || "").replace(/_/g, " ");
-  // Priorité caption ; filename en complément pour SxxEPxx souvent plus propre
-  const source = [captionLine, fileLine].filter(Boolean).join(" \n ");
+  // Caption complète + filename : les @canaux sont souvent sur les lignes suivantes
+  const source = [fullCaption, fileLine].filter(Boolean).join(" \n ");
   const lower = source.toLowerCase();
 
   const qualities = unique(

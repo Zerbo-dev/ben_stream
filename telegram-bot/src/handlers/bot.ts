@@ -172,16 +172,33 @@ async function handlePrivateMessage(
       await telegram.sendMessage(chatId, "Réservé aux admins.");
       return;
     }
-    await telegram.sendMessage(chatId, "🧠 Reparse du catalogue en cours…");
-    const result = await catalog.reparseAll();
-    const stats = await catalog.stats();
-    await telegram.sendMessage(
-      chatId,
-      `✅ Reparse terminé.\n` +
-        `Fichiers : <b>${result.total}</b> · Mis à jour : <b>${result.updated}</b>\n` +
-        `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`,
-      { parse_mode: "HTML" }
-    );
+    const locked = await catalog.tryLockReparse(180);
+    if (!locked) {
+      await telegram.sendMessage(chatId, "Reparse déjà en cours — patiente un peu.");
+      return;
+    }
+    try {
+      await telegram.sendMessage(chatId, "🧠 Reparse…");
+      const result = await catalog.reparseAll();
+      const stats = await catalog.stats();
+      await telegram.sendMessage(
+        chatId,
+        `✅ Reparse terminé.\n` +
+          `Fichiers : <b>${result.total}</b> · Mis à jour : <b>${result.updated}</b>\n` +
+          `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`,
+        { parse_mode: "HTML" }
+      );
+    } catch (error) {
+      const detail = error instanceof Error ? error.message : "erreur inconnue";
+      console.error("reparse error", detail);
+      await telegram.sendMessage(
+        chatId,
+        `❌ Reparse échoué : <code>${escapeHtml(detail)}</code>`,
+        { parse_mode: "HTML" }
+      );
+    } finally {
+      await catalog.unlockReparse();
+    }
     return;
   }
 

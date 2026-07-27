@@ -34,6 +34,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       config.upstashToken
     );
 
+    // Telegram retente ~1/min si le webhook timeoute : on ignore les doublons.
+    const claimed = await catalog.claimUpdate(update.update_id);
+    if (!claimed) {
+      res.status(200).json({ ok: true, duplicate: true });
+      return;
+    }
+
     await handleUpdate(update, { telegram, catalog, config });
     res.status(200).json({ ok: true });
   } catch (error) {

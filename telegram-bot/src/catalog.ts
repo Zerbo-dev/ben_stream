@@ -10,6 +10,9 @@ import {
 
 const ITEM_PREFIX = "vod:item:";
 const INDEX_KEY = "vod:index";
+const UPDATE_PREFIX = "vod:update:";
+const REPARSE_LOCK_KEY = "vod:reparse:lock";
+const WRITE_CHUNK = 40;
 
 export { normalizeTitle } from "./text.js";
 
@@ -34,6 +37,27 @@ export class CatalogStore {
     return `${ITEM_PREFIX}${messageId}`;
   }
 
+  /** Empêche Telegram de retraiter le même update après un timeout webhook. */
+  async claimUpdate(updateId: number): Promise<boolean> {
+    const result = await this.redis.set(`${UPDATE_PREFIX}${updateId}`, "1", {
+      nx: true,
+      ex: 60 * 60 * 24,
+    });
+    return result === "OK";
+  }
+
+  async tryLockReparse(ttlSeconds = 180): Promise<boolean> {
+    const result = await this.redis.set(REPARSE_LOCK_KEY, String(Date.now()), {
+      nx: true,
+      ex: ttlSeconds,
+    });
+    return result === "OK";
+  }
+
+  async unlockReparse(): Promise<void> {
+    await this.redis.del(REPARSE_LOCK_KEY);
+  }
+
   async upsert(item: CatalogItem): Promise<void> {
     const resolved = await this.resolveAgainstCatalog(item);
     await this.writeItem(resolved);
@@ -43,6 +67,18 @@ export class CatalogStore {
     const key = this.itemKey(item.messageId);
     await this.redis.set(key, item);
     await this.redis.sadd(INDEX_KEY, String(item.messageId));
+  }
+
+  private async writeItemsBatch(items: CatalogItem[]): Promise<void> {
+    for (let i = 0; i < items.length; i += WRITE_CHUNK) {
+      const chunk = items.slice(i, i + WRITE_CHUNK);
+      const pipeline = this.redis.pipeline();
+      for (const item of chunk) {
+        pipeline.set(this.itemKey(item.messageId), item);
+        pipeline.sadd(INDEX_KEY, String(item.messageId));
+      }
+      await pipeline.exec();
+    }
   }
 
   /**
@@ -75,28 +111,28 @@ export class CatalogStore {
     };
   }
 
-  /** Ré-applique le parseur + clustering flou, puis persiste. */
+  /** Ré-applique le parseur + clustering flou, puis persiste en batch. */
   async reparseAll(): Promise<{ total: number; updated: number }> {
     const items = await this.getAllRaw();
     const hydrated = items.map(hydrateCatalogItem);
     const cluster = clusterShowNames(hydrated.map((h) => h.showName));
 
-    let updated = 0;
-    for (const h of hydrated) {
+    const rewritten = hydrated.map((h) => {
       const canonical =
         cluster.get(normalizeTitle(h.showName)) || h.showName;
       const displayTitle = h.displayTitle.startsWith(h.showName)
         ? `${canonical}${h.displayTitle.slice(h.showName.length)}`
         : h.displayTitle.replace(h.showName, canonical);
-      await this.writeItem({
+      return {
         ...h,
         showName: canonical,
         normalizedShowName: normalizeTitle(canonical),
         displayTitle,
-      });
-      updated += 1;
-    }
-    return { total: items.length, updated };
+      };
+    });
+
+    await this.writeItemsBatch(rewritten);
+    return { total: items.length, updated: rewritten.length };
   }
 
   async remove(messageId: number): Promise<void> {

@@ -125,6 +125,39 @@ export class TelegramClient {
       "getMe"
     );
   }
+
+  getChat(chatId: number | string) {
+    return this.call<{
+      id: number;
+      type: string;
+      title?: string;
+      username?: string;
+      invite_link?: string;
+    }>("getChat", { chat_id: chatId });
+  }
+
+  getChatMember(chatId: number | string, userId: number) {
+    return this.call<{
+      status:
+        | "creator"
+        | "administrator"
+        | "member"
+        | "restricted"
+        | "left"
+        | "kicked";
+      user: { id: number };
+    }>("getChatMember", { chat_id: chatId, user_id: userId });
+  }
+
+  createChatInviteLink(
+    chatId: number | string,
+    options: { name?: string } = {}
+  ) {
+    return this.call<{ invite_link: string }>("createChatInviteLink", {
+      chat_id: chatId,
+      name: options.name,
+    });
+  }
 }
 
 export function parseUpdate(body: unknown): TelegramUpdate {

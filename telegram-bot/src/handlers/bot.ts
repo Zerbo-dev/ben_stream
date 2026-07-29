@@ -17,6 +17,11 @@ import {
   messageToCatalogItem,
 } from "./media.js";
 import {
+  channelJoinUrl,
+  RequiredChannelStore,
+  type RequiredChannel,
+} from "../required-channels.js";
+import {
   formatUserLabel,
   UserStore,
 } from "../users.js";
@@ -33,7 +38,9 @@ const WELCOME_TEXT = `🎬 <b>BenStream</b>
 Envoie un titre, ou choisis ci-dessous.`;
 
 const ADMIN_HELP = `🛠 <b>Admin</b>
-/users — liste des utilisateurs
+/channels — canaux obligatoires
+/channel_add @canal — ajouter
+/users — utilisateurs
 /broadcast &lt;texte&gt; — message à tous
 /purge — supprimer
 /reparse — recalculer le catalogue
@@ -43,6 +50,7 @@ type BotDeps = {
   telegram: TelegramClient;
   catalog: CatalogStore;
   users: UserStore;
+  channels: RequiredChannelStore;
   config: AppConfig;
 };
 
@@ -97,7 +105,7 @@ async function handlePrivateMessage(
   message: TelegramMessage,
   deps: BotDeps
 ): Promise<void> {
-  const { telegram, catalog, users, config } = deps;
+  const { telegram, catalog, users, channels, config } = deps;
   const chatId = message.chat.id;
   const userId = message.from?.id;
   const text = (message.text || "").trim();
@@ -109,13 +117,77 @@ async function handlePrivateMessage(
     return;
   }
 
+  const admin = isAdmin(userId, config.adminIds);
+
+  // Admin : forward d'un autre canal → proposition d'ajout obligatoire
+  if (admin && isForwardFromAnyChannel(message)) {
+    await offerRequiredChannelFromForward(message, deps);
+    return;
+  }
+
   if (!text) {
+    if (!admin && userId) {
+      const missing = await findMissingChannels(telegram, channels, userId);
+      if (missing.length) {
+        await sendJoinGate(telegram, chatId, missing);
+        return;
+      }
+    }
     await telegram.sendMessage(chatId, "Envoie un titre.");
     return;
   }
 
   const command = text.split(/\s+/)[0].replace(/@\w+$/, "").toLowerCase();
-  const admin = isAdmin(userId, config.adminIds);
+
+  if (command === "/channels" || command === "/channel") {
+    if (!admin) {
+      await telegram.sendMessage(chatId, "Réservé aux admins.");
+      return;
+    }
+    await sendChannelsAdmin(telegram, channels, chatId);
+    return;
+  }
+
+  if (command === "/channel_add" || command === "/addchannel") {
+    if (!admin) {
+      await telegram.sendMessage(chatId, "Réservé aux admins.");
+      return;
+    }
+    const ref = text.replace(/^\/(?:channel_add|addchannel)(@\w+)?\s*/i, "").trim();
+    if (!ref) {
+      await telegram.sendMessage(
+        chatId,
+        "Usage :\n<code>/channel_add @moncanal</code>\nou forward un message du canal ici.",
+        { parse_mode: "HTML" }
+      );
+      return;
+    }
+    await addRequiredChannelByRef(telegram, channels, chatId, ref);
+    return;
+  }
+
+  if (command === "/channel_del" || command === "/delchannel") {
+    if (!admin) {
+      await telegram.sendMessage(chatId, "Réservé aux admins.");
+      return;
+    }
+    const ref = text.replace(/^\/(?:channel_del|delchannel)(@\w+)?\s*/i, "").trim();
+    if (!ref) {
+      await sendChannelsAdmin(telegram, channels, chatId);
+      return;
+    }
+    await removeRequiredChannelByRef(telegram, channels, chatId, ref);
+    return;
+  }
+
+  // Gate d'accès : sauf admins
+  if (!admin && userId) {
+    const missing = await findMissingChannels(telegram, channels, userId);
+    if (missing.length) {
+      await sendJoinGate(telegram, chatId, missing);
+      return;
+    }
+  }
 
   if (command === "/start" || command === "/menu") {
     await sendMainMenu(telegram, catalog, chatId, admin);
@@ -803,7 +875,7 @@ async function handleCallback(
   update: TelegramUpdate,
   deps: BotDeps
 ): Promise<void> {
-  const { telegram, catalog, users, config } = deps;
+  const { telegram, catalog, users, channels, config } = deps;
   const cb = update.callback_query!;
   const data = cb.data || "";
   const chatId = cb.message?.chat.id;
@@ -821,6 +893,60 @@ async function handleCallback(
   if (data === "noop") {
     await telegram.answerCallbackQuery(cb.id);
     return;
+  }
+
+  if (data === "check_join") {
+    const missing = await findMissingChannels(telegram, channels, cb.from.id);
+    if (missing.length) {
+      await telegram.answerCallbackQuery(cb.id, "Pas encore membre partout", true);
+      await sendJoinGate(telegram, chatId, missing, messageId);
+      return;
+    }
+    await telegram.answerCallbackQuery(cb.id, "Accès OK ✅");
+    await sendMainMenu(
+      telegram,
+      catalog,
+      chatId,
+      admin,
+      messageId ? { messageId } : false
+    );
+    return;
+  }
+
+  if (data.startsWith("chdel:")) {
+    if (!admin) {
+      await telegram.answerCallbackQuery(cb.id, "Réservé aux admins", true);
+      return;
+    }
+    const targetId = data.slice(6);
+    const removed = await channels.remove(targetId);
+    await telegram.answerCallbackQuery(
+      cb.id,
+      removed ? `Retiré : ${removed.title}` : "Déjà absent"
+    );
+    await sendChannelsAdmin(telegram, channels, chatId, messageId);
+    return;
+  }
+
+  if (data.startsWith("chadd:")) {
+    if (!admin) {
+      await telegram.answerCallbackQuery(cb.id, "Réservé aux admins", true);
+      return;
+    }
+    const targetId = data.slice(6);
+    await telegram.answerCallbackQuery(cb.id);
+    await addRequiredChannelByRef(telegram, channels, chatId, targetId);
+    return;
+  }
+
+  // Gate pour les users normaux (admins bypass)
+  if (!admin) {
+    const missing = await findMissingChannels(telegram, channels, cb.from.id);
+    if (missing.length) {
+      await telegram.answerCallbackQuery(cb.id, "Rejoins les canaux d'abord", true);
+      await sendJoinGate(telegram, chatId, missing, messageId);
+      return;
+    }
   }
 
   if (data === "menu") {
@@ -1057,6 +1183,259 @@ function isForwardFromChannel(
     message.forward_from_chat?.id ?? message.forward_origin?.chat?.id;
   if (originChatId == null) return false;
   return String(originChatId) === String(channelId);
+}
+
+function isForwardFromAnyChannel(message: TelegramMessage): boolean {
+  const origin = message.forward_from_chat ?? message.forward_origin?.chat;
+  if (!origin) return false;
+  return origin.type === "channel" || origin.type === "supergroup";
+}
+
+function isMemberStatus(status: string): boolean {
+  return (
+    status === "creator" ||
+    status === "administrator" ||
+    status === "member" ||
+    status === "restricted"
+  );
+}
+
+async function findMissingChannels(
+  telegram: TelegramClient,
+  store: RequiredChannelStore,
+  userId: number
+): Promise<RequiredChannel[]> {
+  const required = await store.list();
+  if (!required.length) return [];
+
+  const missing: RequiredChannel[] = [];
+  for (const channel of required) {
+    try {
+      const member = await telegram.getChatMember(channel.chatId, userId);
+      if (!isMemberStatus(member.status)) missing.push(channel);
+    } catch (error) {
+      console.error("getChatMember error", channel.chatId, error);
+      // En cas d'erreur API (bot pas admin, etc.), on bloque pour forcer la config correcte
+      missing.push(channel);
+    }
+  }
+  return missing;
+}
+
+async function sendJoinGate(
+  telegram: TelegramClient,
+  chatId: number,
+  missing: RequiredChannel[],
+  editMessageId?: number
+): Promise<void> {
+  const lines = missing.map(
+    (c, i) => `${i + 1}. <b>${escapeHtml(c.title)}</b>`
+  );
+  const rows: { text: string; url?: string; callback_data?: string }[][] =
+    missing.map((c) => {
+      const url = channelJoinUrl(c);
+      if (url) {
+        return [{ text: `➕ ${c.title}`.slice(0, 64), url }];
+      }
+      return [{ text: c.title.slice(0, 64), callback_data: "noop" }];
+    });
+  rows.push([{ text: "✅ J'ai rejoint", callback_data: "check_join" }]);
+
+  const text =
+    `🔒 <b>Accès réservé</b>\n` +
+    `Rejoins ${missing.length > 1 ? "ces canaux" : "ce canal"} pour utiliser le bot :\n\n` +
+    lines.join("\n");
+
+  const markup = { inline_keyboard: rows };
+  if (editMessageId) {
+    try {
+      await telegram.editMessageText(chatId, editMessageId, text, {
+        parse_mode: "HTML",
+        reply_markup: markup,
+      });
+      return;
+    } catch {
+      // fallback send
+    }
+  }
+  await telegram.sendMessage(chatId, text, {
+    parse_mode: "HTML",
+    reply_markup: markup,
+  });
+}
+
+async function sendChannelsAdmin(
+  telegram: TelegramClient,
+  store: RequiredChannelStore,
+  chatId: number,
+  editMessageId?: number
+): Promise<void> {
+  const list = await store.list();
+  const text =
+    list.length === 0
+      ? `🔐 <b>Canaux obligatoires</b>\nAucun pour l’instant.\n\nAjoute avec <code>/channel_add @canal</code>\nou forward un message du canal.`
+      : `🔐 <b>Canaux obligatoires</b> (${list.length})\nLes users doivent tous les rejoindre.\n\n` +
+        list
+          .map((c) => {
+            const handle = c.username ? ` @${c.username}` : "";
+            return `• <b>${escapeHtml(c.title)}</b>${handle}\n<code>${c.chatId}</code>`;
+          })
+          .join("\n\n");
+
+  const rows = list.map((c) => [
+    {
+      text: `🗑 ${c.title}`.slice(0, 64),
+      callback_data: `chdel:${c.chatId}`,
+    },
+  ]);
+  rows.push([{ text: "🏠 Menu", callback_data: "menu" }]);
+  const markup = { inline_keyboard: rows };
+
+  if (editMessageId) {
+    try {
+      await telegram.editMessageText(chatId, editMessageId, text, {
+        parse_mode: "HTML",
+        reply_markup: markup,
+      });
+      return;
+    } catch {
+      // fallback
+    }
+  }
+  await telegram.sendMessage(chatId, text, {
+    parse_mode: "HTML",
+    reply_markup: markup,
+  });
+}
+
+async function resolveChannelRef(
+  telegram: TelegramClient,
+  ref: string
+): Promise<RequiredChannel> {
+  const cleaned = ref.trim().replace(/^https?:\/\/t\.me\//i, "@");
+  const chat = await telegram.getChat(cleaned);
+  if (chat.type !== "channel" && chat.type !== "supergroup") {
+    throw new Error("Ce chat n’est pas un canal/groupe.");
+  }
+
+  let url: string | undefined;
+  if (chat.username) {
+    url = `https://t.me/${chat.username}`;
+  } else if (chat.invite_link) {
+    url = chat.invite_link;
+  } else {
+    try {
+      const invite = await telegram.createChatInviteLink(chat.id, {
+        name: "BenStream",
+      });
+      url = invite.invite_link;
+    } catch {
+      // Pas grave : le bouton join sera sans URL
+    }
+  }
+
+  // Vérifie que le bot peut lire les membres
+  const me = await telegram.getMe();
+  const self = await telegram.getChatMember(chat.id, me.id);
+  if (self.status !== "administrator" && self.status !== "creator") {
+    throw new Error(
+      "Ajoute le bot comme admin du canal (droit de voir les membres)."
+    );
+  }
+
+  return {
+    chatId: String(chat.id),
+    title: chat.title || cleaned,
+    username: chat.username,
+    url,
+    addedAt: Date.now(),
+  };
+}
+
+async function addRequiredChannelByRef(
+  telegram: TelegramClient,
+  store: RequiredChannelStore,
+  chatId: number,
+  ref: string
+): Promise<void> {
+  try {
+    const channel = await resolveChannelRef(telegram, ref);
+    await store.add(channel);
+    await telegram.sendMessage(
+      chatId,
+      `✅ Canal obligatoire : <b>${escapeHtml(channel.title)}</b>\n<code>${channel.chatId}</code>`,
+      { parse_mode: "HTML" }
+    );
+    await sendChannelsAdmin(telegram, store, chatId);
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : "erreur inconnue";
+    await telegram.sendMessage(
+      chatId,
+      `❌ Impossible d’ajouter ce canal.\n<code>${escapeHtml(detail)}</code>`,
+      { parse_mode: "HTML" }
+    );
+  }
+}
+
+async function removeRequiredChannelByRef(
+  telegram: TelegramClient,
+  store: RequiredChannelStore,
+  chatId: number,
+  ref: string
+): Promise<void> {
+  const list = await store.list();
+  const needle = ref.replace(/^@/, "").toLowerCase();
+  const match = list.find(
+    (c) =>
+      c.chatId === ref ||
+      c.username?.toLowerCase() === needle ||
+      c.title.toLowerCase() === needle
+  );
+  if (!match) {
+    await telegram.sendMessage(chatId, "Canal introuvable dans la liste.");
+    await sendChannelsAdmin(telegram, store, chatId);
+    return;
+  }
+  await store.remove(match.chatId);
+  await telegram.sendMessage(
+    chatId,
+    `🗑 Retiré : <b>${escapeHtml(match.title)}</b>`,
+    { parse_mode: "HTML" }
+  );
+  await sendChannelsAdmin(telegram, store, chatId);
+}
+
+async function offerRequiredChannelFromForward(
+  message: TelegramMessage,
+  deps: BotDeps
+): Promise<void> {
+  const { telegram, channels } = deps;
+  const chatId = message.chat.id;
+  const origin = message.forward_from_chat ?? message.forward_origin?.chat;
+  if (!origin) {
+    await telegram.sendMessage(chatId, "Impossible de lire le canal d’origine.");
+    return;
+  }
+
+  const title = origin.title || String(origin.id);
+  await telegram.sendMessage(
+    chatId,
+    `Canal détecté : <b>${escapeHtml(title)}</b>\n<code>${origin.id}</code>\nL’ajouter comme canal obligatoire ?`,
+    {
+      parse_mode: "HTML",
+      reply_markup: {
+        inline_keyboard: [
+          [
+            {
+              text: "✅ Oui, l’exiger",
+              callback_data: `chadd:${origin.id}`,
+            },
+          ],
+          [{ text: "Non", callback_data: "noop" }],
+        ],
+      },
+    }
+  );
 }
 
 async function notifyAdmins(

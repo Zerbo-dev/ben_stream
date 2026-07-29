@@ -2,6 +2,7 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { CatalogStore } from "../src/catalog.js";
 import { getConfig } from "../src/config.js";
 import { handleUpdate } from "../src/handlers/bot.js";
+import { RequiredChannelStore } from "../src/required-channels.js";
 import { parseUpdate, TelegramClient } from "../src/telegram.js";
 import { UserStore } from "../src/users.js";
 
@@ -35,6 +36,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       config.upstashToken
     );
     const users = UserStore.fromEnv(config.upstashUrl, config.upstashToken);
+    const channels = RequiredChannelStore.fromEnv(
+      config.upstashUrl,
+      config.upstashToken
+    );
 
     // Telegram retente ~1/min si le webhook timeoute : on ignore les doublons.
     const claimed = await catalog.claimUpdate(update.update_id);
@@ -43,7 +48,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return;
     }
 
-    await handleUpdate(update, { telegram, catalog, users, config });
+    await handleUpdate(update, { telegram, catalog, users, channels, config });
     res.status(200).json({ ok: true });
   } catch (error) {
     console.error("webhook error", error);

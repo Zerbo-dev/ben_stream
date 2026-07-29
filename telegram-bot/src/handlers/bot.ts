@@ -17,6 +17,10 @@ import {
   messageToCatalogItem,
 } from "./media.js";
 import {
+  formatUserLabel,
+  UserStore,
+} from "../users.js";
+import {
   contentTypeEmoji,
   contentTypeLabel,
   formatEpisodeCode,
@@ -29,17 +33,22 @@ const WELCOME_TEXT = `🎬 <b>BenStream</b>
 Envoie un titre, ou choisis ci-dessous.`;
 
 const ADMIN_HELP = `🛠 <b>Admin</b>
+/users — liste des utilisateurs
+/broadcast &lt;texte&gt; — message à tous
 /purge — supprimer
 /reparse — recalculer le catalogue
 /stats — détails`;
 
+type BotDeps = {
+  telegram: TelegramClient;
+  catalog: CatalogStore;
+  users: UserStore;
+  config: AppConfig;
+};
+
 export async function handleUpdate(
   update: TelegramUpdate,
-  deps: {
-    telegram: TelegramClient;
-    catalog: CatalogStore;
-    config: AppConfig;
-  }
+  deps: BotDeps
 ): Promise<void> {
   if (update.channel_post || update.edited_channel_post) {
     const post = update.channel_post || update.edited_channel_post!;
@@ -61,11 +70,7 @@ export async function handleUpdate(
 
 async function handleChannelPost(
   post: TelegramMessage,
-  deps: {
-    telegram: TelegramClient;
-    catalog: CatalogStore;
-    config: AppConfig;
-  }
+  deps: BotDeps
 ): Promise<void> {
   const { telegram, catalog, config } = deps;
 
@@ -90,16 +95,14 @@ async function handleChannelPost(
 
 async function handlePrivateMessage(
   message: TelegramMessage,
-  deps: {
-    telegram: TelegramClient;
-    catalog: CatalogStore;
-    config: AppConfig;
-  }
+  deps: BotDeps
 ): Promise<void> {
-  const { telegram, catalog, config } = deps;
+  const { telegram, catalog, users, config } = deps;
   const chatId = message.chat.id;
   const userId = message.from?.id;
   const text = (message.text || "").trim();
+
+  await users.touch(message.from, chatId);
 
   if (isForwardFromChannel(message, config.channelId)) {
     await handleAdminForward(message, deps);
@@ -130,7 +133,8 @@ async function handlePrivateMessage(
 
   if (command === "/stats") {
     const stats = await catalog.stats();
-    await telegram.sendMessage(chatId, formatStatsText(stats, admin), {
+    const userCount = admin ? await users.count() : 0;
+    await telegram.sendMessage(chatId, formatStatsText(stats, admin, userCount), {
       parse_mode: "HTML",
       reply_markup: mainMenuKeyboard(),
     });
@@ -154,6 +158,29 @@ async function handlePrivateMessage(
 
   if (command === "/animes" || command === "/anime") {
     await sendBrowsePage(telegram, catalog, chatId, "anime", 0, false, admin);
+    return;
+  }
+
+  if (command === "/users") {
+    if (!admin) {
+      await telegram.sendMessage(chatId, "Réservé aux admins.");
+      return;
+    }
+    await sendUsersList(telegram, users, chatId);
+    return;
+  }
+
+  if (command === "/broadcast") {
+    if (!admin) {
+      await telegram.sendMessage(chatId, "Réservé aux admins.");
+      return;
+    }
+    const payload = text.replace(/^\/broadcast(@\w+)?\s*/i, "").trim();
+    if (!payload) {
+      await telegram.sendMessage(chatId, "Usage : /broadcast <message>");
+      return;
+    }
+    await runBroadcast(telegram, users, chatId, payload);
     return;
   }
 
@@ -224,11 +251,7 @@ async function handlePrivateMessage(
 
 async function handleAdminForward(
   message: TelegramMessage,
-  deps: {
-    telegram: TelegramClient;
-    catalog: CatalogStore;
-    config: AppConfig;
-  }
+  deps: BotDeps
 ): Promise<void> {
   const { telegram, catalog, config } = deps;
   const chatId = message.chat.id;
@@ -657,7 +680,8 @@ function formatStatsSummary(stats: Awaited<ReturnType<CatalogStore["stats"]>>): 
 
 function formatStatsText(
   stats: Awaited<ReturnType<CatalogStore["stats"]>>,
-  admin = false
+  admin = false,
+  userCount = 0
 ): string {
   if (!admin) {
     return `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}`;
@@ -665,7 +689,8 @@ function formatStatsText(
   return (
     `📊 <b>Catalogue</b>\n` +
     `🎬 ${stats.films} · 📺 ${stats.series} · 🎌 ${stats.animes}\n` +
-    `${stats.seasons} saisons · ${stats.episodes} ép. · ${stats.totalFiles} fichiers`
+    `${stats.seasons} saisons · ${stats.episodes} ép. · ${stats.totalFiles} fichiers\n` +
+    `👤 ${userCount} utilisateur(s)`
   );
 }
 
@@ -673,15 +698,112 @@ function truncateButton(title: string): string {
   return title.length > 54 ? `${title.slice(0, 53)}…` : title;
 }
 
+function formatRelativeTime(ts: number): string {
+  const diff = Math.max(0, Date.now() - ts);
+  const mins = Math.floor(diff / 60_000);
+  if (mins < 1) return "à l'instant";
+  if (mins < 60) return `il y a ${mins} min`;
+  const hours = Math.floor(mins / 60);
+  if (hours < 48) return `il y a ${hours} h`;
+  const days = Math.floor(hours / 24);
+  return `il y a ${days} j`;
+}
+
+async function sendUsersList(
+  telegram: TelegramClient,
+  users: UserStore,
+  chatId: number
+): Promise<void> {
+  const total = await users.count();
+  const list = await users.list(40);
+  if (!list.length) {
+    await telegram.sendMessage(
+      chatId,
+      "Aucun utilisateur enregistré pour l’instant.\nIls apparaissent dès qu’ils écrivent au bot."
+    );
+    return;
+  }
+
+  const lines = list.map((user, i) => {
+    const label = escapeHtml(formatUserLabel(user));
+    return `${i + 1}. ${label}\n<code>${user.id}</code> · ${formatRelativeTime(user.lastSeenAt)}`;
+  });
+
+  await telegram.sendMessage(
+    chatId,
+    `👤 <b>${total}</b> utilisateur(s)\n\n${lines.join("\n\n")}` +
+      (total > list.length ? `\n\n… et ${total - list.length} de plus` : ""),
+    { parse_mode: "HTML" }
+  );
+}
+
+async function runBroadcast(
+  telegram: TelegramClient,
+  users: UserStore,
+  adminChatId: number,
+  text: string
+): Promise<void> {
+  const all = await users.all();
+  if (!all.length) {
+    await telegram.sendMessage(adminChatId, "Aucun utilisateur à contacter.");
+    return;
+  }
+
+  await telegram.sendMessage(
+    adminChatId,
+    `📣 Envoi à ${all.length} utilisateur(s)…`
+  );
+
+  let ok = 0;
+  let fail = 0;
+  let blocked = 0;
+
+  for (const user of all) {
+    try {
+      await telegram.sendMessage(user.chatId, text, {
+        disable_web_page_preview: true,
+      });
+      ok += 1;
+    } catch (error) {
+      fail += 1;
+      if (isBlockedUserError(error)) {
+        blocked += 1;
+        await users.markBlocked(user.id);
+      } else {
+        console.error("broadcast error", user.id, error);
+      }
+    }
+    await sleep(45);
+  }
+
+  await telegram.sendMessage(
+    adminChatId,
+    `📣 Terminé : <b>${ok}</b> ok` +
+      (fail ? ` · ${fail} échec` : "") +
+      (blocked ? ` · ${blocked} bloqué` : ""),
+    { parse_mode: "HTML" }
+  );
+}
+
+function isBlockedUserError(error: unknown): boolean {
+  const detail = error instanceof Error ? error.message.toLowerCase() : "";
+  return (
+    detail.includes("bot was blocked by the user") ||
+    detail.includes("user is deactivated") ||
+    detail.includes("chat not found") ||
+    detail.includes("forbidden: bot can't initiate conversation")
+  );
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function handleCallback(
   update: TelegramUpdate,
-  deps: {
-    telegram: TelegramClient;
-    catalog: CatalogStore;
-    config: AppConfig;
-  }
+  deps: BotDeps
 ): Promise<void> {
-  const { telegram, catalog, config } = deps;
+  const { telegram, catalog, users, config } = deps;
   const cb = update.callback_query!;
   const data = cb.data || "";
   const chatId = cb.message?.chat.id;
@@ -691,6 +813,8 @@ async function handleCallback(
     await telegram.answerCallbackQuery(cb.id, "Session expirée");
     return;
   }
+
+  await users.touch(cb.from, chatId);
 
   const admin = isAdmin(cb.from?.id, config.adminIds);
 
@@ -714,7 +838,8 @@ async function handleCallback(
   if (data === "stats") {
     await telegram.answerCallbackQuery(cb.id);
     const stats = await catalog.stats();
-    const text = formatStatsText(stats, admin);
+    const userCount = admin ? await users.count() : 0;
+    const text = formatStatsText(stats, admin, userCount);
     if (messageId) {
       await telegram.editMessageText(chatId, messageId, text, {
         parse_mode: "HTML",
